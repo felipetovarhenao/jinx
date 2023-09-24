@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 266.0, 314.0, 854.0, 546.0 ],
+		"rect" : [ 266.0, 314.0, 482.0, 484.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -580,7 +580,7 @@
 				"box" : 				{
 					"comment" : "llll: output",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -592,7 +592,7 @@
 				"box" : 				{
 					"comment" : "llll: lambda inlet",
 					"id" : "obj-8",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -605,7 +605,7 @@
 				"box" : 				{
 					"comment" : "llll: lambda outlet",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -645,11 +645,11 @@
 				"box" : 				{
 					"comment" : "llll: bach.roll dump",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "dump" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 15.0, 30.0, 30.0 ]
 				}
 
@@ -799,7 +799,25 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "bach.args.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.roll.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
