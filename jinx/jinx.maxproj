@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3778422256,
+	"modificationdate" : 3778435917,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -70,7 +70,7 @@
 				"local" : 1
 			}
 ,
-			"utils.rollformat.maxpat" : 			{
+			"utils.gainformat.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -80,17 +80,32 @@
 				"local" : 1
 			}
 ,
+			"utils.rollformat.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"utils.textformat.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"utils.gainformat.maxpat" : 			{
+			"ex.scaleretuning.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"ex.scaleretuning.maxpat" : 			{
+			"ex.virtualfundamental.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ex.stepscale.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.axis.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -116,6 +131,11 @@
 			}
 ,
 			"bach_CM_prelude.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1
+			}
+,
+			"beethoven_fur_elise.mid" : 			{
 				"kind" : "midifile",
 				"local" : 1
 			}
