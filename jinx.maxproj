@@ -90,7 +90,7 @@
 				"local" : 1
 			}
 ,
-			"ex.jiscaleperformance.maxpat" : 			{
+			"ex.scaleretuning.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
