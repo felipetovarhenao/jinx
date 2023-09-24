@@ -1,0 +1,28 @@
+[
+	["name" "Aristoxenus' Enharmonic"]
+	[ "ratios" 1/1 40/39 20/19 4/3 3/2 20/13 30/19 2/1 ]
+]
+[
+	["name" "Tense diatonic"]
+	[ "ratios" 1/1 16/15 6/5 4/3 3/2 8/5 9/5 2/1 ]
+]
+[
+	["name" "Pythagorean scale"]
+	[ "ratios" 1/1 9/8 81/64 4/3 3/2 27/16 16/9 243/128 2/1 ]
+]
+[
+	["name" "Pythagorean pentatonic"]
+	[ "ratios" 1/1 9/8 81/64 3/2 27/16 ]
+]
+[
+	["name" "Just intonation chromatic v1"]
+	["ratios" 1/1 16/15 9/8 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]
+]
+[
+	["name" "Just intonation chromatic v2"]
+	["ratios" 1/1 25/24 10/9 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]
+]
+[
+	["name" "Partch 43 tone scale"]
+	["ratios" 1/1 33/32 21/20 12/11 10/9 8/7 7/6 6/5 5/4 14/11 21/16 27/20 7/5 10/7 40/27 32/21 14/9 8/5 5/3 12/7 7/4 9/5 11/6 15/8 64/33 2/1 ]
+]
