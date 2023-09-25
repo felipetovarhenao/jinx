@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3778435917,
+	"modificationdate" : 3778449005,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -45,11 +45,6 @@
 				"local" : 1
 			}
 ,
-			"demo.test.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"jinx.mc2roll.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -70,12 +65,12 @@
 				"local" : 1
 			}
 ,
-			"utils.gainformat.maxpat" : 			{
+			"utils.listdata.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"utils.listdata.maxpat" : 			{
+			"utils.gainformat.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -108,6 +103,12 @@
 			"jinx.axis.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"main.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}

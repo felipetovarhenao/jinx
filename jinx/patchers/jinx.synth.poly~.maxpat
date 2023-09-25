@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 106.0, 738.0, 402.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -123,19 +123,19 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "$N = min(max(1, $i1 ||| 10), 10); (1 :* $N) (0 :* (10 - $N)) ",
+									"code" : "$N = min(max(1, $i1 ||| 4), 10); (1 :* $N) (0 :* (10 - $N)) ",
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 281.5, 87.0, 406.0, 22.0 ],
+									"patching_rect" : [ 281.5, 87.0, 448.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
 									}
 ,
-									"text" : "bach.eval $N = min(max(1\\, $i1 ||| 10)\\, 10)\\; (1 :* $N) (0 :* (10 - $N)) @out m"
+									"text" : "bach.eval $N = min(max(1\\, $i1 ||| 4)\\, 10)\\; (1 :* $N) (0 :* (10 - $N)) @out m @auto 1"
 								}
 
 							}
