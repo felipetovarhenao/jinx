@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3784652253,
+	"modificationdate" : 3784656939,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -145,6 +145,26 @@
 				"kind" : "textfile",
 				"local" : 1
 			}
+,
+			"ex.ratiotoroll.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.scaleretuning.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.virtualfundamental.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"main.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -182,6 +202,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 1,
-	"viewmode" : 1,
+	"viewmode" : 0,
 	"includepackages" : 0
 }
