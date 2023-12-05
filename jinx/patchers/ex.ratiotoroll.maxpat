@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 451.0, 104.0, 529.0, 632.0 ],
+		"rect" : [ 451.0, 104.0, 529.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -119,7 +119,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 505.0, 797.0, 746.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 567.0, 524.0, 61.0 ],
+					"presentation_rect" : [ 0.5, 568.0, 524.0, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -163,7 +163,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 7.0, 262.0, 405.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 213.0, 524.0, 138.0 ],
+					"presentation_rect" : [ 3.5, 214.0, 521.0, 138.0 ],
 					"text" : "1 5/4 3/2 [ 1 5/4 3/2 2 ]"
 				}
 
@@ -188,7 +188,7 @@
 					"patching_rect" : [ 7.0, 558.0, 600.0, 220.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 353.0, 524.0, 212.0 ],
+					"presentation_rect" : [ 3.5, 354.0, 521.0, 212.0 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvscrollbar" : 0,
