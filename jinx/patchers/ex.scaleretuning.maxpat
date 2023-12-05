@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -40,12 +40,65 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 247.0, 119.0, 44.0, 22.0 ],
+					"text" : "title $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 247.0, 84.0, 130.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.keys title @out m"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 16.0, 44.5, 250.0, 22.0 ],
+					"text" : "t l l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 247.0, 155.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.0, 456.0, 46.0, 22.0 ],
+					"patching_rect" : [ 583.0, 516.0, 46.0, 22.0 ],
 					"text" : "clefs G"
 				}
 
@@ -57,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 583.0, 425.0, 104.0, 22.0 ],
+					"patching_rect" : [ 583.0, 485.0, 104.0, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -77,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 583.0, 832.0, 118.0, 62.0 ],
+					"patching_rect" : [ 583.0, 892.0, 118.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 576.0, 520.0, 62.0 ],
 					"viewvisibility" : 1
@@ -99,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 16.0, 51.0, 128.0, 128.0 ],
+					"patching_rect" : [ 16.0, 84.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 4.0, 520.0, 174.0 ],
 					"viewvisibility" : 1
@@ -114,7 +167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 10.0, 252.0, 22.0 ],
+					"patching_rect" : [ 16.0, 14.0, 252.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -130,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 281.0, 53.0, 20.0 ],
+					"patching_rect" : [ 179.0, 341.0, 53.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 181.0, 53.0, 20.0 ],
 					"text" : "MIDI file"
@@ -143,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 352.0, 210.0, 73.0, 20.0 ],
+					"patching_rect" : [ 352.0, 270.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 206.0, 205.0, 73.0, 20.0 ],
 					"text" : "scale/tuning"
@@ -156,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 627.0, 232.0, 131.0, 20.0 ],
+					"patching_rect" : [ 627.0, 292.0, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.5, 229.0, 131.0, 20.0 ],
 					"text" : "fundamental frequency"
@@ -170,7 +223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 16.0, 200.0, 58.0, 22.0 ],
+					"patching_rect" : [ 16.0, 260.0, 58.0, 22.0 ],
 					"text" : "t 0 b"
 				}
 
@@ -182,7 +235,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.0, 395.0, 69.0, 22.0 ],
+					"patching_rect" : [ 583.0, 455.0, 69.0, 22.0 ],
 					"text" : "jinx.mc2roll"
 				}
 
@@ -203,7 +256,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 583.0, 487.0, 572.0, 97.0 ],
+					"patching_rect" : [ 583.0, 547.0, 572.0, 97.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 252.0, 520.0, 97.0 ],
@@ -227,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 572.5, 309.5, 29.5, 22.0 ],
+					"patching_rect" : [ 572.5, 369.5, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -239,7 +292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 572.5, 275.0, 37.0, 22.0 ],
+					"patching_rect" : [ 572.5, 335.0, 37.0, 22.0 ],
 					"text" : "* 100"
 				}
 
@@ -251,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.5, 193.0, 77.0, 22.0 ],
+					"patching_rect" : [ 572.5, 253.0, 77.0, 22.0 ],
 					"text" : "loadmess 60"
 				}
 
@@ -265,7 +318,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 572.5, 232.0, 50.0, 22.0 ],
+					"patching_rect" : [ 572.5, 292.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 228.0, 50.0, 22.0 ]
 				}
@@ -278,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 352.0, 275.0, 48.0, 22.0 ],
+					"patching_rect" : [ 352.0, 335.0, 48.0, 22.0 ],
 					"text" : "t bang l"
 				}
 
@@ -595,7 +648,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 179.0, 356.0, 423.0, 22.0 ],
+					"patching_rect" : [ 179.0, 416.0, 423.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -614,7 +667,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 318.0, 80.0, 22.0 ],
+					"patching_rect" : [ 85.0, 378.0, 80.0, 22.0 ],
 					"text" : "prepend read"
 				}
 
@@ -636,7 +689,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 85.0, 597.0, 600.0, 220.0 ],
+					"patching_rect" : [ 85.0, 657.0, 600.0, 220.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 354.0, 520.0, 220.0 ],
@@ -662,7 +715,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.0, 236.0, 202.0, 22.0 ],
+					"patching_rect" : [ 352.0, 296.0, 202.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 204.0, 202.0, 22.0 ]
 				}
@@ -675,7 +728,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 85.0, 356.0, 69.0, 22.0 ],
+					"patching_rect" : [ 85.0, 416.0, 69.0, 22.0 ],
 					"text" : "jinx.mcmap"
 				}
 
@@ -689,7 +742,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 281.0, 157.0, 22.0 ],
+					"patching_rect" : [ 16.0, 341.0, 157.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 180.0, 202.0, 22.0 ]
 				}
@@ -702,7 +755,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 16.0, 164.0, 58.0, 22.0 ],
+					"patching_rect" : [ 16.0, 224.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -714,7 +767,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.0, 236.0, 217.0, 22.0 ],
+					"patching_rect" : [ 55.0, 296.0, 217.0, 22.0 ],
 					"text" : "utils.listdata @folder other @types Midi"
 				}
 
@@ -785,6 +838,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
@@ -799,8 +859,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-24", 1 ]
 				}
 
 			}
@@ -897,7 +978,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
