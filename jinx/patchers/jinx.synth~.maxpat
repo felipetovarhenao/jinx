@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 481.0, 258.0, 995.0, 624.0 ],
+		"rect" : [ 481.0, 258.0, 537.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -230,7 +230,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "float: distortion",
 					"id" : "obj-2",
 					"index" : 2,
 					"maxclass" : "inlet",

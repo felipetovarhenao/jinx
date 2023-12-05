@@ -2,11 +2,11 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3778449005,
+	"modificationdate" : 3784652253,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
-	"hideprojectwindow" : 0,
-	"showdependencies" : 1,
+	"hideprojectwindow" : 1,
+	"showdependencies" : 0,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
@@ -80,11 +80,6 @@
 				"local" : 1
 			}
 ,
-			"utils.textformat.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"ex.scaleretuning.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -107,8 +102,35 @@
 ,
 			"main.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"ex.ratiotoroll.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.dac~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.header.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"ccm_logo.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"cc_logo.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}
@@ -118,10 +140,11 @@
 				"kind" : "textfile",
 				"local" : 1
 			}
-
-		}
 ,
-		"externals" : 		{
+			"ex.octavetimbre.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -158,7 +181,7 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0,
+	"sortmode" : 1,
 	"viewmode" : 1,
 	"includepackages" : 0
 }

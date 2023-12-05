@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 417.0, 246.0 ],
+		"rect" : [ 59.0, 106.0, 364.0, 230.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -98,19 +98,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$ref = mc2f($f2 ||| 6000); f2mc($x1*$ref) ",
+					"code" : "f2mc($x1*mc2f($f2 ||| 6000)) ",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 91.25, 110.0, 276.0, 22.0 ],
+					"patching_rect" : [ 91.25, 110.0, 215.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $ref = mc2f($f2 ||| 6000)\\; f2mc($x1*$ref)"
+					"text" : "bach.eval f2mc($x1*mc2f($f2 ||| 6000))"
 				}
 
 			}

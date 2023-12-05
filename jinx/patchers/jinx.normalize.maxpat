@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 317.0, 135.0, 540.0, 208.0 ],
+		"rect" : [ 317.0, 135.0, 273.0, 210.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -84,35 +84,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$log = log2($x1); $shift = int(floor($log)) * -1; $x1 * 2 ** $shift ",
+					"code" : "$x1 * 2 ** -int(floor(log2($x1))) ",
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.666666666666686, 92.0, 384.0, 22.0 ],
+					"patching_rect" : [ 38.666666666666686, 93.0, 223.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $log = log2($x1)\\; $shift = int(floor($log)) * -1\\; $x1 * 2 ** $shift"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 38.666666666666671, 92.0, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.mapelem"
+					"text" : "bach.eval $x1 * 2 ** -int(floor(log2($x1)))"
 				}
 
 			}
@@ -146,7 +130,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -154,20 +138,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-6", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -179,10 +149,6 @@
 			}
 , 			{
 				"name" : "bach.eval.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mapelem.mxo",
 				"type" : "iLaX"
 			}
 , 			{

@@ -1,0 +1,2 @@
+[ 'title' "ratio to roll transcription" ]
+[ 'description' "This example provides a simple interface to automatically transcribe ratios into notation for easy playback and visualization, by typing a list of ratios into the input text interface. Individual ratios represent notes, while ratios enclosed in brackets represent chords."]

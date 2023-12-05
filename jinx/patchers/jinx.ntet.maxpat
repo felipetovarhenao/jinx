@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 360.0, 303.0 ],
+		"rect" : [ 59.0, 106.0, 497.0, 256.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 88.0, 211.0, 110.0, 22.0 ],
+					"patching_rect" : [ 88.0, 174.0, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -62,7 +62,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 255.0, 30.0, 30.0 ]
+					"patching_rect" : [ 88.0, 213.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -97,20 +97,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$numdivisions = $i1 ||| 12; $octave = $f2 ||| 2; for $i in 0...$numdivisions collect $octave**($i/$numdivisions) ",
+					"code" : "$N = $i1 ||| 12; for $i in 0...$N collect ($f2 ||| 2)**((0...$N)/$N) ",
 					"id" : "obj-2",
-					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 140.0, 178.0, 62.0 ],
+					"patching_rect" : [ 88.0, 140.0, 383.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $numdivisions = $i1 ||| 12\\; $octave = $f2 ||| 2\\; for $i in 0...$numdivisions collect $octave**($i/$numdivisions)"
+					"text" : "bach.eval $N = $i1 ||| 12\\; for $i in 0...$N collect ($f2 ||| 2)**((0...$N)/$N)"
 				}
 
 			}
