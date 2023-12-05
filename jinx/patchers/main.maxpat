@@ -144,6 +144,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.054901960784314, 0.435294117647059, 0.372549019607843, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"hidden" : 1,
 					"id" : "obj-105",
@@ -274,7 +275,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"fontface" : 0,
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
 					"items" : [ "tuning", "and", "timbre", ",", "ratio", "to", "roll", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
@@ -643,6 +644,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.525490196078431, 0.23921568627451, 0.23921568627451, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "textbutton",
