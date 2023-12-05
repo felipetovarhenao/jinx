@@ -145,6 +145,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.054901960784314, 0.435294117647059, 0.372549019607843, 1.0 ],
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"id" : "obj-105",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -217,15 +218,12 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.166666666666629, 1666.0, 500.0, 40.0 ],
+					"patching_rect" : [ 69.166666666666629, 1666.0, 500.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 191.5, 220.0, 337.0, 40.0 ],
-					"text" : "This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra",
+					"presentation_rect" : [ 191.5, 220.0, 337.0, 23.0 ],
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -240,8 +238,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.0, 1538.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 183.0, 337.0, 30.0 ],
-					"text" : "virtual fundamental"
+					"presentation_rect" : [ 191.5, 183.0, 337.0, 30.0 ]
 				}
 
 			}
@@ -280,7 +277,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "tuning", "and", "timbre", ",", "ratio", "to", "roll", "transcription", ",", "scale", "retuning", ",", "virtual", "fundamental" ],
+					"items" : [ "tuning", "and", "timbre", ",", "ratio", "to", "roll", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
