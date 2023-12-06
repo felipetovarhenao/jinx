@@ -1,2 +1,2 @@
 [ 'title' "tonality diamond" ]
-[ 'description' "This example generates octave-normalized pitches for Harry Partch's theoretical concept of the 'tonality diamond', given an arbitrary prime number limit."]
+[ 'description' "This example helps visualize, listen to, and inspect Harry Partch's theoretical concept of the 'tonality diamond', given different prime number limits."]

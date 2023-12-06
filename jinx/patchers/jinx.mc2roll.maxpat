@@ -254,21 +254,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-11", 1 ],
 					"source" : [ "obj-12", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-12", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-12", 4 ]
 				}
 
