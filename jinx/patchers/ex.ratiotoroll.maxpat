@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 451.0, 104.0, 529.0, 626.0 ],
+		"rect" : [ 451.0, 104.0, 530.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,56 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "ratio to pitch transcription",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 521.0, 146.0, 22.0 ],
+					"text" : "clefs FG, voicespacing 40"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 7.0, 484.0, 171.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 221.5, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 159.5, 521.0, 60.0, 22.0 ],
+					"text" : "utils.r2roll"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "message",
@@ -93,7 +142,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"ratio to roll transcription\" ]\n[ 'description' \"This example provides a simple interface to automatically transcribe ratios into notation for easy playback and visualization, by typing a list of ratios into the input text interface. Individual ratios represent notes, while ratios enclosed in brackets represent chords.\"] ",
+					"code" : "[ 'title' \"ratio to pitch transcription\" ]\n[ 'description' \"A simple interface to automatically transcribe ratios into notation for easy playback and visualization. Ratios are transcribed by typing them as a list into the input text interface. Individual ratios represent notes, while ratios enclosed in brackets represent chords.\"] ",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -138,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 225.0, 29.5, 22.0 ],
+					"patching_rect" : [ 7.0, 255.0, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -170,9 +219,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 505.0, 797.0, 746.0, 61.0 ],
+					"patching_rect" : [ 505.0, 800.0, 533.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 568.0, 524.0, 59.0 ],
+					"presentation_rect" : [ 3.5, 576.0, 524.0, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -184,29 +233,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 416.0, 59.0, 22.0 ],
+					"patching_rect" : [ 7.0, 446.0, 59.0, 22.0 ],
 					"text" : "route text"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 449.5, 74.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.wrap 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"bgcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
 					"maxclass" : "textedit",
@@ -214,17 +249,21 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 262.0, 405.0, 144.0 ],
+					"patching_rect" : [ 7.0, 292.0, 442.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 214.0, 521.0, 138.0 ],
-					"text" : "1 5/4 3/2 [ 1 5/4 3/2 2 ]"
+					"text" : "1 5/4 3/2 [ 1 5/4 3/2 2 ]",
+					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotationsfont" : "Ableton Sans Light",
+					"bgslotfontsize" : 14.0,
+					"bgslots" : [ 21 ],
 					"bwcompatibility" : 80300,
-					"clefs" : [ "FFGG" ],
+					"clefs" : [ "FG" ],
 					"defaultnoteslots" : [ "null" ],
 					"embed" : 0,
 					"fontface" : 0,
@@ -238,10 +277,10 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 7.0, 558.0, 600.0, 220.0 ],
+					"patching_rect" : [ 7.0, 568.0, 601.0, 220.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 354.0, 521.0, 212.0 ],
+					"presentation_rect" : [ 3.5, 354.0, 521.0, 220.0 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvscrollbar" : 0,
@@ -250,39 +289,16 @@
 					"tonedivision" : 8,
 					"versionnumber" : 80300,
 					"voicenames" : [ "[", "]" ],
-					"voicespacing" : [ 0.0, 17.0 ],
-					"vzoom" : 100.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 520.0, 69.0, 22.0 ],
-					"text" : "jinx.mc2roll"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 483.0, 57.0, 22.0 ],
-					"text" : "jinx.r2mc"
+					"voicespacing" : [ 40.0, 17.0 ],
+					"vzoom" : 100.0,
+					"zoom" : 205.99609375
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -324,21 +340,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -366,7 +375,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -375,6 +391,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-6", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -406,7 +436,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.keys.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.length.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -480,6 +518,13 @@
 			}
 , 			{
 				"name" : "utils.header.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.r2roll.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "virtual fundamental",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-20",
@@ -203,13 +204,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1404.0, 590.0, 79.0, 20.0 ],
+					"patching_rect" : [ 1404.0, 590.0, 81.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 231.5, 79.0, 20.0 ],
+					"presentation_rect" : [ 427.0, 231.5, 81.0, 21.0 ],
 					"text" : "note duration"
 				}
 
@@ -245,39 +247,42 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-112",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2004.0, 591.0, 41.0, 20.0 ],
+					"patching_rect" : [ 2004.0, 591.0, 41.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 206.5, 41.0, 20.0 ],
+					"presentation_rect" : [ 427.0, 206.5, 41.0, 21.0 ],
 					"text" : "f0 mix"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-111",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1014.333311557769775, 326.0, 48.0, 20.0 ],
+					"patching_rect" : [ 1014.333311557769775, 326.0, 48.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 258.5, 48.0, 20.0 ],
+					"presentation_rect" : [ 146.0, 258.5, 48.0, 21.0 ],
 					"text" : "presets"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-110",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1747.0, 399.0, 95.0, 20.0 ],
+					"patching_rect" : [ 1747.0, 399.0, 95.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 179.5, 95.0, 20.0 ],
+					"presentation_rect" : [ 427.0, 179.5, 95.0, 21.0 ],
 					"text" : "number of steps"
 				}
 
@@ -536,7 +541,7 @@
 				"box" : 				{
 					"cols" : 4,
 					"fontface" : 0,
-					"fontname" : "Arial",
+					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"hscroll" : 0,
 					"id" : "obj-102",
@@ -566,13 +571,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-100",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.0, 237.0, 84.0, 20.0 ],
+					"patching_rect" : [ 380.0, 237.0, 89.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 206.0, 84.0, 20.0 ],
+					"presentation_rect" : [ 146.0, 206.0, 89.0, 21.0 ],
 					"text" : "starting partial"
 				}
 
@@ -595,26 +601,28 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-94",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.0, 238.5, 105.0, 20.0 ],
+					"patching_rect" : [ 841.0, 238.5, 107.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 231.5, 105.0, 20.0 ],
+					"presentation_rect" : [ 146.0, 231.5, 107.0, 21.0 ],
 					"text" : "number of partials"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-93",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.5, 281.5, 131.0, 20.0 ],
+					"patching_rect" : [ 66.5, 281.5, 133.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 179.5, 131.0, 20.0 ],
+					"presentation_rect" : [ 146.0, 179.5, 133.0, 21.0 ],
 					"text" : "fundamental frequency"
 				}
 

@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3784661510,
+	"modificationdate" : 3784746993,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -122,6 +122,11 @@
 			}
 ,
 			"ex.tonalitydiamond.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.r2roll.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
