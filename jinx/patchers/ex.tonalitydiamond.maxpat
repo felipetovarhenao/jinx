@@ -528,7 +528,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 5,
+					"cols" : 2,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -545,7 +545,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 199.5, 317.0, 318.0 ],
 					"rowheight" : 45,
-					"rows" : 5,
+					"rows" : 2,
 					"selmode" : 0,
 					"vscroll" : 0
 				}
@@ -681,7 +681,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"tonality diamond\" ]\n[ 'description' \"This example generates octave-normalized pitches for Harry Partch's theoretical concept of the 'tonality diamond', given an arbitrary prime number limit.\"] ",
+					"code" : "[ 'title' \"tonality diamond\" ]\n[ 'description' \"This example helps visualize, listen to, and inspect Harry Partch's theoretical concept of the 'tonality diamond', given different prime number limits.\"] ",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
