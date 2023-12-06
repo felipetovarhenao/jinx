@@ -41,6 +41,18 @@
 		"title" : "tuning and timbre",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 6.0, 286.0, 60.0, 22.0 ],
+					"text" : "t 2 b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -122,7 +134,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"tuning and timbre\" ]\n[ 'description' \"This example illustrates the perceptual relationship and interaction between tuning and timbre. In particular, it allows the user to examine and listen to the same passages in different situations namely, when the match or mismatch of tuning and timbral configurations.\"] ",
+					"code" : "[ 'title' \"tuning and timbre\" ]\n[ 'description' \"An illustration of the perceptual relationship and interaction between tuning and timbre. In particular, this example allows the user to examine and listen to the same passages in different tuning/timbre configurations — namely, the matching or mismatching of these two features.\"] ",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -262,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6.0, 284.0, 58.0, 22.0 ],
+					"patching_rect" : [ 6.0, 254.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -274,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 319.0, 217.0, 22.0 ],
+					"patching_rect" : [ 47.0, 319.0, 217.0, 22.0 ],
 					"text" : "utils.listdata @types Midi @folder other"
 				}
 
@@ -635,6 +647,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -699,15 +725,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 15.5, 342.0, 15.5, 342.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 15.5, 309.0, 15.5, 309.0 ],
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
