@@ -28,15 +28,19 @@
 ]
 [
 	[ "name" "major major 7th" ]
-	[ "ratios" 1 5/4 3/2 15/8 ]
+	[ "ratios" 1 5/4 3/2 16/9 ]
 ]
 [
-	[ "name" "major minor 7th" ]
-	[ "ratios" 1 5/4 3/2 15/8 ]
+	[ "name" "major minor 7th (v1)" ]
+	[ "ratios" 1 5/4 3/2 7/4 ]
+]
+[
+	[ "name" "major minor 7th (v2)" ]
+	[ "ratios" 1 5/4 3/2 16/9 ]
 ]
 [
 	[ "name" "minor minor 7 (v1)" ]
-	[ "ratios" 1 6/5 3/2 7/4 ]
+	[ "ratios" 1 6/5 3/2 16/9 ]
 ]
 [
 	[ "name" "minor minor 7 (v2)" ]
@@ -60,7 +64,7 @@
 ]
 [
 	[ "name" "half diminished (v1)" ]
-	[ "ratios" 1 6/5 7/5 7/4 ]
+	[ "ratios" 1 6/5 7/5 16/9 ]
 ]
 [
 	[ "name" "half diminished (v2)" ]
@@ -68,7 +72,7 @@
 ]
 [
 	[ "name" "half diminished (v3)" ]
-	[ "ratios" 1 6/5 23/16 7/4 ]
+	[ "ratios" 1 6/5 23/16 16/9 ]
 ]
 [
 	[ "name" "half diminished (v4)" ]
