@@ -1,0 +1,40 @@
+[
+	[ "name" "major triad" ]
+	[ "ratios" 1 5/4 3/2 ]
+]
+[
+	[ "name" "minor triad" ]
+	[ "ratios" 1 6/5 3/2 ]
+]
+[
+	[ "name" "major major 7th" ]
+	[ "ratios" 1 5/4 3/2 15/8 ]
+]
+[
+	[ "name" "major minor 7th" ]
+	[ "ratios" 1 5/4 3/2 15/8 ]
+]
+[
+	[ "name" "minor minor 7 (v1)" ]
+	[ "ratios" 1 6/5 3/2 7/4 ]
+]
+[
+	[ "name" "minor minor 7 (v2)" ]
+	[ "ratios" 1 6/5 3/2 29/16 ]
+]
+[
+	[ "name" "major major 9" ]
+	[ "ratios" 1 5/4 3/2 9/8 ]
+]
+[
+	[ "name" "augmented" ]
+	[ "ratios" 1 5/4 8/5 ]
+]
+[
+	[ "name" "diminished (v1)" ]
+	[ "ratios" 1 6/5 7/5 ]
+]
+[
+	[ "name" "diminished (v2)" ]
+	[ "ratios" 1 6/5 23/16 ]
+]

@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3784760889,
+	"modificationdate" : 3784812907,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -150,6 +150,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"utils.coll2menu.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -193,6 +198,16 @@
 			}
 ,
 			"main.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"utils.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"chords.bell" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
