@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 793.0, 165.0 ],
+		"rect" : [ 59.0, 106.0, 992.0, 164.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "bach.roll messages",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -57,8 +57,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 88.0, 770.0, 22.0 ],
-					"text" : "embed 0, zoom 100, vzoom 100, clefs FFGG, showdurations 0, showstems 0, tonedivision 8, showvscrollbar 0, patching_rect 25 300. 600. 220."
+					"patching_rect" : [ 10.0, 88.0, 972.0, 22.0 ],
+					"text" : "embed 0, zoom 100, vzoom 100, clefs FFGG, showdurations 0, showstems 0, tonedivision 8, showvscrollbar 0, patching_rect 25 300. 600. 220., annotationsfont \"Ableton Sans Light\""
 				}
 
 			}
@@ -66,11 +66,11 @@
 				"box" : 				{
 					"comment" : "bang: trigger formatting",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 10.0, 15.0, 30.0, 30.0 ]
 				}
 
@@ -109,9 +109,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
