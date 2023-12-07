@@ -38,8 +38,43 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "chord finder",
+		"title" : "chord browser",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 107.666666666666629, 1225.75, 72.0, 22.0 ],
+					"text" : "r ###search"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 426.0, 74.0, 22.0 ],
+					"text" : "s ###search"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 10.0, 370.25, 29.5, 22.0 ],
+					"text" : "t b i"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
@@ -108,11 +143,10 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-48",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.5, 352.0, 84.0, 40.0 ],
+					"patching_rect" : [ 106.166666666666629, 1816.25, 96.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 373.0, 96.0, 23.0 ],
 					"text" : "search results"
@@ -467,7 +501,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"chord finder\" ]\n[ 'description' \"A search engine for finding just intonation chords within any given tuning system.\"] ",
+					"code" : "[ 'title' \"chord browser\" ]\n[ 'description' \"A search engine for finding just intonation chords within any given tuning system.\"] ",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -491,7 +525,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 314.5, 29.5, 22.0 ],
-					"text" : "0"
+					"text" : "3"
 				}
 
 			}
@@ -668,7 +702,7 @@
 					"patching_rect" : [ 347.166666666666629, 910.5, 608.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 406.583333333333258, 189.0, 114.916666666666742, 24.0 ],
-					"text" : "3/2 ",
+					"text" : "1 5/4 3/2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1270,6 +1304,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
 					"source" : [ "obj-100", 0 ]
 				}
@@ -1368,7 +1416,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -1398,6 +1446,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
