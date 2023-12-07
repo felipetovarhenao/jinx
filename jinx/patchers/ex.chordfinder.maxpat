@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 258.0, 120.0, 525.0, 617.0 ],
+		"rect" : [ 258.0, 120.0, 525.0, 636.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,8 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.0, 2102.0, 29.5, 22.0 ],
-					"text" : "set"
+					"patching_rect" : [ 772.0, 2102.0, 135.0, 22.0 ],
+					"text" : "set (click search button)"
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.0, 2068.0, 68.0, 22.0 ],
+					"patching_rect" : [ 772.0, 2068.0, 74.0, 22.0 ],
 					"text" : "r #0clear"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.416666666666629, 1745.0, 68.0, 22.0 ],
+					"patching_rect" : [ 431.416666666666629, 1745.0, 74.0, 22.0 ],
 					"text" : "r #0clear"
 				}
 
@@ -153,8 +153,12 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"id" : "obj-43",
 					"ignoreclick" : 1,
+					"knobcolor" : [ 0.086274509803922, 0.674509803921569, 0.537254901960784, 1.0 ],
+					"knobshape" : 2,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -162,7 +166,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 379.166666666666629, 1811.0, 150.0, 10.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 375.0, 517.958333333333371, 10.0 ]
+					"presentation_rect" : [ 1.5, 395.0, 517.958333333333371, 10.0 ],
+					"thickness" : 43.0
 				}
 
 			}
@@ -213,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.416666666666629, 1002.75, 168.5, 22.0 ],
+					"patching_rect" : [ 347.416666666666629, 1002.75, 228.5, 22.0 ],
 					"text" : "bach.lookup"
 				}
 
@@ -223,10 +228,10 @@
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 347.416666666666629, 854.25, 168.5, 22.0 ],
-					"text" : "t l l"
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"patching_rect" : [ 347.416666666666629, 854.25, 229.0, 22.0 ],
+					"text" : "t 0 l l"
 				}
 
 			}
@@ -235,7 +240,7 @@
 					"align" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-66",
-					"items" : [ "major triad", ",", "minor triad", ",", "major major 7th", ",", "major minor 7th", ",", "minor minor 7 (v1)", ",", "minor minor 7 (v2)", ",", "major major 9", ",", "augmented", ",", "diminished (v1)", ",", "diminished (v2)" ],
+					"items" : [ "perfect fifth", ",", "major third", ",", "minor third", ",", "tritone (v1)", ",", "tritone (v2)", ",", "major triad", ",", "minor triad", ",", "major major 7th", ",", "major minor 7th", ",", "minor minor 7 (v1)", ",", "minor minor 7 (v2)", ",", "major major 9", ",", "augmented", ",", "diminished (v1)", ",", "diminished (v2)", ",", "half diminished (v1)", ",", "half diminished (v2)", ",", "half diminished (v3)", ",", "half diminished (v4)", ",", "quartal triad", ",", "quartal tetrachord" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -243,7 +248,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 347.416666666666629, 935.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 409.979166666666686, 301.0, 109.479166666666686, 23.0 ],
+					"presentation_rect" : [ 409.979166666666686, 321.0, 109.479166666666686, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -255,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "clear" ],
-					"patching_rect" : [ 347.416666666666629, 892.5, 88.0, 22.0 ],
+					"patching_rect" : [ 452.416666666666629, 891.5, 88.0, 22.0 ],
 					"text" : "utils.coll2menu"
 				}
 
@@ -274,7 +279,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[\n\t[ \"name\" \"major triad\" ]\n\t[ \"ratios\" 1 5/4 3/2 ]\n]\n[\n\t[ \"name\" \"minor triad\" ]\n\t[ \"ratios\" 1 6/5 3/2 ]\n]\n[\n\t[ \"name\" \"major major 7th\" ]\n\t[ \"ratios\" 1 5/4 3/2 15/8 ]\n]\n[\n\t[ \"name\" \"major minor 7th\" ]\n\t[ \"ratios\" 1 5/4 3/2 15/8 ]\n]\n[\n\t[ \"name\" \"minor minor 7 (v1)\" ]\n\t[ \"ratios\" 1 6/5 3/2 7/4 ]\n]\n[\n\t[ \"name\" \"minor minor 7 (v2)\" ]\n\t[ \"ratios\" 1 6/5 3/2 29/16 ]\n]\n[\n\t[ \"name\" \"major major 9\" ]\n\t[ \"ratios\" 1 5/4 3/2 9/8 ]\n]\n[\n\t[ \"name\" \"augmented\" ]\n\t[ \"ratios\" 1 5/4 8/5 ]\n]\n[\n\t[ \"name\" \"diminished (v1)\" ]\n\t[ \"ratios\" 1 6/5 7/5 ]\n]\n[\n\t[ \"name\" \"diminished (v2)\" ]\n\t[ \"ratios\" 1 6/5 23/16 ]\n]\n",
+					"code" : "[\n\t[ \"name\" \"perfect fifth\" ]\n\t[ \"ratios\" 3/2 ]\n]\n[\n\t[ \"name\" \"major third\" ]\n\t[ \"ratios\" 5/4 ]\n]\n[\n\t[ \"name\" \"minor third\" ]\n\t[ \"ratios\" 6/5 ]\n]\n[\n\t[ \"name\" \"tritone (v1)\" ]\n\t[ \"ratios\" 7/4 ]\n]\n[\n\t[ \"name\" \"tritone (v2)\" ]\n\t[ \"ratios\" 23/16 ]\n]\n[\n\t[ \"name\" \"major triad\" ]\n\t[ \"ratios\" 1 5/4 3/2 ]\n]\n[\n\t[ \"name\" \"minor triad\" ]\n\t[ \"ratios\" 1 6/5 3/2 ]\n]\n[\n\t[ \"name\" \"major major 7th\" ]\n\t[ \"ratios\" 1 5/4 3/2 15/8 ]\n]\n[\n\t[ \"name\" \"major minor 7th\" ]\n\t[ \"ratios\" 1 5/4 3/2 15/8 ]\n]\n[\n\t[ \"name\" \"minor minor 7 (v1)\" ]\n\t[ \"ratios\" 1 6/5 3/2 7/4 ]\n]\n[\n\t[ \"name\" \"minor minor 7 (v2)\" ]\n\t[ \"ratios\" 1 6/5 3/2 29/16 ]\n]\n[\n\t[ \"name\" \"major major 9\" ]\n\t[ \"ratios\" 1 5/4 3/2 9/8 ]\n]\n[\n\t[ \"name\" \"augmented\" ]\n\t[ \"ratios\" 1 5/4 8/5 ]\n]\n[\n\t[ \"name\" \"diminished (v1)\" ]\n\t[ \"ratios\" 1 6/5 7/5 ]\n]\n[\n\t[ \"name\" \"diminished (v2)\" ]\n\t[ \"ratios\" 1 6/5 23/16 ]\n]\n[\n\t[ \"name\" \"half diminished (v1)\" ]\n\t[ \"ratios\" 1 6/5 7/5 7/4 ]\n]\n[\n\t[ \"name\" \"half diminished (v2)\" ]\n\t[ \"ratios\" 1 6/5 7/5 29/16 ]\n]\n[\n\t[ \"name\" \"half diminished (v3)\" ]\n\t[ \"ratios\" 1 6/5 23/16 7/4 ]\n]\n[\n\t[ \"name\" \"half diminished (v4)\" ]\n\t[ \"ratios\" 1 6/5 23/16 29/16 ]\n]\n[\n\t[ \"name\" \"quartal triad\" ]\n\t[ \"ratios\" 1 4/3 3/2 ]\n]\n[\n\t[ \"name\" \"quartal tetrachord\" ]\n\t[ \"ratios\" 1 4/3 3/2 9/8 ]\n]\n\n",
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -303,8 +308,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 347.166666666666629, 1150.5, 120.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.5, 326.0, 114.916666666666742, 21.0 ],
-					"text" : "1 6/5 3/2 29/16",
+					"presentation_rect" : [ 406.5, 346.0, 114.916666666666742, 21.0 ],
+					"text" : "1 4/3 3/2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
 					"textjustification" : 1
 				}
@@ -324,7 +329,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 170.666666666666629, 411.0, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 221.5, 160.0, 183.0, 23.0 ],
+					"presentation_rect" : [ 221.5, 180.0, 183.0, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -340,7 +345,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 473.666666666666515, 1150.5, 84.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.5, 160.0, 112.958333333333371, 23.0 ],
+					"presentation_rect" : [ 406.5, 180.0, 112.958333333333371, 23.0 ],
 					"text" : "chord ratios",
 					"textjustification" : 1
 				}
@@ -357,7 +362,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 116.666666666666629, 411.0, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 160.0, 49.0, 23.0 ],
+					"presentation_rect" : [ 1.5, 180.0, 49.0, 23.0 ],
 					"text" : "tuning"
 				}
 
@@ -369,7 +374,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.666666666666629, 1465.75, 78.0, 22.0 ],
+					"patching_rect" : [ 107.666666666666629, 1456.75, 84.0, 22.0 ],
 					"text" : "r #0search"
 				}
 
@@ -380,7 +385,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 411.0, 80.0, 22.0 ],
+					"patching_rect" : [ 10.0, 411.0, 86.0, 22.0 ],
 					"text" : "s #0search"
 				}
 
@@ -415,7 +420,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.666666666666629, 1351.5, 70.0, 22.0 ],
+					"patching_rect" : [ 451.666666666666629, 1351.5, 76.0, 22.0 ],
 					"text" : "s #0clear"
 				}
 
@@ -471,7 +476,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 595.0, 2144.75, 163.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 387.0, 520.0, 23.0 ]
+					"presentation_rect" : [ 1.5, 407.0, 520.0, 23.0 ],
+					"text" : "(click search button)"
 				}
 
 			}
@@ -481,7 +487,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.166666666666629, 503.0, 70.0, 22.0 ],
+					"patching_rect" : [ 236.166666666666629, 503.0, 76.0, 22.0 ],
 					"text" : "s #0clear"
 				}
 
@@ -505,7 +511,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 564.0, 2217.5, 68.0, 22.0 ],
+					"patching_rect" : [ 564.0, 2217.5, 74.0, 22.0 ],
 					"text" : "r #0clear"
 				}
 
@@ -556,7 +562,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 882.119047619047592, 1674.0, 91.0, 22.0 ],
+					"patching_rect" : [ 882.119047619047592, 1674.0, 98.0, 22.0 ],
 					"text" : "s #0playback"
 				}
 
@@ -592,7 +598,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.416666666666515, 2615.75, 89.0, 22.0 ],
+					"patching_rect" : [ 634.416666666666515, 2615.75, 96.0, 22.0 ],
 					"text" : "r #0playback"
 				}
 
@@ -603,7 +609,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.5, 779.0, 91.0, 22.0 ],
+					"patching_rect" : [ 443.5, 779.0, 98.0, 22.0 ],
 					"text" : "s #0playback"
 				}
 
@@ -655,7 +661,7 @@
 					"patching_rect" : [ 327.0, 703.0, 154.916666666666629, 59.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 160.0, 403.0, 213.0 ],
+					"presentation_rect" : [ 1.5, 180.0, 403.0, 213.0 ],
 					"preventedit" : [ "[", "notes", "modify", "]" ],
 					"showdurations" : 0,
 					"showstems" : 0,
@@ -699,7 +705,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 10.0, 87.5, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 3.0, 520.0, 155.0 ],
+					"presentation_rect" : [ 1.5, 3.0, 520.0, 175.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -759,7 +765,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"chord browser\" ]\n[ 'description' \"A search engine for finding just intonation chords within any given tuning system.\"] ",
+					"code" : "[ 'title' \"chord browser\" ]\n[ 'description' \"A search engine for finding just intonation chords or collections within any given tuning system.\"] ",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -798,23 +804,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 107.666666666666629, 1498.5, 52.0, 20.0 ],
+					"patching_rect" : [ 107.666666666666629, 1489.5, 52.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.5, 349.0, 114.833333333333371, 24.0 ],
+					"presentation_rect" : [ 406.5, 369.0, 114.833333333333371, 24.0 ],
 					"text" : "SEARCH CHORD",
 					"texton" : "search"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-116",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.666666666666629, 1078.0, 129.0, 22.0 ],
-					"text" : "loadmess set 1 5/4 3/2"
 				}
 
 			}
@@ -1307,8 +1301,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.166666666666629, 2245.25, 88.0, 35.0 ],
-					"text" : "voicespacing 40, clefs G"
+					"patching_rect" : [ 107.166666666666629, 2245.25, 89.0, 35.0 ],
+					"text" : "voicespacing 50, clefs G"
 				}
 
 			}
@@ -1413,7 +1407,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 607.595238095238187, 2655.75, 526.000000000000114, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 557.0, 520.0, 59.0 ],
+					"presentation_rect" : [ 1.5, 577.0, 520.0, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1438,7 +1432,7 @@
 					"patching_rect" : [ 106.166666666666629, 2331.75, 604.0, 273.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 387.0, 520.0, 168.0 ],
+					"presentation_rect" : [ 1.5, 407.0, 520.0, 168.0 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvscrollbar" : 0,
@@ -1447,7 +1441,7 @@
 					"tonedivision" : 8,
 					"versionnumber" : 80300,
 					"voicenames" : [ "[", "]" ],
-					"voicespacing" : [ 40.0, 17.0 ],
+					"voicespacing" : [ 50.0, 17.0 ],
 					"vzoom" : 100.0
 				}
 
@@ -1502,7 +1496,7 @@
 					"patching_rect" : [ 786.833333333333258, 1570.0, 130.166666666666742, 94.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 406.5, 160.0, 114.916666666666742, 213.0 ],
+					"presentation_rect" : [ 406.5, 180.0, 114.916666666666742, 213.0 ],
 					"preventedit" : [ "[", "notes", "modify", "]" ],
 					"showdurations" : 0,
 					"showstems" : 0,
@@ -1607,13 +1601,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
 					"source" : [ "obj-115", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-116", 0 ]
 				}
 
 			}
@@ -2091,6 +2078,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-69", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -2098,7 +2092,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-70", 1 ],
-					"source" : [ "obj-69", 1 ]
+					"source" : [ "obj-69", 2 ]
 				}
 
 			}
