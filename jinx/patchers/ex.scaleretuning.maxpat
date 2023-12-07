@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 122.0, 105.0, 533.0, 635.0 ],
+		"rect" : [ 122.0, 105.0, 528.0, 638.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "scale retuning",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-20",
@@ -93,30 +94,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.0, 516.0, 46.0, 22.0 ],
-					"text" : "clefs G"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 583.0, 485.0, 104.0, 22.0 ],
-					"text" : "t b l"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -161,7 +138,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"scale retuning\" ]\n[ 'description' \"This example provides an easy way to compare and listen to different passages in a variety of tunings systems.\"] ",
+					"code" : "[ 'title' \"scale retuning\" ]\n[ 'description' \"An interface for comparing and listening to different passages in a variety of tunings systems.\"] ",
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -179,39 +156,42 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 341.0, 53.0, 20.0 ],
+					"patching_rect" : [ 179.0, 341.0, 53.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.0, 181.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 207.0, 181.0, 53.0, 21.0 ],
 					"text" : "MIDI file"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 352.0, 270.0, 73.0, 20.0 ],
+					"patching_rect" : [ 352.0, 270.0, 76.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.0, 205.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 206.0, 205.0, 76.0, 21.0 ],
 					"text" : "scale/tuning"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 627.0, 292.0, 131.0, 20.0 ],
+					"patching_rect" : [ 627.0, 292.0, 133.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.5, 229.0, 131.0, 20.0 ],
+					"presentation_rect" : [ 56.5, 229.0, 133.0, 21.0 ],
 					"text" : "fundamental frequency"
 				}
 
@@ -230,18 +210,7 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.0, 455.0, 69.0, 22.0 ],
-					"text" : "jinx.mc2roll"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"annotationsfont" : "Ableton Sans Light",
 					"bwcompatibility" : 80300,
 					"defaultnoteslots" : [ "null" ],
 					"embed" : 0,
@@ -256,7 +225,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 583.0, 547.0, 572.0, 97.0 ],
+					"patching_rect" : [ 583.0, 466.0, 572.0, 97.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 252.0, 520.0, 97.0 ],
@@ -311,6 +280,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"format" : 4,
 					"id" : "obj-11",
 					"maxclass" : "number",
@@ -318,9 +288,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 572.5, 292.0, 50.0, 22.0 ],
+					"patching_rect" : [ 572.5, 292.0, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 228.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 2.0, 228.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -354,7 +324,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 924.0, 473.0 ],
+						"rect" : [ 559.0, 478.0, 538.0, 473.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -384,17 +354,37 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"id" : "obj-7",
+									"maxclass" : "message",
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1444.0, 148.0, 74.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"versionnumber" : 80300
-									}
-,
-									"text" : "bach.wrap 1"
+									"patching_rect" : [ 1344.0, 184.0, 46.0, 22.0 ],
+									"text" : "clefs G"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 1344.0, 147.0, 71.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1396.5, 184.0, 60.0, 22.0 ],
+									"text" : "utils.r2roll"
 								}
 
 							}
@@ -406,7 +396,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1444.0, 191.0, 30.0, 30.0 ]
+									"patching_rect" : [ 1344.0, 234.857422000000042, 30.0, 30.0 ]
 								}
 
 							}
@@ -419,7 +409,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1444.0, 63.0, 30.0, 30.0 ]
+									"patching_rect" : [ 1437.5, 44.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -437,19 +427,19 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "$fzero = mc2f($i3 ||| 6000); $ratios = flat($x1:($i2 + 1), 1).'ratios'; directout(1, f2mc(sort($ratios*$fzero))); $grid = for $oct in -2...2 collect $fzero*$ratios*2**$oct; f2mc(sort(thin($grid))) ",
+									"code" : "$fzero = mc2f($i3 ||| 6000); $ratios = flat($x1:($i2 + 1), 1).'ratios'; directout(1, $ratios); $grid = for $oct in -2...2 collect $fzero*$ratios*2**$oct; f2mc(sort(thin($grid))) ",
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 288.0, 105.0, 1175.0, 22.0 ],
+									"patching_rect" : [ 288.0, 105.0, 1075.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
 									}
 ,
-									"text" : "bach.eval $fzero = mc2f($i3 ||| 6000)\\; $ratios = flat($x1:($i2 + 1)\\, 1).'ratios'\\; directout(1\\, f2mc(sort($ratios*$fzero)))\\; $grid = for $oct in -2...2 collect $fzero*$ratios*2**$oct\\; f2mc(sort(thin($grid))) @triggers 2 3 @directouts 1"
+									"text" : "bach.eval $fzero = mc2f($i3 ||| 6000)\\; $ratios = flat($x1:($i2 + 1)\\, 1).'ratios'\\; directout(1\\, $ratios)\\; $grid = for $oct in -2...2 collect $fzero*$ratios*2**$oct\\; f2mc(sort(thin($grid))) @triggers 2 3 @directouts 1"
 								}
 
 							}
@@ -523,7 +513,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 865.5, 63.0, 30.0, 30.0 ]
+									"patching_rect" : [ 815.5, 59.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -555,6 +545,15 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 2 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 1 ],
+									"order" : 0,
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -601,13 +600,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-18", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-30", 1 ],
 									"midpoints" : [ 297.5, 152.0, 76.5, 152.0 ],
 									"source" : [ "obj-18", 0 ]
@@ -616,8 +608,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-3", 0 ]
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-18", 1 ]
 								}
 
 							}
@@ -626,6 +618,13 @@
 									"destination" : [ "obj-47", 0 ],
 									"midpoints" : [ 17.5, 188.0, 17.5, 188.0 ],
 									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -640,8 +639,29 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 1 ],
-									"midpoints" : [ 875.0, 95.0, 875.5, 95.0 ],
+									"midpoints" : [ 825.0, 95.0, 825.5, 95.0 ],
 									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -708,6 +728,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-17",
 					"items" : [ "12 EDO (chromatic)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Aristoxenus' Enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic v1", ",", "Just intonation chromatic v2", ",", "Partch 43 tone scale", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO" ],
 					"maxclass" : "umenu",
@@ -715,9 +736,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.0, 296.0, 202.0, 22.0 ],
+					"patching_rect" : [ 352.0, 296.0, 202.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 204.0, 202.0, 22.0 ]
+					"presentation_rect" : [ 2.0, 204.0, 202.0, 23.0 ]
 				}
 
 			}
@@ -735,6 +756,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-3",
 					"items" : [ "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.midi" ],
 					"maxclass" : "umenu",
@@ -742,9 +764,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 341.0, 157.0, 22.0 ],
+					"patching_rect" : [ 16.0, 341.0, 157.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 180.0, 202.0, 22.0 ]
+					"presentation_rect" : [ 2.0, 180.0, 202.0, 23.0 ]
 				}
 
 			}
@@ -777,13 +799,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -845,29 +860,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-21", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -922,13 +916,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-49", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-49", 1 ]
 				}
@@ -938,6 +925,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-49", 2 ]
 				}
 
 			}
@@ -1041,6 +1035,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.length.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
@@ -1115,6 +1113,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jinx.r2mc.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jinx.synth.poly~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
@@ -1144,6 +1149,13 @@
 			}
 , 			{
 				"name" : "utils.listdata.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.r2roll.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
