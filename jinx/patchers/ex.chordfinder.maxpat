@@ -41,6 +41,24 @@
 		"title" : "chord browser",
 		"boxes" : [ 			{
 				"box" : 				{
+					"code" : "rat($x1) ",
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 694.666666666666629, 1869.3125, 105.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.eval rat($x1)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -305,6 +323,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 347.166666666666629, 1150.5, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 406.5, 346.0, 114.916666666666742, 21.0 ],
@@ -453,7 +472,7 @@
 					"patching_rect" : [ 595.0, 2144.75, 163.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 407.0, 520.0, 23.0 ],
-					"text" : "search results (0)"
+					"text" : "search results (2)"
 				}
 
 			}
@@ -953,19 +972,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "reduce(for $x in $x2 collect flat($x) == $x1, #+) > 0 ",
+					"code" : "reduce(for $x in $x2 collect flat($x) == $x1, #||) ",
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 694.666666666666629, 1863.5, 331.0, 22.0 ],
+					"patching_rect" : [ 694.666666666666742, 1913.125, 330.999999999999886, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval reduce(for $x in $x2 collect flat($x) == $x1\\, #+) > 0"
+					"text" : "bach.eval reduce(for $x in $x2 collect flat($x) == $x1\\, #||)"
 				}
 
 			}
@@ -1594,6 +1613,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -2121,7 +2147,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-77", 0 ]
 				}
 
