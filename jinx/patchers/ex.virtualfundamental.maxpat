@@ -138,7 +138,6 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"virtual fundamental\" ]\n[ 'description' \"This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra\"] ",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -146,7 +145,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 15.0, 279.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,

@@ -1,22 +1,22 @@
 [
 	[ "name" "perfect fifth" ]
-	[ "ratios" 3/2 ]
+	[ "ratios" 1 3/2 ]
 ]
 [
 	[ "name" "major third" ]
-	[ "ratios" 5/4 ]
+	[ "ratios" 1 5/4 ]
 ]
 [
 	[ "name" "minor third" ]
-	[ "ratios" 6/5 ]
+	[ "ratios" 1 6/5 ]
 ]
 [
 	[ "name" "tritone (v1)" ]
-	[ "ratios" 7/5 ]
+	[ "ratios" 1 7/5 ]
 ]
 [
 	[ "name" "tritone (v2)" ]
-	[ "ratios" 23/16 ]
+	[ "ratios" 1 23/16 ]
 ]
 [
 	[ "name" "major triad" ]

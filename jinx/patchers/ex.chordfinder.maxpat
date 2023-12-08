@@ -240,7 +240,7 @@
 					"align" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-66",
-					"items" : [ "perfect fifth", ",", "major third", ",", "minor third", ",", "tritone (v1)", ",", "tritone (v2)", ",", "major triad", ",", "minor triad", ",", "major major 7th", ",", "major minor 7th", ",", "minor minor 7 (v1)", ",", "minor minor 7 (v2)", ",", "major major 9", ",", "augmented", ",", "diminished (v1)", ",", "diminished (v2)", ",", "half diminished (v1)", ",", "half diminished (v2)", ",", "half diminished (v3)", ",", "half diminished (v4)", ",", "quartal triad", ",", "quartal tetrachord" ],
+					"items" : [ "perfect fifth", ",", "major third", ",", "minor third", ",", "tritone (v1)", ",", "tritone (v2)", ",", "major triad", ",", "minor triad", ",", "major major 7th", ",", "major minor 7th (v1)", ",", "major minor 7th (v2)", ",", "minor minor 7 (v1)", ",", "minor minor 7 (v2)", ",", "major major 9", ",", "augmented", ",", "diminished (v1)", ",", "diminished (v2)", ",", "half diminished (v1)", ",", "half diminished (v2)", ",", "half diminished (v3)", ",", "half diminished (v4)", ",", "quartal triad", ",", "quartal tetrachord" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -279,7 +279,6 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[\n\t[ \"name\" \"perfect fifth\" ]\n\t[ \"ratios\" 3/2 ]\n]\n[\n\t[ \"name\" \"major third\" ]\n\t[ \"ratios\" 5/4 ]\n]\n[\n\t[ \"name\" \"minor third\" ]\n\t[ \"ratios\" 6/5 ]\n]\n[\n\t[ \"name\" \"tritone (v1)\" ]\n\t[ \"ratios\" 7/4 ]\n]\n[\n\t[ \"name\" \"tritone (v2)\" ]\n\t[ \"ratios\" 23/16 ]\n]\n[\n\t[ \"name\" \"major triad\" ]\n\t[ \"ratios\" 1 5/4 3/2 ]\n]\n[\n\t[ \"name\" \"minor triad\" ]\n\t[ \"ratios\" 1 6/5 3/2 ]\n]\n[\n\t[ \"name\" \"major major 7th\" ]\n\t[ \"ratios\" 1 5/4 3/2 15/8 ]\n]\n[\n\t[ \"name\" \"major minor 7th\" ]\n\t[ \"ratios\" 1 5/4 3/2 15/8 ]\n]\n[\n\t[ \"name\" \"minor minor 7 (v1)\" ]\n\t[ \"ratios\" 1 6/5 3/2 7/4 ]\n]\n[\n\t[ \"name\" \"minor minor 7 (v2)\" ]\n\t[ \"ratios\" 1 6/5 3/2 29/16 ]\n]\n[\n\t[ \"name\" \"major major 9\" ]\n\t[ \"ratios\" 1 5/4 3/2 9/8 ]\n]\n[\n\t[ \"name\" \"augmented\" ]\n\t[ \"ratios\" 1 5/4 8/5 ]\n]\n[\n\t[ \"name\" \"diminished (v1)\" ]\n\t[ \"ratios\" 1 6/5 7/5 ]\n]\n[\n\t[ \"name\" \"diminished (v2)\" ]\n\t[ \"ratios\" 1 6/5 23/16 ]\n]\n[\n\t[ \"name\" \"half diminished (v1)\" ]\n\t[ \"ratios\" 1 6/5 7/5 7/4 ]\n]\n[\n\t[ \"name\" \"half diminished (v2)\" ]\n\t[ \"ratios\" 1 6/5 7/5 29/16 ]\n]\n[\n\t[ \"name\" \"half diminished (v3)\" ]\n\t[ \"ratios\" 1 6/5 23/16 7/4 ]\n]\n[\n\t[ \"name\" \"half diminished (v4)\" ]\n\t[ \"ratios\" 1 6/5 23/16 29/16 ]\n]\n[\n\t[ \"name\" \"quartal triad\" ]\n\t[ \"ratios\" 1 4/3 3/2 ]\n]\n[\n\t[ \"name\" \"quartal tetrachord\" ]\n\t[ \"ratios\" 1 4/3 3/2 9/8 ]\n]\n\n",
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -287,7 +286,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 347.416666666666629, 821.0, 201.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,
@@ -309,7 +308,7 @@
 					"patching_rect" : [ 347.166666666666629, 1150.5, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 406.5, 346.0, 114.916666666666742, 21.0 ],
-					"text" : "1 4/3 3/2",
+					"text" : "1 3/2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
 					"textjustification" : 1
 				}
@@ -321,7 +320,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "12 EDO (chromatic)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "La Monte Young's 7-limit", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO" ],
+					"items" : [ "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "La Monte Young's 7-limit" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -477,7 +476,7 @@
 					"patching_rect" : [ 595.0, 2144.75, 163.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 407.0, 520.0, 23.0 ],
-					"text" : "(click search button)"
+					"text" : "search results (0)"
 				}
 
 			}
@@ -765,7 +764,6 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"chord browser\" ]\n[ 'description' \"A search engine for finding just intonation chords or collections within any given tuning system.\"] ",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -773,7 +771,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 16.5, 240.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,
@@ -871,7 +869,6 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$ntet = (\n\t$x, $b = 2, $d = 1 -> $b**(((0...($x-1))/$x)**$d)\n);\n\n[\n\t[ \"name\" \"12 EDO (chromatic)\" ]\n\t[ \"ratios\" 2 ** ((0...11) / 12) ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 3)\" ]\n\t[ \"ratios\" (4...8) / 4 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 4)\" ]\n\t[ \"ratios\" (8...16) / 8 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 5)\" ]\n\t[ \"ratios\" (16...32) / 16 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 6)\" ]\n\t[ \"ratios\" (32...64) / 32 ]\n]\n[\n\t[\"name\" \"Aristoxenus' enharmonic\"]\n\t[ \"ratios\" 1/1 40/39 20/19 4/3 3/2 20/13 30/19 2/1 ]\n]\n[\n\t[\"name\" \"Tense diatonic\"]\n\t[ \"ratios\" 1/1 16/15 6/5 4/3 3/2 8/5 9/5 2/1 ]\n]\n[\n\t[\"name\" \"Pythagorean scale\"]\n\t[ \"ratios\" 1/1 9/8 81/64 4/3 3/2 27/16 16/9 243/128 2/1 ]\n]\n[\n\t[\"name\" \"Pythagorean pentatonic\"]\n\t[ \"ratios\" 1/1 9/8 81/64 3/2 27/16 ]\n]\n[\n\t[\"name\" \"Just intonation chromatic (v1)\"]\n\t[\"ratios\" 1/1 16/15 9/8 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]\n]\n[\n\t[\"name\" \"Just intonation chromatic (v2)\"]\n\t[\"ratios\" 1/1 25/24 10/9 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]\n]\n[\n\t[\"name\" \"Partch 43 tone scale\"]\n\t[\"ratios\" 1/1 33/32 21/20 12/11 10/9 8/7 7/6 6/5 5/4 14/11 21/16 27/20 7/5 10/7 40/27 32/21 14/9 8/5 5/3 12/7 7/4 9/5 11/6 15/8 64/33 2/1 ]\n]\n[\n\t[ \"name\" \"La Monte Young's 7-limit\" ]\n\t[ \"ratios\" 1 567/512 9/8 147/128 1323/1024 21/16 189/128 3/2 49/32 441/256 7/4 63/32 2 ]\n]\n[\n\t[ \"name\" \"5 EDO\" ]\n\t[ \"ratios\" $ntet(5) 2 ]\n]\n[\n\t[ \"name\" \"7 EDO\" ]\n\t[ \"ratios\" $ntet(7) 2 ]\n]\n[\n\t[ \"name\" \"8 EDO\" ]\n\t[ \"ratios\" $ntet(8) 2 ]\n]\n[\n\t[ \"name\" \"9 EDO\" ]\n\t[ \"ratios\" $ntet(9) 2 ]\n]\n[\n\t[ \"name\" \"10 EDO\" ]\n\t[ \"ratios\" $ntet(10) 2 ]\n]\n[\n\t[ \"name\" \"11 EDO\" ]\n\t[ \"ratios\" $ntet(11) 2 ]\n]\n[\n\t[ \"name\" \"13 EDO\" ]\n\t[ \"ratios\" $ntet(13) 2 ]\n]\n[\n\t[ \"name\" \"14 EDO\" ]\n\t[ \"ratios\" $ntet(14) 2 ]\n]\n[\n\t[ \"name\" \"15 EDO\" ]\n\t[ \"ratios\" $ntet(15) 2 ]\n]\n[\n\t[ \"name\" \"16 EDO\" ]\n\t[ \"ratios\" $ntet(16) 2 ]\n]\n[\n\t[ \"name\" \"17 EDO\" ]\n\t[ \"ratios\" $ntet(17) 2 ]\n]\n[\n\t[ \"name\" \"18 EDO\" ]\n\t[ \"ratios\" $ntet(18) 2 ]\n]\n[\n\t[ \"name\" \"19 EDO\" ]\n\t[ \"ratios\" $ntet(19) 2 ]\n]\n[\n\t[ \"name\" \"20 EDO\" ]\n\t[ \"ratios\" $ntet(20) 2 ]\n]\n[\n\t[ \"name\" \"21 EDO\" ]\n\t[ \"ratios\" $ntet(21) 2 ]\n]\n[\n\t[ \"name\" \"20 EDO\" ]\n\t[ \"ratios\" $ntet(20) 2 ]\n]\n[\n\t[ \"name\" \"21 EDO\" ]\n\t[ \"ratios\" $ntet(21) 2 ]\n] ",
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -879,7 +876,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 230.0, 199.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,

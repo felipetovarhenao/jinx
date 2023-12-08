@@ -79,7 +79,7 @@
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 159.5, 521.0, 60.0, 22.0 ],
@@ -142,7 +142,6 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"ratio to pitch transcription\" ]\n[ 'description' \"A simple interface to automatically transcribe ratios into notation for easy playback and visualization. Ratios are transcribed by typing them as a list into the input text interface. Individual ratios represent notes, while ratios enclosed in brackets represent chords.\"] ",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -150,7 +149,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 14.0, 208.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,

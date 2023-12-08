@@ -41,7 +41,6 @@
 		"title" : "tuning theory examples",
 		"boxes" : [ 			{
 				"box" : 				{
-					"code" : "[ 'title' \"interactive examples\" ]\n[ 'description' \"This project consists of a variety of interactive educational examples of concepts in tuning theory.\"] ",
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -49,7 +48,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 58.0, 191.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,
@@ -146,7 +145,6 @@
 					"bgcolor" : [ 0.054901960784314, 0.435294117647059, 0.372549019607843, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-105",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -219,12 +217,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.166666666666629, 1666.0, 500.0, 23.0 ],
+					"patching_rect" : [ 69.166666666666629, 1666.0, 500.0, 74.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 220.0, 337.0, 23.0 ],
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 191.5, 220.0, 337.0, 107.0 ],
+					"text" : "An illustration of the perceptual relationship and interaction between tuning and timbre. In particular, this example allows the user to examine and listen to the same passages in different tuning/timbre configurations — namely, the matching or mismatching of these two features.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -239,7 +240,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.0, 1538.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 183.0, 337.0, 30.0 ]
+					"presentation_rect" : [ 191.5, 183.0, 337.0, 30.0 ],
+					"text" : "tuning and timbre"
 				}
 
 			}
@@ -278,7 +280,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "tuning", "and", "timbre", ",", "ratio", "to", "roll", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "tuning", "and", "timbre", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,

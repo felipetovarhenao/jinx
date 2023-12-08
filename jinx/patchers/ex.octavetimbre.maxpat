@@ -134,7 +134,6 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"tuning and timbre\" ]\n[ 'description' \"An illustration of the perceptual relationship and interaction between tuning and timbre. In particular, this example allows the user to examine and listen to the same passages in different tuning/timbre configurations — namely, the matching or mismatching of these two features.\"] ",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -142,7 +141,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 8.0, 250.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,

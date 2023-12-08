@@ -55,7 +55,7 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 492.0, 1400.0, 60.0, 22.0 ],
@@ -464,7 +464,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 4,
+					"cols" : 1,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -481,7 +481,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 199.5, 317.0, 318.0 ],
 					"rowheight" : 45,
-					"rows" : 4,
+					"rows" : 1,
 					"selmode" : 0,
 					"vscroll" : 0
 				}
@@ -617,7 +617,6 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"tonality diamond\" ]\n[ 'description' \"An interface for visualizing, listening to, and inspecting Harry Partch's theoretical concept of the 'tonality diamond', given different just intonation limits.\"] ",
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -625,7 +624,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 10.0, 265.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"versionnumber" : 80300
 					}
 ,
