@@ -27,6 +27,10 @@ $ntet = (
 	$x, $b = 2, $d = 1 -> $b**(((0...($x-1))/$x)**$d)
 );
 
+$c2r = (
+	$c -> 2**($c/1200)
+);
+
 [
 	[ "name" "12 EDO (chromatic)" ]
 	[ "ratios" 2 ** ((0...11) / 12) ]
@@ -170,4 +174,12 @@ $ntet = (
 [
 	[ "name" "Kirnberger III meantone temperament" ]
 	[ "ratios" $meantone(((-1/4) :* 4) (0 :* 8)) ]
+]
+[
+	[ "name" "slendro" ]
+	[ "ratios" $c2r(0 231 474 717 955 1208) ]
+]
+[
+	[ "name" "pelog" ]
+	[ "ratios" $c2r(0 120 258 539 675 785 943 1206) ]
 ]
