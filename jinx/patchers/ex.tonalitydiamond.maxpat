@@ -534,6 +534,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 206.0, 256.0, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 93.0, 175.5, 84.0, 22.0 ]
