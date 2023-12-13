@@ -42,10 +42,8 @@ spectraldiss = (
 		if $amps == null then (
 			$amps = 1 :* $N
 		);
-		for $i in 1...$N do (
-			for $j in ($i+1)...$N do (
-				$d += dissfun($freqs:$i, $freqs:$j, $amps:$i, $amps:$j)
-			)
+		for $i in 1...($N-1) do (
+			$d += reduce(dissfun($freqs:$i, flat(slice($freqs, $i):2), $amps:$i, $amps), #+)
 		);
 		$d
 	)
@@ -61,7 +59,10 @@ getminima = (
 			$w += 1
 		);
 		$middle = floor($w / 2) + 1;
-		$x = ($x:1 :* ($middle - 1)) $x;
+		$padn = ($middle - 1);
+		$lpad = ($x:1 :* $padn);
+		$rpad = ($x:length($x) :* $padn);
+		$x = ($lpad $x $rpad);
 		$frames = group($x, $w, $w - 1);
 		for $frame $idx in $frames collect (
 			$frame = flat($frame);
