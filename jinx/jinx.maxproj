@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3784812907,
+	"modificationdate" : 3785276542,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -152,6 +152,11 @@
 			}
 ,
 			"utils.coll2menu.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.dissonance.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

@@ -1,0 +1,91 @@
+#(
+	Computes the dissonance between two sinusoidal waves 
+	with frequencies $fa and $fb, and amplitudes $la and 
+	$lb respectively.
+
+	This is a a bell porting of the William Sethares' 
+	code: https://sethares.engr.wisc.edu/comprog.html 
+)#
+dissfun = (
+	$fa,
+	$fb,
+	$la,
+	$lb,
+	$xstar = 0.24,
+	$ba = -3.51,
+	$bb = -5.75,
+	$sa = 0.0207,
+	$sb = 18.96,
+	$c = 1.0 -> (
+		$s = $xstar / (min($fa, $fb) * $sa + $sb);
+		$lab = min($la, $lb);
+		$exp = abs($fb - $fa) * $s;
+		$a = exp($ba*$exp);
+		$b = exp($bb*$exp);
+		$lab*($c * $a - $c * $b)
+	)
+);
+
+
+#(
+	Computes the inherent dissonance of a spectrum given 
+	two lllls, $freqs and $amps.
+
+	This is a a bell porting of the William Sethares' 
+	code: https://sethares.engr.wisc.edu/comprog.html 
+)#
+spectraldiss = (
+	$freqs,
+	$amps -> (
+		if $amps == null then (
+			$amps = 1 :* $N
+		);
+		$d = 0;
+		$N = length($freqs);
+		for $i in 1...$N do (
+			$rem = slice($freqs)
+			for $j in ($i+1)...$N do (
+				$d += dissfun($freqs:$i, $freqs:$j, $amps:$i, $amps:$j)
+			)
+		);
+		$d
+	)
+);
+
+#(
+	Finds the minima within a time series, for a given frame of size $w
+)#
+getminima = (
+	$x, $w = 5 -> (
+		$w = max($w, 3);
+		if $w % 2 == 0 then (
+			$w += 1
+		);
+		$middle = floor($w / 2) + 1;
+		$x = ($x:1 :* ($middle - 1)) $x;
+		$frames = group($x, $w, $w - 1);
+		for $frame $idx in $frames collect (
+			$frame = flat($frame);
+			$c = $frame:$middle;
+			$isminima = reduce(for $i in 1...($middle - 1) collect (
+				$c <= $frame:$i && $c <= $frame:($w + 1 - $i)
+			), #*);
+			if $isminima then [ $idx $c ]
+		)
+	)
+);
+
+#(
+	Returns the dissonance curve of a spectrum, as an llll of $freqs and $amps, for a range $range, and a number of steps $N
+)#
+disscurve = (
+	$freqs,
+	$amps,
+	$range = 2,
+	$N = 50 -> (
+		$N -= 1;
+		for $ratio in $range**((0...$N)/$N) collect (
+			[ $ratio spectraldiss($freqs $freqs * $ratio, $amps $amps) ]
+		)
+	)
+)
