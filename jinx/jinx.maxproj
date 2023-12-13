@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3785290199,
+	"modificationdate" : 3785330107,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -157,6 +157,16 @@
 			}
 ,
 			"jinx.dissonance.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ex.disscurve.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.plotdiss.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
