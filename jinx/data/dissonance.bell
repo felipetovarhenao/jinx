@@ -43,7 +43,6 @@ spectraldiss = (
 			$amps = 1 :* $N
 		);
 		for $i in 1...$N do (
-			$rem = slice($freqs)
 			for $j in ($i+1)...$N do (
 				$d += dissfun($freqs:$i, $freqs:$j, $amps:$i, $amps:$j)
 			)
