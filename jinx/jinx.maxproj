@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3785276542,
+	"modificationdate" : 3785290199,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -213,6 +213,11 @@
 			}
 ,
 			"chords.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"dissonance.bell" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
