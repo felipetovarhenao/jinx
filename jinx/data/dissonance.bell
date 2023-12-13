@@ -37,11 +37,11 @@ dissfun = (
 spectraldiss = (
 	$freqs,
 	$amps -> (
+		$d = 0;
+		$N = length($freqs);
 		if $amps == null then (
 			$amps = 1 :* $N
 		);
-		$d = 0;
-		$N = length($freqs);
 		for $i in 1...$N do (
 			$rem = slice($freqs)
 			for $j in ($i+1)...$N do (
