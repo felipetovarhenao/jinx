@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 266.0, 95.0, 525.0, 807.0 ],
+		"rect" : [ 266.0, 95.0, 525.0, 826.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1161,7 +1161,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1640.5, 2487.0, 99.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 714.90000057220459, 99.0, 23.0 ],
+					"presentation_rect" : [ 3.0, 626.40000057220459, 99.0, 23.0 ],
 					"text" : "optimal tuning"
 				}
 
@@ -1428,7 +1428,7 @@
 					"patching_rect" : [ 355.666666666666515, 999.0, 521.0, 56.125000730156898 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 238.40000057220459, 517.0, 24.0 ],
-					"text" : "1 2 3 4 5 6 7 8 9 10",
+					"text" : "1 3 5 7 9 11",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1901,7 +1901,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1636.35714285714289, 2584.0, 169.0, 71.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 739.90000057220459, 517.0, 60.0 ],
+					"presentation_rect" : [ 3.0, 763.90000057220459, 517.0, 60.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2054,8 +2054,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1131.5, 2205.0, 99.0, 22.0 ],
-					"text" : "clefs G, zoom 50"
+					"patching_rect" : [ 1131.5, 2205.0, 191.0, 22.0 ],
+					"text" : "clefs G, zoom 50, voicespacing 25"
 				}
 
 			}
@@ -2151,12 +2151,12 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 50 ],
+							"parameter_initial" : [ 90 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "clarity",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : 25.0,
-							"parameter_shortname" : "tuning dissonance",
+							"parameter_shortname" : "tuning complexity",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
@@ -2284,6 +2284,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
+					"legend" : 0,
 					"loop" : [ 0.0, 1000.0 ],
 					"maxclass" : "bach.roll",
 					"numinlets" : 6,
@@ -2294,7 +2295,7 @@
 					"patching_rect" : [ 1131.5, 2390.0, 608.0, 120.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 626.40000057220459, 433.0, 111.5 ],
+					"presentation_rect" : [ 3.0, 626.40000057220459, 433.0, 126.5 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvelocity" : 3,
@@ -2304,7 +2305,7 @@
 					"tonedivision" : 8,
 					"versionnumber" : 80300,
 					"voicenames" : [ "[", "]" ],
-					"voicespacing" : [ 0.0, 17.0 ],
+					"voicespacing" : [ 25.0, 17.0 ],
 					"vzoom" : 100.0,
 					"zoom" : 50.0
 				}
@@ -2339,9 +2340,9 @@
 					"presentation_rect" : [ 3.0, 264.40000057220459, 359.0, 177.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 10,
+					"size" : 6,
 					"slidercolor" : [ 0.086274509803922, 0.674509803921569, 0.537254901960784, 1.0 ],
-					"spacing" : 17
+					"spacing" : 29
 				}
 
 			}
@@ -3647,7 +3648,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-50" : [ "clarity", "tuning dissonance", 0 ],
+			"obj-50" : [ "clarity", "tuning complexity", 0 ],
 			"obj-52::obj-4" : [ "GAIN", "GAIN", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{

@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 531.92907801418437, 88.0, 369.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://creativecommons.org/licenses/by-sa/4.0/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 431.0, 191.5, 129.0, 35.0 ],
+					"text" : ";\rmax launchbrowser $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -501,7 +527,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 78.574922187638975, 503.0, 22.0 ],
+					"patching_rect" : [ 431.0, 161.0, 503.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 59.0, 500.0, 22.0 ],
 					"text" : "© 2023 Felipe Tovar-Henao | https://felipe-tovar-henao.com | tovarhfe@ucmail.uc.edu "
@@ -533,7 +559,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 323.92907801418437, 6.425077812361032, 200.07092198581563, 70.0 ],
+					"patching_rect" : [ 531.92907801418437, 6.425077812361032, 200.07092198581563, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 375.247917861506266, 3.425077812361025, 142.75208213849379, 51.597598932859086 ]
 				}
@@ -541,6 +567,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-12", 0 ]
@@ -684,6 +717,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

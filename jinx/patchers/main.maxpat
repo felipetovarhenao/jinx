@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 7.0, 60.0, 536.0, 532.0 ],
+		"rect" : [ 722.0, 109.0, 536.0, 583.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -153,7 +153,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -70.0, 1628.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 506.0, 337.0, 20.0 ],
+					"presentation_rect" : [ 191.5, 557.0, 337.0, 20.0 ],
 					"text" : "OPEN EXAMPLE",
 					"texton" : "OPEN EXAMPLE"
 				}
@@ -224,8 +224,8 @@
 					"patching_rect" : [ 69.166666666666629, 1666.0, 500.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 191.5, 220.0, 337.0, 107.0 ],
-					"text" : "An illustration of the perceptual relationship and interaction between tuning and timbre. In particular, this example allows the user to examine and listen to the same passages in different tuning/timbre configurations — namely, the matching or mismatching of these two features.",
+					"presentation_rect" : [ 191.5, 271.0, 337.0, 107.0 ],
+					"text" : "An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -240,8 +240,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.0, 1538.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 183.0, 337.0, 30.0 ],
-					"text" : "tuning and timbre"
+					"presentation_rect" : [ 191.5, 234.0, 337.0, 30.0 ],
+					"text" : "dissonance curve"
 				}
 
 			}
@@ -280,7 +280,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "chord", "browser", ",", "tuning", "and", "timbre", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "tuning", "and", "timbre", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -288,7 +288,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5.5, 1058.0, 155.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 183.0, 185.0, 321.0 ],
+					"presentation_rect" : [ 4.5, 234.0, 185.0, 321.0 ],
 					"stripecolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 				}
 
@@ -626,7 +626,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 6.0, 94.0, 169.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 6.0, 524.0, 175.0 ],
+					"presentation_rect" : [ 4.5, 6.0, 524.0, 226.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -656,7 +656,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6.0, 211.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 506.0, 185.0, 20.0 ],
+					"presentation_rect" : [ 4.5, 557.0, 185.0, 20.0 ],
 					"text" : "CLOSE",
 					"texton" : "CLOSE"
 				}
