@@ -41,6 +41,18 @@
 		"title" : "virtual fundamental",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 902.0, 981.0, 122.0, 22.0 ],
+					"text" : "loadmess partials 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -107,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 663.0, 1025.0, 128.0, 128.0 ],
+					"patching_rect" : [ 663.0, 1025.0, 258.0, 117.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 747.833333333333371, 518.0, 61.0 ],
 					"viewvisibility" : 1
@@ -1251,6 +1263,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"midpoints" : [ 174.5, 651.0, 174.5, 651.0 ],
 					"source" : [ "obj-22", 0 ]
@@ -1509,14 +1528,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jinx.synth.poly~.maxpat",
+				"name" : "jinx.addsynth.core~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jinx.synth~.maxpat",
+				"name" : "jinx.addsynth.poly~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1533,6 +1559,13 @@
 				"name" : "utils.header.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

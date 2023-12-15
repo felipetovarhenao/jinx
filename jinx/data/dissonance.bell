@@ -83,6 +83,7 @@ disscurve = (
 	$amps,
 	$range = 2,
 	$N = 50 -> (
+		$freqs = for $x $i in $freqs collect if $amps:$i > 0 then $x;
 		$N -= 1;
 		for $ratio in $range**((0...$N)/$N) collect (
 			[ $ratio spectraldiss($freqs $freqs * $ratio, $amps $amps) ]

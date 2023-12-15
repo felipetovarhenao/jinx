@@ -41,6 +41,24 @@
 		"title" : "tuning and timbre",
 		"boxes" : [ 			{
 				"box" : 				{
+					"code" : "`partials for $i in (1...10)**log2($x1) collect $i 1.25**-($i - 1) ",
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 669.0, 700.0, 420.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.eval `partials for $i in (1...10)**log2($x1) collect $i 1.25**-($i - 1) @out m"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -164,7 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 507.428571428571445, 744.0, 180.571428571428555, 110.0 ],
+					"patching_rect" : [ 507.428571428571445, 744.0, 180.571428571428555, 73.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 494.0, 522.0, 62.0 ],
 					"viewvisibility" : 1
@@ -476,7 +494,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 665.0, 89.0, 20.0 ],
+					"patching_rect" : [ 724.0, 499.0, 89.0, 20.0 ],
 					"text" : "spectral octave"
 				}
 
@@ -489,24 +507,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 328.0, 319.0, 80.0, 20.0 ],
 					"text" : "tuning octave"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"code" : "'distortion' log2($f1) ",
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 669.0, 709.166666666666629, 167.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.eval 'distortion' log2($f1)"
 				}
 
 			}
@@ -533,7 +533,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 669.0, 664.0, 50.0, 22.0 ]
+					"patching_rect" : [ 669.0, 498.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -604,7 +604,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 678.5, 687.0, 678.5, 687.0 ],
 					"source" : [ "obj-101", 0 ]
 				}
 
@@ -846,21 +845,28 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jinx.addsynth.core~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth.poly~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jinx.mcmap.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jinx.synth.poly~.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jinx.synth~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -884,6 +890,13 @@
 				"name" : "utils.listdata.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

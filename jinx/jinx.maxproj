@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3785330107,
+	"modificationdate" : 3785434804,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -16,16 +16,6 @@
 			}
 ,
 			"jinx.sign.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"jinx.synth.poly~.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"jinx.synth~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -111,11 +101,6 @@
 				"local" : 1
 			}
 ,
-			"utils.dac~.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"utils.header.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -167,6 +152,26 @@
 			}
 ,
 			"utils.plotdiss.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.addsynth.core~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.addsynth.poly~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.addsynth~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.dac~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
