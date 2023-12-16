@@ -41,12 +41,24 @@
 		"title" : "virtual fundamental",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 902.0, 990.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 902.0, 981.0, 122.0, 22.0 ],
+					"patching_rect" : [ 902.0, 954.0, 122.0, 22.0 ],
 					"text" : "loadmess partials 1 1"
 				}
 
@@ -1263,7 +1275,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 1 ],
+					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1273,6 +1285,13 @@
 					"destination" : [ "obj-25", 0 ],
 					"midpoints" : [ 174.5, 651.0, 174.5, 651.0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}

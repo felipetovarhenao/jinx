@@ -27,6 +27,26 @@
 	[ "ratios" 1.414**log2(1...10) ]
 ]
 [
+	[ "name" "metal bar" ]
+	[ "ratios" 1 2.76 5.4 8.93 ]
+]
+[
+	[ "name" "minor third bell" ]
+	[ "ratios" .5 1 1.2 1.5 2 2.5 2.61 3 4 ]
+]
+[
+	[ "name" "measured bell" ]
+	[ "ratios" .5 1 1.19 1.56 2 2.51 2.66 3.01 4.1 ]
+]
+[
+	[ "name" "major third bell" ]
+	[ "ratios" .5 1 1.25 1.5 2 2.5 2.95 3.25 4.0 ]
+]
+[
+	["name" "ting-shaw bell"]
+	[ "ratios" 1 2.02027 2.345017 3.345017 4.26647 ]
+]
+[
 	[ "name" "inharmonic partials 1" ]
 	[ "ratios" 1 1.8 2.13 3.4 4.3 5.05 6.9 ]
 ]

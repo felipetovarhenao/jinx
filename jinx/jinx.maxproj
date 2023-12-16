@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3785434804,
+	"modificationdate" : 3785530069,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -251,6 +251,11 @@
 			}
 ,
 			"beethoven_fur_elise.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1
+			}
+,
+			"happy_birthday.mid" : 			{
 				"kind" : "midifile",
 				"local" : 1
 			}

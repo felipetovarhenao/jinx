@@ -65,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 6.0, 286.0, 60.0, 22.0 ],
-					"text" : "t 2 b"
+					"text" : "t 3 b"
 				}
 
 			}
@@ -312,7 +312,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"items" : [ "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.midi" ],
+					"items" : [ "bach_chorale.midi", ",", "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -385,7 +385,7 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"code" : "$base = mc2f(7200); $distortion = if $f2 == null then 1 else $f2; f2mc($base*(mc2f($x1)/$base)**$distortion) ",
+									"code" : "$base = mc2f(6000); $distortion = if $f2 == null then 1 else $f2; f2mc($base*(mc2f($x1)/$base)**$distortion) ",
 									"id" : "obj-72",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -397,7 +397,7 @@
 										"versionnumber" : 80300
 									}
 ,
-									"text" : "bach.eval $base = mc2f(7200)\\; $distortion = if $f2 == null then 1 else $f2\\; f2mc($base*(mc2f($x1)/$base)**$distortion)"
+									"text" : "bach.eval $base = mc2f(6000)\\; $distortion = if $f2 == null then 1 else $f2\\; f2mc($base*(mc2f($x1)/$base)**$distortion)"
 								}
 
 							}
