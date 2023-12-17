@@ -31,8 +31,12 @@
 	[ "ratios" 1 2.76 5.4 8.93 ]
 ]
 [
-	[ "name" "saron" ]
+	[ "name" "saron 1" ]
 	[ "ratios" 1 2.76 4.72 5.92 ]
+]
+[
+	[ "name" "saron 2" ]
+	[ "ratios" 1 2.39 2.78 4.75 5.08 5.96 ]
 ]
 [
 	[ "name" "minor third bell" ]
