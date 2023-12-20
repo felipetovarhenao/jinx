@@ -55,6 +55,14 @@
 	[ "ratios" 1 1.49 1.67 2 2.67 2.98 3.47 3.98 5.97 6.94 ]
 ]
 [
+	[ "name" "gambang 1" ]
+	[ "ratios"  1 2.86 5.4 8.4 ]
+]
+[
+	[ "name" "gambang 2" ]
+	[ "ratios"  1 2.73 5.26 8.3 ]
+]
+[
 	[ "name" "minor third bell" ]
 	[ "ratios" .5 1 1.2 1.5 2 2.5 2.61 3 4 ]
 ]
