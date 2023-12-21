@@ -1,0 +1,282 @@
+SIMPLE = 0;
+STARRED = 1;
+PRIMED = 2;
+
+
+coverzeroes = (
+    $matrix, $maskmatrix, $rowcover, $colcover -> (
+        #(
+            --------------------------------------------
+            "Repeat steps 4 and 6 until we are ready to break out to step 5."
+            --------------------------------------------
+        )#
+        $stop = 0;
+        $result = null;
+        
+        while !$stop do (
+            $zero = 1;
+            #(
+                --------------------------------------------
+                "Step 4:
+                Find a noncovered zero and prime it.  If there is no
+                starred zero in the row containing this primed zero,
+                go to Step 5. Otherwise, cover this row and uncover
+                the column containing the starred zero. Continue in
+                this manner until there are no uncovered zeros left.
+                Save the smallest uncovered value and go to Step 6."
+                --------------------------------------------
+            )#
+
+            while $result == null && !!$zero do (
+                $zero = findnoncoveredzero($matrix, $rowcover, $colcover);
+                if !!$zero then (
+                    $row = flat($maskmatrix:($zero:1));
+                    $row:($zero:2) = PRIMED;    
+                    $index = null;
+                    for $x $i in $row do (
+                        if !$index && $x == STARRED then (
+                            $index = $i
+                        )
+                    );
+                    if !$index then (
+                        $stop = 1;
+                        $result = $zero
+                    ) else (
+                        $rowcover:($zero:1) = 1;
+                        $colcover:($index) = 0
+                    )
+                )
+            );
+            #(
+                --------------------------------------------
+                "Step 6
+                Add the value found in Step 4 to every element of
+                each covered row, and subtract it from every element
+                of each uncovered column.  Return to Step 4 without
+                altering any stars, primes, or covered lines."
+                --------------------------------------------
+            )#
+
+            if $stop == 0 then (
+                $m = minimum(uncoveredvalues($matrix, $rowcover, $colcover));
+                for $row $r in $matrix do (
+                    for $c in 1...length(flat($row)) do (
+                        if $rowcover:$r == 1 then (
+                            $matrix:($r $c) += $m
+                        );
+                        if $colcover:$c == 0 then (
+                            $matrix:($r $c) -= $m
+                        )
+                    )
+                )
+            )
+        );
+        $result
+    )
+);
+
+findnoncoveredzero = (
+    $matrix, $rowcover, $colcover -> (
+        $result = null;
+        for $row $r in $matrix do (
+            if !$result then (
+                for $value $c in flat($row) do (
+                    if !$result && $value == 0 && $rowcover:$r == 0 && $colcover:$c == 0 then (
+                        $result = ($r $c)
+                    )
+                )
+            )
+        );
+        $result
+    )
+);
+
+uncoveredvalues = (
+    $matrix, $rowcover, $colcover -> (
+        for $row $r in $matrix collect (
+            for $value $c in flat($row) collect (
+                if $rowcover:$r == 0 && $colcover:$c == 0 then (
+                    $value
+                )
+            )
+        )
+    )
+);
+
+findstarincol = (
+    $maskmatrix, $c -> (
+        $result = null;
+        for $row $r in $maskmatrix do (
+            if $result == null && flat($row):$c == STARRED then (
+                $result = ($r $c)
+            )
+        );
+        $result
+    )
+);
+
+findprimeinrow = (
+    $maskmatrix, $r -> (
+        $result = null;
+        for $value $c in flat($maskmatrix:$r) do (
+            if $result == null && $value == PRIMED then (
+                $result = ($r $c)
+            )
+        );
+        $result
+    )
+);
+
+minimize = (
+    $matrix -> (
+        $n = length($matrix);
+
+        #(
+            --------------------------------------------
+            "Step 1:
+            For each row of the matrix, find the smallest element and
+            subtract it from every element in its row. Go to Step 2."
+            --------------------------------------------
+        )#
+
+        for $row $i in $matrix do (
+            $matrix:$i -= minimum(flat($row))
+        );
+        $maskmatrix =  (for $x in 1...$n collect [ SIMPLE :* $n ]);
+        $rowcover = 0 :* $n;
+        $colcover = 0 :* $n;
+
+        #(
+            --------------------------------------------
+            "Step 2:
+            Find a zero (Z) in the resulting matrix.  If there is
+            no starred zero in its row or column, star Z. Repeat for
+            each element in the matrix. Go to Step 3."
+            --------------------------------------------
+        )#
+
+        for $row $r in $matrix do (
+            for $value $c in flat($row) do (
+                if $value == 0 && $rowcover:$r == 0 && $colcover:$c == 0 then (
+                    $maskmatrix:($r $c) = STARRED;
+                    $rowcover:$r = 1;
+                    $colcover:$c = 1
+                )
+            )
+        );
+        $rowcover = 0 :* $n;
+        $colcover = 0 :* $n;
+        #(
+            --------------------------------------------
+            "Step 3:
+            Cover each column containing a starred zero.  If K columns
+            are covered, the starred zeros describe a complete set of
+            unique assignments. In this case, go to DONE, otherwise,
+            go to Step 4."
+            --------------------------------------------
+        )#
+
+        $matchfound = 0;
+
+        while $matchfound == 0 do (
+            for $i in 1...$n do (
+                $colcover:$i = (reduce(for $mrow in $maskmatrix collect ($mrow:(1 $i)) == STARRED, #+) > 0)
+            );
+            if reduce($colcover, #*) > 0 then (
+                $matchfound = 1
+            ) else (
+                $zero = coverzeroes($matrix, $maskmatrix, $rowcover, $colcover);
+                #(
+                    --------------------------------------------
+                    "Step 5
+                    Construct a series of alternating primed and starred zeros as
+                    follows.  Let Z0 represent the uncovered primed zero found in
+                    Step 4.  Let Z1 denote the starred zero in the column of Z0
+                    (if any). Let Z2 denote the primed zero in the row of Z1
+                    (there will always be one).  Continue until the series terminates
+                    at a primed zero that has no starred zero in its column. Unstar
+                    each starred zero of the series, star each primed zero of the
+                    series, erase all primes and uncover every line in the matrix.
+                    Return to Step 3."
+                    --------------------------------------------
+                )#
+
+                $primes = [$zero];
+                $stars = ();
+                while !!$zero do (
+                    $zero = findstarincol($maskmatrix, $zero:2);
+                    if $zero then (
+                        $stars _= [$zero];
+                        $zero = findprimeinrow($maskmatrix, $zero:1);
+                        $stars _= [$zero]
+                    )
+                );
+
+                for $star in $stars do (
+                    $pos = flat($star);
+                    if $pos then (
+                        $maskmatrix:($pos:1 $pos:2) = SIMPLE
+                    )
+                );
+                
+                for $prime in $primes do (
+                    $pos = flat($prime);
+                    $maskmatrix:($pos:1 $pos:2) = STARRED
+                );
+
+                for $row $r in $maskmatrix do (
+                    for $value $c in flat($row) do (
+                        if $value == PRIMED then (
+                            $maskmatrix:($r $c) = SIMPLE
+                        )
+                    )
+                );
+                $rowcover = 0 :* $n;
+                $colcover = 0 :* $n
+            )
+        );
+        for $row $r in $maskmatrix collect (
+            for $value $c in flat($row) collect (
+                if $value == STARRED then [$r $c]
+            )
+        )
+    )
+);
+$matrix = (
+    [ 25 40 35 ]
+    [ 40 60 35 ]
+    [ 20 40 25 ]
+);
+$matrix = (
+    [7  53 183 439 863] 
+    [497 383 563  79 973] 
+    [287  63 343 169 583] 
+    [627 343 773 959 943] 
+    [767 473 103 699 303]
+);
+
+$matrix = (
+    [7      53  183 439 863 497 383 563  79 973 287  63 343 169 583]
+    [627    343 773 959 943 767 473 103 699 303 957 703 583 639 913]
+    [447    283 463  29  23 487 463 993 119 883 327 493 423 159 743]
+    [217    623   3 399 853 407 103 983 89  463 290 516 212 462 350]
+    [960    376 682 962 300 780 486 502 912 800 250 346 172 812 350]
+    [870    456 192 162 593 473 915  45 989 873 823 965 425 329 803]
+    [973    965 905 919 133 673 665 235 509 613 673 815 165 992 326]
+    [322    148 972 962 286 255 941 541 265 323 925 281 601  95 973]
+    [445    721  11 525 473  65 511 164 138 672  18 428 154 448 848]
+    [414    456 310 312 798 104 566 520 302 248 694 976 430 392 198]
+    [184    829 373 181 631 101 969 613 840 740 778 458 284 760 390]
+    [821    461 843 513  17 901 711 993 293 157 274  94 192 156 574]
+    [34     124   4 878 450 476 712 914 838 669 875 299 823 329 699]
+    [815    559 813 459 522 788 168 586 966 232 308 833 251 631 107]
+    [813    883 451 509 615  77 281 613 459 205 380 274 302  35 805] 
+);
+$ans = minimize($matrix);
+print("ANSWER" for $x in trans($ans - 1) collect [sort(flat($x))]);
+$matrix = (
+    [ 1 0 3 ]
+    [ 1 0 3 ]
+    [ 1 0 3 ]
+);
+print("DONE")
