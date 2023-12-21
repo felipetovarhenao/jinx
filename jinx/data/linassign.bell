@@ -127,7 +127,7 @@ findprimeinrow = (
     )
 );
 
-minimize = (
+linassign = (
     $matrix -> (
         $n = length($matrix);
 
