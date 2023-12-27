@@ -5,7 +5,11 @@ $PY_COMMA = 531441 / 524288;
 $SYN_COMMA = 81 / 80;
 
 $normalize = ($x ->
-	$x * 2**-int(floor(log2($x)))
+	for $v in $x collect (
+		$val = ($v * 2 ** -int(floor(log2($v))));
+		$ratval = rat($val);
+		if float($ratval) == $val then $ratval else $val
+	)
 );
 
 $meantone = (
@@ -133,7 +137,7 @@ $lookup = (
 ]
 [
 	["name" "Pythagorean scale"]
-	[ "ratios" 1/1 9/8 81/64 4/3 3/2 27/16 16/9 243/128 2/1 ]
+	[ "ratios" sort($normalize((3/2)**(-5...6)) 2) ]
 ]
 [
 	["name" "Pythagorean pentatonic"]
