@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 62.0, 591.0, 1065.0, 395.0 ],
+		"rect" : [ 943.0, 670.0, 703.0, 316.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 598.3125, 99.0, 89.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.keys mod"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "llll: pitch-class difference",
 					"id" : "obj-7",
 					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 175.0, 30.0, 30.0 ]
+					"patching_rect" : [ 155.5625, 272.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -57,7 +73,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 52.0, 137.0, 110.0, 22.0 ],
+					"patching_rect" : [ 155.5625, 224.0, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -68,19 +84,20 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$pcdiff = ( $a, $b -> ( $a %= 12; $b %= 12; $da = $b-$a; $sign = for $x in $da collect int($x >= 0) * 2 - 1; $db = $da + 12 * -$sign; $mask = for $xa in $da, $xb in $db collect int(abs($xa) < abs($xb)); $da * $mask + $db * (1 - $mask) ) ); $pcdiff($x1, $x2) ",
+					"code" : "$pcdiff = ( $a, $b, $mod = 12 -> ( $a %= $mod; $b %= $mod; $da = $b-$a; $sign = for $x in $da collect int($x >= 0) * 2 - 1; $db = $da + $mod * -$sign; $mask = for $xa in $da, $xb in $db collect int(abs($xa) < abs($xb)); $da * $mask + $db * (1 - $mask) ) ); $pcdiff($x1, $x2, $x3 ||| 12) ",
 					"id" : "obj-5",
+					"linecount" : 4,
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 103.0, 1388.0, 22.0 ],
+					"patching_rect" : [ 155.5625, 141.0, 461.75, 62.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $pcdiff = ( $a\\, $b -> ( $a %= 12\\; $b %= 12\\; $da = $b-$a\\; $sign = for $x in $da collect int($x >= 0) * 2 - 1\\; $db = $da + 12 * -$sign\\; $mask = for $xa in $da\\, $xb in $db collect int(abs($xa) < abs($xb))\\; $da * $mask + $db * (1 - $mask) ) )\\; $pcdiff($x1\\, $x2)"
+					"text" : "bach.eval $pcdiff = ( $a\\, $b\\, $mod = 12 -> ( $a %= $mod\\; $b %= $mod\\; $da = $b-$a\\; $sign = for $x in $da collect int($x >= 0) * 2 - 1\\; $db = $da + $mod * -$sign\\; $mask = for $xa in $da\\, $xb in $db collect int(abs($xa) < abs($xb))\\; $da * $mask + $db * (1 - $mask) ) )\\; $pcdiff($x1\\, $x2\\, $x3 ||| 12)"
 				}
 
 			}
@@ -93,7 +110,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 11.0, 30.0, 30.0 ]
+					"patching_rect" : [ 303.125, 11.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -117,12 +134,12 @@
 					"numinlets" : 3,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "", "", "", "" ],
-					"patching_rect" : [ 8.0, 59.0, 195.0, 22.0 ],
+					"patching_rect" : [ 8.0, 59.0, 609.25, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.args @ins 2"
+					"text" : "bach.args @ins 2 @attrs mod"
 				}
 
 			}
@@ -138,6 +155,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-1", 4 ]
 				}
 
 			}
@@ -166,6 +190,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 2 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
