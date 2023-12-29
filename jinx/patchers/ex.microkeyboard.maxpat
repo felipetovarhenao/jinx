@@ -261,8 +261,7 @@
 					"patching_rect" : [ 108.5, 253.5, 213.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 55.5, 180.0, 123.0, 23.0 ],
-					"text" : "fundamental pitch",
-					"textjustification" : 0
+					"text" : "fundamental pitch"
 				}
 
 			}
@@ -1444,15 +1443,18 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 538.0, 707.0, 538.0, 23.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 3.5, 204.5, 521.0, 43.0 ],
-					"text" : "1 25/24 10/9 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2",
+					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1464,8 +1466,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1069.0, 864.0, 77.0, 22.0 ],
-					"text" : "loadmess 60"
+					"patching_rect" : [ 1069.0, 864.0, 96.0, 22.0 ],
+					"text" : "loadmess set 60"
 				}
 
 			}
