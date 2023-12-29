@@ -58,7 +58,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.0, 443.0, 30.0, 30.0 ]
+					"patching_rect" : [ 292.0, 447.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 292.0, 379.0, 110.0, 22.0 ],
+					"patching_rect" : [ 292.0, 408.0, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -97,7 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.333333333333258, 379.0, 66.0, 22.0 ],
+					"patching_rect" : [ 520.333333333333258, 372.0, 66.0, 22.0 ],
 					"text" : "bach.* 100"
 				}
 
@@ -109,7 +109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 472.166666666666742, 419.0, 84.833333333333258, 22.0 ],
+					"patching_rect" : [ 454.5, 408.0, 84.833333333333258, 22.0 ],
 					"text" : "bach.+"
 				}
 
@@ -121,7 +121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 472.5, 122.0, 46.5, 22.0 ],
+					"patching_rect" : [ 454.5, 115.0, 64.5, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -133,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.333333333333258, 339.0, 106.166666666666686, 22.0 ],
+					"patching_rect" : [ 520.333333333333258, 336.0, 106.166666666666686, 22.0 ],
 					"text" : "bach.lookup"
 				}
 
@@ -157,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 500.0, 264.0, 57.0, 22.0 ],
+					"patching_rect" : [ 500.0, 265.0, 57.0, 22.0 ],
 					"text" : "bach.abs"
 				}
 
@@ -169,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 500.0, 305.0, 80.0, 22.0 ],
+					"patching_rect" : [ 500.0, 301.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -210,7 +210,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 292.0, 308.0, 87.0, 22.0 ],
+					"patching_rect" : [ 292.0, 301.0, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
