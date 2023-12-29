@@ -41,6 +41,18 @@
 		"title" : "microtonal keyboard",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1420.666666666666742, 924.875, 101.0, 22.0 ],
+					"text" : "bach.* 1. @out m"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
@@ -359,7 +371,7 @@
 					"patching_rect" : [ 1187.599999999999909, 1111.0, 213.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 251.5, 520.0, 23.0 ],
-					"text" : "tuning size: 12 | octave ratio: 2.00",
+					"text" : "tuning size: 8 | octave ratio: 2.12",
 					"textjustification" : 2
 				}
 
@@ -748,7 +760,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -776,7 +788,24 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 50.0, 389.199999749660492, 57.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.thin"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-124",
 									"maxclass" : "newobj",
@@ -808,7 +837,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.000000000000227, 391.0, 283.0, 22.0 ],
+									"patching_rect" : [ 50.000000000000227, 422.0, 283.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
@@ -922,7 +951,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "(1...6) ** log2($x1) ",
+									"code" : "(1...8) ** log2($x1) ",
 									"id" : "obj-97",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -934,7 +963,7 @@
 										"versionnumber" : 80300
 									}
 ,
-									"text" : "bach.eval (1...6) ** log2($x1)"
+									"text" : "bach.eval (1...8) ** log2($x1)"
 								}
 
 							}
@@ -978,6 +1007,13 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-122", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-105", 0 ],
 									"source" : [ "obj-102", 1 ]
@@ -1035,7 +1071,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-122", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-121", 0 ]
 								}
 
@@ -1433,7 +1469,7 @@
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.minmax @out m"
+					"text" : "bach.minmax"
 				}
 
 			}
@@ -1443,7 +1479,6 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1452,9 +1487,8 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 538.0, 707.0, 538.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 3.5, 204.5, 521.0, 43.0 ],
-					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
+					"text" : "1 19/17 13/11 17/13 7/5 3/2 11/7 5/3 17/8",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -2161,7 +2195,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-63", 2 ]
 				}
 
@@ -2191,6 +2225,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -2478,6 +2519,10 @@
 			}
 , 			{
 				"name" : "bach.subs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.thin.mxo",
 				"type" : "iLaX"
 			}
 , 			{
