@@ -172,12 +172,12 @@ $lookup = (
 	[ "ratios" $meantone(((-1/4) :* 5) (0 :* 3) -1/6 ((1/3) :* 2) -1/4) 2 ]
 ]
 [
-	[ "name" "Werkmeister III meantone temperament" ]
-	[ "ratios" $meantone(((-1/4) :* 3) (0 :* 2) -1/4 (0 :* 6)) 2 ]
+	[ "name" "Werkmeister III well temperament" ]
+	[ "ratios" $meantone(((-1/4) :* 3) (0 :* 2) -1/4 (0 :* 6), $PY_COMMA) 2 ]
 ]
 [
-	[ "name" "Werkmeister VI meantone temperament" ]
-	[ "ratios" $meantone(-1/7 -4/7 1/7 0 0 -1/7 -2/7 0 1/7 0 -1/7 0) 2 ]
+	[ "name" "Werkmeister VI well temperament" ]
+	[ "ratios" $meantone(-1/7 -4/7 1/7 0 0 -1/7 -2/7 0 1/7 0 -1/7 0, $PY_COMMA) 2 ]
 ]
 [
 	[ "name" "Kirnberger III meantone temperament" ]
