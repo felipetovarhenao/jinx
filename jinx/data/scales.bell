@@ -39,6 +39,18 @@ $lookup = (
 	$ids, $x -> for $i in $ids collect $x:$i
 );
 
+$diamond = (
+	$n -^ $normalize -> (
+		$N = (0...(($n - 1)/2)) * 2 + 1;
+		$ratios = for $num in $N collect (
+			for $den in $N collect (
+				$num / $den
+			)
+		);
+		sort(thin($normalize($ratios))) 2
+	)
+);
+
 [
 	[ "name" "12 EDO (chromatic)" ]
 	[ "ratios" $ntet(12) 2 ]
@@ -154,6 +166,26 @@ $lookup = (
 [
 	["name" "Partch 43 tone scale"]
 	["ratios" 1 81/80 33/32 21/20 16/15 12/11 11/10 10/9 9/8 8/7 7/6 32/27 6/5 11/9 5/4 14/11 9/7 21/16 4/3 27/20 11/8 7/5 10/7 16/11 40/27 3/2 32/21 14/9 11/7 8/5 18/11 5/3 27/16 12/7 7/4 16/9 9/5 20/11 11/6 15/8 40/21 64/33 160/81 2 ]
+]
+[
+	[ "name" "3-limit diamond" ]
+	[ "ratios" $diamond(3) ]
+]
+[
+	[ "name" "5-limit diamond" ]
+	[ "ratios" $diamond(5) ]
+]
+[
+	[ "name" "7-limit diamond" ]
+	[ "ratios" $diamond(7) ]
+]
+[
+	[ "name" "9-limit diamond" ]
+	[ "ratios" $diamond(9) ]
+]
+[
+	[ "name" "11-limit diamond" ]
+	[ "ratios" $diamond(11) ]
 ]
 [
 	[ "name" "La Monte Young's 7-limit" ]
