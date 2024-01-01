@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 273.0, 53.0, 526.0, 750.0 ],
+		"rect" : [ 482.0, 53.0, 541.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 297.5, 1400.0, 53.0, 22.0 ],
+					"patching_rect" : [ 297.5, 1430.0, 53.0, 22.0 ],
 					"text" : "clefs FG"
 				}
 
@@ -58,7 +58,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 492.0, 1400.0, 60.0, 22.0 ],
+					"patching_rect" : [ 492.0, 1430.0, 60.0, 22.0 ],
 					"text" : "utils.r2roll"
 				}
 
@@ -111,19 +111,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "primeser(2, 17, length($x1)) ",
+					"code" : "max(2, (0...(length($x1)-1))*2+1) ",
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1168.5, 1144.0, 211.0, 22.0 ],
+					"patching_rect" : [ 1168.5, 1144.0, 236.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval primeser(2\\, 17\\, length($x1))"
+					"text" : "bach.eval max(2\\, (0...(length($x1)-1))*2+1)"
 				}
 
 			}
@@ -256,6 +256,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-116",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -273,6 +274,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-115",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -395,7 +397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 1400.0, 188.0, 22.0 ],
+					"patching_rect" : [ 103.0, 1430.0, 188.0, 22.0 ],
 					"text" : "sel note if chordindex > $1, delete"
 				}
 
@@ -464,7 +466,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 1,
+					"cols" : 7,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -481,7 +483,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 199.5, 317.0, 318.0 ],
 					"rowheight" : 45,
-					"rows" : 1,
+					"rows" : 7,
 					"selmode" : 0,
 					"vscroll" : 0
 				}
@@ -515,29 +517,26 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 206.0, 291.0, 29.5, 22.0 ],
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-30",
-					"items" : [ "2-limit", ",", "3-limit", ",", "5-limit", ",", "7-limit", ",", "11-limit", ",", "13-limit", ",", "17-limit" ],
+					"items" : [ "2-limit", ",", "3-limit", ",", "5-limit", ",", "7-limit", ",", "9-limit", ",", "11-limit", ",", "13-limit" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 206.0, 256.0, 100.0, 22.0 ],
+					"patching_rect" : [ 206.0, 256.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 93.0, 175.5, 84.0, 22.0 ]
+					"presentation_rect" : [ 93.0, 175.5, 84.0, 23.0 ]
 				}
 
 			}
@@ -640,7 +639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 103.0, 1323.0, 71.0, 22.0 ],
+					"patching_rect" : [ 103.0, 1353.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -656,13 +655,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 103.0, 1281.75, 408.0, 22.0 ],
+					"patching_rect" : [ 103.0, 1311.75, 408.0, 22.0 ],
 					"text" : "t l b l"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-81",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -670,9 +670,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 1357.0, 50.0, 22.0 ],
+					"patching_rect" : [ 103.0, 1387.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 469.5, 175.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 467.5, 175.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -960,7 +960,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 601.0, 1704.0, 524.0, 63.0 ],
+					"patching_rect" : [ 601.0, 1734.0, 524.0, 63.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 689.0, 517.0, 59.0 ],
 					"viewvisibility" : 1
@@ -988,7 +988,7 @@
 					"numvoices" : 1,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 103.0, 1466.0, 600.0, 220.0 ],
+					"patching_rect" : [ 103.0, 1496.0, 600.0, 220.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 519.5, 517.0, 167.5 ],
@@ -1019,19 +1019,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$N = primeser(2, 23, $i1); thin(for $n in $N collect [ for $d in $N collect [$n $d] ]) ",
+					"code" : "$N = (0...$x1)*2+1; thin(for $n in $N collect [ for $d in $N collect [$n $d] ]) ",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 206.0, 387.0, 563.0, 22.0 ],
+					"patching_rect" : [ 206.0, 387.0, 528.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $N = primeser(2\\, 23\\, $i1)\\; thin(for $n in $N collect [ for $d in $N collect [$n $d] ]) @directouts 1"
+					"text" : "bach.eval $N = (0...$x1)*2+1\\; thin(for $n in $N collect [ for $d in $N collect [$n $d] ]) @directouts 1"
 				}
 
 			}
@@ -1042,7 +1042,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 1358.0, 84.0, 20.0 ],
+					"patching_rect" : [ 158.0, 1388.0, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 323.0, 176.5, 84.0, 20.0 ],
 					"text" : "unique ratios"
@@ -1304,15 +1304,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-102", 0 ],
-					"source" : [ "obj-31", 0 ]
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -1721,6 +1714,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jinx.addsynth.core~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth.poly~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jinx.mc2roll.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
@@ -1736,20 +1750,6 @@
 			}
 , 			{
 				"name" : "jinx.r2mc.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jinx.synth.poly~.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jinx.synth~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1779,6 +1779,13 @@
 				"name" : "utils.r2roll.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

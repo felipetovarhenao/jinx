@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -87,6 +87,7 @@
 					"patching_rect" : [ 654.166666666666515, 1843.974999010562897, 353.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 89.386138610541821, 534.90000057220459, 353.0, 23.0 ],
+					"text" : "CLICK ON \"GENERATE\" BUTTON TO VISUALIZE CURVE",
 					"textcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 				}
 
@@ -174,7 +175,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -378,7 +379,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -849,7 +850,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1428,7 +1429,7 @@
 					"patching_rect" : [ 355.666666666666515, 999.0, 521.0, 56.125000730156898 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 238.40000057220459, 517.0, 24.0 ],
-					"text" : "1. 1.509993 1.603997 3.011103 3.749815 5.674315",
+					"text" : "1 2 3 4 5 6 7 8 9 10",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1526,10 +1527,18 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "harmonic partials", ",", "prime harmonics", ",", "odd harmonics", ",", "even harmonics", ",", "dilated harmonics(2.1)", ",", "compressed harmonics (1.97)", ",", "compressed harmonics (1.414)", ",", "metal bar", ",", "minor third bell", ",", "measured bell", ",", "major third bell", ",", "ting-shaw bell", ",", "Chaco rock", ",", "inharmonic partials 1", ",", "inharmonic partials 2", ",", "inharmonic partials 3", ",", "inharmonic partials 4" ],
+					"items" : [ "harmonic partials", ",", "prime harmonics", ",", "odd harmonics", ",", "even harmonics", ",", "dilated harmonics(2.1)", ",", "compressed harmonics (1.97)", ",", "compressed harmonics (1.414)", ",", "metal bar", ",", "saron 1", ",", "saron 2", ",", "gender 1", ",", "gender 2", ",", "bonang", ",", "gong", ",", "gambang 1", ",", "gambang 2", ",", "minor third bell", ",", "measured bell", ",", "major third bell", ",", "ting-shaw bell", ",", "Chaco rock", ",", "inharmonic partials 1", ",", "inharmonic partials 2", ",", "inharmonic partials 3", ",", "inharmonic partials 4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1609,7 +1618,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[\n\t[ \"name\" \"harmonic partials\" ]\n\t[ \"ratios\" 1...10 ]\n]\n[\n\t[ \"name\" \"prime harmonics\" ]\n\t[ \"ratios\" 1 2 3 5 7 11 13 ]\n]\n[\n\t[ \"name\" \"odd harmonics\" ]\n\t[ \"ratios\" 1 3 5 7 9 11 ]\n]\n[\n\t[ \"name\" \"even harmonics\" ]\n\t[ \"ratios\" (1...6)*2 ]\n]\n[\n\t[ \"name\" \"dilated harmonics(2.1)\" ]\n\t[ \"ratios\" 2.1**log2(1...10) ]\n]\n[\n\t[ \"name\" \"compressed harmonics (1.97)\" ]\n\t[ \"ratios\" 1.97**log2(1...10) ]\n]\n[\n\t[ \"name\" \"compressed harmonics (1.414)\" ]\n\t[ \"ratios\" 1.414**log2(1...10) ]\n]\n[\n\t[ \"name\" \"metal bar\" ]\n\t[ \"ratios\" 1 2.76 5.4 8.93 ]\n]\n[\n\t[ \"name\" \"minor third bell\" ]\n\t[ \"ratios\" .5 1 1.2 1.5 2 2.5 2.61 3 4 ]\n]\n[\n\t[ \"name\" \"measured bell\" ]\n\t[ \"ratios\" .5 1 1.19 1.56 2 2.51 2.66 3.01 4.1 ]\n]\n[\n\t[ \"name\" \"major third bell\" ]\n\t[ \"ratios\" .5 1 1.25 1.5 2 2.5 2.95 3.25 4.0 ]\n]\n[\n\t[\"name\" \"ting-shaw bell\"]\n\t[ \"ratios\" 1 2.02027 2.345017 3.345017 4.26647 ]\n]\n[\n\t[ \"name\" \"Chaco rock\" ]\n\t[ \"ratios\" 1. 1.509993 1.603997 3.011103 3.749815 5.674315 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 1\" ]\n\t[ \"ratios\" 1 1.8 2.13 3.4 4.3 5.05 6.9 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 2\" ]\n\t[ \"ratios\" 1 2.04 4.1 5.1 7.1 8.5 13.4 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 3\" ]\n\t[ \"ratios\" 1 1.9 2.8 3.7 4.6 5.5 6.4 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 4\" ]\n\t[ \"ratios\" 1 2.5 3.4 4.3 5.2 6.1 ]\n] ",
+					"code" : "[\n\t[ \"name\" \"harmonic partials\" ]\n\t[ \"ratios\" 1...10 ]\n]\n[\n\t[ \"name\" \"prime harmonics\" ]\n\t[ \"ratios\" 1 2 3 5 7 11 13 ]\n]\n[\n\t[ \"name\" \"odd harmonics\" ]\n\t[ \"ratios\" 1 3 5 7 9 11 ]\n]\n[\n\t[ \"name\" \"even harmonics\" ]\n\t[ \"ratios\" (1...6)*2 ]\n]\n[\n\t[ \"name\" \"dilated harmonics(2.1)\" ]\n\t[ \"ratios\" 2.1**log2(1...10) ]\n]\n[\n\t[ \"name\" \"compressed harmonics (1.97)\" ]\n\t[ \"ratios\" 1.97**log2(1...10) ]\n]\n[\n\t[ \"name\" \"compressed harmonics (1.414)\" ]\n\t[ \"ratios\" 1.414**log2(1...10) ]\n]\n[\n\t[ \"name\" \"metal bar\" ]\n\t[ \"ratios\" 1 2.76 5.4 8.93 ]\n]\n[\n\t[ \"name\" \"saron 1\" ]\n\t[ \"ratios\" 1 2.76 4.72 5.92 ]\n]\n[\n\t[ \"name\" \"saron 2\" ]\n\t[ \"ratios\" 1 2.39 2.78 4.75 5.08 5.96 ]\n]\n[\n\t[ \"name\" \"gender 1\" ]\n\t[ \"ratios\" 1 2.01 2.57 4.05 4.8 6.27 ]\n]\n[\n\t[ \"name\" \"gender 2\" ]\n\t[ \"ratios\" 1 1.97 2.78 4.49 5.33 6.97 ]\n]\n[\n\t[ \"name\" \"bonang\" ]\n\t[ \"ratios\" 1 1.52 3.46 3.92 ]\n]\n[\n\t[ \"name\" \"gong\" ]\n\t[ \"ratios\" 1 1.49 1.67 2 2.67 2.98 3.47 3.98 5.97 6.94 ]\n]\n[\n\t[ \"name\" \"gambang 1\" ]\n\t[ \"ratios\"  1 2.86 5.4 8.4 ]\n]\n[\n\t[ \"name\" \"gambang 2\" ]\n\t[ \"ratios\"  1 2.73 5.26 8.3 ]\n]\n[\n\t[ \"name\" \"minor third bell\" ]\n\t[ \"ratios\" .5 1 1.2 1.5 2 2.5 2.61 3 4 ]\n]\n[\n\t[ \"name\" \"measured bell\" ]\n\t[ \"ratios\" .5 1 1.19 1.56 2 2.51 2.66 3.01 4.1 ]\n]\n[\n\t[ \"name\" \"major third bell\" ]\n\t[ \"ratios\" .5 1 1.25 1.5 2 2.5 2.95 3.25 4.0 ]\n]\n[\n\t[\"name\" \"ting-shaw bell\"]\n\t[ \"ratios\" 1 2.02027 2.345017 3.345017 4.26647 ]\n]\n[\n\t[ \"name\" \"Chaco rock\" ]\n\t[ \"ratios\" 1. 1.509993 1.603997 3.011103 3.749815 5.674315 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 1\" ]\n\t[ \"ratios\" 1 1.8 2.13 3.4 4.3 5.05 6.9 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 2\" ]\n\t[ \"ratios\" 1 2.04 4.1 5.1 7.1 8.5 13.4 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 3\" ]\n\t[ \"ratios\" 1 1.9 2.8 3.7 4.6 5.5 6.4 ]\n]\n[\n\t[ \"name\" \"inharmonic partials 4\" ]\n\t[ \"ratios\" 1 2.5 3.4 4.3 5.2 6.1 ]\n] ",
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1680,7 +1689,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum\"] ",
+					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum\" ]\n[ 'tags' \"sensorydissonance\" \"timbre\" \"justintonation\" \"psychoacoustics\"] ",
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2340,9 +2349,9 @@
 					"presentation_rect" : [ 3.0, 264.40000057220459, 359.0, 177.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 6,
+					"size" : 10,
 					"slidercolor" : [ 0.086274509803922, 0.674509803921569, 0.537254901960784, 1.0 ],
-					"spacing" : 29
+					"spacing" : 17
 				}
 
 			}
@@ -2406,7 +2415,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

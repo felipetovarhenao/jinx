@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -76,7 +76,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.0, 2068.0, 74.0, 22.0 ],
+					"patching_rect" : [ 772.0, 2068.0, 75.0, 22.0 ],
 					"text" : "r #0clear"
 				}
 
@@ -152,7 +152,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.416666666666629, 1745.0, 74.0, 22.0 ],
+					"patching_rect" : [ 431.416666666666629, 1745.0, 75.0, 22.0 ],
 					"text" : "r #0clear"
 				}
 
@@ -256,6 +256,14 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-66",
 					"items" : [ "perfect fifth", ",", "major third", ",", "minor third", ",", "tritone (v1)", ",", "tritone (v2)", ",", "major triad", ",", "minor triad", ",", "major major 7th", ",", "major minor 7th (v1)", ",", "major minor 7th (v2)", ",", "minor minor 7 (v1)", ",", "minor minor 7 (v2)", ",", "major major 9", ",", "augmented", ",", "diminished (v1)", ",", "diminished (v2)", ",", "half diminished (v1)", ",", "half diminished (v2)", ",", "half diminished (v3)", ",", "half diminished (v4)", ",", "quartal triad", ",", "quartal tetrachord" ],
@@ -336,10 +344,18 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III meantone temperament", ",", "Werkmeister VI meantone temperament", ",", "Kirnberger III meantone temperament", ",", "slendro", ",", "pelog", ",", "Bohlen-Pierce scale" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -393,7 +409,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.666666666666629, 1456.75, 84.0, 22.0 ],
+					"patching_rect" : [ 107.666666666666629, 1456.75, 85.0, 22.0 ],
 					"text" : "r #0search"
 				}
 
@@ -416,7 +432,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.666666666666629, 1351.5, 76.0, 22.0 ],
+					"patching_rect" : [ 451.666666666666629, 1351.5, 77.0, 22.0 ],
 					"text" : "s #0clear"
 				}
 
@@ -483,7 +499,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.166666666666629, 503.0, 76.0, 22.0 ],
+					"patching_rect" : [ 236.166666666666629, 503.0, 77.0, 22.0 ],
 					"text" : "s #0clear"
 				}
 
@@ -507,7 +523,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 564.0, 2217.5, 74.0, 22.0 ],
+					"patching_rect" : [ 564.0, 2217.5, 75.0, 22.0 ],
 					"text" : "r #0clear"
 				}
 
@@ -558,7 +574,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 882.119047619047592, 1674.0, 98.0, 22.0 ],
+					"patching_rect" : [ 882.119047619047592, 1674.0, 99.0, 22.0 ],
 					"text" : "s #0playback"
 				}
 
@@ -594,7 +610,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.416666666666515, 2615.75, 96.0, 22.0 ],
+					"patching_rect" : [ 634.416666666666515, 2615.75, 97.0, 22.0 ],
 					"text" : "r #0playback"
 				}
 
@@ -605,7 +621,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.5, 779.0, 98.0, 22.0 ],
+					"patching_rect" : [ 443.5, 779.0, 99.0, 22.0 ],
 					"text" : "s #0playback"
 				}
 
@@ -2450,6 +2466,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jinx.addsynth.core~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth.poly~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jinx.dr2r.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
@@ -2485,20 +2522,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jinx.synth.poly~.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jinx.synth~.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "utils.coll2menu.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
@@ -2523,6 +2546,13 @@
 				"name" : "utils.r2roll.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -241,6 +241,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"format" : 6,
 					"id" : "obj-2",
 					"maxclass" : "flonum",
@@ -250,9 +251,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1352.0, 589.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1352.0, 589.0, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 291.0, 231.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 291.0, 231.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -546,6 +547,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-104",
 					"maxclass" : "number",
 					"maximum" : 15,
@@ -554,9 +556,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1695.0, 399.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1695.0, 399.0, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 291.0, 179.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 291.0, 179.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -608,6 +610,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-99",
 					"maxclass" : "number",
 					"maximum" : 5,
@@ -616,9 +619,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 325.0, 237.0, 50.0, 22.0 ],
+					"patching_rect" : [ 325.0, 237.0, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 206.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 4.0, 206.0, 52.0, 23.0 ]
 				}
 
 			}
@@ -664,6 +667,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-88",
 					"maxclass" : "number",
 					"maximum" : 7,
@@ -672,9 +676,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 789.0, 237.5, 50.0, 22.0 ],
+					"patching_rect" : [ 789.0, 237.5, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 231.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 4.0, 231.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -875,6 +879,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-64",
 					"items" : [ "ascending normal", ",", "descending normal", ",", "ascending rare", ",", "descending rare" ],
 					"maxclass" : "umenu",
@@ -883,14 +896,15 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 855.333333666666476, 326.0, 153.0, 22.0 ],
+					"patching_rect" : [ 855.333333666666476, 326.0, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 258.5, 128.0, 22.0 ]
+					"presentation_rect" : [ 4.0, 257.5, 128.0, 23.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"format" : 6,
 					"id" : "obj-39",
 					"maxclass" : "flonum",
@@ -900,9 +914,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1945.0, 590.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1945.0, 590.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 291.0, 205.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 291.0, 205.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -1109,6 +1123,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"format" : 6,
 					"id" : "obj-10",
 					"maxclass" : "flonum",
@@ -1118,9 +1133,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 280.5, 50.0, 22.0 ],
+					"patching_rect" : [ 14.0, 280.5, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 179.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 4.0, 179.5, 52.0, 23.0 ]
 				}
 
 			}

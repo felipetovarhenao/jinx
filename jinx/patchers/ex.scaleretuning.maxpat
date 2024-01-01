@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -317,7 +317,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -490,7 +490,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "#( pythagorean comma: ((3/2) ** 12) / 2 ** 7 )#\n$PY_COMMA = 531441 / 524288; \n\n#( syntonic comma: ((3/2) ** 4) / 5 )#\n$SYN_COMMA = 81 / 80;\n\n$normalize = ($x ->\n\t$x * 2**-int(floor(log2($x)))\n);\n\n$meantone = (\n\t$x, $comma = $SYN_COMMA -^ $normalize -> (\n\t\t$N = length($x);\n\t\t$fifths = for $i in 0...10 collect (\n\t\t\t$id = min($i+1, $N);\n\t\t\t$cfrac = ($x:$id);\n\t\t\t$dist = $comma**$cfrac; \n\t\t\t(3/2)*$dist\n\t\t);\n\t\t$y = 1;\n\t\tsort($normalize($y (for $f in $fifths collect $y = $y*$f)))\n\t)\n);\n\n$ntet = (\n\t$x, $b = 2, $d = 1 -> $b**(((0...($x-1))/$x)**$d)\n);\n\n\n[\n\t[ \"name\" \"1/4-comma meantone temperament\" ]\n\t[ \"ratios\" $meantone(((-1/4) :* 8) 7/4 ((-1/4) :* 2)) ]\n]\n[\n\t[ \"name\" \"1/6-comma meantone temperament\" ]\n\t[ \"ratios\" $meantone(((-1/6) :* 8) 5/6 ((-1/6) :* 2)) ]\n]\n[\n\t[ \"name\" \"Rameau meantone temperament\" ]\n\t[ \"ratios\" $meantone(((-1/4) :* 5) (0 :* 3) -1/6 ((1/3) :* 2)) ]\n]\n[\n\t[ \"name\" \"12 EDO (chromatic)\" ]\n\t[ \"ratios\" 2 ** ((0...11) / 12) ]\n]\n[\n\t[ \"name\" \"5 EDO\" ]\n\t[ \"ratios\" $ntet(5) 2 ]\n]\n[\n\t[ \"name\" \"7 EDO\" ]\n\t[ \"ratios\" $ntet(7) 2 ]\n]\n[\n\t[ \"name\" \"8 EDO\" ]\n\t[ \"ratios\" $ntet(8) 2 ]\n]\n[\n\t[ \"name\" \"9 EDO\" ]\n\t[ \"ratios\" $ntet(9) 2 ]\n]\n[\n\t[ \"name\" \"10 EDO\" ]\n\t[ \"ratios\" $ntet(10) 2 ]\n]\n[\n\t[ \"name\" \"11 EDO\" ]\n\t[ \"ratios\" $ntet(11) 2 ]\n]\n[\n\t[ \"name\" \"13 EDO\" ]\n\t[ \"ratios\" $ntet(13) 2 ]\n]\n[\n\t[ \"name\" \"14 EDO\" ]\n\t[ \"ratios\" $ntet(14) 2 ]\n]\n[\n\t[ \"name\" \"15 EDO\" ]\n\t[ \"ratios\" $ntet(15) 2 ]\n]\n[\n\t[ \"name\" \"16 EDO\" ]\n\t[ \"ratios\" $ntet(16) 2 ]\n]\n[\n\t[ \"name\" \"17 EDO\" ]\n\t[ \"ratios\" $ntet(17) 2 ]\n]\n[\n\t[ \"name\" \"18 EDO\" ]\n\t[ \"ratios\" $ntet(18) 2 ]\n]\n[\n\t[ \"name\" \"19 EDO\" ]\n\t[ \"ratios\" $ntet(19) 2 ]\n]\n[\n\t[ \"name\" \"20 EDO\" ]\n\t[ \"ratios\" $ntet(20) 2 ]\n]\n[\n\t[ \"name\" \"21 EDO\" ]\n\t[ \"ratios\" $ntet(21) 2 ]\n]\n[\n\t[ \"name\" \"20 EDO\" ]\n\t[ \"ratios\" $ntet(20) 2 ]\n]\n[\n\t[ \"name\" \"21 EDO\" ]\n\t[ \"ratios\" $ntet(21) 2 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 3)\" ]\n\t[ \"ratios\" (4...8) / 4 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 4)\" ]\n\t[ \"ratios\" (8...16) / 8 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 5)\" ]\n\t[ \"ratios\" (16...32) / 16 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 6)\" ]\n\t[ \"ratios\" (32...64) / 32 ]\n]\n[\n\t[\"name\" \"Aristoxenus' enharmonic\"]\n\t[ \"ratios\" 1/1 40/39 20/19 4/3 3/2 20/13 30/19 2/1 ]\n]\n[\n\t[\"name\" \"Tense diatonic\"]\n\t[ \"ratios\" 1/1 16/15 6/5 4/3 3/2 8/5 9/5 2/1 ]\n]\n[\n\t[\"name\" \"Pythagorean scale\"]\n\t[ \"ratios\" 1/1 9/8 81/64 4/3 3/2 27/16 16/9 243/128 2/1 ]\n]\n[\n\t[\"name\" \"Pythagorean pentatonic\"]\n\t[ \"ratios\" 1/1 9/8 81/64 3/2 27/16 ]\n]\n[\n\t[\"name\" \"Just intonation chromatic (v1)\"]\n\t[\"ratios\" 1/1 16/15 9/8 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]\n]\n[\n\t[\"name\" \"Just intonation chromatic (v2)\"]\n\t[\"ratios\" 1/1 25/24 10/9 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]\n]\n[\n\t[\"name\" \"Partch 43 tone scale\"]\n\t[\"ratios\" 1/1 33/32 21/20 12/11 10/9 8/7 7/6 6/5 5/4 14/11 21/16 27/20 7/5 10/7 40/27 32/21 14/9 8/5 5/3 12/7 7/4 9/5 11/6 15/8 64/33 2/1 ]\n]\n[\n\t[ \"name\" \"La Monte Young's 7-limit\" ]\n\t[ \"ratios\" 1 567/512 9/8 147/128 1323/1024 21/16 189/128 3/2 49/32 441/256 7/4 63/32 2 ]\n] ",
+									"code" : "#( pythagorean comma: ((3/2) ** 12) / 2 ** 7 )#\n$PY_COMMA = 531441 / 524288; \n\n#( syntonic comma: ((3/2) ** 4) / 5 )#\n$SYN_COMMA = 81 / 80;\n\n$normalize = ($x ->\n\tfor $v in $x collect (\n\t\t$val = ($v * 2 ** -int(floor(log2($v))));\n\t\t$ratval = rat($val);\n\t\tif float($ratval) == $val then $ratval else $val\n\t)\n);\n\n$meantone = (\n\t$x, $comma = $SYN_COMMA -^ $normalize -> (\n\t\t$N = length($x);\n\t\tif reduce($x, #+) != -1 then print(\"meantone fractions must add up to -1\");\n\t\t$fifths = for $i in 0...10 collect (\n\t\t\t$id = min($i+1, $N);\n\t\t\t$cfrac = ($x:$id);\n\t\t\t$dist = $comma**$cfrac; \n\t\t\t(3/2)*$dist\n\t\t);\n\t\t$y = 1;\n\t\tsort($normalize($y (for $f in $fifths collect $y = $y*$f)))\n\t)\n);\n\n$ntet = (\n\t$x, $b = 2, $d = 1 -> $b**(((0...($x-1))/$x)**$d)\n);\n\n$c2r = (\n\t$c -> 2**($c/1200)\n);\n\n$lookup = (\n\t$ids, $x -> for $i in $ids collect $x:$i\n);\n\n[\n\t[ \"name\" \"12 EDO (chromatic)\" ]\n\t[ \"ratios\" $ntet(12) 2 ]\n]\n[\n\t[ \"name\" \"5 EDO\" ]\n\t[ \"ratios\" $ntet(5) 2 ]\n]\n[\n\t[ \"name\" \"7 EDO\" ]\n\t[ \"ratios\" $ntet(7) 2 ]\n]\n[\n\t[ \"name\" \"8 EDO\" ]\n\t[ \"ratios\" $ntet(8) 2 ]\n]\n[\n\t[ \"name\" \"9 EDO\" ]\n\t[ \"ratios\" $ntet(9) 2 ]\n]\n[\n\t[ \"name\" \"10 EDO\" ]\n\t[ \"ratios\" $ntet(10) 2 ]\n]\n[\n\t[ \"name\" \"11 EDO\" ]\n\t[ \"ratios\" $ntet(11) 2 ]\n]\n[\n\t[ \"name\" \"13 EDO\" ]\n\t[ \"ratios\" $ntet(13) 2 ]\n]\n[\n\t[ \"name\" \"14 EDO\" ]\n\t[ \"ratios\" $ntet(14) 2 ]\n]\n[\n\t[ \"name\" \"15 EDO\" ]\n\t[ \"ratios\" $ntet(15) 2 ]\n]\n[\n\t[ \"name\" \"16 EDO\" ]\n\t[ \"ratios\" $ntet(16) 2 ]\n]\n[\n\t[ \"name\" \"17 EDO\" ]\n\t[ \"ratios\" $ntet(17) 2 ]\n]\n[\n\t[ \"name\" \"18 EDO\" ]\n\t[ \"ratios\" $ntet(18) 2 ]\n]\n[\n\t[ \"name\" \"19 EDO\" ]\n\t[ \"ratios\" $ntet(19) 2 ]\n]\n[\n\t[ \"name\" \"20 EDO\" ]\n\t[ \"ratios\" $ntet(20) 2 ]\n]\n[\n\t[ \"name\" \"21 EDO\" ]\n\t[ \"ratios\" $ntet(21) 2 ]\n]\n[\n\t[ \"name\" \"20 EDO\" ]\n\t[ \"ratios\" $ntet(20) 2 ]\n]\n[\n\t[ \"name\" \"21 EDO\" ]\n\t[ \"ratios\" $ntet(21) 2 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 3)\" ]\n\t[ \"ratios\" (4...8) / 4 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 4)\" ]\n\t[ \"ratios\" (8...16) / 8 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 5)\" ]\n\t[ \"ratios\" (16...32) / 16 ]\n]\n[\n\t[ \"name\" \"Harmonic series (oct 6)\" ]\n\t[ \"ratios\" (32...64) / 32 ]\n]\n[\n\t[\"name\" \"Aristoxenus' enharmonic\"]\n\t[ \"ratios\" 1/1 40/39 20/19 4/3 3/2 20/13 30/19 2/1 ]\n]\n[\n\t[\"name\" \"Tense diatonic\"]\n\t[ \"ratios\" 1/1 16/15 6/5 4/3 3/2 8/5 9/5 2/1 ]\n]\n[\n\t[\"name\" \"Pythagorean scale\"]\n\t[ \"ratios\" sort($normalize((3/2)**(-5...6)) 2) ]\n]\n[\n\t[\"name\" \"Pythagorean pentatonic\"]\n\t[ \"ratios\" 1/1 9/8 81/64 3/2 27/16 2/1 ]\n]\n[\n\t[\"name\" \"Just intonation chromatic (v1)\"]\n\t[\"ratios\" 1/1 16/15 9/8 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]\n]\n[\n\t[\"name\" \"Just intonation chromatic (v2)\"]\n\t[\"ratios\" 1/1 25/24 10/9 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8 2/1 ]\n]\n[\n\t[\"name\" \"Partch 43 tone scale\"]\n\t[\"ratios\" 1 81/80 33/32 21/20 16/15 12/11 11/10 10/9 9/8 8/7 7/6 32/27 6/5 11/9 5/4 14/11 9/7 21/16 4/3 27/20 11/8 7/5 10/7 16/11 40/27 3/2 32/21 14/9 11/7 8/5 18/11 5/3 27/16 12/7 7/4 16/9 9/5 20/11 11/6 15/8 40/21 64/33 160/81 2 ]\n]\n[\n\t[ \"name\" \"La Monte Young's 7-limit\" ]\n\t[ \"ratios\" 1 567/512 9/8 147/128 21/16 1323/1024 189/128 3/2 49/32 7/4 441/256 63/32 2 ]\n]\n[\n\t[ \"name\" \"1/4-comma meantone temperament\" ]\n\t[ \"ratios\" $meantone(((-1/4) :* 8) 7/4 ((-1/4) :* 3)) 2 ]\n]\n[\n\t[ \"name\" \"1/6-comma meantone temperament\" ]\n\t[ \"ratios\" $meantone(((-1/6) :* 8) 5/6 ((-1/6) :* 3)) 2 ]\n]\n[\n\t[ \"name\" \"Rameau meantone temperament\" ]\n\t[ \"ratios\" $meantone(((-1/4) :* 5) (0 :* 3) -1/6 ((1/3) :* 2) -1/4) 2 ]\n]\n[\n\t[ \"name\" \"Werkmeister III well temperament\" ]\n\t[ \"ratios\" $meantone(((-1/4) :* 3) (0 :* 2) -1/4 (0 :* 6), $PY_COMMA) 2 ]\n]\n[\n\t[ \"name\" \"Werkmeister VI well temperament\" ]\n\t[ \"ratios\" $meantone(-1/7 -4/7 1/7 0 0 -1/7 -2/7 0 1/7 0 -1/7 0, $PY_COMMA) 2 ]\n]\n[\n\t[ \"name\" \"Kirnberger III meantone temperament\" ]\n\t[ \"ratios\" $meantone(((-1/4) :* 4) (0 :* 8)) 2 ]\n]\n[\n\t[ \"name\" \"Slendro\" ]\n\t[ \"ratios\" $c2r(0 231 474 717 955 1208) ]\n\t[ \"octave\" log2(1208/1200) ]\n]\n[\n\t[ \"name\" \"Pelog\" ]\n\t[ \"ratios\" $c2r(0 120 258 539 675 785 943 1206) ]\n\t[ \"octave\" log2(1206/1200) ]\n]\n[\n\t[ \"name\" \"Bohlen-Pierce scale\"]\n\t[ \"ratios\" $lookup(0 1 3 4 6 7 9 10 12, $ntet(13, 3)) 3]\n\t[ \"octave\" 3 ]\n]\n",
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -750,9 +750,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-17",
-					"items" : [ "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "La Monte Young's 7-limit" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -779,9 +787,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-3",
-					"items" : [ "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.midi" ],
+					"items" : [ "bach_chorale.midi", ",", "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1127,6 +1143,27 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "jinx.addsynth.core~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth.poly~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jinx.addsynth~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jinx.mc2roll.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
@@ -1142,20 +1179,6 @@
 			}
 , 			{
 				"name" : "jinx.r2mc.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jinx.synth.poly~.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jinx.synth~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1186,6 +1209,13 @@
 				"name" : "utils.r2roll.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yafr2.maxpat",
+				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
+				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/effects/reverb/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

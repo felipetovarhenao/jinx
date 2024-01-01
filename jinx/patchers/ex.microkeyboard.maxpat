@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 389.0, 95.0, 537.0, 842.0 ],
+		"rect" : [ 260.0, 94.0, 531.0, 842.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -22,11 +22,11 @@
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"lefttoolbarpinned" : 2,
+		"toptoolbarpinned" : 2,
+		"righttoolbarpinned" : 2,
+		"bottomtoolbarpinned" : 2,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -41,13 +41,14 @@
 		"title" : "microtonal keyboard",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-58",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1420.666666999999961, 1204.80773252248764, 100.0, 20.0 ],
+					"patching_rect" : [ 1346.666666999999961, 1252.153841018676758, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 710.5, 100.0, 20.0 ],
 					"text" : "adapt timbre",
@@ -62,7 +63,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1420.666666999999961, 1242.307733774185181, 110.73333300000013, 22.0 ],
+					"patching_rect" : [ 1346.666666999999961, 1289.653842270374298, 184.73333300000013, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -79,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1420.666666999999961, 1358.653891503810883, 95.0, 22.0 ],
+					"patching_rect" : [ 1346.666666999999961, 1406.0, 95.0, 22.0 ],
 					"text" : "prepend partials"
 				}
 
@@ -91,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1420.666666999999961, 1322.115428745746613, 99.0, 22.0 ],
+					"patching_rect" : [ 1346.666666999999961, 1369.46153724193573, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -107,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1533.797388890926413, 1242.307733774185181, 177.0, 22.0 ],
+					"patching_rect" : [ 1571.797388890926413, 1289.653842270374298, 177.0, 22.0 ],
 					"text" : "loadmess 1 0.5 0.25 0.125 0.06"
 				}
 
@@ -119,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1420.666666999999961, 1282.115385353565216, 132.130721890926452, 22.0 ],
+					"patching_rect" : [ 1346.666666999999961, 1329.461493849754333, 244.130721890926452, 22.0 ],
 					"text" : "jinx.r2timbre"
 				}
 
@@ -131,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1420.666666666666742, 924.875, 101.0, 22.0 ],
+					"patching_rect" : [ 1390.666666666666742, 898.5, 101.0, 22.0 ],
 					"text" : "bach.* 1. @out m"
 				}
 
@@ -206,6 +207,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"format" : 4,
 					"id" : "obj-61",
 					"maxclass" : "number",
@@ -215,9 +217,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1069.0, 898.5, 50.0, 22.0 ],
+					"patching_rect" : [ 1069.0, 898.5, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 213.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 4.5, 213.5, 50.0, 23.0 ]
 				}
 
 			}
@@ -268,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1187.599999999999909, 1026.0, 252.066666666666833, 22.0 ],
+					"patching_rect" : [ 1187.599999999999909, 1026.0, 222.0, 22.0 ],
 					"text" : "sprintf tuning size: %i | octave ratio: %f"
 				}
 
@@ -285,7 +287,7 @@
 					"patching_rect" : [ 1187.599999999999909, 1111.0, 222.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 285.0, 520.0, 23.0 ],
-					"text" : "tuning size: 12 | octave ratio: 0.00",
+					"text" : "tuning size: 12 | octave ratio: 2.00",
 					"textjustification" : 2
 				}
 
@@ -1178,7 +1180,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 700.399999999999977, 1300.0, 108.0, 22.0 ],
+					"patching_rect" : [ 699.899999999999977, 1289.653842270374298, 108.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1229,6 +1231,14 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-92",
@@ -1337,7 +1347,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"microtonal keyboard\" ]\n[ 'description' \"A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The highest ratio in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.\"] ",
+					"code" : "[ 'title' \"microtonal keyboard\" ]\n[ 'description' \"A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The highest ratio in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.\"]\n[ 'tags' \"retuning\" \"timbre\" \"justintonation\" \"EDO\"] ",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1401,7 +1411,7 @@
 					"numvoices" : 2,
 					"out" : "nnnnnnn",
 					"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-					"patching_rect" : [ 700.399999999999977, 1345.0, 157.000000000000114, 83.0 ],
+					"patching_rect" : [ 700.399999999999977, 1329.461493849754333, 157.000000000000114, 98.538506150245667 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 284.0, 521.0, 423.0 ],
@@ -1438,7 +1448,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.399999999999977, 1262.0, 127.0, 22.0 ],
+					"patching_rect" : [ 699.899999999999977, 1252.153841018676758, 127.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -1484,7 +1494,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1350.0, 864.0, 125.0, 22.0 ],
+					"patching_rect" : [ 1350.0, 864.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -1542,7 +1552,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 818.685714285714312, 1473.0, 620.98095271428565, 69.0 ],
+					"patching_rect" : [ 818.685714285714312, 1460.0, 546.98095271428565, 68.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 781.0, 521.0, 59.0 ],
 					"viewvisibility" : 1
@@ -1670,6 +1680,14 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
@@ -2135,6 +2153,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-50", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-50", 5 ]
 				}
 
 			}

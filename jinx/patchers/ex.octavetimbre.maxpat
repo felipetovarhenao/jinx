@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -125,13 +125,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 356.0, 51.0, 20.0 ],
+					"patching_rect" : [ 163.0, 356.0, 49.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 213.0, 51.0, 20.0 ],
+					"presentation_rect" : [ 252.0, 213.0, 49.0, 21.0 ],
 					"text" : "test file"
 				}
 
@@ -139,13 +140,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 199.0, 48.0, 20.0 ],
+					"patching_rect" : [ 445.0, 199.0, 46.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 240.0, 48.0, 20.0 ],
+					"presentation_rect" : [ 252.0, 240.0, 46.0, 21.0 ],
 					"text" : "setting"
 				}
 
@@ -259,6 +261,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-12",
 					"items" : [ "chromatic tuning, harmonic timbre", ",", "chromatic tuning, inharmonic timbre", ",", "inharmonic tuning, harmonic timbre", ",", "inharmonic tuning and timbre" ],
 					"maxclass" : "umenu",
@@ -267,9 +278,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 498.0, 198.0, 244.0, 22.0 ],
+					"patching_rect" : [ 498.0, 198.0, 244.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 239.0, 242.0, 22.0 ]
+					"presentation_rect" : [ 6.0, 239.0, 242.0, 23.0 ]
 				}
 
 			}
@@ -311,6 +322,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
 					"items" : [ "bach_chorale.midi", ",", "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi" ],
 					"maxclass" : "umenu",
@@ -319,9 +339,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 6.0, 355.0, 151.0, 22.0 ],
+					"patching_rect" : [ 6.0, 355.0, 151.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 212.0, 242.0, 22.0 ]
+					"presentation_rect" : [ 6.0, 212.0, 242.0, 23.0 ]
 				}
 
 			}
@@ -349,7 +369,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
