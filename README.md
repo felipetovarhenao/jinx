@@ -8,10 +8,13 @@ This project was developed as teaching and study material for the 2024 Spring co
 
 ### Requirements
 
-This project was developed and has only been tested in macOS, but should also be functional in Windows computers. To open it, the following software is required:
-- [Max](https://cycling74.com/products/max) programming environment.
+This project was developed and has only been tested in macOS, but should also be functional in Windows computers. To use it, the following software is required:
+- [Max](https://cycling74.com/products/max) programming environment. A commercial license is not required to use this project.
 - [bach](https://bachproject.net) library, which can be installed through the [Max Package Manager](https://docs.cycling74.com/max8/vignettes/package_manager).
 
+
+### Usage
+Once all software requirements are installed, open the `jinx.maxproj` file, located in the `jinx` folder. This will open the main menu, where all available interactive tools are listed and can be accessed from.
 
 ### License
 This project is distributed under the terms of the GNU General Public License version 3 (GPL-v3.0).
