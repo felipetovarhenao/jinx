@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,66 @@
 		"assistshowspatchername" : 0,
 		"title" : "tuning theory examples",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 13.0,
+					"id" : "obj-28",
+					"linecount" : 6,
+					"linkend" : [ "*" ],
+					"maxclass" : "bach.hypercomment",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 357.0, 1545.0, 106.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 191.5, 517.0, 337.0, 38.0 ],
+					"text" : "tags: #sensorydissonance #timbre #justintonation #psychoacoustics"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 357.0, 1507.0, 101.0, 22.0 ],
+					"text" : "prepend set tags:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 519.5, 1465.0, 68.0, 22.0 ],
+					"text" : "sprintf #%s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 357.0, 1465.0, 143.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.mapelem @out mm"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
@@ -87,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 1460.0, 41.0, 22.0 ],
+					"patching_rect" : [ 239.75, 1460.0, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -99,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.166666666666629, 1460.0, 41.0, 22.0 ],
+					"patching_rect" : [ 122.625, 1460.0, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -207,7 +267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.5, 1429.0, 79.0, 22.0 ],
+					"patching_rect" : [ 138.458333333333371, 1507.0, 79.0, 22.0 ],
 					"text" : "loadmess set"
 				}
 
@@ -221,7 +281,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.166666666666629, 1666.0, 500.0, 74.0 ],
+					"patching_rect" : [ 122.625, 1666.0, 500.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
 					"presentation_rect" : [ 191.5, 271.0, 337.0, 107.0 ],
@@ -238,7 +298,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 1538.0, 215.0, 30.0 ],
+					"patching_rect" : [ 239.75, 1625.0, 215.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.5, 234.0, 337.0, 30.0 ],
 					"text" : "dissonance curve"
@@ -250,14 +310,14 @@
 					"id" : "obj-92",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "bang" ],
-					"patching_rect" : [ 5.5, 1429.0, 210.0, 22.0 ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "bang" ],
+					"patching_rect" : [ 5.5, 1429.0, 487.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.keys file description title @out m"
+					"text" : "bach.keys file description title tags @out m"
 				}
 
 			}
@@ -280,7 +340,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "tuning", "and", "timbre", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -497,7 +557,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"virtual fundamental\" ]\n[ 'description' \"This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra\"] ",
+					"code" : "[ 'title' \"virtual fundamental\" ]\n[ 'description' \"This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra\"]\n[ 'tags' \"auditoryillusions\" \"psychoacoustics\" \"harmonicseries\" ] ",
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -685,7 +745,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
+					"destination" : [ "obj-28", 0 ],
 					"order" : 0,
 					"source" : [ "obj-100", 0 ]
 				}
@@ -693,8 +753,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
+					"destination" : [ "obj-94", 0 ],
 					"order" : 1,
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"order" : 2,
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -773,6 +841,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1042,6 +1138,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-92", 3 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "bach.args.mxo",
@@ -1077,6 +1180,10 @@
 				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "bach.nth.mxo",

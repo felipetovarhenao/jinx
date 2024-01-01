@@ -1,2 +1,3 @@
 [ 'title' "chord browser" ]
 [ 'description' "A search engine for finding just intonation chords or collections within any given tuning system."]
+[ 'tags' "musictheory" "analysis" "justintonation"]

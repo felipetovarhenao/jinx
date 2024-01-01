@@ -1,2 +1,3 @@
 [ 'title' "microtonal keyboard" ]
 [ 'description' "A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The highest ratio in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats."]
+[ 'tags' "retuning" "timbre" "justintonation" "EDO"]
