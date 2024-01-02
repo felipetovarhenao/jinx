@@ -51,6 +51,19 @@ $diamond = (
 	)
 );
 
+$getsrutis = (
+	-^ $normalize -> (
+		$schisma = 32805/32768;
+		$ratios = for $i in 1...12 collect (
+			$r = ((3/2) (4/3)) ** $i;
+			if $i >= 6 then (
+				$r * (1/$schisma $schisma) 
+			) else $r
+		);
+		1 sort($normalize(flat(slice($ratios, -3):1))) 2
+	)
+);
+
 [
 	[ "name" "12 EDO (chromatic)" ]
 	[ "ratios" $ntet(12) 2 ]
@@ -218,15 +231,16 @@ $diamond = (
 [
 	[ "name" "Slendro" ]
 	[ "ratios" $c2r(0 231 474 717 955 1208) ]
-	[ "octave" log2(1208/1200) ]
 ]
 [
 	[ "name" "Pelog" ]
 	[ "ratios" $c2r(0 120 258 539 675 785 943 1206) ]
-	[ "octave" log2(1206/1200) ]
 ]
 [
 	[ "name" "Bohlen-Pierce scale"]
 	[ "ratios" $lookup(0 1 3 4 6 7 9 10 12, $ntet(13, 3)) 3]
-	[ "octave" 3 ]
+]
+[
+	[ "name" "Classical Indian 22-Sruti tuning"]
+	[ "ratios" $getsrutis() ]
 ]
