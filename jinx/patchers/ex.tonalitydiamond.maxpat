@@ -162,7 +162,7 @@
 					"patching_rect" : [ 206.0, 315.0, 200.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 217.5, 317.0, 23.0 ],
-					"text" : "1 3 5 7 11",
+					"text" : "1 7 13",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -354,7 +354,7 @@
 									"outlettype" : [ "", "bang" ],
 									"outputmode" : 1,
 									"patching_rect" : [ 316.0, 198.0, 50.0, 22.0 ],
-									"text" : "7/3"
+									"text" : "7/1"
 								}
 
 							}
@@ -746,7 +746,7 @@
 													"outlettype" : [ "", "bang" ],
 													"outputmode" : 1,
 													"patching_rect" : [ 256.0, 86.0, 50.0, 22.0 ],
-													"text" : "7/11"
+													"text" : "7/13"
 												}
 
 											}
@@ -945,7 +945,7 @@
 													"outlettype" : [ "", "bang" ],
 													"outputmode" : 1,
 													"patching_rect" : [ 266.0, 89.0, 50.0, 22.0 ],
-													"text" : "7/3"
+													"text" : "7/1"
 												}
 
 											}
@@ -1827,7 +1827,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 412.0, 850.0, 200.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 751.5, 189.0, 20.0 ],
+					"presentation_rect" : [ 323.0, 191.5, 196.5, 21.0 ],
 					"tabcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ],
 					"tabs" : [ "all", "u-tonality", "o-tonality" ]
 				}
@@ -2241,7 +2241,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 5,
+					"cols" : 3,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -2258,7 +2258,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 242.5, 317.0, 318.0 ],
 					"rowheight" : 45,
-					"rows" : 5,
+					"rows" : 3,
 					"selmode" : 0,
 					"vscroll" : 0
 				}
@@ -2448,7 +2448,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 103.0, 1702.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 467.5, 217.5, 52.0, 23.0 ]
+					"presentation_rect" : [ 467.5, 539.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -2480,7 +2480,7 @@
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 870.0, 1564.0, 105.0, 370.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 242.5, 196.5, 318.0 ],
+					"presentation_rect" : [ 323.0, 217.5, 196.5, 320.0 ],
 					"preventedit" : 1,
 					"versionnumber" : 80300
 				}
@@ -2621,7 +2621,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 158.0, 1703.0, 78.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 323.0, 217.5, 78.0, 21.0 ],
+					"presentation_rect" : [ 323.0, 539.5, 78.0, 21.0 ],
 					"text" : "unique ratios"
 				}
 
