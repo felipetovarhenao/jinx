@@ -56,13 +56,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 36.666666666666671, 401.0, 113.0, 22.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 36.666666666666671, 401.0, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.portal @out m"
+					"text" : "bach.portal @out p"
 				}
 
 			}
