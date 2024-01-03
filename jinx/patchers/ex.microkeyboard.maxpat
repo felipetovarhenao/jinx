@@ -287,7 +287,7 @@
 					"patching_rect" : [ 1187.599999999999909, 1111.0, 222.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.5, 285.0, 520.0, 23.0 ],
-					"text" : "tuning size: 12 | octave ratio: 2.00",
+					"text" : "tuning size: 7 | octave ratio: 2.05",
 					"textjustification" : 2
 				}
 
@@ -1509,7 +1509,6 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1518,9 +1517,8 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 538.0, 707.0, 538.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 4.5, 238.0, 521.0, 43.0 ],
-					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
+					"text" : "1 9/8 5/4 4/3 3/2 5/3 15/8 2.05",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1691,7 +1689,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "Classical Indian 22-sruti tuning" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1700,7 +1698,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 538.0, 425.0, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 342.5, 213.0, 183.0, 23.0 ],
+					"presentation_rect" : [ 296.5, 213.0, 229.0, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -1716,7 +1714,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 484.0, 425.0, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 291.5, 213.0, 49.0, 23.0 ],
+					"presentation_rect" : [ 245.5, 213.0, 49.0, 23.0 ],
 					"text" : "tuning"
 				}
 
