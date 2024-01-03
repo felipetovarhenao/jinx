@@ -1,0 +1,3 @@
+[ 'title' "scale inspector" ]
+[ 'description' "An interface that allows the user visualize all possible pitch combinations within a tuning system. Caution is advised when attempting to inspect large scales/tunings, as it might take several minutes to process."]
+[ 'tags' "analysis" "justintonation" "musictheory"]

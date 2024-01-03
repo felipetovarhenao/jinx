@@ -162,7 +162,7 @@
 					"patching_rect" : [ 206.0, 315.0, 200.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 217.5, 317.0, 23.0 ],
-					"text" : "1 7 13",
+					"text" : "1",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -323,7 +323,7 @@
 									"outlettype" : [ "", "bang" ],
 									"outputmode" : 1,
 									"patching_rect" : [ 161.5, 198.0, 50.0, 22.0 ],
-									"text" : "1/7"
+									"text" : "0/1"
 								}
 
 							}
@@ -354,7 +354,7 @@
 									"outlettype" : [ "", "bang" ],
 									"outputmode" : 1,
 									"patching_rect" : [ 316.0, 198.0, 50.0, 22.0 ],
-									"text" : "7/1"
+									"text" : "0/1"
 								}
 
 							}
@@ -443,7 +443,7 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 7.0, 55.849609375, 328.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"embed" : 1,
+										"embed" : 0,
 										"versionnumber" : 80300
 									}
 ,
@@ -746,7 +746,7 @@
 													"outlettype" : [ "", "bang" ],
 													"outputmode" : 1,
 													"patching_rect" : [ 256.0, 86.0, 50.0, 22.0 ],
-													"text" : "7/13"
+													"text" : "0/1"
 												}
 
 											}
@@ -945,7 +945,7 @@
 													"outlettype" : [ "", "bang" ],
 													"outputmode" : 1,
 													"patching_rect" : [ 266.0, 89.0, 50.0, 22.0 ],
-													"text" : "7/1"
+													"text" : "0/1"
 												}
 
 											}
@@ -2241,7 +2241,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 3,
+					"cols" : 1,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -2258,7 +2258,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 242.5, 317.0, 318.0 ],
 					"rowheight" : 45,
-					"rows" : 3,
+					"rows" : 1,
 					"selmode" : 0,
 					"vscroll" : 0
 				}
