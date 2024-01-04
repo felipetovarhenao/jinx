@@ -41,6 +41,26 @@
 		"title" : "tuning theory examples",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"linecolor" : [ 0.623529411764706, 0.623529411764706, 0.623529411764706, 0.333333333333333 ],
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 548.0, 1299.0, 229.0, 5.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 191.5, 444.0, 333.0, 5.0 ],
+					"saved_attribute_attributes" : 					{
+						"linecolor" : 						{
+							"expression" : "themecolor.live_spectrum_grid_lines"
+						}
+
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
@@ -54,7 +74,7 @@
 					"patching_rect" : [ 357.0, 1545.0, 106.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.5, 453.0, 333.0, 22.0 ],
-					"text" : "tags: #retuning #timbre #justintonation #EDO"
+					"text" : "tags: #musictheory #analysis #justintonation"
 				}
 
 			}
@@ -276,15 +296,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.625, 1666.0, 500.0, 91.0 ],
+					"patching_rect" : [ 122.625, 1666.0, 500.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 7,
-					"presentation_rect" : [ 191.5, 271.0, 333.0, 124.0 ],
-					"text" : "A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The highest ratio in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 191.5, 271.0, 333.0, 40.0 ],
+					"text" : "A search engine for finding just intonation chords or collections within any given tuning system.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -300,7 +320,7 @@
 					"patching_rect" : [ 239.75, 1625.0, 215.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.5, 234.0, 333.0, 30.0 ],
-					"text" : "microtonal keyboard"
+					"text" : "chord browser"
 				}
 
 			}
