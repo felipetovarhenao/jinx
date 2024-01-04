@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 292.0, 87.0, 523.0, 795.0 ],
+		"rect" : [ 292.0, 87.0, 523.0, 848.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -509,7 +509,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 772.0, 759.0, 65.0, 22.0 ],
+					"patching_rect" : [ 772.0, 759.0, 85.0, 22.0 ],
 					"text" : "s #0trigger"
 				}
 
@@ -848,7 +848,7 @@
 , 			{
 				"box" : 				{
 					"automouse" : 0,
-					"cols" : 3,
+					"cols" : 4,
 					"colwidth" : 64,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -917,7 +917,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 421.0, 1061.75, 65.0, 22.0 ],
+					"patching_rect" : [ 421.0, 1061.75, 85.0, 22.0 ],
 					"text" : "s #0trigger"
 				}
 
@@ -970,7 +970,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 497.0, 63.0, 22.0 ],
+					"patching_rect" : [ 13.0, 497.0, 83.0, 22.0 ],
 					"text" : "r #0trigger"
 				}
 
@@ -1026,7 +1026,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 887.25, 65.0, 22.0 ],
+					"patching_rect" : [ 201.0, 887.25, 85.0, 22.0 ],
 					"text" : "s #0trigger"
 				}
 
@@ -1265,7 +1265,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 93.2236328125, 163.0, 22.0 ],
-									"presentation_linecount" : 5,
 									"text" : "clefs FFGG, voicespacing 50"
 								}
 
@@ -1390,8 +1389,7 @@
 					"patching_rect" : [ 219.571428571428555, 264.0, 49.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 217.5, 52.0, 21.0 ],
-					"text" : "O-tonal",
-					"textjustification" : 0
+					"text" : "O-tonal"
 				}
 
 			}
@@ -1405,8 +1403,7 @@
 					"patching_rect" : [ 219.571428571428555, 287.0, 49.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 243.5, 52.0, 21.0 ],
-					"text" : "U-tonal",
-					"textjustification" : 0
+					"text" : "U-tonal"
 				}
 
 			}
@@ -1438,6 +1435,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 582.85714285714289, 1712.0, 154.0, 67.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -1.5, 789.0, 518.0, 57.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1476,7 +1475,7 @@
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 50.0, 17.0 ],
 					"vzoom" : 100.0,
-					"zoom" : 201.5625
+					"zoom" : 201.953125
 				}
 
 			}
@@ -1518,8 +1517,7 @@
 					"patching_rect" : [ 681.428571428571445, 414.0, 51.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 271.0, 193.5, 51.0, 21.0 ],
-					"text" : "13-limit",
-					"textjustification" : 0
+					"text" : "13-limit"
 				}
 
 			}
@@ -1565,8 +1563,7 @@
 					"patching_rect" : [ 534.0, 414.0, 51.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 217.0, 193.5, 51.0, 21.0 ],
-					"text" : "11-limit",
-					"textjustification" : 0
+					"text" : "11-limit"
 				}
 
 			}
@@ -1764,8 +1761,7 @@
 					"patching_rect" : [ 380.285714285714278, 414.0, 44.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 163.0, 193.5, 51.0, 21.0 ],
-					"text" : "7-limit",
-					"textjustification" : 0
+					"text" : "7-limit"
 				}
 
 			}
@@ -1779,8 +1775,7 @@
 					"patching_rect" : [ 233.14285714285711, 414.0, 44.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 109.0, 193.5, 51.0, 21.0 ],
-					"text" : "5-limit",
-					"textjustification" : 0
+					"text" : "5-limit"
 				}
 
 			}
@@ -1794,8 +1789,7 @@
 					"patching_rect" : [ 91.0, 414.0, 44.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 54.5, 193.5, 51.0, 21.0 ],
-					"text" : "3-limit",
-					"textjustification" : 0
+					"text" : "3-limit"
 				}
 
 			}
