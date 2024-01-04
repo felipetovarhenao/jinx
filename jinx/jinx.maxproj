@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3787091025,
+	"modificationdate" : 3787172369,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -244,7 +244,7 @@
 				"local" : 1
 			}
 ,
-			"cc_logo.png" : 			{
+			"gpl_logo.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

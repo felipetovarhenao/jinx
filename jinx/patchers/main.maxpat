@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 722.0, 109.0, 536.0, 583.0 ],
+		"rect" : [ 722.0, 109.0, 529.0, 523.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,17 +45,16 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"linecount" : 6,
+					"linecount" : 4,
 					"linkend" : [ "*" ],
 					"maxclass" : "bach.hypercomment",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1545.0, 106.0, 100.0 ],
+					"patching_rect" : [ 357.0, 1545.0, 106.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 191.5, 517.0, 337.0, 38.0 ],
-					"text" : "tags: #sensorydissonance #timbre #justintonation #psychoacoustics"
+					"presentation_rect" : [ 191.5, 453.0, 333.0, 22.0 ],
+					"text" : "tags: #retuning #timbre #justintonation #EDO"
 				}
 
 			}
@@ -213,7 +212,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -70.0, 1628.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 557.0, 337.0, 20.0 ],
+					"presentation_rect" : [ 191.5, 498.0, 333.0, 20.0 ],
 					"text" : "OPEN EXAMPLE",
 					"texton" : "OPEN EXAMPLE"
 				}
@@ -277,15 +276,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.625, 1666.0, 500.0, 74.0 ],
+					"patching_rect" : [ 122.625, 1666.0, 500.0, 91.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 191.5, 271.0, 337.0, 107.0 ],
-					"text" : "An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum",
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 191.5, 271.0, 333.0, 124.0 ],
+					"text" : "A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The highest ratio in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -300,8 +299,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.75, 1625.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 234.0, 337.0, 30.0 ],
-					"text" : "dissonance curve"
+					"presentation_rect" : [ 191.5, 234.0, 333.0, 30.0 ],
+					"text" : "microtonal keyboard"
 				}
 
 			}
@@ -340,7 +339,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -348,7 +347,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5.5, 1058.0, 155.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 234.0, 185.0, 321.0 ],
+					"presentation_rect" : [ 4.5, 234.0, 185.0, 261.0 ],
 					"stripecolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 				}
 
@@ -686,7 +685,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 6.0, 94.0, 169.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 6.0, 524.0, 226.0 ],
+					"presentation_rect" : [ 4.5, 6.0, 520.0, 226.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -716,7 +715,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6.0, 211.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 557.0, 185.0, 20.0 ],
+					"presentation_rect" : [ 4.5, 498.0, 185.0, 20.0 ],
 					"text" : "CLOSE",
 					"texton" : "CLOSE"
 				}
@@ -1198,16 +1197,16 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cc_logo.png",
-				"bootpath" : "~/Documents/jinx/jinx/media",
-				"patcherrelativepath" : "../media",
+				"name" : "ccm_logo.png",
+				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ccm_logo.png",
-				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
-				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"name" : "gpl_logo.png",
+				"bootpath" : "~/Documents/jinx/jinx/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}

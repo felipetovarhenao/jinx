@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 665.0, 337.0, 552.0, 350.0 ],
+		"rect" : [ 665.0, 337.0, 681.0, 350.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,8 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.92907801418437, 88.0, 369.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://creativecommons.org/licenses/by-sa/4.0/"
+					"patching_rect" : [ 531.92907801418437, 88.0, 351.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://www.gnu.org/licenses/gpl-3.0.en.html"
 				}
 
 			}
@@ -262,7 +262,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -375,7 +375,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -554,14 +554,14 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "pictctrl",
-					"name" : "cc_logo.png",
+					"name" : "gpl_logo.png",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 531.92907801418437, 6.425077812361032, 200.07092198581563, 70.0 ],
+					"patching_rect" : [ 531.92907801418437, 6.425077812361032, 172.07092198581563, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 375.247917861506266, 3.425077812361025, 142.75208213849379, 51.597598932859086 ]
+					"presentation_rect" : [ 385.578549750896627, 3.425077812361025, 124.42145024910343, 53.574922187638975 ]
 				}
 
 			}
@@ -737,16 +737,16 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cc_logo.png",
-				"bootpath" : "~/Documents/jinx/jinx/media",
-				"patcherrelativepath" : "../media",
+				"name" : "ccm_logo.png",
+				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ccm_logo.png",
-				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
-				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"name" : "gpl_logo.png",
+				"bootpath" : "~/Documents/jinx/jinx/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
