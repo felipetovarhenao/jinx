@@ -41,19 +41,19 @@
 		"title" : "tuning and timbre",
 		"boxes" : [ 			{
 				"box" : 				{
-					"code" : "`partials for $i in (1...10)**log2($x1) collect $i 1.25**-($i - 1) ",
+					"code" : "`partials for $i in (1 2 ((1...5) * 2 + 1))**log2($x1) collect $i 1.5**-($i - 1) ",
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 669.0, 700.0, 420.0, 22.0 ],
+					"patching_rect" : [ 669.0, 700.0, 481.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval `partials for $i in (1...10)**log2($x1) collect $i 1.25**-($i - 1) @out m"
+					"text" : "bach.eval `partials for $i in (1 2 ((1...5) * 2 + 1))**log2($x1) collect $i 1.5**-($i - 1) @out m"
 				}
 
 			}
@@ -851,16 +851,16 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cc_logo.png",
-				"bootpath" : "~/Documents/jinx/jinx/media",
-				"patcherrelativepath" : "../media",
+				"name" : "ccm_logo.png",
+				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ccm_logo.png",
-				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
-				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"name" : "gpl_logo.png",
+				"bootpath" : "~/Documents/jinx/jinx/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
