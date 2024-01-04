@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 106.0, 144.0, 219.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 50.0, 232.0, 68.0, 22.0 ],
+									"patching_rect" : [ 8.0, 140.0, 68.0, 22.0 ],
 									"text" : "mc.*~"
 								}
 
@@ -115,7 +115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 129.0, 163.0, 29.5, 22.0 ],
+									"patching_rect" : [ 87.0, 71.0, 29.5, 22.0 ],
 									"text" : "/ 2"
 								}
 
@@ -127,7 +127,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 115.0, 100.0, 58.0, 22.0 ],
+									"patching_rect" : [ 73.0, 8.0, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -139,7 +139,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "float", "int", "int" ],
-									"patching_rect" : [ 115.0, 130.0, 61.0, 22.0 ],
+									"patching_rect" : [ 73.0, 38.0, 61.0, 22.0 ],
 									"text" : "dspstate~"
 								}
 
@@ -151,7 +151,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 99.0, 194.0, 49.0, 22.0 ],
+									"patching_rect" : [ 57.0, 102.0, 49.0, 22.0 ],
 									"text" : "mc.<=~"
 								}
 
@@ -165,7 +165,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 68.5, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 8.0, 59.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -177,7 +177,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 314.0, 30.0, 30.0 ]
+									"patching_rect" : [ 8.0, 182.0, 30.0, 30.0 ]
 								}
 
 							}
