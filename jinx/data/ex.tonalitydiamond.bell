@@ -1,3 +1,3 @@
 [ 'title' "tonality diamond" ]
-[ 'description' "An interface for visualizing, listening to, and inspecting Harry Partch's theoretical concept of the 'tonality diamond', given different (odd-numbered) just intonation limits."]
-[ 'tags' "justintonation" "HarryPartch" "composition" "musictheory" ]
+[ 'description' "An interface for visualizing, listening to, and inspecting Harry Partch's theoretical concept of the 'tonality diamond', given different odd-numbered just intonation limits."]
+[ 'tags' "odd+limit" "just+intonation" "Harry+Partch" "composition" "music+theory" ]
