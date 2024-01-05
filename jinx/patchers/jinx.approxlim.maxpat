@@ -491,6 +491,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"code" : "flat($x1):1 ",
@@ -499,7 +500,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 162.0, 101.0, 117.0, 22.0 ],
+									"patching_rect" : [ 169.0, 101.0, 117.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
@@ -517,7 +518,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 231.5, 220.0, 30.0, 30.0 ]
+									"patching_rect" : [ 238.5, 220.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -528,7 +529,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 162.0, 181.0, 88.5, 22.0 ],
+									"patching_rect" : [ 169.0, 181.0, 88.5, 22.0 ],
 									"text" : "t l l"
 								}
 
@@ -540,26 +541,26 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 162.0, 139.0, 82.0, 22.0 ],
+									"patching_rect" : [ 169.0, 139.0, 82.0, 22.0 ],
 									"text" : "bach.% 1200."
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"code" : "(1.5**-abs($x1-$x2)) ",
+									"code" : "(1.75**-abs($x1-$x2)) ",
 									"id" : "obj-20",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 224.0, 171.0, 22.0 ],
+									"patching_rect" : [ 10.0, 224.0, 178.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
 									}
 ,
-									"text" : "bach.eval (1.5**-abs($x1-$x2))"
+									"text" : "bach.eval (1.75**-abs($x1-$x2))"
 								}
 
 							}
@@ -639,7 +640,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 162.0, 56.0, 30.0, 30.0 ]
+									"patching_rect" : [ 169.0, 56.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -756,7 +757,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 147.0, 410.0, 153.0, 22.0 ],
-					"text" : "jinx.fittest @generations 20"
+					"text" : "jinx.fittest @generations 24"
 				}
 
 			}
@@ -805,19 +806,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$lim = ($i2 ||| 2); $step = max(1, $i3 ||| 1); $popsize = max(2, $i4 ||| 25); for $i in 1...$popsize collect [ for $x in 1...$lim collect random(-$step, $step) ] ",
+					"code" : "$lim = ($i2 ||| 2); $step = max(1, $i3 ||| 1); $popsize = max(2, $i4 ||| 30); for $i in 1...$popsize collect [ for $x in 1...$lim collect random(-$step, $step) ] ",
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.0, 363.0, 905.5, 22.0 ],
+					"patching_rect" : [ 147.0, 363.0, 847.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $lim = ($i2 ||| 2)\\; $step = max(1\\, $i3 ||| 1)\\; $popsize = max(2\\, $i4 ||| 25)\\; for $i in 1...$popsize collect [ for $x in 1...$lim collect random(-$step\\, $step) ]"
+					"text" : "bach.eval $lim = ($i2 ||| 2)\\; $step = max(1\\, $i3 ||| 1)\\; $popsize = max(2\\, $i4 ||| 30)\\; for $i in 1...$popsize collect [ for $x in 1...$lim collect random(-$step\\, $step) ]"
 				}
 
 			}
