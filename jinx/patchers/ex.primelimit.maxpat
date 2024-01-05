@@ -932,7 +932,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 3,
+					"cols" : 1,
 					"colwidth" : 64,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -949,7 +949,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 273.5, 515.0, 228.0 ],
 					"rowheight" : 32,
-					"rows" : 3,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -1296,7 +1296,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-51",
@@ -1561,7 +1560,7 @@
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 50.0, 17.0 ],
 					"vzoom" : 100.0,
-					"zoom" : 142.25
+					"zoom" : 281.0
 				}
 
 			}

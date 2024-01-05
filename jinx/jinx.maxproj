@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3787318891,
+	"modificationdate" : 3787335677,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -323,6 +323,51 @@
 			}
 ,
 			"linassign.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"version.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.tuninglimiter.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.primelimit.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.scaleinspector.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.microkeyboard.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"spectra.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.disscurve.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.chordfinder.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.tonalitydiamond.bell" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
