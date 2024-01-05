@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 214.0, 181.0, 530.0, 552.0 ],
+		"rect" : [ 214.0, 181.0, 528.0, 553.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "limit-based cents-to-ratio approximator",
+		"title" : "limit-based ratio approximation",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-20",
@@ -94,7 +94,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"limit-based cents-to-ratio approximator\" ]\n[ 'description' \"This example provides a way to approximate cents to ratios for a given prime limit. Given a list of cents and some user-defined constraints, such as prime limit factor and ratio complexity, the interface returns one of virtually many possible ratio approximations.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\"] ",
+					"code" : "[ 'title' \"limit-based ratio approximation\" ]\n[ 'description' \"This example provides a way to approximate cents to ratios for a given prime limit. Given a list of cents and some user-defined constraints, such as prime limit factor and ratio complexity, the interface returns one of virtually many possible ratio approximations.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\"] ",
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -127,7 +127,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 8.0, 84.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 1.0, 522.0, 203.0 ],
+					"presentation_rect" : [ 0.5, 1.0, 519.376811563968658, 203.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -142,7 +142,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 997.0, 67.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 370.5, 206.0, 95.0, 21.0 ],
+					"presentation_rect" : [ 366.876811563968658, 207.0, 95.0, 21.0 ],
 					"text" : "max. complexity"
 				}
 
@@ -278,7 +278,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 321.857142857142833, 1174.0, 523.0, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 493.0, 523.0, 59.0 ],
+					"presentation_rect" : [ 0.5, 488.0, 519.376811563968658, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -296,7 +296,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 524.812500365078449, 106.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 370.5, 254.0, 153.0, 24.0 ],
+					"presentation_rect" : [ 366.876811563968658, 255.0, 153.0, 24.0 ],
 					"text" : "APPROXIMATE",
 					"texton" : "search"
 				}
@@ -359,17 +359,17 @@
 				"box" : 				{
 					"bgcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 12.0,
+					"fontsize" : 13.0,
 					"id" : "obj-84",
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 140.0, 459.5, 254.0, 46.125000730156898 ],
+					"patching_rect" : [ 140.0, 459.5, 274.0, 46.125000730156898 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 206.0, 368.0, 72.0 ],
-					"text" : "0 400 700",
+					"presentation_rect" : [ 0.5, 207.0, 364.376811563968658, 72.0 ],
+					"text" : "0 200 400 500 700 900 1100",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -408,7 +408,7 @@
 					"patching_rect" : [ 30.5, 1053.0, 358.916666666666629, 108.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 280.0, 368.0, 211.0 ],
+					"presentation_rect" : [ 0.5, 281.0, 364.376811563968658, 205.0 ],
 					"preventedit" : [ "[", "notes", "modify", "]" ],
 					"showdurations" : 0,
 					"showstems" : 0,
@@ -521,7 +521,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 339.0, 625.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 467.5, 205.0, 56.0, 23.0 ]
+					"presentation_rect" : [ 463.876811563968658, 206.0, 56.0, 23.0 ]
 				}
 
 			}
@@ -582,7 +582,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 428.583333333333371, 549.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 370.5, 230.0, 153.0, 23.0 ],
+					"presentation_rect" : [ 366.876811563968658, 231.0, 153.0, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -757,11 +757,11 @@
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 578.583333333333485, 891.0, 221.0, 261.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 370.5, 280.0, 153.0, 211.0 ],
-					"tree_openstate_data_0000000000" : [ "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]" ],
+					"presentation_rect" : [ 366.876811563968658, 281.0, 153.0, 205.0 ],
+					"tree_openstate_data_0000000000" : [ "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]" ],
 					"tree_openstate_data_count" : [ 1 ],
 					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "[", "0.00 ¢", "[", "ratio", 1, "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "¢", "]", "[", "monzo", 0, 0, 0, "]", "]", "[", "400.00 ¢", "[", "ratio", "5/4", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 2920577761, 1076584775, "¢", "]", "[", "monzo", -2, 0, 1, "]", "]", "[", "700.00 ¢", "[", "ratio", "3/2", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 4123168604, 3221183528, "¢", "]", "[", "monzo", -1, 1, 0, "]", "]" ],
+					"whole_tree_data_0000000000" : [ "[", "0.00 ¢", "[", "ratio", 1, "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "¢", "]", "[", "monzo", 0, 0, 0, "]", "]", "[", "200.00 ¢", "[", "ratio", "9/8", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 343597384, 3222226862, "¢", "]", "[", "monzo", -3, 2, 0, "]", "]", "[", "400.00 ¢", "[", "ratio", "6/5", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 1030792151, 1079318282, "¢", "]", "[", "monzo", 1, 1, -1, "]", "]", "[", "500.00 ¢", "[", "ratio", "4/3", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 4123168604, 1073699880, "¢", "]", "[", "monzo", 2, -1, 0, "]", "]", "[", "700.00 ¢", "[", "ratio", "3/2", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 4123168604, 3221183528, "¢", "]", "[", "monzo", -1, 1, 0, "]", "]", "[", "900.00 ¢", "[", "ratio", "128/75", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 515396076, 3224988549, "¢", "]", "[", "monzo", 7, -1, -2, "]", "]", "[", "1100.00 ¢", "[", "ratio", "15/8", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 2405181686, 1076327874, "¢", "]", "[", "monzo", -3, 1, 1, "]", "]" ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
