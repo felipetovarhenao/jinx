@@ -597,6 +597,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "click to read full license",
 					"id" : "obj-1",
 					"maxclass" : "pictctrl",
 					"name" : "gpl_logo.png",

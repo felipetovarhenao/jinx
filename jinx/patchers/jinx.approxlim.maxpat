@@ -85,8 +85,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 331.0, 868.0, 82.5, 22.0 ],
-					"text" : "bach.!-"
+					"patching_rect" : [ 331.0, 868.0, 82.0, 22.0 ],
+					"text" : "bach.-"
 				}
 
 			}
