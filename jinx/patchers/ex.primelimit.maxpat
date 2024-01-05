@@ -594,7 +594,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 772.0, 759.0, 85.0, 22.0 ],
+					"patching_rect" : [ 772.0, 759.0, 92.0, 22.0 ],
 					"text" : "s #0trigger"
 				}
 
@@ -932,7 +932,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 1,
+					"cols" : 3,
 					"colwidth" : 64,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -949,7 +949,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 273.5, 515.0, 228.0 ],
 					"rowheight" : 32,
-					"rows" : 1,
+					"rows" : 3,
 					"vscroll" : 0
 				}
 
@@ -1002,7 +1002,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 421.0, 1061.75, 85.0, 22.0 ],
+					"patching_rect" : [ 421.0, 1061.75, 92.0, 22.0 ],
 					"text" : "s #0trigger"
 				}
 
@@ -1055,7 +1055,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 497.0, 83.0, 22.0 ],
+					"patching_rect" : [ 13.0, 497.0, 90.0, 22.0 ],
 					"text" : "r #0trigger"
 				}
 
@@ -1111,7 +1111,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.0, 887.25, 85.0, 22.0 ],
+					"patching_rect" : [ 201.0, 887.25, 92.0, 22.0 ],
 					"text" : "s #0trigger"
 				}
 
@@ -1268,7 +1268,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 131.0, 488.0, 228.0 ],
+						"rect" : [ 84.0, 131.0, 607.0, 235.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1296,6 +1296,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-51",
@@ -1310,19 +1311,19 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "'zoom' 1.25**$x1 + 200 ",
+									"code" : "'zoom' 2**($x1-1) + 140 ",
 									"id" : "obj-29",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 247.666666666666657, 131.2236328125, 232.0, 22.0 ],
+									"patching_rect" : [ 247.666666666666657, 131.2236328125, 234.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
 									}
 ,
-									"text" : "bach.eval 'zoom' 1.25**$x1 + 200 @out m"
+									"text" : "bach.eval 'zoom' 2**($x1-1) + 140 @out m"
 								}
 
 							}
@@ -1560,7 +1561,7 @@
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 50.0, 17.0 ],
 					"vzoom" : 100.0,
-					"zoom" : 201.0
+					"zoom" : 142.25
 				}
 
 			}
