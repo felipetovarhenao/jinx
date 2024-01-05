@@ -462,13 +462,14 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-39",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 737.083333333333371, 1215.0, 142.0, 23.0 ],
+					"patching_rect" : [ 737.083333333333371, 1215.0, 142.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.688405781984329, 497.0, 517.188405781984329, 23.0 ],
-					"text" : "7-limit approximation",
+					"text" : "11-limit approximation",
 					"textjustification" : 2
 				}
 
@@ -654,7 +655,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 329.5, 902.5, 67.166666666666686, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : "voicespacing 50, clefs G"
 				}
 
@@ -832,7 +832,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"limit-based ratio approximation\" ]\n[ 'description' \"This example provides a way to approximate cents to ratios for a given prime limit. Given a list of cents and some user-defined constraints, such as prime limit factor and ratio complexity, the interface returns one of virtually many possible ratio approximations.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\"] ",
+					"code" : "[ 'title' \"limit-based ratio approximation\" ]\n[ 'description' \"This example provides a way to approximate cents to ratios for a given prime limit. Given a list of cents and some user-defined constraints, such as prime limit factor and ratio complexity, the interface returns one of virtually many possible ratio approximations for the list of cents.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\"] ",
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1087,7 +1087,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 13.0,
 					"id" : "obj-84",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1095,9 +1095,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 756.5, 274.0, 27.125000730156898 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
+					"presentation_linecount" : 3,
 					"presentation_rect" : [ 3.5, 240.0, 348.0, 48.0 ],
-					"text" : "0. 133.333333 266.666667 400. 533.333333 666.666667 800. 933.333333 1066.666667",
+					"text" : "0. 176.64591 203.910002 239.606814 470.780907 443.516816 674.690909 701.955001 737.651813 968.825906 941.561815 1172.735908",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1458,10 +1458,10 @@
 					"patching_rect" : [ 693.583333333333485, 1627.0, 221.0, 261.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 355.876811563968658, 290.0, 166.0, 205.0 ],
-					"tree_openstate_data_0000000000" : [ "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]" ],
+					"tree_openstate_data_0000000000" : [ "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, "]", "]", "[", 1, 0, "[", 1, 0, 0, "]", "[", 1, 0, 0, 0, "]", "[", 1, 0, 0, 0, 0, 0, 0, "]", "]" ],
 					"tree_openstate_data_count" : [ 1 ],
 					"versionnumber" : 80300,
-					"whole_tree_data_0000000000" : [ "[", "0.00 ¢", "[", "ratio", 1, "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "¢", "]", "[", "monzo", 0, 0, 0, "]", "]", "[", "133.33 ¢", "[", "ratio", "15/14", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 343597384, 1076610990, "¢", "]", "[", "monzo", -1, 1, 1, -1, "]", "]", "[", "266.67 ¢", "[", "ratio", "7/6", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 2576980378, 3217660313, "¢", "]", "[", "monzo", -1, -1, 0, 1, "]", "]", "[", "400.00 ¢", "[", "ratio", "5/4", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 2920577761, 1076584775, "¢", "]", "[", "monzo", -2, 0, 1, "]", "]", "[", "533.33 ¢", "[", "ratio", "48/35", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 2405181686, 3224040898, "¢", "]", "[", "monzo", 4, 1, -1, -1, "]", "]", "[", "666.67 ¢", "[", "ratio", "3/2", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 3092376453, 3225527582, "¢", "]", "[", "monzo", -1, 1, 0, "]", "]", "[", "800.00 ¢", "[", "ratio", "105/64", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 515396076, 3226241925, "¢", "]", "[", "monzo", -6, 1, 1, 1, "]", "]", "[", "933.33 ¢", "[", "ratio", "12/7", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 2576980378, 1070176665, "¢", "]", "[", "monzo", 2, 1, 0, -1, "]", "]", "[", "1066.67 ¢", "[", "ratio", "28/15", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 343597384, 3224094638, "¢", "]", "[", "monzo", 2, -1, -1, 1, "]", "]" ],
+					"whole_tree_data_0000000000" : [ "[", "0.00 ¢", "[", "ratio", 1, "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "¢", "]", "[", "monzo", 0, 0, 0, "]", "]", "[", "176.65 ¢", "[", "ratio", "35/32", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 1546188227, 1077248655, "¢", "]", "[", "monzo", -5, 0, 1, 1, "]", "]", "[", "203.91 ¢", "[", "ratio", "256/231", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 1546188227, 1077543567, "¢", "]", "[", "monzo", 8, -1, 0, -1, -1, "]", "]", "[", "239.61 ¢", "[", "ratio", "8/7", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 4123168604, 1075895336, "¢", "]", "[", "monzo", 3, 0, 0, -1, "]", "]", "[", "470.78 ¢", "[", "ratio", "224/165", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 1202590843, 3226286817, "¢", "]", "[", "monzo", 5, -1, -1, 1, -1, "]", "]", "[", "443.52 ¢", "[", "ratio", "55/42", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 3779571220, 3224851578, "¢", "]", "[", "monzo", -1, -1, 1, -1, 1, "]", "]", "[", "674.69 ¢", "[", "ratio", "385/256", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 3092376453, 3225404702, "¢", "]", "[", "monzo", -8, 0, 1, 1, 1, "]", "]", "[", "701.96 ¢", "[", "ratio", "385/256", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3222405120, "¢", "]", "[", "monzo", -8, 0, 1, 1, 1, "]", "]", "[", "737.65 ¢", "[", "ratio", "32/21", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 4123168604, 1075895336, "¢", "]", "[", "monzo", 5, -1, 0, -1, "]", "]", "[", "968.83 ¢", "[", "ratio", "7/4", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "¢", "]", "[", "monzo", -2, 0, 0, 1, "]", "]", "[", "941.56 ¢", "[", "ratio", "12/7", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 4123168604, 1075895336, "¢", "]", "[", "monzo", 2, 1, 0, -1, "]", "]", "[", "1172.74 ¢", "[", "ratio", "768/385", "]", "[", "deviation", "_x_x_x_x_bach_float64_x_x_x_x_", 1546188227, 3224814223, "¢", "]", "[", "monzo", 8, 1, -1, -1, -1, "]", "]" ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
