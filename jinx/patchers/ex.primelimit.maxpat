@@ -132,7 +132,7 @@
 					"patching_rect" : [ 1151.0, 1175.054688000000169, 155.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 303.0, 481.5, 216.0, 21.0 ],
-					"text" : "12 out of 12 ratios",
+					"text" : "9 out of 9 ratios",
 					"textjustification" : 2
 				}
 
@@ -338,7 +338,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -869,6 +868,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-100",
 					"items" : [ "3-limit", ",", "5-limit", ",", "7-limit", ",", "11-limit", ",", "13-limit", ",", "17-limit" ],
 					"maxclass" : "umenu",
@@ -876,9 +876,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 922.5, 460.0, 100.0, 22.0 ],
+					"patching_rect" : [ 922.5, 460.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.0, 221.5, 80.0, 22.0 ]
+					"presentation_rect" : [ 439.0, 221.5, 80.0, 23.0 ]
 				}
 
 			}
@@ -1141,6 +1141,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-87",
 					"items" : [ "3-limit", ",", "5-limit", ",", "7-limit", ",", "11-limit", ",", "13-limit", ",", "17-limit" ],
 					"maxclass" : "umenu",
@@ -1148,9 +1149,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 817.0, 460.0, 100.0, 22.0 ],
+					"patching_rect" : [ 817.0, 460.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 439.0, 246.5, 80.0, 22.0 ]
+					"presentation_rect" : [ 439.0, 246.5, 80.0, 23.0 ]
 				}
 
 			}
@@ -1168,7 +1169,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 4,
+					"cols" : 3,
 					"colwidth" : 64,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
