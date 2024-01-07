@@ -41,6 +41,18 @@
 		"title" : "chord browser",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 538.0, 1230.75, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-138",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -129,7 +141,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 612.999999999999773, 1720.0, 73.0, 22.0 ],
+					"patching_rect" : [ 612.999999999999773, 1720.0, 78.0, 22.0 ],
 					"text" : "r #0mode"
 				}
 
@@ -189,7 +201,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 928.499999999999773, 1655.0, 73.0, 22.0 ],
+					"patching_rect" : [ 928.499999999999773, 1655.0, 78.0, 22.0 ],
 					"text" : "r #0mode"
 				}
 
@@ -224,7 +236,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.0, 1393.5, 75.0, 22.0 ],
+					"patching_rect" : [ 538.0, 1393.5, 80.0, 22.0 ],
 					"text" : "s #0mode"
 				}
 
@@ -288,8 +300,8 @@
 					"id" : "obj-87",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 170.666666666666629, 703.0, 82.0, 22.0 ],
 					"text" : "jinx.normalize"
 				}
@@ -582,7 +594,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-66",
-					"items" : [ "perfect fifth", ",", "perfect fifth (TET)", ",", "major third", ",", "major third (TET)", ",", "minor third", ",", "tritone (v1)", ",", "tritone (v2)", ",", "major triad", ",", "minor triad", ",", "major major 7th", ",", "major minor 7th (v1)", ",", "major minor 7th (v2)", ",", "minor minor 7 (v1)", ",", "minor minor 7 (v2)", ",", "major major 9", ",", "augmented", ",", "diminished (v1)", ",", "diminished (v2)", ",", "half diminished (v1)", ",", "half diminished (v2)", ",", "half diminished (v3)", ",", "half diminished (v4)", ",", "quartal triad", ",", "quartal tetrachord" ],
+					"items" : [ "perfect fifth", ",", "perfect fifth (TET)", ",", "major third", ",", "major third (TET)", ",", "minor third", ",", "minor third (TET)", ",", "tritone (v1)", ",", "tritone (v2)", ",", "tritone (v3)", ",", "tritone (TET)", ",", "major triad", ",", "major triad (TET)", ",", "minor triad", ",", "minor triad (TET)", ",", "major major 7th", ",", "major minor 7th (v1)", ",", "major minor 7th (v2)", ",", "minor minor 7 (v1)", ",", "minor minor 7 (v2)", ",", "major major 9", ",", "augmented", ",", "diminished (v1)", ",", "diminished (v2)", ",", "half diminished (v1)", ",", "half diminished (v2)", ",", "half diminished (v3)", ",", "half diminished (v4)", ",", "quartal triad", ",", "quartal tetrachord" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -651,7 +663,7 @@
 					"patching_rect" : [ 347.166666666666629, 1150.5, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 406.5, 346.0, 114.916666666666742, 21.0 ],
-					"text" : "1 6/5",
+					"text" : "1 3/2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
 					"textjustification" : 1
 				}
@@ -805,7 +817,7 @@
 					"patching_rect" : [ 595.0, 2354.75, 163.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 397.0, 231.0, 23.0 ],
-					"text" : "search results (0)"
+					"text" : "(click search button)"
 				}
 
 			}
@@ -914,7 +926,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.388888888888687, 1528.5, 61.0, 22.0 ],
+					"patching_rect" : [ 840.388888888888687, 1528.5, 129.888888888889028, 22.0 ],
 					"text" : "utils.r2roll"
 				}
 
@@ -1280,8 +1292,8 @@
 					"id" : "obj-52",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 347.166666666666629, 1351.5, 82.0, 22.0 ],
 					"text" : "jinx.normalize"
 				}
@@ -1355,7 +1367,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 107.166666666666629, 2455.25, 99.0, 35.0 ],
+					"patching_rect" : [ 107.166666666666629, 2455.25, 101.0, 35.0 ],
 					"text" : "voicespacing 90, clefs G"
 				}
 
@@ -1413,8 +1425,8 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 107.166666666666629, 2071.75, 82.0, 22.0 ],
 					"text" : "jinx.normalize"
 				}
@@ -1556,6 +1568,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -2520,16 +2539,16 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "cc_logo.png",
-				"bootpath" : "~/Documents/jinx/jinx/media",
-				"patcherrelativepath" : "../media",
+				"name" : "ccm_logo.png",
+				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ccm_logo.png",
-				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
-				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"name" : "gpl_logo.png",
+				"bootpath" : "~/Documents/jinx/jinx/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}

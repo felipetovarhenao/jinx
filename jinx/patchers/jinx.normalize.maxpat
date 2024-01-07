@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 317.0, 135.0, 393.0, 245.0 ],
+		"rect" : [ 317.0, 135.0, 529.0, 226.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,23 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.166666666666671, 207.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 38.666666666666686, 131.0, 178.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.pick 1 2"
+					"patching_rect" : [ 118.166666666666671, 178.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -89,7 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 38.666666666666671, 169.0, 178.0, 22.0 ],
+					"patching_rect" : [ 38.666666666666686, 139.0, 178.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -106,25 +90,25 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.666666666666671, 207.0, 30.0, 30.0 ]
+					"patching_rect" : [ 38.666666666666686, 178.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"code" : "$shift = -int(floor(log2($x1))); ($x1 * 2 ** $shift) $shift ",
+					"code" : "$shift = -int(floor(log2($x1))); directout(1, $x1); $x1 * 2 ** $shift ",
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.666666666666686, 93.0, 340.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 38.666666666666686, 93.0, 471.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $shift = -int(floor(log2($x1)))\\; ($x1 * 2 ** $shift) $shift"
+					"text" : "bach.eval $shift = -int(floor(log2($x1)))\\; directout(1\\, $x1)\\; $x1 * 2 ** $shift @directouts 1"
 				}
 
 			}
@@ -173,20 +157,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"source" : [ "obj-4", 1 ]
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
