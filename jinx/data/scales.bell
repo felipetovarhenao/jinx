@@ -160,6 +160,14 @@ $getsrutis = (
 	[ "ratios" $ntet(53) 2 ]
 ]
 [
+	[ "name" "stretched 12 EDO (2.1)" ]
+	[ "ratios" ($ntet(12) 2) ** log2(2.1) ]
+]
+[
+	[ "name" "compressed 12 EDO (1.95)" ]
+	[ "ratios" ($ntet(12) 2) ** log2(1.95) ]
+]
+[
 	[ "name" "Harmonic series (oct 3)" ]
 	[ "ratios" (4...8) / 4 ]
 ]

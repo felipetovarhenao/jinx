@@ -3306,8 +3306,8 @@
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 355.0, 1032.0, 90.0, 22.0 ],
 					"text" : "jinx.normalize"
 				}
@@ -3449,6 +3449,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 374.40000057220459, 327.0, 189.5 ],
 					"preventedit" : 1,
+					"rowvpad" : 2.0,
+					"textdecayfactor" : 0.95,
 					"versionnumber" : 80300
 				}
 
