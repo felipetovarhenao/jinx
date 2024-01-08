@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 88.0, 109.0, 530.0, 879.0 ],
+		"rect" : [ 143.0, 53.0, 530.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "limit-based ratio approximation",
+		"title" : "limit-based quantization",
 		"boxes" : [ 			{
 				"box" : 				{
 					"embed" : 0,
@@ -57,7 +57,7 @@
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 693.833333333333485, 2154.0, 225.0, 102.53125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 381.688405781984329, 291.0, 140.438405781984329, 342.0 ],
+					"presentation_rect" : [ 380.5, 256.0, 140.438405781984329, 342.0 ],
 					"preventedit" : 1,
 					"rowvpad" : 3.0,
 					"textdecayfactor" : 0.9,
@@ -263,14 +263,12 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 11.0,
 					"id" : "obj-222",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.5, 2219.0, 283.0, 33.0 ],
+					"patching_rect" : [ 292.5, 2219.0, 283.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.938405781984329, 784.0, 508.188405781984329, 20.0 ],
-					"text" : "(mean dev.: 32.53¢ | min. dev: 0.00¢ | max. dev.: -68.83¢)",
+					"presentation_rect" : [ 8.75, 749.0, 508.188405781984329, 20.0 ],
 					"textjustification" : 1
 				}
 
@@ -1010,9 +1008,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 984.416666666666515, 803.5, 205.041666666666742, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.688405781984329, 515.0, 230.688405781984329, 23.0 ],
-					"text" : "9 available 7-limit ratio/s",
-					"textjustification" : 0
+					"presentation_rect" : [ 3.5, 480.0, 230.688405781984329, 23.0 ],
+					"text" : "1 available 2-limit ratio/s"
 				}
 
 			}
@@ -1061,7 +1058,7 @@
 					"patching_rect" : [ 960.5, 1260.5, 72.916666666666629, 68.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.688405781984329, 515.0, 376.376811563968658, 144.0 ],
+					"presentation_rect" : [ 3.5, 480.0, 376.376811563968658, 144.0 ],
 					"preventedit" : [ "[", "notes", "modify", "]" ],
 					"showdurations" : 0,
 					"showstems" : 0,
@@ -1866,7 +1863,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 692.416666666666515, 283.109375273808837, 384.0, 77.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.688405781984329, 438.0, 376.376811563968658, 75.0 ],
+					"presentation_rect" : [ 3.5, 403.0, 376.376811563968658, 75.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2082,9 +2079,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 785.0, 605.531250182539225, 270.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.938405781984329, 661.0, 507.188405781984329, 23.0 ],
-					"text" : "7-limit approximation",
-					"textjustification" : 0
+					"presentation_rect" : [ 3.75, 626.0, 507.188405781984329, 23.0 ],
+					"text" : "2-limit approximation"
 				}
 
 			}
@@ -2099,9 +2095,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 307.5, 1104.0, 91.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.688405781984329, 291.0, 174.688405781984329, 23.0 ],
-					"text" : "target tuning",
-					"textjustification" : 0
+					"presentation_rect" : [ 3.5, 256.0, 174.688405781984329, 23.0 ],
+					"text" : "target tuning"
 				}
 
 			}
@@ -2179,7 +2174,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "48 EDO", ",", "53 EDO", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "48 EDO", ",", "53 EDO", ",", "stretched 12 EDO (2.1)", ",", "compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2188,7 +2183,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 256.0, 527.0, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.126811563968658, 216.0, 183.75, 23.0 ],
+					"presentation_rect" : [ 337.938405781984329, 181.0, 183.75, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -2204,7 +2199,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 315.0, 502.0, 97.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.688405781984329, 216.0, 97.0, 23.0 ],
+					"presentation_rect" : [ 3.5, 181.0, 97.0, 23.0 ],
 					"text" : "tuning (cents)"
 				}
 
@@ -2278,7 +2273,7 @@
 					"patching_rect" : [ 404.0, 1104.0, 135.916666666666629, 57.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.688405781984329, 291.0, 376.0, 145.0 ],
+					"presentation_rect" : [ 3.5, 256.0, 376.0, 145.0 ],
 					"preventedit" : [ "[", "notes", "modify", "]" ],
 					"showdurations" : 0,
 					"showstems" : 0,
@@ -2418,7 +2413,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"limit-based ratio approximation\" ]\n[ 'description' \"This example provides a way to approximate cents to ratios for a given prime limit. Given a list of cents and some user-defined constraints, such as prime limit factor and ratio complexity, the interface returns one of virtually many possible ratio approximations for the list of cents.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\"] ",
+					"code" : "[ 'title' \"limit-based quantization\" ]\n[ 'description' \"This example provides a way to approximate or quantize cents to ratios under prime-limit constraints.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\" \"retuning\"] ",
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2451,7 +2446,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 4.0, 82.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 5.0, 519.376811563968658, 209.0 ],
+					"presentation_rect" : [ 3.5, 5.0, 519.376811563968658, 174.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2587,7 +2582,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 436.857142857142833, 2614.25, 523.0, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.938405781984329, 818.0, 517.376811563968658, 59.0 ],
+					"presentation_rect" : [ 3.75, 783.0, 517.376811563968658, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2605,7 +2600,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 145.0, 1110.812500365078449, 106.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 381.688405781984329, 635.0, 140.438405781984329, 24.0 ],
+					"presentation_rect" : [ 380.5, 600.0, 140.438405781984329, 24.0 ],
 					"text" : "APPROXIMATE",
 					"texton" : "search"
 				}
@@ -2666,8 +2661,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 846.5, 274.0, 27.125000730156898 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.688405781984329, 241.0, 518.188405781984329, 48.0 ],
-					"text" : "0. 150. 300. 450. 600. 750. 900. 1050. 1200.",
+					"presentation_rect" : [ 3.5, 206.0, 518.188405781984329, 48.0 ],
+					"text" : "0. 100. 200. 300. 400. 500. 600. 700. 800. 900. 1000. 1100. 1200.",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -2706,7 +2701,7 @@
 					"patching_rect" : [ 145.5, 2391.25, 358.916666666666629, 108.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.938405781984329, 661.0, 517.188405781984329, 155.0 ],
+					"presentation_rect" : [ 3.75, 626.0, 517.188405781984329, 155.0 ],
 					"preventedit" : [ "[", "notes", "modify", "]" ],
 					"showdurations" : 0,
 					"showstems" : 0,

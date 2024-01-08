@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 670.0, 54.0, 528.0, 855.0 ],
+		"rect" : [ 38.0, 85.0, 528.0, 855.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -802,7 +802,7 @@
 									"outlettype" : [ "", "bang" ],
 									"outputmode" : 1,
 									"patching_rect" : [ 316.0, 198.0, 50.0, 22.0 ],
-									"text" : "3/7"
+									"text" : "7/3"
 								}
 
 							}
@@ -1393,7 +1393,7 @@
 													"outlettype" : [ "", "bang" ],
 													"outputmode" : 1,
 													"patching_rect" : [ 266.0, 89.0, 50.0, 22.0 ],
-													"text" : "3/7"
+													"text" : "7/3"
 												}
 
 											}
@@ -2622,11 +2622,13 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.0 ],
 					"cols" : 4,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 11.0,
+					"gridlinecolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.0 ],
 					"hscroll" : 0,
 					"id" : "obj-41",
 					"interval" : 257,

@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "tuning theory examples",
+		"title" : "jinx",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-6",
@@ -65,16 +65,16 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"linecount" : 3,
+					"linecount" : 4,
 					"linkend" : [ "*" ],
 					"maxclass" : "bach.hypercomment",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1545.0, 106.0, 53.0 ],
+					"patching_rect" : [ 357.0, 1545.0, 106.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.5, 483.0, 333.0, 22.0 ],
-					"text" : "tags: #prime+limit #just+intonation"
+					"text" : "tags: #music+theory #analysis #just+intonation"
 				}
 
 			}
@@ -142,8 +142,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.5, 245.0, 218.0, 22.0 ],
-					"text" : "loadmess title \"tuning theory examples\""
+					"patching_rect" : [ 80.5, 245.0, 103.0, 22.0 ],
+					"text" : "loadmess title jinx"
 				}
 
 			}
@@ -296,15 +296,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.625, 1666.0, 500.0, 74.0 ],
+					"patching_rect" : [ 122.625, 1666.0, 500.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 191.5, 271.0, 333.0, 91.0 ],
-					"text" : "This example provides a way to approximate cents to ratios for a given prime limit. Given a list of cents and some user-defined constraints, such as prime limit factor and ratio complexity, the interface returns one of virtually many possible ratio approximations.",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 191.5, 271.0, 333.0, 40.0 ],
+					"text" : "A search engine for finding just intonation chords or collections within any given tuning system.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -314,15 +314,13 @@
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 20.0,
 					"id" : "obj-94",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.75, 1625.0, 215.0, 79.0 ],
+					"patching_rect" : [ 239.75, 1625.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 191.5, 234.0, 333.0, 54.0 ],
-					"text" : "limit-based cents-to-ratio approximator"
+					"presentation_rect" : [ 191.5, 234.0, 333.0, 30.0 ],
+					"text" : "chord browser"
 				}
 
 			}
@@ -361,7 +359,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "prime", "limits", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "limit-based", "cents-to-ratio", "approximator", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "prime", "limits", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "limit-based", "ratio", "approximation", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
