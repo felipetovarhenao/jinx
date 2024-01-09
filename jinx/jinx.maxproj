@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3787585277,
+	"modificationdate" : 3787666699,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -267,6 +267,11 @@
 			}
 ,
 			"jinx.r2mon.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.synthctrl.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
