@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 143.0, 53.0, 530.0, 847.0 ],
+		"rect" : [ 143.0, 53.0, 530.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,139 @@
 		"assistshowspatchername" : 0,
 		"title" : "limit-based quantization",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 7,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"code" : "$pass = 0; $clean = rev(for $x in rev($x1) collect (if $x != 0 then $pass = 1; if $pass then $x)); $N = length($clean ||| 1); maximum(primeser(2, null, $N)) ",
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 49.999979666666491, 108.0, 506.0, 35.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1,
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.eval $pass = 0\\; $clean = rev(for $x in rev($x1) collect (if $x != 0 then $pass = 1\\; if $pass then $x))\\; $N = length($clean ||| 1)\\; maximum(primeser(2\\, null\\, $N))"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-18",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 49.999979666666491, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-22",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 49.999979666666491, 195.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 950.833333000000039, 1834.0, 85.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p get-true-limit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 831.333333333333485, 1801.25, 138.5, 22.0 ],
+					"text" : "t l l"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"embed" : 0,
 					"firsteleminllllisllllname" : 1,
@@ -263,12 +396,14 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 11.0,
 					"id" : "obj-222",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.5, 2219.0, 283.0, 20.0 ],
+					"patching_rect" : [ 292.5, 2219.0, 283.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.75, 749.0, 508.188405781984329, 20.0 ],
+					"text" : "(mean dev.: 24.22¢ | min. dev: 0.00¢ | max. dev.: -68.83¢)",
 					"textjustification" : 1
 				}
 
@@ -1009,7 +1144,7 @@
 					"patching_rect" : [ 984.416666666666515, 803.5, 205.041666666666742, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 480.0, 230.688405781984329, 23.0 ],
-					"text" : "1 available 2-limit ratio/s"
+					"text" : "12 available 7-limit ratio/s"
 				}
 
 			}
@@ -1076,19 +1211,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "for $i in (2 1 3) collect $x1:$i ",
+					"code" : "for $i in (2 1 3 4) collect $x1:$i ",
 					"id" : "obj-175",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.416666666666515, 1838.0, 213.0, 22.0 ],
+					"patching_rect" : [ 592.416666666666515, 1907.0, 223.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval for $i in (2 1 3) collect $x1:$i"
+					"text" : "bach.eval for $i in (2 1 3 4) collect $x1:$i"
 				}
 
 			}
@@ -1146,7 +1281,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 369.0, 22.0 ],
+									"patching_rect" : [ 3.0, 71.0, 369.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
@@ -1165,7 +1300,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.000020333333509, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 3.000020333333509, 11.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1178,7 +1313,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 399.999959333333436, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 352.999959333333436, 11.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1190,7 +1325,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.000020333333509, 182.0, 30.0, 30.0 ]
+									"patching_rect" : [ 3.000020333333509, 108.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1606,7 +1741,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.416666666666515, 1874.0, 74.0, 22.0 ],
+					"patching_rect" : [ 592.416666666666515, 1943.0, 74.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -1747,15 +1882,15 @@
 				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 592.416666666666515, 1802.0, 257.91666666666697, 22.0 ],
+					"patching_rect" : [ 592.416666666666515, 1871.0, 377.416666333333524, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.pack deviation ratio monzo"
+					"text" : "bach.pack deviation ratio monzo limit"
 				}
 
 			}
@@ -2080,7 +2215,7 @@
 					"patching_rect" : [ 785.0, 605.531250182539225, 270.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.75, 626.0, 507.188405781984329, 23.0 ],
-					"text" : "2-limit approximation"
+					"text" : "7-limit approximation"
 				}
 
 			}
@@ -2413,7 +2548,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"limit-based quantization\" ]\n[ 'description' \"This example provides a way to approximate or quantize cents to ratios under prime-limit constraints.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\" \"retuning\"] ",
+					"code" : "[ 'title' \"limit-based quantization\" ]\n[ 'description' \"This example provides a way to quantize or approximate cents to prime-limit ratios.\"]\n[ 'tags' \"prime+limit\" \"just+intonation\" \"retuning\"] ",
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -3401,6 +3536,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 3 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -3478,8 +3620,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 2 ],
+					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 2 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-35", 1 ]
 				}
 
 			}
@@ -3896,6 +4052,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.delace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.eq.mxo",
 				"type" : "iLaX"
 			}
@@ -3947,6 +4107,10 @@
 			}
 , 			{
 				"name" : "bach.keys.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.lace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -4003,6 +4167,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.prepend.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
 			}
@@ -4031,6 +4202,10 @@
 				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.thin.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "bach.trans.mxo",
@@ -4171,6 +4346,13 @@
 			}
 , 			{
 				"name" : "utils.r2roll.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.synthctrl.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
