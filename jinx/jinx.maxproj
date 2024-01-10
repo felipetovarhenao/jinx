@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3787682838,
+	"modificationdate" : 3787699799,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -277,6 +277,11 @@
 			}
 ,
 			"ex.ratioanalyzer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"utils.formatwindow.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

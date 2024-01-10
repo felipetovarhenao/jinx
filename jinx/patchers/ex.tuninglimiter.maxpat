@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 143.0, 53.0, 530.0, 843.0 ],
+		"rect" : [ 100.0, 100.0, 525.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"title" : "limit-based quantization",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 336.0, 117.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 336.0, 153.0, 107.0, 22.0 ],
+					"text" : "utils.formatwindow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
@@ -85,7 +109,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"code" : "$pass = 0; $clean = rev(for $x in rev($x1) collect (if $x != 0 then $pass = 1; if $pass then $x)); $N = length($clean ||| 1); maximum(primeser(2, null, $N)) ",
@@ -396,14 +419,12 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 11.0,
 					"id" : "obj-222",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.5, 2219.0, 283.0, 33.0 ],
+					"patching_rect" : [ 292.5, 2219.0, 283.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.75, 749.0, 508.188405781984329, 20.0 ],
-					"text" : "(mean dev.: 24.22¢ | min. dev: 0.00¢ | max. dev.: -68.83¢)",
 					"textjustification" : 1
 				}
 
@@ -598,7 +619,7 @@
 										"versionnumber" : 80300
 									}
 ,
-									"text" : "bach.minmax @"
+									"text" : "bach.minmax"
 								}
 
 							}
@@ -1144,7 +1165,7 @@
 					"patching_rect" : [ 984.416666666666515, 803.5, 205.041666666666742, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 480.0, 230.688405781984329, 23.0 ],
-					"text" : "12 available 7-limit ratio/s"
+					"text" : "1 available 2-limit ratio/s"
 				}
 
 			}
@@ -2215,7 +2236,7 @@
 					"patching_rect" : [ 785.0, 605.531250182539225, 270.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.75, 626.0, 507.188405781984329, 23.0 ],
-					"text" : "7-limit approximation"
+					"text" : "2-limit approximation"
 				}
 
 			}
@@ -3480,6 +3501,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -3676,6 +3704,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-46", 1 ]
 				}
@@ -3755,6 +3790,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -4318,6 +4360,13 @@
 			}
 , 			{
 				"name" : "utils.dac~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.formatwindow.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

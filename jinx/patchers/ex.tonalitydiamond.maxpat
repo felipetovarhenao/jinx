@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 38.0, 85.0, 528.0, 855.0 ],
+		"rect" : [ 100.0, 100.0, 525.0, 852.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"title" : "tonality diamond",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 336.0, 117.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 336.0, 153.0, 107.0, 22.0 ],
+					"text" : "utils.formatwindow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "newobj",
@@ -622,7 +646,7 @@
 					"patching_rect" : [ 206.0, 330.0, 200.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 217.5, 317.0, 23.0 ],
-					"text" : "1 3 5 7",
+					"text" : "1",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -771,7 +795,7 @@
 									"outlettype" : [ "", "bang" ],
 									"outputmode" : 1,
 									"patching_rect" : [ 161.5, 198.0, 50.0, 22.0 ],
-									"text" : "1/7"
+									"text" : "0/1"
 								}
 
 							}
@@ -802,7 +826,7 @@
 									"outlettype" : [ "", "bang" ],
 									"outputmode" : 1,
 									"patching_rect" : [ 316.0, 198.0, 50.0, 22.0 ],
-									"text" : "7/3"
+									"text" : "0/1"
 								}
 
 							}
@@ -1194,7 +1218,7 @@
 													"outlettype" : [ "", "bang" ],
 													"outputmode" : 1,
 													"patching_rect" : [ 256.0, 86.0, 50.0, 22.0 ],
-													"text" : "3/5"
+													"text" : "0/1"
 												}
 
 											}
@@ -1393,7 +1417,7 @@
 													"outlettype" : [ "", "bang" ],
 													"outputmode" : 1,
 													"patching_rect" : [ 266.0, 89.0, 50.0, 22.0 ],
-													"text" : "7/3"
+													"text" : "0/1"
 												}
 
 											}
@@ -2623,7 +2647,7 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.0 ],
-					"cols" : 4,
+					"cols" : 1,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -2641,7 +2665,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 242.5, 317.0, 318.0 ],
 					"rowheight" : 45,
-					"rows" : 4,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -3254,6 +3278,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-15", 1 ]
 				}
@@ -3270,6 +3301,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -3667,6 +3705,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-81", 0 ]
 				}
@@ -3739,6 +3784,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.delace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.div.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
@@ -3758,6 +3807,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.filter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
@@ -3773,7 +3829,15 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.is.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.join.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -3781,8 +3845,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.lace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.length.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.lookup.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.m2jitcellblock.maxpat",
@@ -3807,12 +3882,27 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.neq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.nth.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.pick.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "bach.portal.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.prepend.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.ratnum.mxo",
@@ -3913,7 +4003,21 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "utils.coll2menu.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "utils.dac~.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.formatwindow.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -3935,6 +4039,13 @@
 			}
 , 			{
 				"name" : "utils.r2roll.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.synthctrl.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
