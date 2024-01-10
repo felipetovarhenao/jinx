@@ -77,17 +77,17 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"linecount" : 6,
+					"linecount" : 7,
 					"linkend" : [ "*" ],
 					"maxclass" : "bach.hypercomment",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1575.0, 106.0, 100.0 ],
+					"patching_rect" : [ 357.0, 1575.0, 106.0, 116.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 191.5, 483.0, 333.0, 38.0 ],
-					"text" : "tags: #sensory+dissonance #timbre #just+intonation #psychoacoustics"
+					"text" : "tags: #auditory+illusions #psychoacoustics #harmonic+series"
 				}
 
 			}
@@ -309,15 +309,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.625, 1696.0, 500.0, 74.0 ],
+					"patching_rect" : [ 122.625, 1696.0, 500.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 191.5, 271.0, 333.0, 107.0 ],
-					"text" : "An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 191.5, 271.0, 333.0, 40.0 ],
+					"text" : "This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -333,7 +333,7 @@
 					"patching_rect" : [ 239.75, 1655.0, 215.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.5, 234.0, 333.0, 30.0 ],
-					"text" : "dissonance curve"
+					"text" : "virtual fundamental"
 				}
 
 			}
