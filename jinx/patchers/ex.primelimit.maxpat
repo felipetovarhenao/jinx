@@ -156,7 +156,7 @@
 					"patching_rect" : [ 1151.0, 1175.054688000000169, 155.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 303.0, 481.5, 216.0, 21.0 ],
-					"text" : "4 out of 8 ratios",
+					"text" : "1 out of 1 ratios",
 					"textjustification" : 2
 				}
 
@@ -1193,7 +1193,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 2,
+					"cols" : 1,
 					"colwidth" : 64,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -1210,7 +1210,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 274.5, 515.0, 228.0 ],
 					"rowheight" : 32,
-					"rows" : 2,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -1557,7 +1557,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
