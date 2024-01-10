@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 525.0, 700.0 ],
+		"rect" : [ 0.0, 129.0, 525.0, 700.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,24 @@
 		"assistshowspatchername" : 0,
 		"title" : "ratio analyzer",
 		"boxes" : [ 			{
+				"box" : 				{
+					"code" : "if $x1:(-1) >= 0 then 'otonal' else 'utonal' ",
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1547.666666666666515, 1470.5, 274.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.eval if $x1:(-1) >= 0 then 'otonal' else 'utonal'"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "newobj",
@@ -478,7 +496,7 @@
 					"patching_rect" : [ 723.666666666666629, 974.0, 538.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 190.700000584125519, 521.0, 25.0 ],
-					"text" : "1 5/4 3/2 7/4 2",
+					"text" : "8/5",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -922,15 +940,15 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1059.666666666666515, 1513.0, 385.0, 22.0 ],
+					"patching_rect" : [ 1059.666666666666515, 1513.0, 507.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.pack cents normalized monzo limit"
+					"text" : "bach.pack cents normalized monzo limit type"
 				}
 
 			}
@@ -1045,7 +1063,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1303.666666666666515, 1428.0, 141.0, 22.0 ],
+					"patching_rect" : [ 1303.666666666666515, 1428.0, 263.0, 22.0 ],
 					"text" : "jinx.r2mon"
 				}
 
@@ -1306,6 +1324,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 2 ],
+					"order" : 1,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1391,6 +1418,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 4 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

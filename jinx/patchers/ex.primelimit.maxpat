@@ -156,7 +156,7 @@
 					"patching_rect" : [ 1151.0, 1175.054688000000169, 155.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 303.0, 481.5, 216.0, 21.0 ],
-					"text" : "1 out of 1 ratios",
+					"text" : "4 out of 8 ratios",
 					"textjustification" : 2
 				}
 
@@ -1193,7 +1193,7 @@
 			}
 , 			{
 				"box" : 				{
-					"cols" : 1,
+					"cols" : 2,
 					"colwidth" : 64,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -1210,7 +1210,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 274.5, 515.0, 228.0 ],
 					"rowheight" : 32,
-					"rows" : 1,
+					"rows" : 2,
 					"vscroll" : 0
 				}
 
@@ -1557,7 +1557,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 207.0, 84.7236328125, 57.0, 22.0 ],
+									"text" : "bach.abs"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-51",
 									"maxclass" : "newobj",
@@ -1577,7 +1590,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 247.666666666666657, 131.2236328125, 234.0, 22.0 ],
+									"patching_rect" : [ 247.666666666666657, 152.2236328125, 234.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
@@ -1594,7 +1607,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 207.0, 93.2236328125, 80.0, 22.0 ],
+									"patching_rect" : [ 207.0, 114.2236328125, 80.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"versionnumber" : 80300
 									}
@@ -1643,6 +1656,13 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-53", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
@@ -1664,15 +1684,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"source" : [ "obj-51", 0 ]
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-51", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-24", 0 ],
-									"source" : [ "obj-51", 1 ]
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-51", 0 ]
 								}
 
 							}
@@ -2359,6 +2379,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "bach.abs.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
