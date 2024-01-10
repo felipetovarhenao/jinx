@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 807.0, 360.0, 526.0, 247.0 ],
+		"rect" : [ 321.0, 360.0, 523.0, 248.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"title" : "synth editor",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 538.0, 1037.0, 101.0, 22.0 ],
+					"text" : "vexpr pow($f1\\, 2)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 352.166666666666515, 921.0, 105.0, 22.0 ],
+					"text" : "vexpr pow($f1\\, .5)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 352.166666666666515, 886.0, 29.0, 22.0 ],
+					"text" : "thru"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
@@ -835,7 +871,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 352.166666666666515, 864.0, 98.0, 22.0 ],
+					"patching_rect" : [ 352.166666666666515, 848.0, 98.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -854,7 +890,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 538.0, 1034.5, 29.5, 22.0 ],
+					"patching_rect" : [ 538.0, 1073.5, 29.5, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -1496,7 +1532,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 538.0, 925.0, 383.0, 85.0 ],
+					"patching_rect" : [ 538.0, 964.0, 383.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 30.40000057220459, 359.0, 213.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -1726,7 +1762,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1978,7 +2014,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -2020,7 +2056,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -2104,6 +2140,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -2111,7 +2161,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -2120,6 +2170,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"source" : [ "obj-53", 0 ]
 				}
 
 			}
@@ -2416,6 +2473,12 @@
 				"name" : "jinx.r2mc.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
