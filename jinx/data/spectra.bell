@@ -7,6 +7,10 @@
 	[ "ratios" 1 2 3 5 7 11 13 ]
 ]
 [
+	[ "name" "fibonacci harmonics" ]
+	[ "ratios" 1 2 3 5 8 13 ]
+]
+[
 	[ "name" "odd harmonics" ]
 	[ "ratios" 1 3 5 7 9 11 ]
 ]
