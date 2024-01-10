@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 13.0, 64.0, 525.0, 548.0 ],
+		"rect" : [ 171.0, 150.0, 526.0, 547.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "jinx",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 111.5, 212.5, 235.0, 22.0 ],
+					"text" : "title jinx, window flags notitle, window exec"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -77,17 +89,16 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"linecount" : 7,
+					"linecount" : 4,
 					"linkend" : [ "*" ],
 					"maxclass" : "bach.hypercomment",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1575.0, 106.0, 116.0 ],
+					"patching_rect" : [ 357.0, 1575.0, 106.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 191.5, 483.0, 333.0, 38.0 ],
-					"text" : "tags: #auditory+illusions #psychoacoustics #harmonic+series"
+					"presentation_rect" : [ 191.5, 483.0, 333.0, 22.0 ],
+					"text" : "tags: #tuning+systems #experimentation #retuning"
 				}
 
 			}
@@ -154,9 +165,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.5, 215.0, 103.0, 22.0 ],
-					"text" : "loadmess title jinx"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 111.5, 181.0, 58.0, 22.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -317,7 +328,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 191.5, 271.0, 333.0, 40.0 ],
-					"text" : "This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra",
+					"text" : "An interface for comparing and listening to different passages in a variety of tunings systems.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -333,7 +344,7 @@
 					"patching_rect" : [ 239.75, 1655.0, 215.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.5, 234.0, 333.0, 30.0 ],
-					"text" : "virtual fundamental"
+					"text" : "scale retuning"
 				}
 
 			}
@@ -871,7 +882,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1090,6 +1101,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
