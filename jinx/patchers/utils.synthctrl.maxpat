@@ -159,9 +159,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.5, 51.5, 347.0, 22.0 ],
-					"presentation_linecount" : 2,
-					"text" : "partials 1 1. 2 0.25 3 0.0625 5 0.003906 7 0.000244 9 0.000015"
+					"patching_rect" : [ 589.5, 51.5, 374.0, 22.0 ],
+					"text" : "partials 1 1. 2 0.003906 3 0.0625 5 0.003906 7 0.000244 9 0.000015"
 				}
 
 			}
