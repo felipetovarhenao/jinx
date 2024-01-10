@@ -111,12 +111,28 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 12.0, 235.846152931451797, 57.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"versionnumber" : 80300
+									}
+,
+									"text" : "bach.thin"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-83",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 911.0, 286.576926350593567, 57.0, 22.0 ],
+									"patching_rect" : [ 911.0, 331.576926350593567, 57.0, 22.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -128,7 +144,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 911.0, 324.076926350593567, 107.0, 22.0 ],
+									"patching_rect" : [ 911.0, 369.076926350593567, 107.0, 22.0 ],
 									"text" : "sprintf symout `%s"
 								}
 
@@ -140,7 +156,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "clear" ],
-									"patching_rect" : [ 12.0, 268.461539641022682, 47.0, 22.0 ],
+									"patching_rect" : [ 12.0, 313.461539641022682, 47.0, 22.0 ],
 									"text" : "t l clear"
 								}
 
@@ -153,7 +169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 12.0, 302.692310661077499, 862.0, 22.0 ],
+									"patching_rect" : [ 12.0, 347.692310661077499, 862.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"versionnumber" : 80300
@@ -186,7 +202,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 12.0, 234.230768620967865, 96.0, 22.0 ],
+									"patching_rect" : [ 12.0, 279.230768620967865, 96.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"versionnumber" : 80300
 									}
@@ -269,12 +285,19 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 349.839377350593622, 30.0, 30.0 ]
+									"patching_rect" : [ 12.0, 394.839377350593622, 30.0, 30.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-75", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-79", 0 ],
 									"source" : [ "obj-102", 0 ]
@@ -311,7 +334,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-75", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-73", 0 ]
 								}
 
@@ -786,8 +809,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1948.797388890926413, 1341.653842270374298, 177.0, 22.0 ],
-					"text" : "loadmess 1 0.5 0.25 0.125 0.06"
+					"patching_rect" : [ 1948.797388890926413, 1341.653842270374298, 335.0, 22.0 ],
+					"text" : "loadmess 1. 0.333333 0.111111 0.037037 0.012346 0.004115"
 				}
 
 			}
@@ -965,7 +988,7 @@
 					"patching_rect" : [ 1564.599999999999909, 1163.0, 222.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 283.0, 398.0, 23.0 ],
-					"text" : "tuning size: 12 | octave ratio: 2.00",
+					"text" : "tuning size: 9 | octave ratio: 2.12",
 					"textjustification" : 2
 				}
 
@@ -1906,7 +1929,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-92",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "to Max 1", ",", "to Max 2", ",", "Oxygen 49" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2173,7 +2196,6 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -2182,9 +2204,8 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 915.0, 759.0, 538.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1.5, 236.0, 521.0, 43.0 ],
-					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
+					"text" : "1 1.1 1.21 1.311 1.43 1.54 1.6 1.7 1.95 2.1223",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -2493,6 +2514,7 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "kslider",
+					"mode" : 1,
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : 21,
@@ -3642,6 +3664,13 @@
 			}
 , 			{
 				"name" : "utils.r2roll.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.reverb~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
