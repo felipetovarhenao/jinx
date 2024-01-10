@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 330.0, 93.0, 527.0, 815.0 ],
+		"rect" : [ 100.0, 100.0, 525.0, 808.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,

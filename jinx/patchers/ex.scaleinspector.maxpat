@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
@@ -204,8 +204,8 @@
 									"id" : "obj-73",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 119.0, 191.0, 64.0, 22.0 ],
 									"text" : "jinx.r2mon"
 								}
@@ -3716,7 +3716,7 @@
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.classify"
+					"text" : "bach.classify @embed 0"
 				}
 
 			}
