@@ -1132,8 +1132,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1084.5, 562.125, 212.0, 22.0 ],
-					"text" : "sprintf symout available %i-limit ratio/s"
+					"patching_rect" : [ 1084.5, 562.125, 217.0, 22.0 ],
+					"text" : "sprintf symout available %i-limit ratio(s)"
 				}
 
 			}
@@ -1165,7 +1165,7 @@
 					"patching_rect" : [ 984.416666666666515, 803.5, 205.041666666666742, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 480.0, 230.688405781984329, 23.0 ],
-					"text" : "1 available 2-limit ratio/s"
+					"text" : "12 available 7-limit ratio(s)"
 				}
 
 			}
@@ -2236,7 +2236,7 @@
 					"patching_rect" : [ 785.0, 605.531250182539225, 270.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.75, 626.0, 507.188405781984329, 23.0 ],
-					"text" : "2-limit approximation"
+					"text" : "7-limit approximation"
 				}
 
 			}
@@ -4395,6 +4395,13 @@
 			}
 , 			{
 				"name" : "utils.r2roll.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.reverb~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
