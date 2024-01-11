@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 882.0, 53.0, 525.0, 842.0 ],
+		"rect" : [ 100.0, 100.0, 525.0, 795.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1066,7 +1066,7 @@
 					"patching_rect" : [ 1564.599999999999909, 1232.0, 327.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 283.0, 398.0, 23.0 ],
-					"text" : "tuning size: 16 | octave ratio: 2.00 | 31-limit tuning",
+					"text" : "tuning size: 12 | octave ratio: 2.00",
 					"textjustification" : 2
 				}
 
@@ -2285,7 +2285,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1.5, 236.0, 521.0, 43.0 ],
-					"text" : "1 17/16 9/8 19/16 5/4 21/16 11/8 23/16 3/2 25/16 13/8 27/16 7/4 29/16 15/8 31/16 2",
+					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
