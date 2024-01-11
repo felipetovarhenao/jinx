@@ -102,3 +102,7 @@
 	[ "name" "inharmonic partials 4" ]
 	[ "ratios" 1 2.5 3.4 4.3 5.2 6.1 ]
 ]
+[
+	[ "name" "tritave spectrum" ]
+	[ "ratios" 1 3 7.600449 19.255607 ]
+]
