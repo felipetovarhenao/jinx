@@ -19,7 +19,7 @@
 	[ "ratios" (1...6)*2 ]
 ]
 [
-	[ "name" "dilated harmonics(2.1)" ]
+	[ "name" "stretched harmonics(2.1)" ]
 	[ "ratios" 2.1**log2(1...10) ]
 ]
 [
