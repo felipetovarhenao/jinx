@@ -19,16 +19,16 @@
 	[ "ratios" (1...6)*2 ]
 ]
 [
-	[ "name" "stretched harmonics(2.1)" ]
-	[ "ratios" 2.1**log2(1...10) ]
+	[ "name" "stretched harmonics (2.1)" ]
+	[ "ratios" 2.1**log2(1 2 3 5 7 8) ]
 ]
 [
-	[ "name" "compressed harmonics (1.97)" ]
-	[ "ratios" 1.97**log2(1...10) ]
+	[ "name" "compressed harmonics (1.95)" ]
+	[ "ratios" 1.95**log2(1 2 3 5 7 8) ]
 ]
 [
 	[ "name" "compressed harmonics (1.414)" ]
-	[ "ratios" 1.414**log2(1...10) ]
+	[ "ratios" 1.414**log2(1 2 3 5 7 8) ]
 ]
 [
 	[ "name" "metal bar" ]

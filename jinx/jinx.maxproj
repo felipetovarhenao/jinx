@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3787789726,
+	"modificationdate" : 3787838192,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -201,11 +201,6 @@
 				"local" : 1
 			}
 ,
-			"jinx.nearest.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"jinx.float2rat.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -292,6 +287,11 @@
 			}
 ,
 			"utils.tuninglimit.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.retune.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
