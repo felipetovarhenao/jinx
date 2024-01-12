@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 172.222222222222172, 236.125, 59.666666666666657, 22.0 ],
+					"text" : "bach.!-"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-73",
 					"index" : 0,
@@ -102,7 +114,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 170.444444444444457, 928.0, 217.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "recenter midicents around fundamental"
 				}
 
@@ -114,7 +125,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 649.722222222221944, 928.0, 192.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "get closest pitch class in midicents"
 				}
 
@@ -283,7 +293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 212.888888888888857, 263.125, 608.5, 22.0 ],
+					"patching_rect" : [ 172.222222222222172, 273.125, 649.166666666666742, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -295,7 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 172.222222222222172, 173.5, 727.5, 22.0 ],
+					"patching_rect" : [ 172.222222222222172, 162.5, 727.5, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -319,7 +329,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 293.888888888888914, 432.5, 219.0, 20.0 ],
-					"presentation_linecount" : 4,
 					"text" : "get distorted intervals from fundamental"
 				}
 
@@ -341,7 +350,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 289.888888888888857, 307.25, 84.0, 20.0 ],
+					"patching_rect" : [ 249.222222222222172, 313.25, 84.0, 20.0 ],
 					"text" : "distortion ratio"
 				}
 
@@ -353,7 +362,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.888888888888857, 306.25, 75.0, 22.0 ],
+					"patching_rect" : [ 172.222222222222172, 312.25, 75.0, 22.0 ],
 					"text" : "bach./ 1200."
 				}
 
@@ -365,7 +374,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 212.888888888888857, 355.0, 434.666666666666572, 22.0 ],
+					"patching_rect" : [ 172.222222222222172, 355.0, 516.0, 22.0 ],
 					"text" : "t l l l"
 				}
 
@@ -377,7 +386,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 172.222222222222172, 220.0, 80.0, 22.0 ],
+					"patching_rect" : [ 172.222222222222172, 199.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -538,8 +547,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-16", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -631,6 +647,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -849,6 +872,13 @@
 , 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.rminus.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.wrap.mxo",
