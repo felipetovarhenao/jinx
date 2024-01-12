@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3787860812,
+	"modificationdate" : 3787885730,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -415,11 +415,6 @@
 		}
 ,
 		"other" : 		{
-			"chromatic_octaves.midi" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
 			"bach_CM_prelude.mid" : 			{
 				"kind" : "midifile",
 				"local" : 1
@@ -430,7 +425,27 @@
 				"local" : 1
 			}
 ,
-			"happy_birthday.mid" : 			{
+			"scarlatti_k380.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1
+			}
+,
+			"bach_chorale.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1
+			}
+,
+			"happy_birthday.midi" : 			{
+				"kind" : "midifile",
+				"local" : 1
+			}
+,
+			"chromatic_octaves.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1
+			}
+,
+			"bach_invention_8.mid" : 			{
 				"kind" : "midifile",
 				"local" : 1
 			}
