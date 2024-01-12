@@ -205,7 +205,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-3",
-					"items" : [ "bach_chorale.midi", ",", "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi" ],
+					"items" : [ "bach_chorale.mid", ",", "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -659,7 +659,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2.0, 206.0, 520.0, 25.0 ],
-					"text" : "1 45/44 35/33 9/8 7/6 105/88 5/4 14/11 21/16 15/11 63/44 35/24 3/2 35/22 18/11 5/3 7/4 20/11 15/8 21/11 2",
+					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -740,7 +740,7 @@
 					"patching_rect" : [ 1116.166666666666515, 1033.0, 148.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 233.0, 167.0, 23.0 ],
-					"text" : "tuning (11-limit)"
+					"text" : "tuning"
 				}
 
 			}
@@ -1125,6 +1125,8 @@
 					"format" : 4,
 					"id" : "obj-11",
 					"maxclass" : "number",
+					"maximum" : 109,
+					"minimum" : 21,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
