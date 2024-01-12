@@ -1,6 +1,6 @@
 ## jinx: an interactive learning toolkit
 
-<img  src="https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/jinx.jpg" maxheight="500" width="auto"/>
+<img  src="https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/jinx.jpg" height="500"/>
 
 ### Description
 
