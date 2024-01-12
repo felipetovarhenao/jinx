@@ -41,6 +41,24 @@
 		"title" : "scale retuning",
 		"boxes" : [ 			{
 				"box" : 				{
+					"code" : "$x1 / minimum($x1) ",
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1283.266666666666424, 1090.12500062584877, 169.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.eval $x1 / minimum($x1)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-58",
 					"maxclass" : "textbutton",
@@ -205,7 +223,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-3",
-					"items" : [ "bach_chorale.mid", ",", "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi" ],
+					"items" : [ "bach_chorale.mid", ",", "bach_CM_prelude.mid", ",", "bach_invention_8.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi", ",", "scarlatti_k380.mid" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -648,7 +666,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 13.0,
 					"id" : "obj-56",
-					"linecount" : 7,
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -657,9 +675,8 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 280.666666666666629, 663.5, 130.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2.0, 206.0, 520.0, 25.0 ],
-					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
+					"text" : "35/32 5/4 21/16 3/2 7/4 15/8 35/16",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -740,7 +757,7 @@
 					"patching_rect" : [ 1116.166666666666515, 1033.0, 148.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 233.0, 167.0, 23.0 ],
-					"text" : "tuning"
+					"text" : "tuning (7-limit)"
 				}
 
 			}
@@ -1439,15 +1456,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"source" : [ "obj-28", 6 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-28", 0 ]
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-28", 6 ]
 				}
 
 			}
@@ -1574,6 +1591,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
