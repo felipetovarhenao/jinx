@@ -32,7 +32,7 @@ $combset = (
 		$set = sort(for $r in flat(comb($x, @kstart $order @kend $order), 1) collect (
 			$normalize(reduce(flat($r), #*))
 		));
-		$set 2
+		$set (minimum($set) * 2)
 	)
 );
 
