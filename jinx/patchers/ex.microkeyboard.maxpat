@@ -929,8 +929,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1767.666666666666742, 950.5, 101.0, 22.0 ],
-					"text" : "bach.* 1. @out m"
+					"patching_rect" : [ 1727.0, 950.5, 103.0, 22.0 ],
+					"text" : "bach.!/ 1. @out m"
 				}
 
 			}
@@ -1084,7 +1084,7 @@
 					"patching_rect" : [ 1564.599999999999909, 1232.0, 327.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 283.0, 398.0, 23.0 ],
-					"text" : "tuning size: 12 | octave ratio: 2.00",
+					"text" : "tuning size: 6 | octave ratio: 2.19 | 7-limit tuning",
 					"textjustification" : 2
 				}
 
@@ -2025,7 +2025,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-92",
-					"items" : [ "to Max 1", ",", "to Max 2" ],
+					"items" : [ "to Max 1", ",", "to Max 2", ",", "Oxygen 49" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2277,7 +2277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1727.0, 916.0, 80.0, 22.0 ],
+					"patching_rect" : [ 1727.0, 916.0, 145.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -2292,7 +2292,6 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -2301,9 +2300,8 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 915.0, 759.0, 538.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1.5, 236.0, 521.0, 43.0 ],
-					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
+					"text" : "35/32 5/4 21/16 3/2 7/4 15/8 35/16",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -2612,6 +2610,7 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "kslider",
+					"mode" : 1,
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : 21,
@@ -3221,8 +3220,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-63", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-63", 0 ]
 				}
 
 			}
@@ -3642,6 +3648,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.rdiv.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
 			}
@@ -3662,6 +3675,13 @@
 , 			{
 				"name" : "bach.rev.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.rminus.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.roll.mxo",
