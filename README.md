@@ -1,5 +1,7 @@
 ## jinx: an interactive learning toolkit
 
+<img  src="https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/jinx.jpg" maxheight="500" width="auto"/>
+
 ### Description
 
 This project consists of a variety of educational and interactive tools for learning about just intonation, xenharmonic music, and tuning theory more broadly. The primary goal of this project is to provide users interested in the subject with accesible and explorative tools, such that they can learn through play, and further solidify their musical intuition in tuning theory by connecting theory to practice.
