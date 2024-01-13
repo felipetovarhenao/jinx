@@ -1,3 +1,3 @@
 [ 'title' "combination product sets" ]
-[ 'description' "An interface for exploring Erv Wilson's theoretical construct of combination product sets (CPS). These are ratios that can be generated from multiplying all possible k combinations out of a set of n different elements."]
+[ 'description' "An interface for exploring Erv Wilson's theoretical construct of combination product sets (CPS). These are ratios that can be generated from multiplying all possible k combinations out of a larger set of n unique elements."]
 [ 'tags' "music+theory" "analysis" "just+intonation"]
