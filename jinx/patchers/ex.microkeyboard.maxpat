@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 525.0, 840.0 ],
+		"rect" : [ 100.0, 100.0, 525.0, 864.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,53 @@
 		"assistshowspatchername" : 0,
 		"title" : "microtonal keyboard",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"id" : "obj-74",
+					"maxclass" : "number",
+					"maximum" : 2000,
+					"minimum" : 250,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 816.0, 1413.0, 54.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 468.5, 779.0, 53.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 816.0, 1376.0, 93.0, 22.0 ],
+					"text" : "loadmess 1000."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 14.0,
+					"id" : "obj-75",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 868.0, 1413.0, 93.0, 40.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 342.5, 779.0, 125.0, 23.0 ],
+					"text" : "note duration (ms)",
+					"textjustification" : 2
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"code" : "$x1 / minimum($x1) ",
 					"id" : "obj-48",
@@ -582,7 +629,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 162.0, 790.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 355.5, 707.0, 64.0, 23.0 ],
+					"presentation_rect" : [ 457.5, 707.0, 64.0, 23.0 ],
 					"text" : "flush keys"
 				}
 
@@ -847,7 +894,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1723.666666999999961, 1304.153841018676758, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 421.5, 706.5, 100.0, 23.5 ],
+					"presentation_rect" : [ 1.5, 779.0, 100.0, 23.5 ],
 					"text" : "adapt timbre",
 					"texton" : "adapt timbre"
 				}
@@ -1084,7 +1131,7 @@
 					"patching_rect" : [ 1564.599999999999909, 1232.0, 327.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 283.0, 398.0, 23.0 ],
-					"text" : "tuning size: 6 | octave ratio: 2.19 | 7-limit tuning",
+					"text" : "tuning size: 13 | octave ratio: 2.00",
 					"textjustification" : 2
 				}
 
@@ -2292,6 +2339,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
+					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -2300,8 +2348,9 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 915.0, 759.0, 538.0, 23.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1.5, 236.0, 521.0, 43.0 ],
-					"text" : "35/32 5/4 21/16 3/2 7/4 15/8 35/16",
+					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.373954 1.455653 1.542211 1.633915 1.731073 1.834008 1.943064 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -2335,7 +2384,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1195.685714285714312, 1512.0, 546.98095271428565, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 779.0, 521.0, 59.0 ],
+					"presentation_rect" : [ 1.5, 804.0, 521.0, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2406,10 +2455,10 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "'note' 1 1 [ 0 [ $x2 1000 $x1 0 ] 0 ] ",
+					"code" : "'note' 1 1 [ 0 [ $x3 ($x2 ||| 1000.) $x1 0 ] 0 ] ",
 					"id" : "obj-45",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.0, 1458.0, 401.0, 22.0 ],
@@ -2418,7 +2467,7 @@
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval 'note' 1 1 [ 0 [ $x2 1000 $x1 0 ] 0 ] @triggers 2"
+					"text" : "bach.eval 'note' 1 1 [ 0 [ $x3 ($x2 ||| 1000.) $x1 0 ] 0 ] @triggers 3"
 				}
 
 			}
@@ -2472,7 +2521,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "48 EDO", ",", "53 EDO", ",", "stretched 12 EDO (2.1)", ",", "compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 Hexany", ",", "1-3-5-7-11 Dekany (2)", ",", "1-3-5-7-11 Dekany (3)", ",", "1-3-5-7-9-11 Pentadekany (2)", ",", "1-3-5-7-9-11 Pentadekany (4)", ",", "1-3-5-7-9-11 Eikosany", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "A12 scale", ",", "833 cents scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "48 EDO", ",", "53 EDO", ",", "Diatonicized chromatic scale", ",", "Stretched 12 EDO (2.1)", ",", "Compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 hexany", ",", "1-3-5-7-11 dekany (2)", ",", "1-3-5-7-11 dekany (3)", ",", "1-3-5-7-9-11 pentadekany (2)", ",", "1-3-5-7-9-11 pentadekany (4)", ",", "1-3-5-7-9-11 eikosany", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "A12 scale", ",", "833 cents scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2608,6 +2657,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hkeycolor" : [ 0.086274509803922, 0.674509803921569, 0.537254901960784, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "kslider",
 					"mode" : 1,
@@ -2620,7 +2670,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 732.0, 520.0, 45.0 ],
 					"range" : 88,
-					"selectioncolor" : [ 0.086274509803922, 0.674509803921569, 0.537254901960784, 1.0 ]
+					"selectioncolor" : [ 0.0, 0.694117647058824, 0.454901960784314, 1.0 ]
 				}
 
 			}
@@ -3304,6 +3354,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 1 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-105", 1 ],
 					"source" : [ "obj-76", 0 ]
 				}
@@ -3339,6 +3396,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -3360,7 +3424,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
+					"destination" : [ "obj-45", 2 ],
 					"source" : [ "obj-85", 1 ]
 				}
 
