@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 321.0, 360.0, 523.0, 248.0 ],
+		"rect" : [ 321.0, 360.0, 894.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,24 @@
 		"title" : "synth editor",
 		"boxes" : [ 			{
 				"box" : 				{
+					"code" : "'size' length($x1) ",
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 375.666666666666515, 928.0, 198.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.eval 'size' length($x1) @out m"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,7 +76,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.166666666666515, 921.0, 105.0, 22.0 ],
+					"patching_rect" : [ 251.166666666666515, 928.0, 105.0, 22.0 ],
 					"text" : "vexpr pow($f1\\, .5)"
 				}
 
@@ -68,10 +86,10 @@
 					"id" : "obj-45",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.166666666666515, 886.0, 29.0, 22.0 ],
-					"text" : "thru"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 251.166666666666515, 889.0, 143.5, 22.0 ],
+					"text" : "t l l"
 				}
 
 			}
@@ -871,7 +889,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 352.166666666666515, 848.0, 98.0, 22.0 ],
+					"patching_rect" : [ 251.166666666666515, 855.0, 98.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1449,7 +1467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.666666666666515, 814.0, 362.5, 22.0 ],
+					"patching_rect" : [ 8.666666666666515, 814.0, 261.5, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -1537,7 +1555,6 @@
 					"presentation_rect" : [ 2.5, 30.40000057220459, 359.0, 213.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 6,
 					"slidercolor" : [ 0.086274509803922, 0.674509803921569, 0.537254901960784, 1.0 ],
 					"spacing" : 29
 				}
@@ -1557,7 +1574,7 @@
 					"patching_rect" : [ 8.666666666666515, 502.0, 227.0, 23.125000730156898 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 6.40000057220459, 359.0, 20.0 ],
-					"text" : "1 2 3 5 7 9",
+					"text" : "1",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -2147,8 +2164,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-45", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -2473,12 +2504,6 @@
 				"name" : "jinx.r2mc.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
