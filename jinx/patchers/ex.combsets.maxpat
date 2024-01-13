@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 527.0, 616.0 ],
+		"rect" : [ 100.0, 100.0, 525.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -422,7 +422,7 @@
 					"patching_rect" : [ 715.0, 1475.0, 182.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 510.5, 359.0, 22.0 ],
-					"text" : "5-limit genus | 6 ratio(s)",
+					"text" : "7-limit cps | 6 ratio(s)",
 					"textjustification" : 1
 				}
 
@@ -486,11 +486,10 @@
 			}
 , 			{
 				"box" : 				{
-					"cantchange" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-14",
 					"maxclass" : "number",
-					"maximum" : 2,
+					"maximum" : 3,
 					"minimum" : 2,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -499,7 +498,7 @@
 					"patching_rect" : [ 667.666666666666742, 696.0, 52.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 473.0, 255.5, 50.0, 23.0 ],
-					"textcolor" : [ 0.969, 0.969, 0.969, 0.25 ]
+					"textcolor" : [ 0.969, 0.969, 0.969, 1.0 ]
 				}
 
 			}
@@ -1220,7 +1219,7 @@
 					"patching_rect" : [ 351.0, 383.0, 200.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 62.0, 231.5, 299.0, 23.0 ],
-					"text" : "3 3 5",
+					"text" : "1 3 5 7",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 

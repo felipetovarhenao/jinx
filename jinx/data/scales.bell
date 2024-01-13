@@ -28,11 +28,11 @@ $meantone = (
 );
 
 $combset = (
-	$x, $order = 2 -^ $normalize -> (
-		$set = sort(for $r in flat(comb($x, @kstart $order @kend $order), 1) collect (
-			$normalize(reduce(flat($r), #*))
+	$x, $order = 2, $genus = 0 -^ $normalize -> (
+		$set = sort(for $r in flat(comb($x, @kstart if $genus then 0 else $order, @kend if $genus then length($x) else $order), 1) collect (
+			$normalize(reduce(flat($r) ||| 1, #*))
 		));
-		$set (minimum($set) * 2)
+		thin($set (minimum($set) * 2))
 	)
 );
 
@@ -309,6 +309,94 @@ $getsrutis = (
 [
 	[ "name" "1-3-5-7-9-11 eikosany" ]
 	[ "ratios" $combset(1 3 5 7 9 11 @order 3) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3)" ]
+	[ "ratios" $combset(3 3, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-5)" ]
+	[ "ratios" $combset(3 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (5-5)" ]
+	[ "ratios" $combset(5 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-7)" ]
+	[ "ratios" $combset(3 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (7-7)" ]
+	[ "ratios" $combset(7 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-3)" ]
+	[ "ratios" $combset(3 3 3, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-5)" ]
+	[ "ratios" $combset(3 3 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-5-5)" ]
+	[ "ratios" $combset(3 5 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (5-5-5)" ]
+	[ "ratios" $combset(5 5 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-7)" ]
+	[ "ratios" $combset(3 3 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-7-7)" ]
+	[ "ratios" $combset(3 7 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (7-7-7)" ]
+	[ "ratios" $combset(7 7 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-5-7)" ]
+	[ "ratios" $combset(3 5 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-3-3)" ]
+	[ "ratios" $combset(3 3 3 3, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-3-5)" ]
+	[ "ratios" $combset(3 3 3 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-5-5)" ]
+	[ "ratios" $combset(3 3 5 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-5-5-5)" ]
+	[ "ratios" $combset(3 5 5 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (5-5-5-5)" ]
+	[ "ratios" $combset(5 5 5 5, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-3-7)" ]
+	[ "ratios" $combset(3 3 3 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-3-7-7)" ]
+	[ "ratios" $combset(3 3 7 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (3-7-7-7)" ]
+	[ "ratios" $combset(3 7 7 7, @genus 1) ]
+]
+[
+	[ "name" "Euler-Fokker genus (7-7-7-7)" ]
+	[ "ratios" $combset(7 7 7 7, @genus 1) ]
 ]
 [
 	[ "name" "La Monte Young's 7-limit" ]
