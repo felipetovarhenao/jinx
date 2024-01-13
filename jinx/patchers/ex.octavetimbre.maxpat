@@ -89,7 +89,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 6.0, 286.0, 60.0, 22.0 ],
-					"text" : "t 3 b"
+					"text" : "t 4 b"
 				}
 
 			}
@@ -356,7 +356,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-5",
-					"items" : [ "bach_chorale.midi", ",", "bach_CM_prelude.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi" ],
+					"items" : [ "bach_chorale.mid", ",", "bach_CM_prelude.mid", ",", "bach_invention_8.mid", ",", "beethoven_fur_elise.mid", ",", "chromatic_octaves.mid", ",", "happy_birthday.midi", ",", "scarlatti_k380.mid" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1074,6 +1074,13 @@
 			}
 , 			{
 				"name" : "utils.r2roll.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.reverb~.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

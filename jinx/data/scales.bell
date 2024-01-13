@@ -63,6 +63,12 @@ $diamond = (
 	)
 );
 
+$dx2x = (
+	$x, $s = 0 -> (
+		$s (for $i in $x collect $s += $i)
+	)
+);
+
 $getsrutis = (
 	-^ $normalize -> (
 		$schisma = 32805/32768;
@@ -169,11 +175,15 @@ $getsrutis = (
 	[ "ratios" $ntet(53) 2 ]
 ]
 [
-	[ "name" "stretched 12 EDO (2.1)" ]
+	[ "name" "Diatonicized chromatic scale"]
+	[ "ratios" 2 ** ($dx2x((2 :* 5) 1 (2 :* 6) 1) / 24) ]
+]
+[
+	[ "name" "Stretched 12 EDO (2.1)" ]
 	[ "ratios" ($ntet(12) 2) ** log2(2.1) ]
 ]
 [
-	[ "name" "compressed 12 EDO (1.95)" ]
+	[ "name" "Compressed 12 EDO (1.95)" ]
 	[ "ratios" ($ntet(12) 2) ** log2(1.95) ]
 ]
 [
@@ -277,27 +287,27 @@ $getsrutis = (
 	[ "ratios" $diamond(11, 1) ]
 ]
 [
-	[ "name" "1-3-5-7 Hexany" ]
+	[ "name" "1-3-5-7 hexany" ]
 	[ "ratios" $combset(1 3 5 7) ]
 ]
 [
-	[ "name" "1-3-5-7-11 Dekany (2)" ]
+	[ "name" "1-3-5-7-11 dekany (2)" ]
 	[ "ratios" $combset(1 3 5 7 11) ]
 ]
 [
-	[ "name" "1-3-5-7-11 Dekany (3)" ]
+	[ "name" "1-3-5-7-11 dekany (3)" ]
 	[ "ratios" $combset(1 3 5 7 11, @order 3) ]
 ]
 [
-	[ "name" "1-3-5-7-9-11 Pentadekany (2)" ]
+	[ "name" "1-3-5-7-9-11 pentadekany (2)" ]
 	[ "ratios" $combset(1 3 5 7 9 11) ]
 ]
 [
-	[ "name" "1-3-5-7-9-11 Pentadekany (4)" ]
+	[ "name" "1-3-5-7-9-11 pentadekany (4)" ]
 	[ "ratios" $combset(1 3 5 7 9 11 @order 4) ]
 ]
 [
-	[ "name" "1-3-5-7-9-11 Eikosany" ]
+	[ "name" "1-3-5-7-9-11 eikosany" ]
 	[ "ratios" $combset(1 3 5 7 9 11 @order 3) ]
 ]
 [
