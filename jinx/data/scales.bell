@@ -167,6 +167,10 @@ $getsrutis = (
 	[ "ratios" $ntet(24) 2 ]
 ]
 [
+	[ "name" "31 EDO" ]
+	[ "ratios" $ntet(31) 2 ]
+]
+[
 	[ "name" "48 EDO" ]
 	[ "ratios" $ntet(48) 2 ]
 ]
