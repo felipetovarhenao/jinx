@@ -1,4 +1,8 @@
 [
+	[ "name" "sine tone" ]
+	[ "ratios" 1 ]
+]
+[
 	[ "name" "harmonic partials" ]
 	[ "ratios" 1...10 ]
 ]
