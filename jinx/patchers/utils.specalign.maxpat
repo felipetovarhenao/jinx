@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 422.666666666666686, 435.0, 68.0, 22.0 ],
+					"text" : "r #0dims"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
@@ -346,19 +358,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$x1 * ($x2:1 ||| 0.) ",
+					"code" : "min($x1 * ($x2 ||| 0.), $x3:1 - 3) ",
 					"id" : "obj-78",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.666666666666686, 558.0, 203.0, 22.0 ],
+					"patching_rect" : [ 168.666666666666686, 558.0, 273.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $x1 * ($x2:1 ||| 0.) @out m"
+					"text" : "bach.eval min($x1 * ($x2 ||| 0.)\\, $x3:1 - 3) @out m"
 				}
 
 			}
@@ -1087,6 +1099,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 3 ],
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 2 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
