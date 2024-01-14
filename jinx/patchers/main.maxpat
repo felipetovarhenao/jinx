@@ -68,8 +68,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.5, 212.5, 49.0, 22.0 ],
-					"text" : "title jinx"
+					"patching_rect" : [ 111.5, 212.5, 191.0, 22.0 ],
+					"text" : "title \"jinx: interactive tuning theory\""
 				}
 
 			}
