@@ -172,7 +172,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "\"v0.0.4-beta\" ",
+					"code" : "\"v0.0.5-beta\" ",
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -286,13 +286,13 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"body" : "\"v0.0.4-beta\"",
-						"header" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 13\r\nCache-Control: max-age=300\r\nContent-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox\r\nContent-Type: text/plain; charset=utf-8\r\nETag: \"aa3ddac0219a085d98f1c5a2f78d29e85e3f9581e977ebe5dd32857e8d714016\"\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-GitHub-Request-Id: F258:4514:262939:309BD6:65A34343\r\nAccept-Ranges: bytes\r\nDate: Sun, 14 Jan 2024 02:31:53 GMT\r\nVia: 1.1 varnish\r\nX-Served-By: cache-cmh1290099-CMH\r\nX-Cache: HIT\r\nX-Cache-Hits: 2\r\nX-Timer: S1705199513.179173,VS0,VE0\r\nVary: Authorization,Accept-Encoding,Origin\r\nAccess-Control-Allow-Origin: *\r\nCross-Origin-Resource-Policy: cross-origin\r\nX-Fastly-Request-ID: f3e4654c3ab434430a7a1408274975f90157b2d3\r\nExpires: Sun, 14 Jan 2024 02:36:53 GMT\r\nSource-Age: 123\r\n\r\n",
+						"body" : "\"v0.0.5-beta\"",
+						"header" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 13\r\nCache-Control: max-age=300\r\nContent-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox\r\nContent-Type: text/plain; charset=utf-8\r\nETag: \"3008be775e01708c48f8fa3fff59e40be86b477466a8f7abb9481d10ce69d774\"\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-GitHub-Request-Id: 8AEC:2162:DE0288:10E4280:65A38279\r\nAccept-Ranges: bytes\r\nDate: Sun, 14 Jan 2024 07:12:18 GMT\r\nVia: 1.1 varnish\r\nX-Served-By: cache-cmh1290030-CMH\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1705216338.436038,VS0,VE1\r\nVary: Authorization,Accept-Encoding,Origin\r\nAccess-Control-Allow-Origin: *\r\nCross-Origin-Resource-Policy: cross-origin\r\nX-Fastly-Request-ID: 28a411ed76cc5f40b8f7ccfcd8899eef8e16d124\r\nExpires: Sun, 14 Jan 2024 07:17:18 GMT\r\nSource-Age: 247\r\n\r\n",
 						"status" : 200,
 						"connect_code" : 0,
 						"url" : "https://raw.githubusercontent.com/felipetovarhenao/jinx/main/jinx/data/version.bell",
 						"file_time" : -1,
-						"total_time" : 0.365706,
+						"total_time" : 0.064306,
 						"size_upload" : 0.0,
 						"size_download" : 13.0,
 						"content_length_download" : 13.0,
