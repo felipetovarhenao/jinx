@@ -18,7 +18,10 @@ dissfun = (
 	$sb = 18.96,
 	$c = 1.0 -> (
 		$s = $xstar / (min($fa, $fb) * $sa + $sb);
-		$lab = min($la, $lb);
+		#(
+			currently square-rooting amplitude to prevent near-zero errors.
+		)#
+		$lab = min($la, $lb)**.5;
 		$exp = abs($fb - $fa) * $s;
 		$a = exp($ba*$exp);
 		$b = exp($bb*$exp);
