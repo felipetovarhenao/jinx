@@ -68,8 +68,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.5, 212.5, 235.0, 22.0 ],
-					"text" : "title jinx, window flags notitle, window exec"
+					"patching_rect" : [ 111.5, 212.5, 49.0, 22.0 ],
+					"text" : "title jinx"
 				}
 
 			}
@@ -408,7 +408,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5.5, 1088.0, 155.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 231.0, 185.0, 287.0 ],
+					"presentation_rect" : [ 2.5, 231.0, 185.0, 309.0 ],
 					"stripecolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 				}
 
@@ -617,7 +617,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"virtual fundamental\" ]\n[ 'description' \"This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra\"]\n[ 'tags' \"auditory+illusions\" \"psychoacoustics\" \"harmonic+series\" ] ",
+					"code" : "[ 'title' \"virtual fundamental\" ]\n[ 'description' \"This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra. This is based on the same auditory illusion presented by W. Sethares' in his book: 'Tuning, timbre, spectrum, scale'\"]\n[ 'tags' \"auditory+illusions\" \"psychoacoustics\" \"harmonic+series\" ] ",
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -765,25 +765,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.525490196078431, 0.23921568627451, 0.23921568627451, 1.0 ],
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 14.0,
-					"id" : "obj-14",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 181.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 520.0, 185.0, 20.0 ],
-					"text" : "CLOSE",
-					"texton" : "CLOSE"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -887,13 +868,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"source" : [ "obj-114", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-14", 0 ]
 				}
 
 			}
