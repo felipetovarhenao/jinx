@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "jinx",
+		"title" : "jinx: interactive tuning theory",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgmode" : 0,
