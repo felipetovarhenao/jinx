@@ -504,7 +504,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 547.666666666666742, 932.200000584125519, 105.0, 22.0 ],
+					"patching_rect" : [ 519.666666666666515, 932.200000584125519, 105.0, 22.0 ],
 					"text" : "s #0tmpfreqs"
 				}
 
@@ -601,7 +601,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 932.200000584125519, 85.0, 22.0 ],
+					"patching_rect" : [ 403.666666666666515, 932.200000584125519, 85.0, 22.0 ],
 					"text" : "s #0reset"
 				}
 
@@ -828,7 +828,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum. This is an adaptation of Sethares' sensory dissonance curve algorithm.\" ]\n[ 'tags' \"sensory+dissonance\" \"timbre\" \"just+intonation\" \"psychoacoustics\"] ",
+					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum. This is an adaptation of W. Sethares' sensory dissonance curve algorithm.\" ]\n[ 'tags' \"sensory+dissonance\" \"timbre\" \"just+intonation\" \"psychoacoustics\"] ",
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -871,22 +871,10 @@
 					"id" : "obj-79",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "bang", "" ],
-					"patching_rect" : [ 287.666666666666515, 894.200000584125519, 279.000000000000227, 22.0 ],
-					"text" : "t l l b l"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.333333333333258, 932.200000584125519, 72.0, 22.0 ],
-					"text" : "prepend set"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "" ],
+					"patching_rect" : [ 287.666666666666515, 894.200000584125519, 251.0, 22.0 ],
+					"text" : "t l b l"
 				}
 
 			}
@@ -2310,21 +2298,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
-					"source" : [ "obj-79", 2 ]
+					"source" : [ "obj-79", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-79", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-79", 1 ]
+					"source" : [ "obj-79", 2 ]
 				}
 
 			}
