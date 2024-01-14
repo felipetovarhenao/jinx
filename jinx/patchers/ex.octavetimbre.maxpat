@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 65.0, 525.0, 556.0 ],
+		"rect" : [ 65.0, 65.0, 525.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -156,7 +156,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 163.0, 356.0, 49.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.0, 216.0, 49.0, 21.0 ],
+					"presentation_rect" : [ 249.0, 231.0, 49.0, 21.0 ],
 					"text" : "test file"
 				}
 
@@ -171,7 +171,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 445.0, 199.0, 46.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.0, 243.0, 46.0, 21.0 ],
+					"presentation_rect" : [ 249.0, 258.0, 46.0, 21.0 ],
 					"text" : "setting"
 				}
 
@@ -210,7 +210,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 507.428571428571445, 744.0, 180.571428571428555, 73.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 497.0, 517.0, 58.0 ],
+					"presentation_rect" : [ 3.0, 512.0, 517.0, 58.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -232,7 +232,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 6.0, 81.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 4.0, 522.0, 209.0 ],
+					"presentation_rect" : [ 3.0, 4.0, 522.0, 224.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -304,7 +304,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 498.0, 198.0, 244.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 242.0, 242.0, 23.0 ]
+					"presentation_rect" : [ 3.0, 257.0, 242.0, 23.0 ]
 				}
 
 			}
@@ -365,7 +365,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 6.0, 355.0, 151.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 215.0, 242.0, 23.0 ]
+					"presentation_rect" : [ 3.0, 230.0, 242.0, 23.0 ]
 				}
 
 			}
@@ -617,7 +617,7 @@
 					"patching_rect" : [ 72.0, 498.0, 527.0, 224.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 271.0, 517.0, 224.0 ],
+					"presentation_rect" : [ 3.0, 286.0, 517.0, 224.0 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvscrollbar" : 0,

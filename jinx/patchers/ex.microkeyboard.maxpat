@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 65.0, 525.0, 864.0 ],
+		"rect" : [ 65.0, 65.0, 525.0, 882.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 816.0, 1413.0, 54.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 468.5, 779.0, 53.0, 23.0 ]
+					"presentation_rect" : [ 468.5, 796.0, 53.0, 23.0 ]
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 868.0, 1413.0, 96.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 342.5, 779.0, 125.0, 23.0 ],
+					"presentation_rect" : [ 342.5, 796.0, 125.0, 23.0 ],
 					"text" : "note duration (ms)",
 					"textjustification" : 2
 				}
@@ -600,7 +600,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 410.5, 336.0, 117.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 401.5, 282.0, 120.0, 23.0 ],
+					"presentation_rect" : [ 401.5, 299.0, 120.0, 23.0 ],
 					"text" : "incoming notes",
 					"textjustification" : 1
 				}
@@ -629,7 +629,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 162.0, 790.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.5, 707.0, 64.0, 23.0 ],
+					"presentation_rect" : [ 457.5, 724.0, 64.0, 23.0 ],
 					"text" : "flush keys"
 				}
 
@@ -659,7 +659,7 @@
 					"patching_rect" : [ 915.0, 1267.538430213928223, 94.0, 76.115412056446075 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 401.5, 282.0, 120.0, 423.0 ],
+					"presentation_rect" : [ 401.5, 299.0, 120.0, 423.0 ],
 					"showdurations" : 0,
 					"showscrollbar" : 0,
 					"showstems" : 0,
@@ -878,7 +878,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 10.5, 214.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.5, 707.0, 64.0, 23.0 ],
+					"presentation_rect" : [ 238.5, 724.0, 64.0, 23.0 ],
 					"text" : "refresh"
 				}
 
@@ -894,7 +894,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1723.666666999999961, 1304.153841018676758, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 779.0, 100.0, 23.5 ],
+					"presentation_rect" : [ 1.5, 796.0, 100.0, 23.5 ],
 					"text" : "adapt timbre",
 					"texton" : "adapt timbre"
 				}
@@ -1044,7 +1044,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1437.25, 852.0, 123.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.5, 211.5, 123.0, 23.0 ],
+					"presentation_rect" : [ 53.5, 228.5, 123.0, 23.0 ],
 					"text" : "fundamental pitch"
 				}
 
@@ -1063,7 +1063,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1446.0, 950.5, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 211.5, 50.0, 23.0 ]
+					"presentation_rect" : [ 1.5, 228.5, 50.0, 23.0 ]
 				}
 
 			}
@@ -1078,7 +1078,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 267.75, 333.0, 117.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 707.0, 117.0, 23.0 ],
+					"presentation_rect" : [ 1.5, 724.0, 117.0, 23.0 ],
 					"text" : "MIDI input device"
 				}
 
@@ -1130,7 +1130,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1564.599999999999909, 1232.0, 327.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 283.0, 398.0, 23.0 ],
+					"presentation_rect" : [ 1.5, 300.0, 398.0, 23.0 ],
 					"text" : "tuning size: 12 | octave ratio: 2.00",
 					"textjustification" : 2
 				}
@@ -2081,7 +2081,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 212.0, 671.5, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.5, 707.0, 116.0, 23.0 ],
+					"presentation_rect" : [ 120.5, 724.0, 116.0, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -2177,7 +2177,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"microtonal keyboard\" ]\n[ 'description' \"A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The highest ratio in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.\"]\n[ 'tags' \"retuning\" \"timbre\" \"just+intonation\" \"EDO\"] ",
+					"code" : "[ 'title' \"microtonal keyboard\" ]\n[ 'description' \"A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The interval between the smallest and largest ratios in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.\"]\n[ 'tags' \"retuning\" \"timbre\" \"just+intonation\" \"EDO\"] ",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2210,7 +2210,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 10.5, 112.0, 140.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 2.5, 521.0, 207.0 ],
+					"presentation_rect" : [ 1.5, 2.5, 521.0, 224.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2244,7 +2244,7 @@
 					"patching_rect" : [ 1077.400000000000091, 1381.461493849754333, 157.000000000000114, 98.538506150245667 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 282.0, 398.0, 423.0 ],
+					"presentation_rect" : [ 1.5, 299.0, 398.0, 423.0 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvscrollbar" : 0,
@@ -2349,7 +2349,7 @@
 					"patching_rect" : [ 915.0, 759.0, 538.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1.5, 236.0, 521.0, 43.0 ],
+					"presentation_rect" : [ 1.5, 253.0, 521.0, 43.0 ],
 					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
@@ -2384,7 +2384,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1195.685714285714312, 1512.0, 546.98095271428565, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 804.0, 521.0, 59.0 ],
+					"presentation_rect" : [ 1.5, 821.0, 521.0, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2530,7 +2530,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 915.0, 477.0, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.5, 211.0, 229.0, 23.0 ],
+					"presentation_rect" : [ 293.5, 228.0, 229.0, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -2546,7 +2546,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 861.0, 477.0, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.5, 211.0, 49.0, 23.0 ],
+					"presentation_rect" : [ 242.5, 228.0, 49.0, 23.0 ],
 					"text" : "tuning"
 				}
 
@@ -2667,7 +2667,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 280.0, 865.0, 364.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 732.0, 520.0, 45.0 ],
+					"presentation_rect" : [ 1.5, 749.0, 520.0, 45.0 ],
 					"range" : 88,
 					"selectioncolor" : [ 0.0, 0.694117647058824, 0.454901960784314, 1.0 ]
 				}

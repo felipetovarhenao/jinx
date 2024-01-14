@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 65.0, 525.0, 913.0 ],
+		"rect" : [ 65.0, 65.0, 525.0, 928.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -104,7 +104,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 272.166666666666515, 1615.0, 101.166666666666515, 32.856835825368762 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 674.40000057220459, 517.166666666666515, 48.0 ],
+					"presentation_rect" : [ 3.0, 686.40000057220459, 517.166666666666515, 48.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -225,7 +225,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 603.0, 1000.0, 72.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 465.40000057220459, 72.0, 21.0 ],
+					"presentation_rect" : [ 366.0, 477.40000057220459, 72.0, 21.0 ],
 					"text" : "curve range"
 				}
 
@@ -256,7 +256,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 546.0, 1000.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 467.772277221083641, 465.40000057220459, 52.0, 23.0 ]
+					"presentation_rect" : [ 467.772277221083641, 477.40000057220459, 52.0, 23.0 ]
 				}
 
 			}
@@ -357,7 +357,7 @@
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 287.666666666666629, 523.0, 523.0, 249.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 216.40000057220459, 518.772277221083641, 247.0 ],
+					"presentation_rect" : [ 3.0, 228.40000057220459, 518.772277221083641, 247.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -409,7 +409,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.166666666666515, 1913.974999010562897, 353.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.386138610541821, 582.90000057220459, 353.0, 23.0 ],
+					"presentation_rect" : [ 89.386138610541821, 594.90000057220459, 353.0, 23.0 ],
 					"text" : "CLICK ON \"GENERATE\" BUTTON TO VISUALIZE CURVE",
 					"textcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 				}
@@ -520,7 +520,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1536.5, 2257.0, 135.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 724.40000057220459, 173.0, 23.0 ],
+					"presentation_rect" : [ 3.0, 736.40000057220459, 173.0, 23.0 ],
 					"text" : "minimal dissonances"
 				}
 
@@ -536,7 +536,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 699.166666666666515, 1368.974999010562897, 168.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 490.40000057220459, 168.0, 23.0 ],
+					"presentation_rect" : [ 3.0, 502.40000057220459, 168.0, 23.0 ],
 					"text" : "sensory dissonance curve"
 				}
 
@@ -589,7 +589,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6.166666666666515, 817.550000876188278, 78.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 490.40000057220459, 153.772277221083641, 24.0 ],
+					"presentation_rect" : [ 366.0, 502.40000057220459, 153.772277221083641, 24.0 ],
 					"text" : "GENERATE",
 					"texton" : "search"
 				}
@@ -828,7 +828,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum\" ]\n[ 'tags' \"sensory+dissonance\" \"timbre\" \"just+intonation\" \"psychoacoustics\"] ",
+					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum. This is an adaptation of Sethares' sensory dissonance curve algorithm.\" ]\n[ 'tags' \"sensory+dissonance\" \"timbre\" \"just+intonation\" \"psychoacoustics\"] ",
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -861,7 +861,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 6.166666666666515, 200.600001156330109, 527.650010704994202, 168.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 6.40000057220459, 519.5, 208.0 ],
+					"presentation_rect" : [ 3.0, 3.40000057220459, 519.5, 223.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -977,7 +977,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1568.35714285714289, 2354.0, 225.0, 71.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 852.90000057220459, 517.0, 60.0 ],
+					"presentation_rect" : [ 3.0, 864.90000057220459, 517.0, 60.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1220,7 +1220,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 1093.5, 1481.0, 68.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.0, 747.90000057220459, 80.0, 80.0 ],
+					"presentation_rect" : [ 440.0, 759.90000057220459, 80.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -1371,7 +1371,7 @@
 					"patching_rect" : [ 1063.5, 2160.0, 608.0, 120.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 724.40000057220459, 433.0, 126.5 ],
+					"presentation_rect" : [ 3.0, 736.40000057220459, 433.0, 126.5 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvelocity" : 3,
@@ -1680,7 +1680,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.166666666666515, 1208.974999010562897, 522.0, 158.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 516.40000057220459, 516.772277221083641, 156.0 ],
+					"presentation_rect" : [ 3.0, 528.40000057220459, 516.772277221083641, 156.0 ],
 					"viewvisibility" : 1
 				}
 

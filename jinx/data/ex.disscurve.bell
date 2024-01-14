@@ -1,3 +1,3 @@
 [ 'title' "dissonance curve" ]
-[ 'description' "An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum" ]
+[ 'description' "An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum. This is an adaptation of W. Sethares' sensory dissonance curve algorithm." ]
 [ 'tags' "sensory+dissonance" "timbre" "just+intonation" "psychoacoustics"]

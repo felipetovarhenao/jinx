@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 65.0, 525.0, 701.0 ],
+		"rect" : [ 65.0, 65.0, 525.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -92,7 +92,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 753.0, 1674.5, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 165.700000584125519, 49.0, 23.0 ],
+					"presentation_rect" : [ 2.5, 181.700000584125519, 49.0, 23.0 ],
 					"text" : "ratios"
 				}
 
@@ -495,7 +495,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 723.666666666666629, 974.0, 538.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 190.700000584125519, 521.0, 25.0 ],
+					"presentation_rect" : [ 2.5, 206.700000584125519, 521.0, 25.0 ],
 					"text" : "1 5/4 3/2 7/4 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
@@ -560,7 +560,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 723.666666666666629, 692.0, 155.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.0, 164.700000584125519, 229.0, 23.0 ],
+					"presentation_rect" : [ 293.0, 180.700000584125519, 229.0, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -576,7 +576,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 669.666666666666629, 692.0, 49.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.0, 165.700000584125519, 49.0, 23.0 ],
+					"presentation_rect" : [ 242.0, 181.700000584125519, 49.0, 23.0 ],
 					"text" : "tuning"
 				}
 
@@ -747,7 +747,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"ratio analyzer\" ]\n[ 'description' \"An interface for analyzing ratios.\"]\n[ 'tags' \"just+intonation\" \"analysis\"] ",
+					"code" : "[ 'title' \"ratio analyzer\" ]\n[ 'description' \"An interface for analyzing ratios, providing different information such as the monzo, prime limit, and otonal/utonal classification of each ratio.\"]\n[ 'tags' \"just+intonation\" \"analysis\"] ",
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -780,7 +780,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 10.0, 205.600001156330109, 527.650010704994202, 193.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 4.700000584125519, 519.5, 158.0 ],
+					"presentation_rect" : [ 2.5, 4.700000584125519, 519.5, 175.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -832,7 +832,7 @@
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 723.666666666666629, 1699.5, 197.0, 438.53125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 216.700000584125519, 518.188405781984329, 478.299999415874481 ],
+					"presentation_rect" : [ 2.5, 232.700000584125519, 518.188405781984329, 478.299999415874481 ],
 					"preventedit" : 1,
 					"rowvpad" : 3.0,
 					"textdecayfactor" : 0.95,

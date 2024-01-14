@@ -1,3 +1,3 @@
 [ 'title' "virtual fundamental" ]
-[ 'description' "This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra"]
+[ 'description' "This example illustrates the perceptual ambiguity of fundamental frequencies in inharmonic spectra. This is based on the same auditory illusion presented by W. Sethares' in his book: 'Tuning, timbre, spectrum, scale'"]
 [ 'tags' "auditory+illusions" "psychoacoustics" "harmonic+series" ]
