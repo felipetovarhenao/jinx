@@ -1,0 +1,25 @@
+#(
+	callback version of D. Ghisi and A. Agostini's "22. Audio Transcription" official ears~ example
+)#
+spec2roll = (
+	$fqframes, $magframes, $hopms = 512 / 44.1, $thresh = 0.25 -> (
+		$do1 = 'clear';
+		$frame2chord = (
+			$frame -> (
+				$fq = $frame::(1 1);
+				$amp = $frame::(1 2);
+				if $fq > 20. && $amp > $thresh then [
+					f2mc($fq) $hopms 127 * $amp ** 0.5
+				]
+			)
+		);
+		for $freqs $i in $fqframes::1, $mags in $magframes::1 do (
+			$do1 = (
+				'gluechord' 1 [
+					($i-1) * $hopsize
+					map(trans($freqs $amps), $frame2$chord)
+				] 10 30
+			)
+		)
+	)
+)
