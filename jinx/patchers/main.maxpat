@@ -41,6 +41,28 @@
 		"title" : "jinx",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-7",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "utils.checkupdate.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 289.5, 96.0, 130.0, 28.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 197.5, 3.0, 130.0, 28.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -72,7 +94,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 548.0, 1329.0, 229.0, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 444.0, 333.0, 5.0 ],
+					"presentation_rect" : [ 189.5, 441.0, 333.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : "themecolor.live_spectrum_grid_lines"
@@ -89,16 +111,14 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"linecount" : 4,
 					"linkend" : [ "*" ],
 					"maxclass" : "bach.hypercomment",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1575.0, 106.0, 69.0 ],
+					"patching_rect" : [ 357.0, 1575.0, 106.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 483.0, 333.0, 22.0 ],
-					"text" : "tags: #tuning+systems #experimentation #retuning"
+					"presentation_rect" : [ 189.5, 480.0, 333.0, 22.0 ]
 				}
 
 			}
@@ -248,6 +268,7 @@
 					"bgcolor" : [ 0.054901960784314, 0.435294117647059, 0.372549019607843, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"id" : "obj-105",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -256,7 +277,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -70.0, 1658.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 523.0, 333.0, 20.0 ],
+					"presentation_rect" : [ 189.5, 520.0, 333.0, 20.0 ],
 					"text" : "OPEN EXAMPLE",
 					"texton" : "OPEN EXAMPLE"
 				}
@@ -320,15 +341,12 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.625, 1696.0, 500.0, 40.0 ],
+					"patching_rect" : [ 122.625, 1696.0, 500.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 191.5, 271.0, 333.0, 40.0 ],
-					"text" : "An interface for comparing and listening to different passages in a variety of tunings systems.",
+					"presentation_rect" : [ 189.5, 268.0, 333.0, 23.0 ],
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -343,8 +361,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.75, 1655.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 191.5, 234.0, 333.0, 30.0 ],
-					"text" : "scale retuning"
+					"presentation_rect" : [ 189.5, 231.0, 333.0, 30.0 ]
 				}
 
 			}
@@ -383,7 +400,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "chord", "browser", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "prime", "limits", ",", "ratio", "analyzer", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "limit-based", "quantization", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "combination", "product", "sets", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "prime", "limits", ",", "ratio", "analyzer", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "limit-based", "quantization", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -391,7 +408,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5.5, 1088.0, 155.0, 285.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 234.0, 185.0, 287.0 ],
+					"presentation_rect" : [ 2.5, 231.0, 185.0, 287.0 ],
 					"stripecolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 				}
 
@@ -729,7 +746,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 6.0, 64.0, 169.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 6.0, 520.0, 226.0 ],
+					"presentation_rect" : [ 2.5, 3.0, 520.0, 226.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -759,7 +776,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6.0, 181.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.5, 523.0, 185.0, 20.0 ],
+					"presentation_rect" : [ 2.5, 520.0, 185.0, 20.0 ],
 					"text" : "CLOSE",
 					"texton" : "CLOSE"
 				}
@@ -1219,6 +1236,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.eq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.eval.mxo",
 				"type" : "iLaX"
 			}
@@ -1273,6 +1294,13 @@
 				"bootpath" : "~/Documents/jinx/jinx/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.checkupdate.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
