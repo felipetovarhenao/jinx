@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 525.0, 843.0 ],
+		"rect" : [ 65.0, 65.0, 525.0, 843.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1165,7 +1165,7 @@
 					"patching_rect" : [ 984.416666666666515, 803.5, 205.041666666666742, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 480.0, 230.688405781984329, 23.0 ],
-					"text" : "12 available 7-limit ratio(s)"
+					"text" : "1 available 2-limit ratio(s)"
 				}
 
 			}
@@ -2236,7 +2236,7 @@
 					"patching_rect" : [ 785.0, 605.531250182539225, 270.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.75, 626.0, 507.188405781984329, 23.0 ],
-					"text" : "7-limit approximation"
+					"text" : "2-limit approximation"
 				}
 
 			}
@@ -2330,7 +2330,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "48 EDO", ",", "53 EDO", ",", "stretched 12 EDO (2.1)", ",", "compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "31 EDO", ",", "48 EDO", ",", "53 EDO", ",", "Diatonicized chromatic scale", ",", "Stretched 12 EDO (2.1)", ",", "Compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 hexany", ",", "1-3-5-7-11 dekany (2)", ",", "1-3-5-7-11 dekany (3)", ",", "1-3-5-7-9-11 pentadekany (2)", ",", "1-3-5-7-9-11 pentadekany (4)", ",", "1-3-5-7-9-11 eikosany", ",", "Euler-Fokker genus (3-3)", ",", "Euler-Fokker genus (3-5)", ",", "Euler-Fokker genus (5-5)", ",", "Euler-Fokker genus (3-7)", ",", "Euler-Fokker genus (7-7)", ",", "Euler-Fokker genus (3-3-3)", ",", "Euler-Fokker genus (3-3-5)", ",", "Euler-Fokker genus (3-5-5)", ",", "Euler-Fokker genus (5-5-5)", ",", "Euler-Fokker genus (3-3-7)", ",", "Euler-Fokker genus (3-7-7)", ",", "Euler-Fokker genus (5-7-7)", ",", "Euler-Fokker genus (5-5-7)", ",", "Euler-Fokker genus (7-7-7)", ",", "Euler-Fokker genus (3-5-7)", ",", "Euler-Fokker genus (3-3-3-3)", ",", "Euler-Fokker genus (3-3-3-5)", ",", "Euler-Fokker genus (3-3-3-7)", ",", "Euler-Fokker genus (3-3-5-5)", ",", "Euler-Fokker genus (3-3-5-7)", ",", "Euler-Fokker genus (3-3-7-7)", ",", "Euler-Fokker genus (3-5-5-5)", ",", "Euler-Fokker genus (3-5-5-7)", ",", "Euler-Fokker genus (3-5-7-7)", ",", "Euler-Fokker genus (3-7-7-7)", ",", "Euler-Fokker genus (5-5-5-5)", ",", "Euler-Fokker genus (5-5-5-7)", ",", "Euler-Fokker genus (5-5-7-7)", ",", "Euler-Fokker genus (5-7-7-7)", ",", "Euler-Fokker genus (7-7-7-7)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "A12 scale", ",", "833 cents scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 525.0, 667.0 ],
+		"rect" : [ 65.0, 65.0, 525.0, 667.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -248,7 +248,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-17",
-					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "48 EDO", ",", "53 EDO", ",", "stretched 12 EDO (2.1)", ",", "compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 Hexany", ",", "1-3-5-7-11 Dekany (2)", ",", "1-3-5-7-11 Dekany (3)", ",", "1-3-5-7-9-11 Pentadekany (2)", ",", "1-3-5-7-9-11 Pentadekany (4)", ",", "1-3-5-7-9-11 Eikosany", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "A12 scale", ",", "833 cents scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "31 EDO", ",", "48 EDO", ",", "53 EDO", ",", "Diatonicized chromatic scale", ",", "Stretched 12 EDO (2.1)", ",", "Compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 hexany", ",", "1-3-5-7-11 dekany (2)", ",", "1-3-5-7-11 dekany (3)", ",", "1-3-5-7-9-11 pentadekany (2)", ",", "1-3-5-7-9-11 pentadekany (4)", ",", "1-3-5-7-9-11 eikosany", ",", "Euler-Fokker genus (3-3)", ",", "Euler-Fokker genus (3-5)", ",", "Euler-Fokker genus (5-5)", ",", "Euler-Fokker genus (3-7)", ",", "Euler-Fokker genus (7-7)", ",", "Euler-Fokker genus (3-3-3)", ",", "Euler-Fokker genus (3-3-5)", ",", "Euler-Fokker genus (3-5-5)", ",", "Euler-Fokker genus (5-5-5)", ",", "Euler-Fokker genus (3-3-7)", ",", "Euler-Fokker genus (3-7-7)", ",", "Euler-Fokker genus (5-7-7)", ",", "Euler-Fokker genus (5-5-7)", ",", "Euler-Fokker genus (7-7-7)", ",", "Euler-Fokker genus (3-5-7)", ",", "Euler-Fokker genus (3-3-3-3)", ",", "Euler-Fokker genus (3-3-3-5)", ",", "Euler-Fokker genus (3-3-3-7)", ",", "Euler-Fokker genus (3-3-5-5)", ",", "Euler-Fokker genus (3-3-5-7)", ",", "Euler-Fokker genus (3-3-7-7)", ",", "Euler-Fokker genus (3-5-5-5)", ",", "Euler-Fokker genus (3-5-5-7)", ",", "Euler-Fokker genus (3-5-7-7)", ",", "Euler-Fokker genus (3-7-7-7)", ",", "Euler-Fokker genus (5-5-5-5)", ",", "Euler-Fokker genus (5-5-5-7)", ",", "Euler-Fokker genus (5-5-7-7)", ",", "Euler-Fokker genus (5-7-7-7)", ",", "Euler-Fokker genus (7-7-7-7)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "A12 scale", ",", "833 cents scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -666,7 +666,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 13.0,
 					"id" : "obj-56",
-					"linecount" : 2,
+					"linecount" : 7,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -675,8 +675,9 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 280.666666666666629, 663.5, 130.0, 22.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2.0, 206.0, 520.0, 25.0 ],
-					"text" : "35/32 5/4 21/16 3/2 7/4 15/8 35/16",
+					"text" : "1 1.059463 1.122462 1.189207 1.259921 1.33484 1.414214 1.498307 1.587401 1.681793 1.781797 1.887749 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -757,7 +758,7 @@
 					"patching_rect" : [ 1116.166666666666515, 1033.0, 148.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 233.0, 167.0, 23.0 ],
-					"text" : "tuning (7-limit)"
+					"text" : "tuning"
 				}
 
 			}
@@ -1953,6 +1954,13 @@
 , 			{
 				"name" : "bach.rev.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.rminus.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.roll.mxo",
