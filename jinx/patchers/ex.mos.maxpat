@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 65.0, 525.0, 847.0 ],
+		"rect" : [ 65.0, 65.0, 522.0, 846.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -376,7 +376,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 848.0, 1583.0, 79.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 292.0, 314.279801324503296, 74.5, 18.940397350993408 ],
+					"presentation_rect" : [ 292.0, 312.029801324503296, 74.5, 18.940397350993408 ],
 					"text" : "rotate -",
 					"texton" : "rotate"
 				}
@@ -744,7 +744,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 748.5, 2014.0, 79.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 367.75, 314.279801324503296, 74.5, 18.940397350993408 ],
+					"presentation_rect" : [ 367.75, 312.029801324503296, 74.5, 18.940397350993408 ],
 					"text" : "invert",
 					"texton" : "invert"
 				}
@@ -773,7 +773,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 747.0, 1583.0, 79.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 443.5, 314.279801324503296, 74.5, 18.940397350993408 ],
+					"presentation_rect" : [ 443.5, 312.029801324503296, 74.5, 18.940397350993408 ],
 					"text" : "rotate +",
 					"texton" : "rotate"
 				}
@@ -973,7 +973,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1584.333340525627136, 3588.333308935165405, 280.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 245.5, 566.5, 273.0, 23.0 ],
+					"presentation_rect" : [ 245.5, 564.25, 273.0, 23.0 ],
 					"text" : "12-TET moment of symmetry scale",
 					"textjustification" : 2
 				}
@@ -1013,7 +1013,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1513.083340525627136, 2691.166642308235168, 85.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 266.75, 111.0, 21.0 ],
+					"presentation_rect" : [ 353.0, 261.5, 111.0, 21.0 ],
 					"text" : "period (cents)",
 					"textjustification" : 2
 				}
@@ -1255,7 +1255,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 996.333340525627136, 2736.541642308235168, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 566.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 564.25, 100.0, 20.0 ],
 					"text" : "normalized",
 					"texton" : "normalized"
 				}
@@ -1419,7 +1419,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1119.333340525627136, 2364.166636109352112, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 566.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 104.0, 564.25, 100.0, 20.0 ],
 					"text" : "scalar order",
 					"textcolor" : [ 0.808, 0.898, 0.91, 1.0 ],
 					"texton" : "cyclic order"
@@ -1461,7 +1461,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1517.083340525627136, 2978.833308935165405, 61.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 290.75, 111.0, 21.0 ],
+					"presentation_rect" : [ 357.0, 286.5, 111.0, 21.0 ],
 					"text" : "scale root",
 					"textjustification" : 2
 				}
@@ -1481,7 +1481,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1460.833340525627136, 2977.833308935165405, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 469.0, 289.75, 50.0, 23.0 ]
+					"presentation_rect" : [ 469.0, 285.5, 50.0, 23.0 ]
 				}
 
 			}
@@ -1514,7 +1514,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1891.333340525627136, 3566.333308935165405, 216.0, 57.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 787.5, 516.0, 59.0 ],
+					"presentation_rect" : [ 2.0, 785.25, 516.0, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1544,7 +1544,7 @@
 					"patching_rect" : [ 1393.333340525627136, 3278.333308935165405, 600.0, 220.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 566.5, 516.5, 219.0 ],
+					"presentation_rect" : [ 2.0, 564.25, 516.5, 219.0 ],
 					"showdurations" : 0,
 					"showstems" : 0,
 					"showvscrollbar" : 0,
@@ -1625,6 +1625,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"format" : 6,
 					"id" : "obj-30",
 					"maxclass" : "flonum",
@@ -1632,9 +1633,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1458.333340525627136, 2690.166642308235168, 50.0, 22.0 ],
+					"patching_rect" : [ 1458.333340525627136, 2690.166642308235168, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 468.5, 265.75, 50.0, 22.0 ]
+					"presentation_rect" : [ 467.0, 260.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -1825,7 +1826,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 48.5, 94.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.5, 522.0, 257.0 ],
+					"presentation_rect" : [ 2.0, 2.5, 517.0, 257.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1992,7 +1993,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 286.25, 2365.166642308235168, 85.0, 85.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.5, 333.8125, 210.125, 210.125 ]
+					"presentation_rect" : [ 300.5, 331.5625, 210.125, 210.125 ]
 				}
 
 			}
@@ -2030,7 +2031,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.5, 1573.1875, 143.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 292.0, 541.0, 227.0, 23.0 ],
+					"presentation_rect" : [ 292.0, 538.75, 227.0, 23.0 ],
 					"text" : "L5 s2",
 					"textjustification" : 1
 				}
@@ -2177,7 +2178,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 346.5, 277.0, 66.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 289.75, 86.0, 21.0 ],
+					"presentation_rect" : [ 56.0, 262.5, 86.0, 21.0 ],
 					"text" : "period division"
 				}
 
@@ -2191,7 +2192,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.5, 418.0, 88.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.0, 262.5, 88.0, 21.0 ],
+					"presentation_rect" : [ 56.0, 287.5, 88.0, 21.0 ],
 					"text" : "generator step"
 				}
 
@@ -2213,7 +2214,7 @@
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 329.666666666666629, 1200.0, 150.833333333332916, 177.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 313.75, 286.0, 250.75 ],
+					"presentation_rect" : [ 2.0, 311.5, 286.0, 250.75 ],
 					"preventedit" : 1,
 					"rowvpad" : 2.0,
 					"textdecayfactor" : 0.9,
@@ -2404,7 +2405,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 138.5, 418.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 261.5, 52.0, 23.0 ]
+					"presentation_rect" : [ 2.0, 286.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -2419,7 +2420,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 292.5, 276.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 287.75, 52.0, 23.0 ]
+					"presentation_rect" : [ 2.0, 261.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -2536,7 +2537,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autoreduce" : 0,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
@@ -2544,15 +2544,15 @@
 					"ignoreclick" : 1,
 					"inset" : 26.0,
 					"maxclass" : "bach.circle",
-					"names" : [ 0, 1, 14, 3, 28, 5, 42, 7, 8, 21, 10, 35, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42 ],
+					"names" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42 ],
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"out" : "nn",
 					"outlettype" : [ "", "", "int", "bang" ],
 					"patching_rect" : [ 493.0, 2602.666642308235168, 183.0, 199.5 ],
-					"points" : [ 0, 7, 14, 21, 28, 35, 42 ],
+					"points" : [ 0, 2, 4, 6, 7, 9, 11 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 292.0, 313.75, 227.0, 250.25 ],
+					"presentation_rect" : [ 292.0, 311.5, 227.0, 250.25 ],
 					"shownumbers" : 2,
 					"velocities" : [ 100, 100, 100, 100, 100, 100, 100 ],
 					"versionnumber" : 80300
