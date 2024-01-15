@@ -18,7 +18,7 @@ This project was developed and has only been tested in macOS, but should also be
 ### Usage
 Once all software requirements are installed, open the `jinx.maxproj` file, located in the `jinx` folder. This will open the main menu, where all available interactive tools are listed and can be accessed from.
 
-### Ackwnowledgements
+### Acknowledgements
 This project would not be possible without the [bach](https://bachproject.net) library. If you are able to, please support their work through [Patreon](https://www.patreon.com/bachproject/).
 
 ### License
