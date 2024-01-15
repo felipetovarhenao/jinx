@@ -45,7 +45,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1462.833340525627136, 3056.208309412002563, 76.0, 22.0 ],
+					"patching_rect" : [ 1462.833340525627136, 3056.208309412002563, 83.0, 22.0 ],
 					"text" : "s #0labels"
 				}
 
@@ -1130,7 +1130,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -1231,7 +1230,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 48.0, 74.0, 22.0 ],
+									"patching_rect" : [ 246.0, 48.0, 81.0, 22.0 ],
 									"text" : "r #0labels"
 								}
 
@@ -2269,7 +2268,7 @@
 					"patching_rect" : [ 138.5, 1573.1875, 143.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 538.75, 227.0, 23.0 ],
-					"text" : "L4 s4",
+					"text" : "L5 s2",
 					"textjustification" : 1
 				}
 
@@ -2777,6 +2776,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autoreduce" : 0,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
@@ -2784,17 +2784,17 @@
 					"ignoreclick" : 1,
 					"inset" : 26.0,
 					"maxclass" : "bach.circle",
-					"names" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35 ],
+					"names" : [ 0, 1, 14, 3, 28, 5, 42, 7, 8, 21, 10, 35, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42 ],
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"out" : "nn",
 					"outlettype" : [ "", "", "int", "bang" ],
 					"patching_rect" : [ 493.0, 2602.666642308235168, 183.0, 199.5 ],
-					"points" : [ 0, 1, 3, 5, 6, 8, 10, 11 ],
+					"points" : [ 0, 7, 14, 21, 28, 35, 42 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 311.5, 227.0, 250.25 ],
 					"shownumbers" : 2,
-					"velocities" : [ 100, 100, 100, 100, 100, 100, 100, 100 ],
+					"velocities" : [ 100, 100, 100, 100, 100, 100, 100 ],
 					"versionnumber" : 80300
 				}
 
