@@ -2597,7 +2597,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.5, 345.0, 89.0, 22.0 ],
-					"text" : "loadmess set 5"
+					"text" : "loadmess set 7"
 				}
 
 			}
@@ -2776,7 +2776,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autoreduce" : 0,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
@@ -2784,13 +2783,13 @@
 					"ignoreclick" : 1,
 					"inset" : 26.0,
 					"maxclass" : "bach.circle",
-					"names" : [ 0, 1, 14, 3, 28, 5, 42, 7, 8, 21, 10, 35, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42 ],
+					"names" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42 ],
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"out" : "nn",
 					"outlettype" : [ "", "", "int", "bang" ],
 					"patching_rect" : [ 493.0, 2602.666642308235168, 183.0, 199.5 ],
-					"points" : [ 0, 7, 14, 21, 28, 35, 42 ],
+					"points" : [ 0, 2, 4, 6, 7, 9, 11 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 311.5, 227.0, 250.25 ],
 					"shownumbers" : 2,
