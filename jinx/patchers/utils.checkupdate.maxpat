@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 107.0, 400.0, 890.0, 579.0 ],
+		"rect" : [ 107.0, 124.0, 822.0, 725.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 145.333333333333258, 533.0, 29.5, 22.0 ],
+					"text" : "!- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 99.5, 48.0, 22.0 ],
+					"patching_rect" : [ 8.0, 112.5, 48.0, 22.0 ],
 					"text" : "del 100"
 				}
 
@@ -58,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.25, 643.0, 324.0, 35.0 ],
+					"patching_rect" : [ 491.25, 686.0, 324.0, 35.0 ],
 					"text" : ";\rmax launchbrowser https://github.com/felipetovarhenao/jinx"
 				}
 
@@ -70,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 530.0, 520.0, 29.5, 22.0 ],
+					"patching_rect" : [ 526.0, 563.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -82,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 530.0, 472.0, 61.0, 22.0 ],
+					"patching_rect" : [ 526.0, 515.0, 61.0, 22.0 ],
 					"text" : "savebang"
 				}
 
@@ -94,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 71.0, 54.0, 22.0 ],
+					"patching_rect" : [ 8.0, 84.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -106,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 12.0, 35.0, 502.0, 22.0 ],
+					"patching_rect" : [ 8.0, 48.0, 502.0, 22.0 ],
 					"text" : "t b 1"
 				}
 
@@ -118,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 569.0, 61.0, 22.0 ],
+					"patching_rect" : [ 491.0, 612.0, 61.0, 22.0 ],
 					"text" : "hidden $1"
 				}
 
@@ -134,7 +146,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 495.0, 604.0, 127.0, 22.0 ],
+					"patching_rect" : [ 491.0, 647.0, 127.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 127.0, 22.0 ],
 					"rounded" : 10.0,
@@ -149,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, -4.0, 58.0, 22.0 ],
+					"patching_rect" : [ 8.0, 9.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -160,13 +172,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 149.333333333333258, 483.0, 137.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.=="
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 145.333333333333258, 496.0, 137.0, 22.0 ],
+					"text" : "utils.v>v @out m"
 				}
 
 			}
@@ -177,20 +185,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 149.333333333333258, 408.0, 137.0, 22.0 ],
-					"text" : "t l b"
+					"patching_rect" : [ 145.333333333333258, 421.0, 137.0, 22.0 ],
+					"text" : "t s b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"code" : "\"v0.0.5-beta\" ",
+					"code" : "\"v0.0.6-beta\" ",
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.333333333333258, 449.0, 155.0, 22.0 ],
+					"patching_rect" : [ 263.333333333333258, 462.0, 155.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -207,7 +215,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 260.833333333333258, 372.0, 55.0, 22.0 ],
+					"patching_rect" : [ 256.833333333333258, 385.0, 55.0, 22.0 ],
 					"text" : "get body"
 				}
 
@@ -219,7 +227,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 260.833333333333258, 335.0, 47.0, 22.0 ],
+					"patching_rect" : [ 256.833333333333258, 348.0, 47.0, 22.0 ],
 					"text" : "sel 200"
 				}
 
@@ -231,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.333333333333258, 335.0, 71.0, 22.0 ],
+					"patching_rect" : [ 145.333333333333258, 348.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -243,7 +251,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 149.333333333333258, 300.0, 242.0, 22.0 ],
+					"patching_rect" : [ 145.333333333333258, 313.0, 242.0, 22.0 ],
 					"text" : "route body status"
 				}
 
@@ -255,7 +263,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 210.0, 61.0, 22.0 ],
+					"patching_rect" : [ 8.0, 223.0, 61.0, 22.0 ],
 					"text" : "get status"
 				}
 
@@ -267,7 +275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 167.0, 133.0, 22.0 ],
+					"patching_rect" : [ 8.0, 180.0, 133.0, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -284,7 +292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 12.0, 137.0, 89.0, 22.0 ],
+					"patching_rect" : [ 8.0, 150.0, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"parameter_enable" : 0,
@@ -298,13 +306,13 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"body" : "\"v0.0.5-beta\"",
-						"header" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 13\r\nCache-Control: max-age=300\r\nContent-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox\r\nContent-Type: text/plain; charset=utf-8\r\nETag: \"3008be775e01708c48f8fa3fff59e40be86b477466a8f7abb9481d10ce69d774\"\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-GitHub-Request-Id: 8AEC:2162:DE0288:10E4280:65A38279\r\nAccept-Ranges: bytes\r\nDate: Sun, 14 Jan 2024 07:12:49 GMT\r\nVia: 1.1 varnish\r\nX-Served-By: cache-cmh1290022-CMH\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1705216370.635546,VS0,VE1\r\nVary: Authorization,Accept-Encoding,Origin\r\nAccess-Control-Allow-Origin: *\r\nCross-Origin-Resource-Policy: cross-origin\r\nX-Fastly-Request-ID: f9ffd2417aff25e4a7d7d49fa4eb53ba72e6da43\r\nExpires: Sun, 14 Jan 2024 07:17:49 GMT\r\nSource-Age: 279\r\n\r\n",
+						"body" : "\"v0.0.6-beta\"",
+						"header" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 13\r\nCache-Control: max-age=300\r\nContent-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox\r\nContent-Type: text/plain; charset=utf-8\r\nETag: \"f5467d2536ad308a54ae2484d9c0bc7fbd90c0c109716b96cd03dabaf47e973e\"\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-GitHub-Request-Id: 924C:2DC2:497532:585866:65A5A5C7\r\nAccept-Ranges: bytes\r\nDate: Mon, 15 Jan 2024 22:09:58 GMT\r\nVia: 1.1 varnish\r\nX-Served-By: cache-chi-kigq8000038-CHI\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1705356598.338611,VS0,VE77\r\nVary: Authorization,Accept-Encoding,Origin\r\nAccess-Control-Allow-Origin: *\r\nCross-Origin-Resource-Policy: cross-origin\r\nX-Fastly-Request-ID: b73a41d6494403f92309047f8c695e61c6d0e233\r\nExpires: Mon, 15 Jan 2024 22:14:58 GMT\r\nSource-Age: 0\r\n\r\n",
 						"status" : 200,
 						"connect_code" : 0,
 						"url" : "https://raw.githubusercontent.com/felipetovarhenao/jinx/main/jinx/data/version.bell",
 						"file_time" : -1,
-						"total_time" : 0.08272,
+						"total_time" : 0.220088,
 						"size_upload" : 0.0,
 						"size_download" : 13.0,
 						"content_length_download" : 13.0,
@@ -317,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 126.0, 259.0, 89.0, 22.0 ],
+					"patching_rect" : [ 122.0, 272.0, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"parameter_enable" : 0,
@@ -335,7 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "dictionary", "" ],
-					"patching_rect" : [ 126.0, 210.0, 45.0, 22.0 ],
+					"patching_rect" : [ 122.0, 223.0, 45.0, 22.0 ],
 					"text" : "maxurl"
 				}
 
@@ -359,6 +367,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -434,7 +449,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -511,12 +526,35 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "bach.eq.mxo",
+				"name" : "bach.args.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "bach.eval.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.join.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.wrap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "utils.v>v.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
