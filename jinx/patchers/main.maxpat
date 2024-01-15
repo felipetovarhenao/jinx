@@ -94,7 +94,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 548.0, 1329.0, 229.0, 5.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.5, 441.0, 333.0, 5.0 ],
+					"presentation_rect" : [ 189.5, 468.0, 333.0, 5.0 ],
 					"saved_attribute_attributes" : 					{
 						"linecolor" : 						{
 							"expression" : "themecolor.live_spectrum_grid_lines"
@@ -111,14 +111,16 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
+					"linecount" : 4,
 					"linkend" : [ "*" ],
 					"maxclass" : "bach.hypercomment",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1575.0, 106.0, 22.0 ],
+					"patching_rect" : [ 357.0, 1575.0, 106.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.5, 480.0, 333.0, 22.0 ]
+					"presentation_rect" : [ 189.5, 480.0, 333.0, 22.0 ],
+					"text" : "tags: #retuning #timbre #just+intonation #EDO"
 				}
 
 			}
@@ -268,7 +270,6 @@
 					"bgcolor" : [ 0.054901960784314, 0.435294117647059, 0.372549019607843, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-105",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -341,12 +342,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.625, 1696.0, 500.0, 23.0 ],
+					"patching_rect" : [ 122.625, 1696.0, 500.0, 91.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.5, 268.0, 333.0, 23.0 ],
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 189.5, 268.0, 333.0, 124.0 ],
+					"text" : "A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The interval between the smallest and largest ratios in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.",
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -361,7 +365,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.75, 1655.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.5, 231.0, 333.0, 30.0 ]
+					"presentation_rect" : [ 189.5, 231.0, 333.0, 30.0 ],
+					"text" : "microtonal keyboard"
 				}
 
 			}
@@ -400,7 +405,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "chord", "browser", ",", "combination", "product", "sets", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "tuning", "and", "timbre", ",", "prime", "limits", ",", "ratio", "analyzer", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "limit-based", "quantization", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "combination", "product", "sets", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "moment", "of", "symmetry", "scales", ",", "tuning", "and", "timbre", ",", "prime", "limits", ",", "ratio", "analyzer", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "limit-based", "quantization", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
