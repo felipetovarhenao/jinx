@@ -6,7 +6,7 @@
 
 This project consists of a variety of educational and interactive tools for learning about just intonation, xenharmonic music, and tuning theory more broadly. The primary goal of this project is to provide anyone interested in the subject with accesible and explorative tools, such that they can learn through play, and further solidify their musical intuition in tuning theory by connecting it to practice.
 
-`jinx` was developed as supplementary teaching and study material for the 2024 Spring course _Special Topics in Composition: Alternate Tuning Systems_ at the [University of Cincinnati's College-Conservatory of Music](https://ccm.uc.edu/).
+**NOTE**: `jinx` was developed as *supplementary* teaching and study material for the 2024 Spring course _Special Topics in Composition: Alternate Tuning Systems_ at the [University of Cincinnati's College-Conservatory of Music](https://ccm.uc.edu/). As such, not all included tools and examples are self-explanatory, and rely on the assumption that users will already have some context and theoretical foundation prior to using `jinx`.
 
 ### Requirements
 
