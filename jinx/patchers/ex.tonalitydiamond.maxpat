@@ -2079,6 +2079,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-25",
 					"maxclass" : "tab",
 					"numinlets" : 1,

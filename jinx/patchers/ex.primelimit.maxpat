@@ -156,7 +156,7 @@
 					"patching_rect" : [ 1151.0, 1175.054688000000169, 155.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 301.5, 499.5, 216.0, 21.0 ],
-					"text" : "1 out of 1 ratios",
+					"text" : "11 out of 11 ratios",
 					"textjustification" : 2
 				}
 
@@ -1210,7 +1210,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 292.5, 515.0, 228.0 ],
 					"rowheight" : 32,
-					"rows" : 1,
+					"rows" : 11,
 					"vscroll" : 0
 				}
 
@@ -1282,6 +1282,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-71",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1391,6 +1392,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-61",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1785,7 +1787,7 @@
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 50.0, 17.0 ],
 					"vzoom" : 100.0,
-					"zoom" : 281.0
+					"zoom" : 156.0
 				}
 
 			}
