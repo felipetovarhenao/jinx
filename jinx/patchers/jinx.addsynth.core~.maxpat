@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 418.5, 470.5, 162.0, 22.0 ],
-					"text" : "mc.rampsmooth~ 4000 4000"
+					"text" : "mc.rampsmooth~ 1024 1024"
 				}
 
 			}
