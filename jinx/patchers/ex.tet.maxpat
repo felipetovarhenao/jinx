@@ -41,6 +41,18 @@
 		"title" : "equal temperament",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 357.0, 1880.75, 77.0, 22.0 ],
+					"text" : "bach.change"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.0, 2046.5, 87.0, 22.0 ],
+					"patching_rect" : [ 248.0, 2091.5, 87.0, 22.0 ],
 					"text" : "r #0ratnote"
 				}
 
@@ -322,7 +334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.333333333333371, 2046.5, 83.0, 22.0 ],
+					"patching_rect" : [ 416.333333333333371, 2091.5, 83.0, 22.0 ],
 					"text" : "loadmess 300"
 				}
 
@@ -333,7 +345,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 357.0, 2131.5, 99.0, 22.0 ],
+					"patching_rect" : [ 357.0, 2176.5, 99.0, 22.0 ],
 					"text" : "s #0playback"
 				}
 
@@ -345,7 +357,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.0, 2046.5, 115.0, 22.0 ],
+					"patching_rect" : [ 535.0, 2091.5, 115.0, 22.0 ],
 					"text" : "r #0fundamental"
 				}
 
@@ -357,7 +369,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1991.5, 235.0, 22.0 ],
+					"patching_rect" : [ 357.0, 2036.5, 235.0, 22.0 ],
 					"text" : "pipe"
 				}
 
@@ -370,7 +382,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 357.0, 1940.333308935165405, 235.0, 22.0 ],
+					"patching_rect" : [ 357.0, 1985.333308935165405, 235.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -387,7 +399,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 2090.5, 197.0, 22.0 ],
+					"patching_rect" : [ 357.0, 2135.5, 197.0, 22.0 ],
 					"text" : "utils.r2note"
 				}
 
@@ -399,7 +411,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 357.0, 1885.5, 167.0, 22.0 ],
+					"patching_rect" : [ 357.0, 1930.5, 167.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -415,7 +427,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1728.5, 71.0, 22.0 ],
+					"patching_rect" : [ 357.0, 1783.0, 71.0, 22.0 ],
 					"text" : "r #0play"
 				}
 
@@ -1371,17 +1383,18 @@
 					"id" : "obj-44",
 					"inset" : 26.0,
 					"maxclass" : "bach.circle",
+					"modulo" : 17,
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"out" : "nn",
 					"outlettype" : [ "", "", "int", "bang" ],
 					"patching_rect" : [ 426.0, 1226.0, 282.0, 129.5 ],
-					"points" : [ 0, 3, 6, 8, 9 ],
+					"points" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 226.0, 318.0, 250.75 ],
 					"showfocus" : 0,
 					"shownumbers" : 2,
-					"velocities" : [ 100, 100, 100, 100, 100 ],
+					"velocities" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
 					"versionnumber" : 80300
 				}
 
@@ -1568,7 +1581,7 @@
 					"patching_rect" : [ 132.0, 844.5, 174.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 503.25, 174.0, 23.0 ],
-					"text" : "12-TET tuning"
+					"text" : "17-TET tuning"
 				}
 
 			}
@@ -2183,7 +2196,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
+					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-139", 0 ]
 				}
 
@@ -2771,6 +2784,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-73", 2 ]
 				}
@@ -2871,6 +2891,13 @@
 , 			{
 				"name" : "bach.args.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.change.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.circle.mxo",
