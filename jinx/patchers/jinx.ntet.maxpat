@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 497.0, 256.0 ],
+		"rect" : [ 59.0, 106.0, 371.0, 261.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 				"box" : 				{
 					"comment" : "llll: ratios",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -70,7 +70,7 @@
 				"box" : 				{
 					"comment" : "int: octave divisions",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -97,19 +97,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$N = $i1 ||| 12; for $i in 0...$N collect ($f2 ||| 2)**((0...$N)/$N) ",
+					"code" : "$N = $i1 ||| 12; ($f2 ||| 2)**((0...$N)/$N) ",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 140.0, 383.0, 22.0 ],
+					"patching_rect" : [ 88.0, 140.0, 268.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $N = $i1 ||| 12\\; for $i in 0...$N collect ($f2 ||| 2)**((0...$N)/$N)"
+					"text" : "bach.eval $N = $i1 ||| 12\\; ($f2 ||| 2)**((0...$N)/$N)"
 				}
 
 			}
@@ -172,25 +172,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.eval.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.keys.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
