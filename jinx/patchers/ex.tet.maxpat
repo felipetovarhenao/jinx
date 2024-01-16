@@ -609,7 +609,20 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 301.5, 190.0, 73.0, 22.0 ],
+									"text" : "loadmess 2."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "newobj",
@@ -629,7 +642,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 159.5, 236.5, 30.0, 30.0 ]
+									"patching_rect" : [ 159.5, 266.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -640,7 +653,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 446.5, 158.375, 113.0, 22.0 ],
+									"patching_rect" : [ 446.5, 190.0, 113.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"versionnumber" : 80300
 									}
@@ -696,7 +709,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 159.5, 203.0, 115.0, 22.0 ],
+									"patching_rect" : [ 159.5, 235.0, 161.0, 22.0 ],
 									"text" : "sprintf %i/%i √ %.2g"
 								}
 
@@ -704,12 +717,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-94",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 220.0, 43.75, 43.0, 22.0 ],
+									"patching_rect" : [ 220.0, 43.75, 63.0, 22.0 ],
 									"text" : "r #0tet"
 								}
 
@@ -717,12 +729,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-91",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 426.0, 43.75, 53.0, 22.0 ],
+									"patching_rect" : [ 426.0, 43.75, 73.0, 22.0 ],
 									"text" : "r #0ratio"
 								}
 
@@ -766,7 +777,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.0, 236.5, 30.0, 30.0 ]
+									"patching_rect" : [ 14.0, 266.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -789,6 +800,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-98", 0 ],
 									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 2 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -1135,8 +1153,7 @@
 					"patching_rect" : [ 443.5, 369.5, 86.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 377.5, 178.0, 86.0, 21.0 ],
-					"text" : "octave (cents)",
-					"textjustification" : 0
+					"text" : "octave (cents)"
 				}
 
 			}
@@ -1150,8 +1167,7 @@
 					"patching_rect" : [ 282.0, 334.5, 82.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 377.5, 202.0, 86.0, 21.0 ],
-					"text" : "octave (ratio)",
-					"textjustification" : 0
+					"text" : "octave (ratio)"
 				}
 
 			}
@@ -1231,17 +1247,18 @@
 					"id" : "obj-44",
 					"inset" : 26.0,
 					"maxclass" : "bach.circle",
+					"modulo" : 11,
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"out" : "nn",
 					"outlettype" : [ "", "", "int", "bang" ],
 					"patching_rect" : [ 426.0, 1226.0, 282.0, 129.5 ],
-					"points" : [ 0, 5, 8, 9, 10, 11 ],
+					"points" : [ 0, 3, 8, 9 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 226.0, 318.0, 250.75 ],
 					"showfocus" : 0,
 					"shownumbers" : 2,
-					"velocities" : [ 100, 100, 100, 100, 100, 100 ],
+					"velocities" : [ 100, 100, 100, 100 ],
 					"versionnumber" : 80300
 				}
 
@@ -1428,7 +1445,7 @@
 					"patching_rect" : [ 132.0, 844.5, 174.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 503.25, 174.0, 23.0 ],
-					"text" : "12-TET tuning"
+					"text" : "11-TET tuning"
 				}
 
 			}
