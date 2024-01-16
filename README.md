@@ -19,7 +19,9 @@ This project was developed and has only been tested in macOS, but should also be
 Once all software requirements are installed, open the `jinx.maxproj` file, located in the `jinx` folder. This will open the main menu, where all available interactive tools are listed and can be accessed from.
 
 ### Acknowledgements
-This project would not be possible without the [bach](https://bachproject.net) library. If you are able to, please support their work through [Patreon](https://www.patreon.com/bachproject/).
+Many of the examples and tools in `jinx` are inspired by and based on ideas from [*Tuning, timbre, spectrum, scale* [2nd Edition]](https://link.springer.com/book/10.1007/b138848) (2005) by William Sethares. Prospective users are encouraged to read it if interested in further understanding the functionalities of and motivations behind `jinx`.
+
+Lastly, this project would not be possible without the [bach](https://bachproject.net) library. If you are able to, please support their work through [Patreon](https://www.patreon.com/bachproject/).
 
 ### License
 This project is distributed under the terms of the GNU General Public License version 3 (GPL-v3.0).
