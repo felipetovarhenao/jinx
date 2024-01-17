@@ -41,6 +41,22 @@
 		"title" : "jinx: interactive tuning theory",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 5.5, 900.5, 114.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.sort @by (1 2)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -111,16 +127,14 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"linecount" : 4,
 					"linkend" : [ "*" ],
 					"maxclass" : "bach.hypercomment",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 357.0, 1575.0, 106.0, 69.0 ],
+					"patching_rect" : [ 357.0, 1575.0, 106.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.5, 480.0, 333.0, 22.0 ],
-					"text" : "tags: #retuning #timbre #just+intonation #EDO"
+					"presentation_rect" : [ 189.5, 480.0, 333.0, 22.0 ]
 				}
 
 			}
@@ -200,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 372.0, 54.0, 22.0 ],
+					"patching_rect" : [ 6.0, 349.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -270,6 +284,7 @@
 					"bgcolor" : [ 0.054901960784314, 0.435294117647059, 0.372549019607843, 1.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"id" : "obj-105",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -342,15 +357,12 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 14.0,
 					"id" : "obj-98",
-					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.625, 1696.0, 500.0, 91.0 ],
+					"patching_rect" : [ 122.625, 1696.0, 500.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 7,
-					"presentation_rect" : [ 189.5, 268.0, 333.0, 124.0 ],
-					"text" : "A flexible and user-friendly MIDI keyboard for playing and experimenting with different tuning systems. Given a user-defined tuning, specified as a list of ratios, the MIDI keyboard will be remapped to such tuning. The interval between the smallest and largest ratios in the list is assumed to be the pseudo-octave, or the ratio at which the tuning pattern repeats.",
+					"presentation_rect" : [ 189.5, 268.0, 333.0, 23.0 ],
 					"textcolor" : [ 0.275, 0.275, 0.275, 1.0 ]
 				}
 
@@ -365,8 +377,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.75, 1655.0, 215.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.5, 231.0, 333.0, 30.0 ],
-					"text" : "microtonal keyboard"
+					"presentation_rect" : [ 189.5, 231.0, 333.0, 30.0 ]
 				}
 
 			}
@@ -405,7 +416,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-89",
-					"items" : [ "chord", "browser", ",", "combination", "product", "sets", ",", "dissonance", "curve", ",", "microtonal", "keyboard", ",", "moment", "of", "symmetry", "scales", ",", "tuning", "and", "timbre", ",", "prime", "limits", ",", "ratio", "analyzer", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "tonality", "diamond", ",", "limit-based", "quantization", ",", "virtual", "fundamental" ],
+					"items" : [ "chord", "browser", ",", "combination", "product", "sets", ",", "dissonance", "curve", ",", "equal", "temperament", ",", "limit-based", "quantization", ",", "microtonal", "keyboard", ",", "moment", "of", "symmetry", "scales", ",", "prime", "limits", ",", "ratio", "analyzer", ",", "ratio", "to", "pitch", "transcription", ",", "scale", "inspector", ",", "scale", "retuning", ",", "spectral", "analysis", ",", "tonality", "diamond", ",", "tuning", "and", "timbre", ",", "virtual", "fundamental" ],
 					"maxclass" : "chooser",
 					"numinlets" : 1,
 					"numoutlets" : 6,
@@ -493,7 +504,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 6.0, 406.0, 131.0, 22.0 ],
+					"patching_rect" : [ 6.0, 383.0, 131.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -505,7 +516,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 783.25, 57.0, 22.0 ],
+					"patching_rect" : [ 172.5, 760.25, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -518,7 +529,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 823.0, 119.0, 22.0 ],
+					"patching_rect" : [ 172.5, 800.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -535,7 +546,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 860.0, 119.5, 22.0 ],
+					"patching_rect" : [ 72.0, 837.0, 119.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -551,7 +562,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 172.5, 749.5, 190.0, 22.0 ],
+					"patching_rect" : [ 172.5, 726.5, 190.0, 22.0 ],
 					"text" : "regexp \\\\.bell @substitute .maxpat"
 				}
 
@@ -563,7 +574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 72.0, 716.75, 119.5, 22.0 ],
+					"patching_rect" : [ 72.0, 693.75, 119.5, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -575,7 +586,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.5, 894.0, 152.0, 22.0 ],
+					"patching_rect" : [ 5.5, 871.0, 152.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -591,7 +602,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 72.0, 783.25, 29.5, 22.0 ],
+					"patching_rect" : [ 72.0, 760.25, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -603,7 +614,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 749.5, 80.0, 22.0 ],
+					"patching_rect" : [ 72.0, 726.5, 80.0, 22.0 ],
 					"text" : "prepend read"
 				}
 
@@ -615,7 +626,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 72.0, 684.0, 79.0, 22.0 ],
+					"patching_rect" : [ 72.0, 661.0, 79.0, 22.0 ],
 					"text" : "route append"
 				}
 
@@ -628,7 +639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 823.0, 60.0, 22.0 ],
+					"patching_rect" : [ 72.0, 800.0, 60.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -645,7 +656,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6.0, 338.0, 58.0, 22.0 ],
+					"patching_rect" : [ 6.0, 315.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -657,7 +668,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 118.0, 473.0, 106.0, 22.0 ],
+					"patching_rect" : [ 118.0, 450.0, 106.0, 22.0 ],
 					"text" : "t l l"
 				}
 
@@ -669,7 +680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 646.0, 65.0, 22.0 ],
+					"patching_rect" : [ 72.0, 623.0, 65.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -681,7 +692,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 258.5, 578.0, 22.0, 22.0 ],
+					"patching_rect" : [ 258.5, 555.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -693,7 +704,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 285.25, 578.0, 22.0, 22.0 ],
+					"patching_rect" : [ 285.25, 555.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -705,7 +716,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 205.0, 538.0, 126.0, 22.0 ],
+					"patching_rect" : [ 205.0, 515.0, 126.0, 22.0 ],
 					"text" : "regexp ex\\\\."
 				}
 
@@ -717,7 +728,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 205.0, 503.0, 297.0, 22.0 ],
+					"patching_rect" : [ 205.0, 480.0, 297.0, 22.0 ],
 					"text" : "routepass append clear"
 				}
 
@@ -729,7 +740,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 118.0, 440.0, 143.0, 22.0 ],
+					"patching_rect" : [ 118.0, 417.0, 143.0, 22.0 ],
 					"text" : "utils.listdata @folder data"
 				}
 
@@ -786,6 +797,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -1053,7 +1071,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-74", 0 ]
 				}
 
@@ -1215,10 +1233,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.eq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.eval.mxo",
 				"type" : "iLaX"
 			}
@@ -1262,6 +1276,14 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.sort.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.wrap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "ccm_logo.png",
 				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
 				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
@@ -1298,6 +1320,13 @@
 			}
 , 			{
 				"name" : "utils.listdata.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.v>v.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
