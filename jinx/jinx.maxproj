@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3788289762,
+	"modificationdate" : 3788300843,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -347,6 +347,11 @@
 			}
 ,
 			"jinx.myhillcheck.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ex.audioanalysis.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
