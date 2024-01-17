@@ -41,6 +41,48 @@
 		"title" : "spectral analysis",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1395.000000000000227, 629.875, 68.0, 22.0 ],
+					"text" : "#0input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1395.0, 658.0, 299.0, 22.0 ],
+					"text" : "ears.mixdown~ #0input 1 @autogain 1  @naming 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "[ \"cello\" \"cello-f2.aif\" ] \n[ \"cherokee\" \"cherokee.aif\" ] \n[ \"duduk\" \"duduk.aif\" ] \n[ \"electric piano\" \"epno.aiff\" ] \n[ \"vibraphone\" \"vibes-a1.aif\" ]\n[ \"schumann\" \"kind.aif\" ]\n[ \"bell and birds\" \"bellandbirds.wav\" ]\n[ \"noise flutter\" \"fastfig.aif\" ]\n[ \"granular\" \"aewtoctober.C.aif\" ]\n[ \"woodwinds\" \"octotest.aif\" ] ",
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 855.0, 90.0, 254.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.eval @file audioexamples.bell @watch 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-113",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1213,7 +1255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1370.0, 672.0, 79.0, 22.0 ],
+					"patching_rect" : [ 1370.0, 762.0, 79.0, 22.0 ],
 					"text" : "loadmess set"
 				}
 
@@ -1423,7 +1465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1291.0, 672.0, 72.0, 22.0 ],
+					"patching_rect" : [ 1291.0, 762.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -1470,7 +1512,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1291.0, 640.0, 57.0, 22.0 ],
+					"patching_rect" : [ 1291.0, 730.0, 57.0, 22.0 ],
 					"text" : "zl reg"
 				}
 
@@ -1482,7 +1524,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1329.0, 601.75, 101.0, 22.0 ],
+					"patching_rect" : [ 1329.0, 691.75, 101.0, 22.0 ],
 					"text" : "r #0filename"
 				}
 
@@ -1506,10 +1548,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1291.0, 712.0, 151.0, 21.0 ],
+					"patching_rect" : [ 1291.0, 802.0, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 314.5, 374.0, 21.0 ],
-					"text" : "cello",
+					"text" : "woodwinds",
 					"textcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1545,7 +1587,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1083.0, 792.0, 109.0, 22.0 ],
+					"patching_rect" : [ 1083.0, 882.0, 109.0, 22.0 ],
 					"text" : "s #0playaudio"
 				}
 
@@ -1555,10 +1597,10 @@
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 1083.0, 601.75, 227.0, 22.0 ],
-					"text" : "t b b b"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 1083.0, 601.75, 331.000000000000227, 22.0 ],
+					"text" : "t b b b b"
 				}
 
 			}
@@ -1653,7 +1695,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"spectral analysis\" ]\n[ 'description' \"This example performs a spectral analysis and symbolically transcribes/approximates any provided sound, drawing inspiration from approaches to microtonality in spectral music. Caution is advised when attempting to analyze audio samples longer than 15 seconds, as it might takes several minutes to process. This example is an adaptation of the '22. Audio Transcription' example from the ears~ package by D. Ghisi and A. Agostini's\" ]\n[ 'tags' \"spectralism\" \"audio+analysis\" \"music+information+retrieval\" \"psychoacoustics\"] ",
+					"code" : "[ 'title' \"spectral analysis\" ]\n[ 'description' \"This example performs a spectral analysis and symbolically transcribes/approximates any provided sound, drawing inspiration from approaches to microtonality in spectral music. Caution is advised when attempting to analyze audio samples longer than 15 seconds, as it might takes several minutes to process. This example is an adaptation of the '22. Audio Transcription' example from the ears~ package by D. Ghisi and A. Agostini.\" ]\n[ 'tags' \"spectralism\" \"audio+analysis\" \"music+information+retrieval\" \"psychoacoustics\"] ",
 					"id" : "obj-89",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1721,7 +1763,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1187.0, 640.0, 85.0, 22.0 ],
+					"patching_rect" : [ 1187.0, 730.0, 85.0, 22.0 ],
 					"text" : "s #0reset"
 				}
 
@@ -1734,7 +1776,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "clear" ],
 					"patching_rect" : [ 855.0, 234.0, 167.0, 22.0 ],
-					"text" : "t 0 l clear"
+					"text" : "t 1 l clear"
 				}
 
 			}
@@ -1755,7 +1797,7 @@
 					"align" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-81",
-					"items" : [ "cello", ",", "cherokee", ",", "duduk", ",", "electric piano", ",", "vibraphone" ],
+					"items" : [ "bell and birds", ",", "cello", ",", "cherokee", ",", "duduk", ",", "electric piano", ",", "granular", ",", "noise flutter", ",", "schumann", ",", "vibraphone", ",", "woodwinds" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1775,7 +1817,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 929.0, 319.0, 65.0, 22.0 ],
+					"patching_rect" : [ 929.0, 309.0, 65.0, 22.0 ],
 					"text" : "append $1"
 				}
 
@@ -1837,19 +1879,6 @@
 					}
 ,
 					"text" : "bach.trans"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-72",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 855.0, 79.0, 558.0, 35.0 ],
-					"text" : "[ cello cello-f2.aif ] [ cherokee cherokee.aif ] [ duduk duduk.aif ] [ \"electric piano\" epno.aiff ] [ vibraphone vibes-a1.aif ]"
 				}
 
 			}
@@ -2291,7 +2320,7 @@
 					"voicenamesfont" : "Ableton Sans Medium",
 					"voicespacing" : [ 30.0, 17.0 ],
 					"vzoom" : 100.0,
-					"zoom" : 200.0
+					"zoom" : 1000.0
 				}
 
 			}
@@ -2566,7 +2595,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -2582,6 +2611,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -2727,6 +2763,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -2855,13 +2898,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-72", 0 ]
 				}
 
 			}
@@ -3023,6 +3059,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-9", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-9", 3 ]
 				}
 
 			}
@@ -3192,6 +3235,10 @@
 			}
 , 			{
 				"name" : "ears.info~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ears.mixdown~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
