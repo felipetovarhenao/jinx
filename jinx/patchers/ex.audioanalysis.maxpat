@@ -132,7 +132,7 @@
 					"patching_rect" : [ 1291.0, 712.0, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 214.0, 150.0, 21.0 ],
-					"text" : "audio file",
+					"text" : "brushes",
 					"textcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ]
 				}
 
@@ -356,7 +356,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "clear" ],
 					"patching_rect" : [ 855.0, 234.0, 167.0, 22.0 ],
-					"text" : "t 0 l clear"
+					"text" : "t 1 l clear"
 				}
 
 			}
