@@ -716,6 +716,14 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
 									"fontname" : "Ableton Sans Medium",
 									"id" : "obj-3",
 									"items" : [ 512, ",", 1024, ",", 2048, ",", 4096 ],
@@ -1551,7 +1559,7 @@
 					"patching_rect" : [ 1291.0, 802.0, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 314.5, 374.0, 21.0 ],
-					"text" : "woodwinds",
+					"text" : "cello",
 					"textcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1795,6 +1803,14 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-81",
 					"items" : [ "bell and birds", ",", "cello", ",", "cherokee", ",", "duduk", ",", "electric piano", ",", "granular", ",", "noise flutter", ",", "schumann", ",", "vibraphone", ",", "woodwinds" ],
@@ -2320,7 +2336,7 @@
 					"voicenamesfont" : "Ableton Sans Medium",
 					"voicespacing" : [ 30.0, 17.0 ],
 					"vzoom" : 100.0,
-					"zoom" : 1000.0
+					"zoom" : 200.0
 				}
 
 			}
