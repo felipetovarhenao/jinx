@@ -164,7 +164,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 792.0, 191.0, 190.0, 81.0 ],
+						"rect" : [ 591.0, 66.0, 190.0, 83.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -201,7 +201,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 303.0, 317.0, 113.0, 22.0 ],
-									"text" : "loadmess set 0.033"
+									"text" : "loadmess set 0.025"
 								}
 
 							}
@@ -553,7 +553,7 @@
 									"id" : "obj-13",
 									"maxclass" : "flonum",
 									"maximum" : 0.9,
-									"minimum" : 0.001,
+									"minimum" : 0.0001,
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
