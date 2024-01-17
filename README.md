@@ -12,7 +12,7 @@ This project consists of a variety of educational and interactive tools for lear
 
 This project was developed and has only been tested in macOS, but should also be functional in Windows computers. To use it, the following software is required:
 - [Max](https://cycling74.com/products/max) programming environment. A commercial license is **not** required to use this project.
-- [bach](https://bachproject.net) library, which can be installed through the [Max Package Manager](https://docs.cycling74.com/max8/vignettes/package_manager).
+- The [bach](https://bachproject.net) and [ears](https://www.bachproject.net/ears/) libraries, which can be installed through the [Max Package Manager](https://docs.cycling74.com/max8/vignettes/package_manager).
 
 
 ### Usage
