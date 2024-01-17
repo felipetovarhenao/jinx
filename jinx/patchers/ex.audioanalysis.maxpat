@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 65.0, 65.0, 525.0, 658.0 ],
+		"rect" : [ 65.0, 65.0, 525.0, 695.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 588.333333333333258, 568.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 418.938405781984329, 304.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 377.938405781984329, 337.5, 141.0, 20.0 ],
 					"text" : "analysis settings",
 					"texton" : "settings"
 				}
@@ -1174,7 +1174,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 514.333333333333371, 1361.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 303.5, 52.0, 23.0 ]
+					"presentation_rect" : [ 1.5, 336.5, 52.0, 23.0 ]
 				}
 
 			}
@@ -1228,7 +1228,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.75, 313.5, 128.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.5, 304.5, 91.0, 21.0 ],
+					"presentation_rect" : [ 55.5, 337.5, 91.0, 21.0 ],
 					"text" : "playback speed"
 				}
 
@@ -1362,7 +1362,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 341.333333333333371, 1285.0, 147.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.75, 558.5, 516.25, 23.0 ],
+					"presentation_rect" : [ 1.75, 591.5, 516.25, 23.0 ],
 					"text" : "symbolic transcription",
 					"textjustification" : 1
 				}
@@ -1508,7 +1508,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1291.0, 712.0, 151.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 281.5, 374.0, 21.0 ],
+					"presentation_rect" : [ 1.5, 314.5, 374.0, 21.0 ],
 					"text" : "cello",
 					"textcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ],
 					"textjustification" : 1
@@ -1653,7 +1653,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"spectral analysis\" ]\n[ 'description' \"This example performs a spectral analysis and symbolically transcribes/approximates any provided sound, drawing inspiration from approaches to microtonality in spectral music. Caution is advised when attempting to analyze audio samples longer than 15 seconds, as it might takes several minutes to process.\" ]\n[ 'tags' \"spectralism\" \"audio+analysis\" \"music+information+retrieval\" \"psychoacoustics\"] ",
+					"code" : "[ 'title' \"spectral analysis\" ]\n[ 'description' \"This example performs a spectral analysis and symbolically transcribes/approximates any provided sound, drawing inspiration from approaches to microtonality in spectral music. Caution is advised when attempting to analyze audio samples longer than 15 seconds, as it might takes several minutes to process. This example is an adaptation of the '22. Audio Transcription' example from the ears~ package by D. Ghisi and A. Agostini's\" ]\n[ 'tags' \"spectralism\" \"audio+analysis\" \"music+information+retrieval\" \"psychoacoustics\"] ",
 					"id" : "obj-89",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1686,7 +1686,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 9.0, 84.0, 140.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 2.5, 516.5, 208.0 ],
+					"presentation_rect" : [ 1.5, 2.5, 516.5, 241.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1763,7 +1763,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 929.0, 365.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 212.5, 141.188405781984329, 23.0 ],
+					"presentation_rect" : [ 378.0, 245.5, 141.188405781984329, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -2100,7 +2100,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 165.0, 459.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 281.5, 140.938405781984329, 20.0 ],
+					"presentation_rect" : [ 378.0, 314.5, 140.938405781984329, 20.0 ],
 					"text" : "PROCESS",
 					"texton" : "PROCESS"
 				}
@@ -2119,7 +2119,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.0, 738.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 259.5, 141.188405781984329, 20.0 ],
+					"presentation_rect" : [ 378.0, 292.5, 141.188405781984329, 20.0 ],
 					"text" : "PLAY",
 					"textcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ],
 					"texton" : "STOP"
@@ -2161,7 +2161,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1065.0, 463.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 237.5, 141.0, 20.0 ],
+					"presentation_rect" : [ 378.0, 270.5, 141.0, 20.0 ],
 					"text" : "load file",
 					"texton" : "load file"
 				}
@@ -2180,7 +2180,7 @@
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 929.0, 596.0, 126.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.5, 212.5, 374.438405781984329, 89.0 ],
+					"presentation_rect" : [ 1.5, 245.5, 374.438405781984329, 89.0 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 0.929411764705882, 0.929411764705882, 0.352941176470588, 0.0 ],
 					"waveformcolor" : [ 0.850980392156863, 0.850980392156863, 0.850980392156863, 1.0 ]
@@ -2228,7 +2228,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 797.5, 1698.0, 252.0, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.75, 596.5, 517.188405781984329, 59.0 ],
+					"presentation_rect" : [ 1.75, 629.5, 517.188405781984329, 59.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2276,7 +2276,7 @@
 					"patching_rect" : [ 341.333333333333371, 1022.0, 552.583333333333144, 286.0 ],
 					"pitcheditrange" : [ "null" ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.75, 328.5, 517.188405781984329, 266.0 ],
+					"presentation_rect" : [ 1.75, 361.5, 517.188405781984329, 266.0 ],
 					"preventedit" : [ "[", "notes", "modify", "]" ],
 					"ruler" : 1,
 					"shownotenames" : 1,

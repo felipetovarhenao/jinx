@@ -1,3 +1,3 @@
 [ 'title' "spectral analysis" ]
-[ 'description' "This example performs a spectral analysis and symbolically transcribes/approximates any provided sound, drawing inspiration from approaches to microtonality in spectral music. Caution is advised when attempting to analyze audio samples longer than 15 seconds, as it might takes several minutes to process." ]
+[ 'description' "This example performs a spectral analysis and symbolically transcribes/approximates any provided sound, drawing inspiration from approaches to microtonality in spectral music. Caution is advised when attempting to analyze audio samples longer than 15 seconds, as it might takes several minutes to process. This example is an adaptation of the '22. Audio Transcription' example from the ears~ package by D. Ghisi and A. Agostini." ]
 [ 'tags' "spectralism" "audio+analysis" "music+information+retrieval" "psychoacoustics"]
