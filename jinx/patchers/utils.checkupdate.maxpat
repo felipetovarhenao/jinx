@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 107.0, 124.0, 822.0, 725.0 ],
+		"rect" : [ 107.0, 124.0, 820.0, 744.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 257.0, 61.0, 22.0 ],
+					"text" : "get status"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 8.0, 219.0, 133.0, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 145.333333333333258, 533.0, 29.5, 22.0 ],
+					"patching_rect" : [ 132.5, 567.0, 29.5, 22.0 ],
 					"text" : "!- 1"
 				}
 
@@ -70,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.25, 686.0, 324.0, 35.0 ],
+					"patching_rect" : [ 491.25, 701.0, 324.0, 35.0 ],
 					"text" : ";\rmax launchbrowser https://github.com/felipetovarhenao/jinx"
 				}
 
@@ -82,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 563.0, 29.5, 22.0 ],
+					"patching_rect" : [ 526.0, 578.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -94,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 526.0, 515.0, 61.0, 22.0 ],
+					"patching_rect" : [ 526.0, 530.0, 61.0, 22.0 ],
 					"text" : "savebang"
 				}
 
@@ -130,7 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 612.0, 61.0, 22.0 ],
+					"patching_rect" : [ 491.0, 627.0, 61.0, 22.0 ],
 					"text" : "hidden $1"
 				}
 
@@ -146,7 +170,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 491.0, 647.0, 127.0, 22.0 ],
+					"patching_rect" : [ 491.0, 662.0, 127.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 2.0, 127.0, 22.0 ],
 					"rounded" : 10.0,
@@ -173,7 +197,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.333333333333258, 496.0, 137.0, 22.0 ],
+					"patching_rect" : [ 132.5, 530.0, 137.0, 22.0 ],
 					"text" : "utils.v>v @out m"
 				}
 
@@ -185,20 +209,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 145.333333333333258, 421.0, 137.0, 22.0 ],
+					"patching_rect" : [ 132.5, 455.0, 137.0, 22.0 ],
 					"text" : "t s b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"code" : "\"v0.0.6-beta\" ",
+					"code" : "\"v0.0.10-beta\" ",
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.333333333333258, 462.0, 155.0, 22.0 ],
+					"patching_rect" : [ 250.5, 496.0, 155.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -215,7 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.833333333333258, 385.0, 55.0, 22.0 ],
+					"patching_rect" : [ 244.0, 419.0, 55.0, 22.0 ],
 					"text" : "get body"
 				}
 
@@ -227,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 256.833333333333258, 348.0, 47.0, 22.0 ],
+					"patching_rect" : [ 244.0, 382.0, 47.0, 22.0 ],
 					"text" : "sel 200"
 				}
 
@@ -239,7 +263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.333333333333258, 348.0, 71.0, 22.0 ],
+					"patching_rect" : [ 132.5, 382.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -251,32 +275,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 145.333333333333258, 313.0, 242.0, 22.0 ],
+					"patching_rect" : [ 132.5, 347.0, 242.0, 22.0 ],
 					"text" : "route body status"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 223.0, 61.0, 22.0 ],
-					"text" : "get status"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 180.0, 133.0, 22.0 ],
-					"text" : "t b l"
 				}
 
 			}
@@ -305,34 +305,19 @@
 			}
 , 			{
 				"box" : 				{
-					"data" : 					{
-						"body" : "\"v0.0.6-beta\"",
-						"header" : "HTTP/1.1 200 OK\r\nConnection: keep-alive\r\nContent-Length: 13\r\nCache-Control: max-age=300\r\nContent-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox\r\nContent-Type: text/plain; charset=utf-8\r\nETag: \"f5467d2536ad308a54ae2484d9c0bc7fbd90c0c109716b96cd03dabaf47e973e\"\r\nStrict-Transport-Security: max-age=31536000\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: deny\r\nX-XSS-Protection: 1; mode=block\r\nX-GitHub-Request-Id: 924C:2DC2:497532:585866:65A5A5C7\r\nAccept-Ranges: bytes\r\nDate: Mon, 15 Jan 2024 22:09:58 GMT\r\nVia: 1.1 varnish\r\nX-Served-By: cache-chi-kigq8000038-CHI\r\nX-Cache: HIT\r\nX-Cache-Hits: 1\r\nX-Timer: S1705356598.338611,VS0,VE77\r\nVary: Authorization,Accept-Encoding,Origin\r\nAccess-Control-Allow-Origin: *\r\nCross-Origin-Resource-Policy: cross-origin\r\nX-Fastly-Request-ID: b73a41d6494403f92309047f8c695e61c6d0e233\r\nExpires: Mon, 15 Jan 2024 22:14:58 GMT\r\nSource-Age: 0\r\n\r\n",
-						"status" : 200,
-						"connect_code" : 0,
-						"url" : "https://raw.githubusercontent.com/felipetovarhenao/jinx/main/jinx/data/version.bell",
-						"file_time" : -1,
-						"total_time" : 0.220088,
-						"size_upload" : 0.0,
-						"size_download" : 13.0,
-						"content_length_download" : 13.0,
-						"content_length_upload" : 0.0,
-						"content_type" : "text/plain; charset=utf-8"
-					}
-,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 122.0, 272.0, 89.0, 22.0 ],
+					"patching_rect" : [ 122.0, 307.0, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 1,
+						"embed" : 0,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "dict @embed 1"
+					"text" : "dict"
 				}
 
 			}
@@ -343,7 +328,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "dictionary", "" ],
-					"patching_rect" : [ 122.0, 223.0, 45.0, 22.0 ],
+					"patching_rect" : [ 8.0, 186.0, 45.0, 22.0 ],
 					"text" : "maxurl"
 				}
 
@@ -351,7 +336,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -400,7 +385,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -498,15 +483,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-7", 0 ]
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-7", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-7", 1 ]
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
