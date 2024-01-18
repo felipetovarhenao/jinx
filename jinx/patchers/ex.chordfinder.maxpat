@@ -74,7 +74,7 @@
 					"format" : 6,
 					"id" : "obj-67",
 					"maxclass" : "flonum",
-					"maximum" : 50.0,
+					"maximum" : 100.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -511,7 +511,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 13.0,
 					"id" : "obj-56",
-					"linecount" : 5,
+					"linecount" : 7,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -522,7 +522,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1.5, 180.0, 403.0, 50.0 ],
-					"text" : "1 256/243 9/8 32/27 81/64 4/3 729/512 3/2 128/81 27/16 16/9 243/128 2",
+					"text" : "1. 1.05723 1.117736 1.181704 1.249333 1.320833 1.396424 1.476342 1.560833 1.65016 1.744599 1.844442 1.95",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1183,7 +1183,7 @@
 					"patching_rect" : [ 347.166666666666629, 1450.5, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 406.5, 206.0, 112.916666666666742, 24.0 ],
-					"text" : "1 5/4 3/2",
+					"text" : "1 5/4",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1246,7 +1246,7 @@
 					"patching_rect" : [ 483.5, 929.0, 148.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 231.0, 167.0, 23.0 ],
-					"text" : "tuning (3-limit)"
+					"text" : "tuning"
 				}
 
 			}
@@ -1337,7 +1337,7 @@
 					"patching_rect" : [ 595.0, 2654.75, 163.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.5, 461.0, 231.0, 23.0 ],
-					"text" : "search results (3)"
+					"text" : "search results (9)"
 				}
 
 			}
