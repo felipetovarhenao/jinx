@@ -502,3 +502,27 @@ $getsrutis = (
 	[ "name" "Classical Indian 22-sruti tuning"]
 	[ "ratios" $getsrutis() ]
 ]
+[
+	[ "name" "Brook's Virtutaes Occulatae 2O"]
+	[ "ratios" 1 17/16 9/8 19/16 5/4 11/8 23/16 3/2 25/16 13/8 7/4 15/8 2 ]
+]
+[
+	[ "name" "Brook's Virtutaes Occulatae 3O"]
+	[ "ratios" 1 13/12 7/6 5/4 4/3 17/12 3/2 19/12 5/3 7/4 11/6 23/12 2 ]
+]
+[
+	[ "name" "Brook's Virtutaes Occulatae 5O"]
+	[ "ratios" 1 11/10 6/5 5/4 13/10 7/5 3/2 8/5 17/10 7/4 9/5 19/10 2 ]
+]
+[
+	[ "name" "Brook's Virtutaes Occulatae 7O"]
+	[ "ratios" 1 15/14 8/7 17/14 9/7 10/7 3/2 11/7 12/7 25/14 13/7 27/14 2]
+]
+[
+	[ "name" "Brook's Virtutaes Occulatae 9O"]
+	[ "ratios" 1 19/18 10/9 11/9 4/3 13/9 3/2 14/9 5/3 16/9 17/9 35/18 2 ]
+]
+[
+	[ "name" "Brook's Virtutaes Occulatae 11O"]
+	[ "ratios" 1 12/11 13/11 14/11 15/11 16/11 3/2 17/11 18/11 19/11 20/11 21/11 2 ]
+]
