@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,60 @@
 		"assistshowspatchername" : 0,
 		"title" : "moment of symmetry scales",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-184",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 93.0, 2530.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"id" : "obj-178",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 93.0, 2570.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 293.0, 541.0, 74.0, 20.0 ],
+					"text" : "auto-play",
+					"texton" : "auto-play"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 201.0, 2569.0, 95.0, 22.0 ],
+					"text" : "routepass dump"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-174",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 93.0, 2608.0, 127.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-183",
 					"maxclass" : "newobj",
@@ -164,8 +218,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -601,7 +655,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.37501072883606, 2530.166642308235168, 77.0, 22.0 ],
+					"patching_rect" : [ 201.0, 2530.0, 77.0, 22.0 ],
 					"text" : "r #0circle"
 				}
 
@@ -745,8 +799,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1326,7 +1380,7 @@
 					"patching_rect" : [ 1584.333340525627136, 3978.333308935165405, 280.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.5, 564.25, 273.0, 23.0 ],
-					"text" : "19-TET moment of symmetry scale",
+					"text" : "12-TET moment of symmetry scale",
 					"textjustification" : 2
 				}
 
@@ -1382,8 +1436,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2395,8 +2449,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2555,7 +2609,7 @@
 					"patching_rect" : [ 138.5, 1618.1875, 143.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 538.75, 227.0, 23.0 ],
-					"text" : "L1 s8",
+					"text" : "L5 s2",
 					"textjustification" : 1
 				}
 
@@ -2755,8 +2809,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2920,7 +2974,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-66",
 					"maxclass" : "number",
-					"maximum" : 18,
+					"maximum" : 11,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3062,6 +3116,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autoreduce" : 0,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
@@ -3069,18 +3124,17 @@
 					"ignoreclick" : 1,
 					"inset" : 26.0,
 					"maxclass" : "bach.circle",
-					"modulo" : 19,
-					"names" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135 ],
+					"names" : [ 0, 13, 2, 27, 4, 41, 6, 7, 20, 9, 34, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41 ],
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"out" : "nn",
 					"outlettype" : [ "", "", "int", "bang" ],
 					"patching_rect" : [ 493.0, 2647.666642308235168, 183.0, 199.5 ],
-					"points" : [ 0, 2, 4, 6, 8, 11, 13, 15, 17 ],
+					"points" : [ 0, 7, 13, 20, 27, 34, 41 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 311.5, 227.0, 250.25 ],
 					"shownumbers" : 2,
-					"velocities" : [ 100, 100, 100, 100, 100, 100, 100, 100, 100 ],
+					"velocities" : [ 100, 100, 100, 100, 100, 100, 100 ],
 					"versionnumber" : 80300
 				}
 
@@ -3126,8 +3180,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4044,6 +4098,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-93", 1 ],
 					"source" : [ "obj-175", 0 ]
 				}
@@ -4053,6 +4114,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-163", 0 ],
 					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-174", 1 ],
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-177", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"source" : [ "obj-178", 0 ]
 				}
 
 			}
@@ -4081,6 +4163,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-181", 1 ],
 					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-178", 0 ],
+					"source" : [ "obj-184", 0 ]
 				}
 
 			}
@@ -4450,7 +4539,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-177", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -4611,7 +4700,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-177", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
 
