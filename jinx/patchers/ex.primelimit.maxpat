@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -156,7 +156,7 @@
 					"patching_rect" : [ 1151.0, 1175.054688000000169, 155.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 301.5, 499.5, 216.0, 21.0 ],
-					"text" : "11 out of 11 ratios",
+					"text" : "1 out of 1 ratios",
 					"textjustification" : 2
 				}
 
@@ -327,8 +327,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -929,8 +929,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1210,7 +1210,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 292.5, 515.0, 228.0 ],
 					"rowheight" : 32,
-					"rows" : 11,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
@@ -1524,8 +1524,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1787,7 +1787,7 @@
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 50.0, 17.0 ],
 					"vzoom" : 100.0,
-					"zoom" : 156.0
+					"zoom" : 281.0
 				}
 
 			}

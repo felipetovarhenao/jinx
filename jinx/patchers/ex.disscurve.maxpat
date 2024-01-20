@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -828,7 +828,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as an optimal tuning for such spectrum. This is an adaptation of W. Sethares' sensory dissonance curve algorithm.\" ]\n[ 'tags' \"sensory+dissonance\" \"timbre\" \"just+intonation\" \"psychoacoustics\"] ",
+					"code" : "[ 'title' \"dissonance curve\" ]\n[ 'description' \"An interface that allows the user to explore the relationship between timbre and tuning, through additive synthesis. Given a user-defined spectrum, specified as a series of frequency ratios and relative amplitudes, it generates a dissonance curve, as well as the estimated minimal dissonances for such spectrum. This is an adaptation of W. Sethares' sensory dissonance curve algorithm.\" ]\n[ 'tags' \"sensory+dissonance\" \"timbre\" \"just+intonation\" \"psychoacoustics\"] ",
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1446,8 +1446,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

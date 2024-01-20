@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "ratio analyzer",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 724.0, 1149.0, 257.0, 22.0 ],
+					"text" : "utils.cleanllll @default 1 @normalize 0 @sort 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"code" : "if $x1 == 1 then 'otonal' else 'utonal' ",
 					"id" : "obj-6",
@@ -103,7 +115,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 867.0, 921.0, 61.0, 22.0 ],
+					"patching_rect" : [ 867.0, 876.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -123,8 +135,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -493,7 +505,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 723.666666666666629, 974.0, 538.0, 23.0 ],
+					"patching_rect" : [ 724.0, 929.0, 538.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.5, 206.700000584125519, 521.0, 25.0 ],
 					"text" : "1 5/4 3/2 7/4 2",
@@ -508,7 +520,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 723.666666666666629, 897.5, 67.5, 22.0 ],
+					"patching_rect" : [ 724.0, 853.0, 67.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -520,7 +532,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.166666666666629, 939.0, 72.0, 22.0 ],
+					"patching_rect" : [ 772.0, 894.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -551,7 +563,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
 					"id" : "obj-110",
-					"items" : [ "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 hexany", ",", "1-3-5-7-11 dekany (2)", ",", "1-3-5-7-11 dekany (3)", ",", "1-3-5-7-9-11 pentadekany (2)", ",", "1-3-5-7-9-11 pentadekany (4)", ",", "1-3-5-7-9-11 eikosany", ",", "Euler-Fokker genus (3-3)", ",", "Euler-Fokker genus (3-5)", ",", "Euler-Fokker genus (5-5)", ",", "Euler-Fokker genus (3-7)", ",", "Euler-Fokker genus (7-7)", ",", "Euler-Fokker genus (3-3-3)", ",", "Euler-Fokker genus (3-3-5)", ",", "Euler-Fokker genus (3-5-5)", ",", "Euler-Fokker genus (5-5-5)", ",", "Euler-Fokker genus (3-3-7)", ",", "Euler-Fokker genus (3-7-7)", ",", "Euler-Fokker genus (5-7-7)", ",", "Euler-Fokker genus (5-5-7)", ",", "Euler-Fokker genus (7-7-7)", ",", "Euler-Fokker genus (3-5-7)", ",", "Euler-Fokker genus (3-3-3-3)", ",", "Euler-Fokker genus (3-3-3-5)", ",", "Euler-Fokker genus (3-3-3-7)", ",", "Euler-Fokker genus (3-3-5-5)", ",", "Euler-Fokker genus (3-3-5-7)", ",", "Euler-Fokker genus (3-3-7-7)", ",", "Euler-Fokker genus (3-5-5-5)", ",", "Euler-Fokker genus (3-5-5-7)", ",", "Euler-Fokker genus (3-5-7-7)", ",", "Euler-Fokker genus (3-7-7-7)", ",", "Euler-Fokker genus (5-5-5-5)", ",", "Euler-Fokker genus (5-5-5-7)", ",", "Euler-Fokker genus (5-5-7-7)", ",", "Euler-Fokker genus (5-7-7-7)", ",", "Euler-Fokker genus (7-7-7-7)", ",", "La Monte Young's 7-limit", ",", "A12 scale", ",", "Classical Indian 22-sruti tuning" ],
+					"items" : [ "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 hexany", ",", "1-3-5-7-11 dekany (2)", ",", "1-3-5-7-11 dekany (3)", ",", "1-3-5-7-9-11 pentadekany (2)", ",", "1-3-5-7-9-11 pentadekany (4)", ",", "1-3-5-7-9-11 eikosany", ",", "Euler-Fokker genus (3-3)", ",", "Euler-Fokker genus (3-5)", ",", "Euler-Fokker genus (5-5)", ",", "Euler-Fokker genus (3-7)", ",", "Euler-Fokker genus (7-7)", ",", "Euler-Fokker genus (3-3-3)", ",", "Euler-Fokker genus (3-3-5)", ",", "Euler-Fokker genus (3-5-5)", ",", "Euler-Fokker genus (5-5-5)", ",", "Euler-Fokker genus (3-3-7)", ",", "Euler-Fokker genus (3-7-7)", ",", "Euler-Fokker genus (5-7-7)", ",", "Euler-Fokker genus (5-5-7)", ",", "Euler-Fokker genus (7-7-7)", ",", "Euler-Fokker genus (3-5-7)", ",", "Euler-Fokker genus (3-3-3-3)", ",", "Euler-Fokker genus (3-3-3-5)", ",", "Euler-Fokker genus (3-3-3-7)", ",", "Euler-Fokker genus (3-3-5-5)", ",", "Euler-Fokker genus (3-3-5-7)", ",", "Euler-Fokker genus (3-3-7-7)", ",", "Euler-Fokker genus (3-5-5-5)", ",", "Euler-Fokker genus (3-5-5-7)", ",", "Euler-Fokker genus (3-5-7-7)", ",", "Euler-Fokker genus (3-7-7-7)", ",", "Euler-Fokker genus (5-5-5-5)", ",", "Euler-Fokker genus (5-5-5-7)", ",", "Euler-Fokker genus (5-5-7-7)", ",", "Euler-Fokker genus (5-7-7-7)", ",", "Euler-Fokker genus (7-7-7-7)", ",", "La Monte Young's 7-limit", ",", "A12 scale", ",", "Classical Indian 22-sruti tuning", ",", "Brook's Virtutaes Occulatae 2O", ",", "Brook's Virtutaes Occulatae 3O", ",", "Brook's Virtutaes Occulatae 5O", ",", "Brook's Virtutaes Occulatae 7O", ",", "Brook's Virtutaes Occulatae 9O", ",", "Brook's Virtutaes Occulatae 11O" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -588,7 +600,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 723.666666666666629, 784.0, 29.5, 22.0 ],
+					"patching_rect" : [ 724.0, 739.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -612,7 +624,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 723.666666666666629, 863.0, 141.0, 22.0 ],
+					"patching_rect" : [ 724.0, 818.0, 141.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -628,7 +640,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.666666666666629, 825.0, 179.666666666666686, 22.0 ],
+					"patching_rect" : [ 724.0, 780.0, 179.666666666666686, 22.0 ],
 					"text" : "bach.lookup"
 				}
 
@@ -863,7 +875,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 947.666666666666629, 1105.0, 73.0, 22.0 ],
+					"patching_rect" : [ 948.0, 1060.0, 73.0, 22.0 ],
 					"text" : "jinx.float2rat"
 				}
 
@@ -875,7 +887,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 947.666666666666629, 1068.0, 67.0, 22.0 ],
+					"patching_rect" : [ 948.0, 1023.0, 67.0, 22.0 ],
 					"text" : "bach.filter f"
 				}
 
@@ -887,7 +899,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 885.666666666666629, 1146.0, 81.0, 22.0 ],
+					"patching_rect" : [ 886.0, 1101.0, 81.0, 22.0 ],
 					"text" : "bach.filternull"
 				}
 
@@ -1002,28 +1014,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 723.666666666666629, 1156.0, 57.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.thin"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 723.666666666666629, 1080.0, 87.0, 22.0 ],
+					"patching_rect" : [ 724.0, 1035.0, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -1039,7 +1035,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 885.666666666666629, 1037.0, 81.0, 22.0 ],
+					"patching_rect" : [ 886.0, 992.0, 81.0, 22.0 ],
 					"text" : "bach.filter r"
 				}
 
@@ -1051,7 +1047,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 723.666666666666629, 1022.0, 59.0, 22.0 ],
+					"patching_rect" : [ 724.0, 977.0, 59.0, 22.0 ],
 					"text" : "route text"
 				}
 
@@ -1171,6 +1167,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1400,15 +1403,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-5", 1 ]
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-5", 1 ]
 				}
 
 			}
@@ -1430,13 +1433,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -1598,10 +1594,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.thin.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
 				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
@@ -1665,6 +1657,13 @@
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.cleanllll.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

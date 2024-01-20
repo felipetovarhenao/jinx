@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "scale retuning",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 280.666666666666629, 818.0, 212.0, 22.0 ],
+					"text" : "utils.cleanllll @normalize 0 @default 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"code" : "$x1 / minimum($x1) ",
 					"id" : "obj-5",
@@ -190,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 453.33333333333303, 380.0, 76.0, 21.0 ],
+					"patching_rect" : [ 452.666666666666629, 443.0, 76.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 242.0, 181.0, 76.0, 21.0 ],
 					"text" : "scale/tuning"
@@ -248,14 +260,14 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-17",
-					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "31 EDO", ",", "48 EDO", ",", "53 EDO", ",", "Diatonicized chromatic scale", ",", "Stretched 12 EDO (2.1)", ",", "Compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 hexany", ",", "1-3-5-7-11 dekany (2)", ",", "1-3-5-7-11 dekany (3)", ",", "1-3-5-7-9-11 pentadekany (2)", ",", "1-3-5-7-9-11 pentadekany (4)", ",", "1-3-5-7-9-11 eikosany", ",", "Euler-Fokker genus (3-3)", ",", "Euler-Fokker genus (3-5)", ",", "Euler-Fokker genus (5-5)", ",", "Euler-Fokker genus (3-7)", ",", "Euler-Fokker genus (7-7)", ",", "Euler-Fokker genus (3-3-3)", ",", "Euler-Fokker genus (3-3-5)", ",", "Euler-Fokker genus (3-5-5)", ",", "Euler-Fokker genus (5-5-5)", ",", "Euler-Fokker genus (3-3-7)", ",", "Euler-Fokker genus (3-7-7)", ",", "Euler-Fokker genus (5-7-7)", ",", "Euler-Fokker genus (5-5-7)", ",", "Euler-Fokker genus (7-7-7)", ",", "Euler-Fokker genus (3-5-7)", ",", "Euler-Fokker genus (3-3-3-3)", ",", "Euler-Fokker genus (3-3-3-5)", ",", "Euler-Fokker genus (3-3-3-7)", ",", "Euler-Fokker genus (3-3-5-5)", ",", "Euler-Fokker genus (3-3-5-7)", ",", "Euler-Fokker genus (3-3-7-7)", ",", "Euler-Fokker genus (3-5-5-5)", ",", "Euler-Fokker genus (3-5-5-7)", ",", "Euler-Fokker genus (3-5-7-7)", ",", "Euler-Fokker genus (3-7-7-7)", ",", "Euler-Fokker genus (5-5-5-5)", ",", "Euler-Fokker genus (5-5-5-7)", ",", "Euler-Fokker genus (5-5-7-7)", ",", "Euler-Fokker genus (5-7-7-7)", ",", "Euler-Fokker genus (7-7-7-7)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "A12 scale", ",", "833 cents scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning" ],
+					"items" : [ "12 EDO (chromatic)", ",", "5 EDO", ",", "7 EDO", ",", "8 EDO", ",", "9 EDO", ",", "10 EDO", ",", "11 EDO", ",", "13 EDO", ",", "14 EDO", ",", "15 EDO", ",", "16 EDO", ",", "17 EDO", ",", "18 EDO", ",", "19 EDO", ",", "20 EDO", ",", "21 EDO", ",", "20 EDO", ",", "21 EDO", ",", "22 EDO", ",", "23 EDO", ",", "24 EDO", ",", "31 EDO", ",", "48 EDO", ",", "53 EDO", ",", "Diatonicized chromatic scale", ",", "Stretched 12 EDO (2.1)", ",", "Compressed 12 EDO (1.95)", ",", "Harmonic series (oct 3)", ",", "Harmonic series (oct 4)", ",", "Harmonic series (oct 5)", ",", "Harmonic series (oct 6)", ",", "Aristoxenus' enharmonic", ",", "Tense diatonic", ",", "Ptolemaic sequence (5-limit diatonic)", ",", "Pythagorean scale", ",", "Pythagorean pentatonic", ",", "Just intonation chromatic (v1)", ",", "Just intonation chromatic (v2)", ",", "Partch 43 tone scale", ",", "3-limit diamond", ",", "5-limit diamond", ",", "5-limit diamond (O)", ",", "5-limit diamond (U)", ",", "7-limit diamond", ",", "7-limit diamond (O)", ",", "7-limit diamond (U)", ",", "9-limit diamond", ",", "9-limit diamond (O)", ",", "9-limit diamond (U)", ",", "11-limit diamond", ",", "11-limit diamond (O)", ",", "11-limit diamond (U)", ",", "1-3-5-7 hexany", ",", "1-3-5-7-11 dekany (2)", ",", "1-3-5-7-11 dekany (3)", ",", "1-3-5-7-9-11 pentadekany (2)", ",", "1-3-5-7-9-11 pentadekany (4)", ",", "1-3-5-7-9-11 eikosany", ",", "Euler-Fokker genus (3-3)", ",", "Euler-Fokker genus (3-5)", ",", "Euler-Fokker genus (5-5)", ",", "Euler-Fokker genus (3-7)", ",", "Euler-Fokker genus (7-7)", ",", "Euler-Fokker genus (3-3-3)", ",", "Euler-Fokker genus (3-3-5)", ",", "Euler-Fokker genus (3-5-5)", ",", "Euler-Fokker genus (5-5-5)", ",", "Euler-Fokker genus (3-3-7)", ",", "Euler-Fokker genus (3-7-7)", ",", "Euler-Fokker genus (5-7-7)", ",", "Euler-Fokker genus (5-5-7)", ",", "Euler-Fokker genus (7-7-7)", ",", "Euler-Fokker genus (3-5-7)", ",", "Euler-Fokker genus (3-3-3-3)", ",", "Euler-Fokker genus (3-3-3-5)", ",", "Euler-Fokker genus (3-3-3-7)", ",", "Euler-Fokker genus (3-3-5-5)", ",", "Euler-Fokker genus (3-3-5-7)", ",", "Euler-Fokker genus (3-3-7-7)", ",", "Euler-Fokker genus (3-5-5-5)", ",", "Euler-Fokker genus (3-5-5-7)", ",", "Euler-Fokker genus (3-5-7-7)", ",", "Euler-Fokker genus (3-7-7-7)", ",", "Euler-Fokker genus (5-5-5-5)", ",", "Euler-Fokker genus (5-5-5-7)", ",", "Euler-Fokker genus (5-5-7-7)", ",", "Euler-Fokker genus (5-7-7-7)", ",", "Euler-Fokker genus (7-7-7-7)", ",", "La Monte Young's 7-limit", ",", "1/4-comma meantone temperament", ",", "1/6-comma meantone temperament", ",", "Rameau meantone temperament", ",", "Werkmeister III well temperament", ",", "Werkmeister VI well temperament", ",", "Kirnberger III meantone temperament", ",", "Slendro", ",", "Pelog", ",", "Bohlen-Pierce scale", ",", "A12 scale", ",", "833 cents scale", ",", "Carlos' alpha scale", ",", "Carlos' beta scale", ",", "Carlos' delta scale", ",", "Carlos' gamma scale", ",", "Classical Indian 22-sruti tuning", ",", "Brook's Virtutaes Occulatae 2O", ",", "Brook's Virtutaes Occulatae 3O", ",", "Brook's Virtutaes Occulatae 5O", ",", "Brook's Virtutaes Occulatae 7O", ",", "Brook's Virtutaes Occulatae 9O", ",", "Brook's Virtutaes Occulatae 11O" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 280.666666666666629, 380.0, 168.166666666666515, 23.0 ],
+					"patching_rect" : [ 280.666666666666629, 443.0, 168.166666666666515, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 320.0, 180.0, 202.0, 23.0 ]
 				}
@@ -284,8 +296,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 7,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -578,38 +590,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-134",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 280.666666666666629, 858.71875, 57.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.thin"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-133",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 280.666666666666629, 820.6875, 58.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.sort"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -622,40 +602,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-65",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 385.0, 778.625, 81.0, 22.0 ],
-					"text" : "bach.filter r i f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-64",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 280.666666666666629, 778.625, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.mapelem"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.666666666666629, 591.0, 72.0, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 654.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -673,7 +625,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 280.666666666666629, 663.5, 130.0, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 727.0, 130.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2.0, 206.0, 520.0, 25.0 ],
@@ -684,28 +636,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-60",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.666666666666629, 743.75, 54.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.flat"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-61",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 280.666666666666629, 625.25, 29.5, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 688.0, 29.5, 22.0 ],
 					"text" : "t b l"
 				}
 
@@ -717,7 +653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 280.666666666666629, 706.0, 59.0, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 769.0, 59.0, 22.0 ],
 					"text" : "route text"
 				}
 
@@ -741,7 +677,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "clear" ],
-					"patching_rect" : [ 441.33333333333303, 311.5, 88.0, 22.0 ],
+					"patching_rect" : [ 440.666666666666629, 375.0, 88.0, 22.0 ],
 					"text" : "utils.coll2menu"
 				}
 
@@ -768,7 +704,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 346.166666666666515, 477.0, 77.0, 22.0 ],
+					"patching_rect" : [ 345.666666666666629, 540.0, 77.0, 22.0 ],
 					"text" : "s #0clear"
 				}
 
@@ -780,7 +716,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 280.666666666666629, 432.5, 84.5, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 496.0, 84.5, 22.0 ],
 					"text" : "t i b"
 				}
 
@@ -792,7 +728,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 280.666666666666629, 477.0, 29.5, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 540.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -840,7 +776,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.666666666666629, 311.5, 29.5, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 375.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -852,7 +788,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 280.666666666666629, 556.0, 141.0, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 619.0, 141.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -868,7 +804,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.666666666666629, 518.0, 340.333333333333371, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 581.0, 340.333333333333371, 22.0 ],
 					"text" : "bach.lookup"
 				}
 
@@ -880,7 +816,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "" ],
-					"patching_rect" : [ 280.666666666666629, 276.0, 340.333333333333258, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 339.0, 340.333333333333258, 22.0 ],
 					"text" : "t b l l"
 				}
 
@@ -892,7 +828,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.666666666666629, 242.0, 199.0, 22.0 ],
+					"patching_rect" : [ 280.666666666666629, 305.0, 199.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"versionnumber" : 80300
@@ -1317,20 +1253,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
-					"source" : [ "obj-133", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-134", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -1431,6 +1353,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1639,13 +1568,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-61", 1 ]
 				}
@@ -1660,29 +1582,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-64", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 1 ],
-					"source" : [ "obj-65", 0 ]
 				}
 
 			}
@@ -2123,6 +2024,13 @@
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "utils.cleanllll.maxpat",
+				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
