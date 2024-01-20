@@ -1572,7 +1572,7 @@
 					"patching_rect" : [ 215.0, 391.0, 200.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 217.5, 317.0, 23.0 ],
-					"text" : "1 3 5 7 9 11",
+					"text" : "1",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -2091,6 +2091,7 @@
 			}
 , 			{
 				"box" : 				{
+					"button" : 1,
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-25",
 					"maxclass" : "tab",
@@ -2102,7 +2103,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 323.0, 191.5, 196.5, 21.0 ],
 					"tabcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ],
-					"tabs" : [ "all", "o-tonal", "u-tonal" ]
+					"tabs" : [ "all", "u-tonal", "o-tonal" ]
 				}
 
 			}
@@ -2393,7 +2394,7 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.0 ],
-					"cols" : 6,
+					"cols" : 1,
 					"colwidth" : 45,
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -2411,7 +2412,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 242.5, 317.0, 318.0 ],
 					"rowheight" : 45,
-					"rows" : 6,
+					"rows" : 1,
 					"vscroll" : 0
 				}
 
