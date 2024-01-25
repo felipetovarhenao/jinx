@@ -526,3 +526,7 @@ $getsrutis = (
 	[ "name" "Brook's Virtutaes Occulatae 11O"]
 	[ "ratios" 1 12/11 13/11 14/11 15/11 16/11 3/2 17/11 18/11 19/11 20/11 21/11 2 ]
 ]
+[
+	[ "name" "Johnston's 19-limit piano tuning"]
+	[ "ratios" 1 17/16 9/8 19/16 5/4 21/16 11/8 3/2 13/8 27/16 7/4 15/8 2 ]
+]
