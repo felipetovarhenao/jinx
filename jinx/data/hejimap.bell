@@ -1,0 +1,21 @@
+
+#(
+	An llll of every chromatic interval associated with each limit 
+	in the Helmoltz-Ellis notation system, expressed as a tuple of mod 7 and mod 12 values.
+	The first value refers to the mod-7 name of the interval, and the second value refers to the mod 12
+	size in semitones.
+)#
+[ 3 [ 4 7 ] ] ## 3-limit -> P5
+[ 5 [ 2 4 ] ] ## 5-limit -> M3
+[ 7 [ 6 10 ] ] ## 7-limit -> m7
+[ 11 [ 3 5 ] ] ## 11-limit -> P4
+[ 13 [ 5 9 ] ] ## 13-limit -> M6
+[ 17 [ 0 1 ] ] ## 17-limit -> aug. unison
+[ 19 [ 2 3 ] ] ## 19-limit -> m3
+[ 23 [ 3 6 ] ] ## 23-limit -> aug. 4th
+[ 29 [ 6 10 ] ] ## 29-limit -> m7
+[ 31 [ 0 0 ] ] ## 21-limit -> P8
+[ 37 [ 1 2 ] ] ## 37-limit -> M2
+[ 41 [ 2 5 ] ] ## 41-limit -> aug. 3rd
+[ 43 [ 3 5 ] ] ## 43-limit -> P4
+[ 47 [ 3 6 ] ] ## 47-limit -> aug. 4th

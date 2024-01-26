@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 7,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,16 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 351.5, 158.0, 150.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -68,7 +58,7 @@
 				"box" : 				{
 					"comment" : "llll: pitch-class difference",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -115,7 +105,7 @@
 				"box" : 				{
 					"comment" : "llll: pitch-class(es)",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -128,7 +118,7 @@
 				"box" : 				{
 					"comment" : "llll: pitch-class(es)",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -217,7 +207,25 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "bach.args.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.eval.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.keys.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
