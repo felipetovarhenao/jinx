@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3789069111,
+	"modificationdate" : 3789094795,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -365,6 +365,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"ex.hejinotation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -476,6 +481,51 @@
 				"kind" : "textfile",
 				"local" : 1
 			}
+,
+			"hejiaccidentals.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"hejimap.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.audioanalysis.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"specanalysis.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"audioexamples.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.tet.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.ratioanalyzer.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.mos.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.combsets.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -512,6 +562,11 @@
 ,
 			"bach_invention_8.mid" : 			{
 				"kind" : "midifile",
+				"local" : 1
+			}
+,
+			"HEJI2.otf" : 			{
+				"kind" : "fontfile",
 				"local" : 1
 			}
 

@@ -1,14 +1,84 @@
 #(
 	3- and 5-limit accidental matrix. These are the only accidentals that are mixed.
-	Each integer is meant to be converted with [itoa] to the correct character
+	Each integer is meant to be converted with [itoa] -> [fromsymbol] to the correct character
 )#
+$N = 110;
 [
 	##	bb	b	n	#	x	
-	[	66	98	107	114	83 ] # triple-down-arrow
-	[	67	99	108	115	84 ] # double-down-arrow
-	[	68	100	109	117	85 ] # down-arrow
-	[	69	101	110	118	86 ] # n (check)
-	[	70	102	111	119	87 ] # up-arrow
-	[	71	103	112	120	88 ] # double-up-arrow
-	[	72	104	113	121	89 ] # triple-up-arrow
+	[	72	104	113	121	89 ] ## triple-up-arrow	(u)
+	[	71	103	112	120	88 ] ## double-up-arrow
+	[	70	102	111	119	87 ] ## up-arrow
+	[	69	101	$N	118	86 ] ## n (check)
+	[	68	100	109	117	85 ] ## down-arrow
+	[	67	99	108	116	84 ] ## double-down-arrow
+	[	66	98	107	115	83 ] ## triple-down-arrow (o)
 ]
+#(
+	7-limit accidentals
+	-3 		-2	-1	0	1	2	3
+)#
+[	[62 46]	46	62	$N	60	44	[60 44]]
+
+#(
+	11-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[53 53 53]	[53 53]	53	$N	52	[52 52]	[52 52 52] ]
+#(
+	13-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[57 57 57]	[57 57]	57	$N	48	[48 48]	[48 48 48] ]
+#(
+	17-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[59 59 59]	[59 59]	59	$N	58	[58 58]	[58 58 58] ]
+
+#(
+	19-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[42 42 42]	[42 42]	42	$N	47	[47 47]	[47 47 47] ]
+
+#(
+	23-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[38 38 38]	[38 38]	38	$N	39	[39 39]	[39 39 39] ]
+
+#(
+	29-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[55 55 55]	[55 55]	55	$N	50	[50 50]	[50 50 50] ]
+
+#(
+	31-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[56 56 56]	[56 56]	56	$N	49	[49 49]	[49 49 49] ]
+
+#(
+	37-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[224 224 224]	[224 224]	224	$N	225	[225 225]	[225 225 225] ]
+
+#(
+	41-limit accidentals
+	-3			-2		-1	0	1	2		3
+)#
+[	[45 45 45]	[45 45]	45	$N	43	[43 43]	[43 43 43] ]
+
+#(
+	43-limit accidentals
+	-3				-2			-1	0	1	2			3
+)#
+[	[232 232 232]	[232 232]	232	$N	233	[233 233]	[233 233 233] ]
+
+#(
+	47-limit accidentals
+	-3				-2			-1	0	1	2			3
+)#
+[	[236 236 236]	[236 236]	236	$N	237	[237 237]	[237 237 237] ]
