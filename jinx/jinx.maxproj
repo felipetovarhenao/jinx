@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778347866,
-	"modificationdate" : 3789094795,
+	"modificationdate" : 3789095055,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -367,6 +367,11 @@
 			}
 ,
 			"ex.hejinotation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.heji2utf8.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
