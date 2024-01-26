@@ -1,0 +1,14 @@
+#(
+	3- and 5-limit accidental matrix. These are the only accidentals that are mixed.
+	Each integer is meant to be converted with [itoa] to the correct character
+)#
+[
+	##	bb	b	n	#	x	
+	[	66	98	107	114	83 ] # triple-down-arrow
+	[	67	99	108	115	84 ] # double-down-arrow
+	[	68	100	109	117	85 ] # down-arrow
+	[	69	101	110	118	86 ] # n (check)
+	[	70	102	111	119	87 ] # up-arrow
+	[	71	103	112	120	88 ] # double-up-arrow
+	[	72	104	113	121	89 ] # triple-up-arrow
+]
