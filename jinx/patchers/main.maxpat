@@ -1333,7 +1333,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "utils.v>v.maxpat",
+				"name" : "utils.versionctrl.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

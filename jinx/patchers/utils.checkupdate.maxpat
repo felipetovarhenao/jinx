@@ -198,7 +198,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 132.5, 530.0, 137.0, 22.0 ],
-					"text" : "utils.v>v @out m"
+					"text" : "utils.versionctrl @out m"
 				}
 
 			}
@@ -535,7 +535,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "utils.v>v.maxpat",
+				"name" : "utils.versionctrl.maxpat",
 				"bootpath" : "~/Documents/jinx/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -58,7 +58,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "llll: pitch name",
+					"comment" : "llll: UTF-8 accidental ",
 					"id" : "obj-7",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -70,7 +70,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "llll: UTF-8 accidental ",
+					"comment" : "llll: UTF-8 name",
 					"id" : "obj-6",
 					"index" : 1,
 					"maxclass" : "outlet",
