@@ -1,8 +1,8 @@
 {
 	"name" : "jinx",
 	"version" : 1,
-	"creationdate" : 3778347866,
-	"modificationdate" : 3789156042,
+	"creationdate" : 3778351466,
+	"modificationdate" : 3789328764,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -371,7 +371,7 @@
 				"local" : 1
 			}
 ,
-			"jinx.heji2utf8.maxpat" : 			{
+			"jinx.heji2char.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -387,6 +387,16 @@
 			}
 ,
 			"jinx.mon2n.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ex.notation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.bjn2char.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -587,6 +597,11 @@
 ,
 			"HEJI2.otf" : 			{
 				"kind" : "fontfile",
+				"local" : 1
+			}
+,
+			"Microtonal.ttf" : 			{
+				"kind" : "file",
 				"local" : 1
 			}
 
