@@ -40,21 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 698.0, 241.0, 61.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"versionnumber" : 80300
-					}
-,
-					"text" : "bach.print"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"code" : "$x1 ||| [0 0] ",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -430,7 +415,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 3 [ 4 7 ] ] ## 3-limit -> P5\n[ 5 [ 2 4 ] ] ## 5-limit -> M3\n[ 7 [ 6 10 ] ] ## 7-limit -> m7\n[ 11 [ 3 5 ] ] ## 11-limit -> P4\n[ 13 [ 5 9 ] ] ## 13-limit -> M6\n[ 17 [ 0 1 ] ] ## 17-limit -> aug. unison\n[ 19 [ 2 3 ] ] ## 19-limit -> m3\n[ 23 [ 3 6 ] ] ## 23-limit -> aug. 4th\n[ 29 [ 6 10 ] ] ## 29-limit -> m7\n[ 31 [ 0 1 ] ] ## 21-limit -> aug. unison ",
+					"code" : "[ 3 [ 4 7 ] ] ## 3-limit -> P5\n[ 5 [ 2 4 ] ] ## 5-limit -> M3\n[ 7 [ 6 10 ] ] ## 7-limit -> m7\n[ 11 [ 3 5 ] ] ## 11-limit -> P4\n[ 13 [ 5 9 ] ] ## 13-limit -> M6\n[ 17 [ 0 1 ] ] ## 17-limit -> aug. unison\n[ 19 [ 2 3 ] ] ## 19-limit -> m3\n[ 23 [ 3 6 ] ] ## 23-limit -> aug. 4th\n[ 29 [ 6 10 ] ] ## 29-limit -> m7\n[ 31 [ 6 11 ] ] ## 31-limit -> aug. 7th ",
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -666,16 +651,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
