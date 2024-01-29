@@ -96,7 +96,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 994.0, 1276.000019013881683, 69.0, 22.0 ],
+					"patching_rect" : [ 994.0, 1276.000019013881683, 95.0, 22.0 ],
 					"text" : "s #0display"
 				}
 
@@ -125,7 +125,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 397.0, 2224.0, 67.0, 22.0 ],
+					"patching_rect" : [ 397.0, 2224.0, 93.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -136,7 +136,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 2381.0, 68.0, 22.0 ],
+					"patching_rect" : [ 480.0, 2381.0, 95.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -223,7 +223,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 888.0, 1650.0, 68.0, 22.0 ],
+					"patching_rect" : [ 888.0, 1650.0, 95.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -234,7 +234,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 1910.0, 68.0, 22.0 ],
+					"patching_rect" : [ 752.0, 1910.0, 95.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -245,7 +245,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 616.0, 2181.0, 68.0, 22.0 ],
+					"patching_rect" : [ 616.0, 2181.0, 95.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -257,7 +257,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1994.0, 2283.0, 66.0, 22.0 ],
+					"patching_rect" : [ 1994.0, 2283.0, 93.0, 22.0 ],
 					"text" : "r #0clicked"
 				}
 
@@ -315,7 +315,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2320.0, 1450.0, 67.0, 22.0 ],
+					"patching_rect" : [ 2320.0, 1450.0, 93.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -583,7 +583,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2048.0, 1969.0, 67.0, 22.0 ],
+					"patching_rect" : [ 2048.0, 1969.0, 93.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -750,7 +750,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1086.0, 2063.0, 131.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 392.0, 570.0, 128.0, 54.0 ],
+					"presentation_rect" : [ 393.0, 570.0, 128.0, 54.0 ],
 					"varname" : "test1[16]",
 					"viewvisibility" : 1
 				}
@@ -774,7 +774,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 928.0, 2063.0, 131.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 570.0, 128.0, 54.0 ],
+					"presentation_rect" : [ 263.0, 570.0, 128.0, 54.0 ],
 					"varname" : "test1[17]",
 					"viewvisibility" : 1
 				}
@@ -798,7 +798,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 772.0, 2063.0, 131.0, 64.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.0, 570.0, 128.0, 54.0 ],
+					"presentation_rect" : [ 133.0, 570.0, 128.0, 54.0 ],
 					"varname" : "test1[18]",
 					"viewvisibility" : 1
 				}
@@ -869,7 +869,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1481.0, 1238.0, 69.0, 22.0 ],
+					"patching_rect" : [ 1481.0, 1238.0, 95.0, 22.0 ],
 					"text" : "s #0display"
 				}
 
@@ -881,7 +881,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2190.0, 1708.0, 67.0, 22.0 ],
+					"patching_rect" : [ 2190.0, 1708.0, 93.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -892,7 +892,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 1453.0, 61.0, 22.0 ],
+					"patching_rect" : [ 403.0, 1453.0, 87.0, 22.0 ],
 					"text" : "s #0ratios"
 				}
 
@@ -989,7 +989,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "[ 'title' \"pitch notation\" ]\n[ 'description' \"This interface allows to visualize a collection of ratios in Ben Johnston's and Helmoltz-Ellis Just Intonation (HEJI) notation systems. Each notation system has accidentals for each prime limit. In Ben Johnston's notation, the highest possible limit is 31, while in HEJI notation the highest limit is 47.\"]\n[ 'tags' \"music+theory\" \"just+intonation\" \"combinatorics\" \"Erv+Wilson\"] ",
+					"code" : "[ 'title' \"pitch notation\" ]\n[ 'description' \"This interface allows users to compare Ben Johnston's and Helmoltz-Ellis Just Intonation (HEJI) notation systems. Each notation system has accidentals for each prime limit. In Ben Johnston's notation, the highest possible limit is 31, while in HEJI notation the highest limit is 47.\"]\n[ 'tags' \"music+theory\" \"just+intonation\" \"notation\" \"Ben+Johnston\"] ",
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1414,7 +1414,6 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
-					"linecount" : 5,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1423,9 +1422,8 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 480.0, 1124.0, 200.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
 					"presentation_rect" : [ 2.0, 239.0, 388.0, 24.0 ],
-					"text" : "1 256/243 16/15 10/9 9/8 32/27 6/5 5/4 81/64 4/3 27/20 45/32 64/45 3/2 128/81 8/5 5/3 27/16 16/9 9/5 15/8 243/128 2",
+					"text" : "1 5/4 3/2 5/3 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
