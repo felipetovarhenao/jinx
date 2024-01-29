@@ -1,0 +1,3 @@
+[ 'title' "pitch notation" ]
+[ 'description' "This interface allows users to compare Ben Johnston's and Helmoltz-Ellis Just Intonation (HEJI) notation systems. Each notation system has accidentals for each prime limit. In Ben Johnston's notation, the highest possible limit is 31, while in HEJI notation the highest limit is 47."]
+[ 'tags' "music+theory" "just+intonation" "notation" "Ben+Johnston"]

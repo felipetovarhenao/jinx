@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778351466,
-	"modificationdate" : 3789399874,
+	"modificationdate" : 3789402225,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -397,6 +397,11 @@
 			}
 ,
 			"utils.pitchdisplay.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.n2tuple.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
