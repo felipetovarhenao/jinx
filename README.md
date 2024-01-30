@@ -14,6 +14,10 @@ This project was developed and has only been tested in macOS, but should also be
 - [Max](https://cycling74.com/products/max) programming environment. A commercial license is **not** required to use this project.
 - The [bach](https://bachproject.net) and [ears](https://www.bachproject.net/ears/) libraries, which can be installed through the [Max Package Manager](https://docs.cycling74.com/max8/vignettes/package_manager).
 
+Once these packages are installed, you will have to manually install the fonts included in the `jinx/fonts` folder: `Microtonal.ttf` and `HEJI2.otf`. To install the font in MacOS, double-click on each font file to open the _Font Book_, and then click on the `install font` button.
+
+**NOTE**: In MacOS, installing `Microtonal.ttf` might open a font validation window, in which case you'd check the font box and click on `Installed Checked`. This should properly install the font.
+
 
 ### Usage
 Once all software requirements are installed, open the `jinx.maxproj` file, located in the `jinx` folder. This will open the main menu, where all available interactive tools are listed and can be accessed from.
@@ -21,7 +25,7 @@ Once all software requirements are installed, open the `jinx.maxproj` file, loca
 ### Acknowledgements
 Many of the examples and tools in `jinx` are inspired by and based on ideas from [*Tuning, timbre, spectrum, scale* [2nd Edition]](https://link.springer.com/book/10.1007/b138848) (2005) by William Sethares. Prospective users are encouraged to read it if interested in further understanding the functionalities of and motivations behind `jinx`.
 
-Moreover, two fonts developed by Marc Sabat & Wolfgang von Schweinitz were needed for the pitch notation: the [Extended Helmholtz-Ellis Just Intonation (HEJI)](https://marsbat.space/pdfs/notation.pdf) and Johnston's Microtonal notation fonts.
+Moreover, two fonts developed by Marc Sabat & Wolfgang von Schweinitz were needed for the pitch notation: the [Extended Helmholtz-Ellis Just Intonation (HEJI)](https://marsbat.space/pdfs/notation.pdf) and Johnston's `Microtonal` notation fonts.
 
 Lastly, this project would not be possible without the [bach](https://bachproject.net) library. If you are able to, please support their work through [Patreon](https://www.patreon.com/bachproject/).
 

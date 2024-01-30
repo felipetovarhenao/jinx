@@ -2,9 +2,9 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778351466,
-	"modificationdate" : 3789477334,
+	"modificationdate" : 3789478132,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
-	"autoorganize" : 1,
+	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 0,
 	"autolocalize" : 0,
@@ -610,7 +610,7 @@
 				"local" : 1
 			}
 ,
-			"Microtonal Notation.ttf" : 			{
+			"Microtonal.ttf" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
@@ -627,7 +627,7 @@
 
 	}
 ,
-	"detailsvisible" : 1,
+	"detailsvisible" : 0,
 	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,
