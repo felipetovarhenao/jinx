@@ -4,14 +4,14 @@
 )#
 $N = 110;
 [
-	##	bb	b	n	#	x	
-	[	72	104	113	121	89 ] ## triple-up-arrow	(u)
-	[	71	103	112	120	88 ] ## double-up-arrow
-	[	70	102	111	119	87 ] ## up-arrow
-	[	69	101	$N	118	86 ] ## n (check)
-	[	68	100	109	117	85 ] ## down-arrow
-	[	67	99	108	116	84 ] ## double-down-arrow
-	[	66	98	107	115	83 ] ## triple-down-arrow (o)
+	##	bbb			bb	b	n	#	x	#x
+	[	[104 72]	72	104	113	121	89 [121	89] ] ## triple-up-arrow	(u)
+	[	[103 71]	71	103	112	120	88 [120	88] ] ## double-up-arrow
+	[	[102 70]	70	102	111	119	87 [119	87] ] ## up-arrow
+	[	[101 69]	69	101	$N	118	86 [118	86] ] ## n (check)
+	[	[100 68]	68	100	109	117	85 [117	85] ] ## down-arrow
+	[	[99 67]		67	99	108	116	84 [116	84] ] ## double-down-arrow
+	[	[98 66]		66	98	107	115	83 [115	83] ] ## triple-down-arrow (o)
 ]
 #(
 	7-limit accidentals

@@ -40,6 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 246.0, 379.0, 54.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"versionnumber" : 80300
+					}
+,
+					"text" : "bach.flat"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"code" : "$x1 0 0 0 ",
 					"id" : "obj-14",
 					"maxclass" : "newobj",
@@ -60,11 +76,11 @@
 				"box" : 				{
 					"comment" : "llll: UTF-8 accidental ",
 					"id" : "obj-7",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 143.0, 586.0, 30.0, 30.0 ]
+					"patching_rect" : [ 143.0, 616.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -72,11 +88,11 @@
 				"box" : 				{
 					"comment" : "llll: UTF-8 name",
 					"id" : "obj-6",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 586.0, 30.0, 30.0 ]
+					"patching_rect" : [ 40.0, 616.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -87,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 40.0, 548.0, 225.0, 22.0 ],
+					"patching_rect" : [ 40.0, 578.0, 225.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -100,7 +116,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -133,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 424.0, 425.0, 22.0 ],
+					"patching_rect" : [ 246.0, 454.0, 425.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -150,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 386.0, 55.0, 22.0 ],
+					"patching_rect" : [ 246.0, 416.0, 55.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -185,7 +201,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$x1 + (4 3) ",
+					"code" : "$x1 + (4 4) ",
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -197,7 +213,7 @@
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $x1 + (4 3)"
+					"text" : "bach.eval $x1 + (4 4)"
 				}
 
 			}
@@ -224,7 +240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 246.0, 507.0, 143.0, 22.0 ],
+					"patching_rect" : [ 246.0, 537.0, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -240,7 +256,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 343.0, 299.0, 22.0 ],
+					"patching_rect" : [ 246.0, 342.0, 299.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -274,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 246.0, 468.0, 113.0, 22.0 ],
+					"patching_rect" : [ 246.0, 498.0, 113.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80300
 					}
@@ -671,7 +687,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 422.0, 507.0, 38.0, 22.0 ],
+					"patching_rect" : [ 422.0, 537.0, 38.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -767,7 +783,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "#(\n\t3- and 5-limit accidental matrix. These are the only accidentals that are mixed.\n\tEach integer is meant to be converted with [itoa] -> [fromsymbol] to the correct character\n)#\n$N = 110;\n[\n\t##\tbb\tb\tn\t#\tx\t\n\t[\t72\t104\t113\t121\t89 ] ## triple-up-arrow\t(u)\n\t[\t71\t103\t112\t120\t88 ] ## double-up-arrow\n\t[\t70\t102\t111\t119\t87 ] ## up-arrow\n\t[\t69\t101\t$N\t118\t86 ] ## n (check)\n\t[\t68\t100\t109\t117\t85 ] ## down-arrow\n\t[\t67\t99\t108\t116\t84 ] ## double-down-arrow\n\t[\t66\t98\t107\t115\t83 ] ## triple-down-arrow (o)\n]\n#(\n\t7-limit accidentals\n\t-3 \t\t-2\t-1\t0\t1\t2\t3\n)#\n[\t[62 46]\t46\t62\t$N\t60\t44\t[60 44]]\n\n#(\n\t11-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[53 53 53]\t[53 53]\t53\t$N\t52\t[52 52]\t[52 52 52] ]\n#(\n\t13-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[57 57 57]\t[57 57]\t57\t$N\t48\t[48 48]\t[48 48 48] ]\n#(\n\t17-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[59 59 59]\t[59 59]\t59\t$N\t58\t[58 58]\t[58 58 58] ]\n\n#(\n\t19-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[42 42 42]\t[42 42]\t42\t$N\t47\t[47 47]\t[47 47 47] ]\n\n#(\n\t23-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[38 38 38]\t[38 38]\t38\t$N\t39\t[39 39]\t[39 39 39] ]\n\n#(\n\t29-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[55 55 55]\t[55 55]\t55\t$N\t50\t[50 50]\t[50 50 50] ]\n\n#(\n\t31-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[56 56 56]\t[56 56]\t56\t$N\t49\t[49 49]\t[49 49 49] ]\n\n#(\n\t37-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[224 224 224]\t[224 224]\t224\t$N\t225\t[225 225]\t[225 225 225] ]\n\n#(\n\t41-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[45 45 45]\t[45 45]\t45\t$N\t43\t[43 43]\t[43 43 43] ]\n\n#(\n\t43-limit accidentals\n\t-3\t\t\t\t-2\t\t\t-1\t0\t1\t2\t\t\t3\n)#\n[\t[232 232 232]\t[232 232]\t232\t$N\t233\t[233 233]\t[233 233 233] ]\n\n#(\n\t47-limit accidentals\n\t-3\t\t\t\t-2\t\t\t-1\t0\t1\t2\t\t\t3\n)#\n[\t[236 236 236]\t[236 236]\t236\t$N\t237\t[237 237]\t[237 237 237] ] ",
+					"code" : "#(\n\t3- and 5-limit accidental matrix. These are the only accidentals that are mixed.\n\tEach integer is meant to be converted with [itoa] -> [fromsymbol] to the correct character\n)#\n$N = 110;\n[\n\t##\tbbb\t\t\tbb\tb\tn\t#\tx\t#x\n\t[\t[104 72]\t72\t104\t113\t121\t89 [121\t89] ] ## triple-up-arrow\t(u)\n\t[\t[103 71]\t71\t103\t112\t120\t88 [120\t88] ] ## double-up-arrow\n\t[\t[102 70]\t70\t102\t111\t119\t87 [119\t87] ] ## up-arrow\n\t[\t[101 69]\t69\t101\t$N\t118\t86 [118\t86] ] ## n (check)\n\t[\t[100 68]\t68\t100\t109\t117\t85 [117\t85] ] ## down-arrow\n\t[\t[99 67]\t\t67\t99\t108\t116\t84 [116\t84] ] ## double-down-arrow\n\t[\t[98 66]\t\t66\t98\t107\t115\t83 [115\t83] ] ## triple-down-arrow (o)\n]\n#(\n\t7-limit accidentals\n\t-3 \t\t-2\t-1\t0\t1\t2\t3\n)#\n[\t[62 46]\t46\t62\t$N\t60\t44\t[60 44]]\n\n#(\n\t11-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[53 53 53]\t[53 53]\t53\t$N\t52\t[52 52]\t[52 52 52] ]\n#(\n\t13-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[57 57 57]\t[57 57]\t57\t$N\t48\t[48 48]\t[48 48 48] ]\n#(\n\t17-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[59 59 59]\t[59 59]\t59\t$N\t58\t[58 58]\t[58 58 58] ]\n\n#(\n\t19-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[42 42 42]\t[42 42]\t42\t$N\t47\t[47 47]\t[47 47 47] ]\n\n#(\n\t23-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[38 38 38]\t[38 38]\t38\t$N\t39\t[39 39]\t[39 39 39] ]\n\n#(\n\t29-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[55 55 55]\t[55 55]\t55\t$N\t50\t[50 50]\t[50 50 50] ]\n\n#(\n\t31-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[56 56 56]\t[56 56]\t56\t$N\t49\t[49 49]\t[49 49 49] ]\n\n#(\n\t37-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[224 224 224]\t[224 224]\t224\t$N\t225\t[225 225]\t[225 225 225] ]\n\n#(\n\t41-limit accidentals\n\t-3\t\t\t-2\t\t-1\t0\t1\t2\t\t3\n)#\n[\t[45 45 45]\t[45 45]\t45\t$N\t43\t[43 43]\t[43 43 43] ]\n\n#(\n\t43-limit accidentals\n\t-3\t\t\t\t-2\t\t\t-1\t0\t1\t2\t\t\t3\n)#\n[\t[232 232 232]\t[232 232]\t232\t$N\t233\t[233 233]\t[233 233 233] ]\n\n#(\n\t47-limit accidentals\n\t-3\t\t\t\t-2\t\t\t-1\t0\t1\t2\t\t\t3\n)#\n[\t[236 236 236]\t[236 236]\t236\t$N\t237\t[237 237]\t[237 237 237] ] ",
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -870,7 +886,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -900,6 +916,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -966,7 +989,45 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "bach.args.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.eval.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.flat.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.join.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.keys.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.mapelem.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.portal.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.rev.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.slice.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
