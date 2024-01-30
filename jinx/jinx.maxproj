@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778351466,
-	"modificationdate" : 3789402225,
+	"modificationdate" : 3789477158,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -605,7 +605,7 @@
 				"local" : 1
 			}
 ,
-			"Microtonal.ttf" : 			{
+			"Microtonal Notation.ttf" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
