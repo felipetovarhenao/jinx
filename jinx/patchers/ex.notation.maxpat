@@ -106,7 +106,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2072.0, 2343.0, 122.0, 22.0 ],
+					"patching_rect" : [ 2072.0, 2343.0, 129.0, 22.0 ],
 					"text" : "r #0fundamental"
 				}
 
@@ -129,7 +129,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1160.0, 1237.0, 124.0, 22.0 ],
+					"patching_rect" : [ 1160.0, 1237.0, 131.0, 22.0 ],
 					"text" : "s #0fundamental"
 				}
 
@@ -209,7 +209,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 994.0, 1326.0, 95.0, 22.0 ],
+					"patching_rect" : [ 994.0, 1326.0, 102.0, 22.0 ],
 					"text" : "s #0display"
 				}
 
@@ -238,7 +238,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 397.0, 2224.0, 93.0, 22.0 ],
+					"patching_rect" : [ 397.0, 2224.0, 100.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -249,7 +249,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 2381.0, 95.0, 22.0 ],
+					"patching_rect" : [ 480.0, 2381.0, 101.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -336,7 +336,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 888.0, 1650.0, 95.0, 22.0 ],
+					"patching_rect" : [ 888.0, 1650.0, 101.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -347,7 +347,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 1910.0, 95.0, 22.0 ],
+					"patching_rect" : [ 752.0, 1910.0, 101.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -358,7 +358,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 616.0, 2181.0, 95.0, 22.0 ],
+					"patching_rect" : [ 616.0, 2181.0, 101.0, 22.0 ],
 					"text" : "s #0clicked"
 				}
 
@@ -370,7 +370,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1994.0, 2304.0, 93.0, 22.0 ],
+					"patching_rect" : [ 1994.0, 2304.0, 99.0, 22.0 ],
 					"text" : "r #0clicked"
 				}
 
@@ -428,7 +428,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2320.0, 1450.0, 93.0, 22.0 ],
+					"patching_rect" : [ 2320.0, 1450.0, 100.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -696,7 +696,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2048.0, 1969.0, 93.0, 22.0 ],
+					"patching_rect" : [ 2048.0, 1969.0, 100.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -982,7 +982,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1383.0, 993.0, 95.0, 22.0 ],
+					"patching_rect" : [ 1383.0, 993.0, 102.0, 22.0 ],
 					"text" : "s #0display"
 				}
 
@@ -994,7 +994,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2190.0, 1708.0, 93.0, 22.0 ],
+					"patching_rect" : [ 2190.0, 1708.0, 100.0, 22.0 ],
 					"text" : "r #0display"
 				}
 
@@ -1005,7 +1005,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 1453.0, 87.0, 22.0 ],
+					"patching_rect" : [ 403.0, 1453.0, 94.0, 22.0 ],
 					"text" : "s #0ratios"
 				}
 
@@ -1147,8 +1147,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 1344.0, 299.0, 22.0 ],
-					"text" : "utils.cleanllll @default 1 @normalize 0 @sort 0 @flat 0"
+					"patching_rect" : [ 480.0, 1344.0, 257.0, 22.0 ],
+					"text" : "utils.cleanllll @default 1 @normalize 0 @sort 1"
 				}
 
 			}
@@ -1536,7 +1536,7 @@
 					"patching_rect" : [ 480.0, 1124.0, 200.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 239.0, 388.0, 24.0 ],
-					"text" : "1 5/4 3/2 7/4 2",
+					"text" : "1 9/8 5/4 11/7 11/8 11/9",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
