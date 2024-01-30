@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778351466,
-	"modificationdate" : 3789477158,
+	"modificationdate" : 3789477217,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -558,6 +558,26 @@
 			}
 ,
 			"ex.combsets.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ex.notation.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"bjnmap.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"bjnaccidentals.bell" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"bjncommas.bell" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
