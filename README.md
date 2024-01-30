@@ -21,6 +21,8 @@ Once all software requirements are installed, open the `jinx.maxproj` file, loca
 ### Acknowledgements
 Many of the examples and tools in `jinx` are inspired by and based on ideas from [*Tuning, timbre, spectrum, scale* [2nd Edition]](https://link.springer.com/book/10.1007/b138848) (2005) by William Sethares. Prospective users are encouraged to read it if interested in further understanding the functionalities of and motivations behind `jinx`.
 
+Moreover, two fonts developed by Marc Sabat & Wolfgang von Schweinitz were needed for the pitch notation: the [Extended Helmholtz-Ellis Just Intonation (HEJI)](https://marsbat.space/pdfs/notation.pdf) and Johnston's Microtonal notation fonts.
+
 Lastly, this project would not be possible without the [bach](https://bachproject.net) library. If you are able to, please support their work through [Patreon](https://www.patreon.com/bachproject/).
 
 ### License
