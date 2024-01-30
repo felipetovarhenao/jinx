@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778351466,
-	"modificationdate" : 3789477217,
+	"modificationdate" : 3789477334,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -301,11 +301,6 @@
 				"local" : 1
 			}
 ,
-			"ex.beatfreqs.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"ex.combsets.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -367,11 +362,6 @@
 			}
 ,
 			"jinx.heji2char.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"utils.hejidisplay.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -448,11 +438,6 @@
 			}
 ,
 			"main.bell" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"utils.bell" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
@@ -642,7 +627,7 @@
 
 	}
 ,
-	"detailsvisible" : 0,
+	"detailsvisible" : 1,
 	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,
