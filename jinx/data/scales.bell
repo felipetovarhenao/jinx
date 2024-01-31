@@ -12,6 +12,12 @@ $normalize = ($x ->
 	)
 );
 
+$dr2r = (
+	$x, $r = 1 -> (
+		$r (for $i in $x collect $r *= $i)
+	)
+);
+
 $meantone = (
 	$x, $comma = $SYN_COMMA -^ $normalize -> (
 		$N = length($x);
@@ -445,6 +451,10 @@ $getsrutis = (
 [
 	[ "name" "1/6-comma meantone temperament" ]
 	[ "ratios" $meantone(((-1/6) :* 8) 5/6 ((-1/6) :* 3)) 2 ]
+]
+[
+	[ "name" "Vicentino 31-tone meantone temperament" ]
+	[ "ratios" sort($normalize(5**((-6...24)/4))) 2 ]
 ]
 [
 	[ "name" "Rameau meantone temperament" ]
