@@ -58,8 +58,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 635.0, 302.0, 22.0 ],
-					"text" : "utils.cleanllll @default 1 @sort 0 @normalize 0 @thin 0"
+					"patching_rect" : [ 112.0, 635.0, 344.0, 22.0 ],
+					"text" : "utils.cleanllll @default 1 @sort 0 @normalize 0 @thin 0 @flat 0"
 				}
 
 			}
@@ -551,7 +551,7 @@
 					"patching_rect" : [ 112.0, 424.0, 442.0, 144.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 216.0, 517.0, 116.0 ],
-					"text" : "1",
+					"text" : "[ 1 5/4 3/2 ] 1 5/4 3/2 2",
 					"textcolor" : [ 0.149019607843137, 0.149019607843137, 0.149019607843137, 1.0 ]
 				}
 
@@ -1000,10 +1000,6 @@
 			}
 , 			{
 				"name" : "bach.sort.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.thin.mxo",
 				"type" : "iLaX"
 			}
 , 			{
