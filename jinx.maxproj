@@ -2,7 +2,7 @@
 	"name" : "jinx",
 	"version" : 1,
 	"creationdate" : 3778351466,
-	"modificationdate" : 3789478132,
+	"modificationdate" : 3789865444,
 	"viewrect" : [ 50.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
@@ -392,6 +392,11 @@
 			}
 ,
 			"jinx.n2tuple.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"jinx.harmdist.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
