@@ -1,5 +1,8 @@
 **/.*
 **/.DS_Store
 **/Icon?
+**/__pycache__
+docs/**
+!**/.placeholder
 
 !.gitignore

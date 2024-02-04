@@ -1,0 +1,20 @@
+{
+    "module": "max",
+    "categories": [],
+    "tags": [],
+    "digest": "Ratio to cents conversion",
+    "description": "Converts an llll of ratios into cents",
+    "inlets": [
+        {
+            "type": "list/llll",
+            "digest": "ratios to convert to cents"
+        }
+    ],
+    "outlets": [
+        {
+            "type": "list/llll",
+            "digest": "cents"
+        }
+    ],
+    "arguments": []
+}

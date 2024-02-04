@@ -1,0 +1,20 @@
+{
+    "module": "max",
+    "categories": [],
+    "tags": [],
+    "digest": "Ratio to Ben Johnston notation system",
+    "description": "Converts an llll of ratios into Ben Johnston's note name and per-limit accidental steps",
+    "inlets": [
+        {
+            "type": "list/llll",
+            "digest": "ratios to convert to Johnston's notation"
+        }
+    ],
+    "outlets": [
+        {
+            "type": "list/llll",
+            "digest": "Johnston's note name and accidental"
+        }
+    ],
+    "arguments": []
+}

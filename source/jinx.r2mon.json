@@ -1,0 +1,28 @@
+{
+    "module": "max",
+    "categories": [],
+    "tags": [],
+    "digest": "Ratio to monzo conversion",
+    "description": "Converts an llll of ratios into monzos",
+    "inlets": [
+        {
+            "type": "list/llll",
+            "digest": "ratios to convert to monzos"
+        }
+    ],
+    "outlets": [
+        {
+            "type": "list/llll",
+            "digest": "monzos"
+        },
+        {
+            "type": "list/llll",
+            "digest": "limits"
+        },
+        {
+            "type": "list/llll",
+            "digest": "is otonal?"
+        }
+    ],
+    "arguments": []
+}
