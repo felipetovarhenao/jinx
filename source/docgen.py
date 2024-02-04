@@ -56,6 +56,7 @@ class ObjectDoc:
         root = XMLNode(name="c74object", attrs=[
             ("name", obj_name),
             ("module", data["module"]),
+            ("kind", data["kind"]),
             ("category", ", ".join(
                 list(set(data['categories'] + [*base_tags, package_name])))),
         ])

@@ -2,6 +2,7 @@
     "module": "max",
     "categories": [],
     "tags": [],
+    "kind": "patcher",
     "digest": "Ratio to Ben Johnston notation system",
     "description": "Converts an llll of ratios into Ben Johnston's note name and per-limit accidental steps",
     "inlets": [

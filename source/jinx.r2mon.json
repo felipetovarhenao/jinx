@@ -2,6 +2,7 @@
     "module": "max",
     "categories": [],
     "tags": [],
+    "kind": "patcher",
     "digest": "Ratio to monzo conversion",
     "description": "Converts an llll of ratios into monzos",
     "inlets": [

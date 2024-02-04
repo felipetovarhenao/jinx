@@ -2,6 +2,7 @@
     "module": "max",
     "categories": ["ratios"],
     "tags": ["ratios"],
+    "kind": "patcher",
     "digest": "Octave range normalization",
     "description": "Normalizes the range of an llll of ratios such that they fit within the octave — i.e., greater or equal to 1 and less than 2.",
     "inlets": [

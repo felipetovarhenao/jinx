@@ -2,6 +2,7 @@
     "module": "max",
     "categories": [],
     "tags": [],
+    "kind": "patcher",
     "digest": "Ratio to Helmholtz-Ellis Just Intonation notation system",
     "description": "Converts an llll of ratios into HEJI note name and per-limit accidental steps",
     "inlets": [
