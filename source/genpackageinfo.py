@@ -7,7 +7,7 @@ with open(os.path.join(this_dir.parent, "data/version.bell"), "r") as f:
     version = f.read()[2:-1]
 
 
-file_types = ['patchers', 'media', 'data', 'fonts', 'other']
+file_types = ['patchers', 'media', 'docs', 'data', 'fonts', 'other']
 file_list = {}
 for file_type in file_types:
     file_list[file_type] = []
