@@ -3,11 +3,11 @@ import os
 import json
 
 this_dir = Path(__file__).parent
-with open(os.path.join(this_dir.parent, "data/version.bell"), "r") as f:
+with open(os.path.join(this_dir.parent, "media/bell/version.bell"), "r") as f:
     version = f.read()[2:-1]
 
 
-file_types = ['patchers', 'media', 'docs', 'data', 'fonts', 'other']
+file_types = ['patchers', 'media', 'docs', 'media/bell', 'fonts', 'other']
 file_list = {}
 for file_type in file_types:
     file_list[file_type] = []
@@ -59,3 +59,10 @@ info = {
 
 with open(os.path.join(this_dir.parent, 'package-info.json'), 'w') as f:
     json.dump(info, f, indent=4)
+
+with open(os.path.join(this_dir.parent, 'init/jinx-objectlist.txt'), 'w') as f:
+    strlist = ""
+    for file in file_list['patchers']:
+        file = os.path.splitext(file)[0]
+        strlist += f"max oblist \"jinx abstractions\" {file};\n"
+    f.write(strlist)

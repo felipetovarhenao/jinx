@@ -6,3 +6,6 @@ docs/**
 !**/.placeholder
 package-info.json
 !.gitignore
+interfaces/*.json
+init/*.txt
+help/*.maxhelp
