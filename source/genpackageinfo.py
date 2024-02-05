@@ -16,6 +16,7 @@ for file_type in file_types:
         if (file_type == 'patchers' and not file.startswith("jinx")) or file.startswith("."):
             continue
         file_list[file_type].append(file)
+    file_list[file_type].sort()
 
 info = {
     "name": "jinx",
