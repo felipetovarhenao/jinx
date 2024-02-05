@@ -4,5 +4,5 @@
 **/__pycache__
 docs/**
 !**/.placeholder
-
+package-info.json
 !.gitignore
