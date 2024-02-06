@@ -1,0 +1,21 @@
+{
+    "module": "max",
+    "categories": [],
+    "tags": [],
+    "kind": "patcher",
+    "digest": "James Tenney's harmonic distance function",
+    "description": "Calculates the James Tenney's harmonic distance of a list of ratios.",
+    "inlets": [
+        {
+            "type": "list/llll",
+            "digest": "ratios"
+        }
+    ],
+    "outlets": [
+        {
+            "type": "list/llll",
+            "digest": "distances"
+        }
+    ],
+    "arguments": []
+}
