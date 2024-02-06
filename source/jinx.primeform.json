@@ -3,8 +3,8 @@
     "categories": [],
     "tags": [],
     "kind": "patcher",
-    "digest": "Compute the ratios between consecutive ratios",
-    "description": "Calculates the multiplicate derivative (i.e., the ratios between consecutive ratios) of a list of ratios.",
+    "digest": "Prime form of a collection of ratios",
+    "description": "Calculates the set-theoretical prime form of a collection of ratios",
     "inlets": [
         {
             "type": "list/llll",
