@@ -1,0 +1,25 @@
+{
+    "module": "max",
+    "categories": [],
+    "tags": [],
+    "kind": "patcher",
+    "digest": "Erv Wilson's \"moment of symmetry\" scales",
+    "description": "Given a generator and period, it outputs all possible moment of symmetry scales.",
+    "inlets": [
+        {
+            "type": "int",
+            "digest": "generator"
+        },
+        {
+            "type": "int",
+            "digest": "period"
+        }
+    ],
+    "outlets": [
+        {
+            "type": "list/llll",
+            "digest": "possible MOSs"
+        }
+    ],
+    "arguments": []
+}

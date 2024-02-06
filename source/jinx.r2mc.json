@@ -1,0 +1,25 @@
+{
+    "module": "max",
+    "categories": [],
+    "tags": [],
+    "kind": "patcher",
+    "digest": "Ratio to midicent conversion",
+    "description": "Converts an llll of ratios into monzos",
+    "inlets": [
+        {
+            "type": "list/llll",
+            "digest": "ratios to convert to midicents"
+        },
+        {
+            "type": "integer/float/list/llll",
+            "digest": "fundamental in midicents"
+        }
+    ],
+    "outlets": [
+        {
+            "type": "list/llll",
+            "digest": "midicents"
+        }
+    ],
+    "arguments": []
+}
