@@ -30,11 +30,15 @@ class XMLNode:
         out += "\n"
 
         children = []
+        # print("HELLO", self._children)
         for child in self._children:
             if hasattr(child, "compile"):
                 children.append(child.compile(level=level+1))
-            else:
+            elif type(child) == str:
                 children.append(("\t" * (level + 1)) + child)
+            else:
+                raise RuntimeWarning(
+                    f"Non-serializable object was found: {child}")
         out += "\n".join(children)
         out += f"\n{tabs}</{self.get_node_name()}>"
         return out
@@ -88,9 +92,9 @@ class DocGen:
                                         children=[self.author]))
 
         for tag in tags:
-            metadata_list.add_child([XMLNode(name="metadata",
-                                             attrs=[('name', 'tag')],
-                                             children=[tag])])
+            metadata_list.add_child(XMLNode(name="metadata",
+                                            attrs=[('name', 'tag')],
+                                            children=[tag]))
 
         root.add_child(metadata_list)
 

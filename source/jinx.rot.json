@@ -1,0 +1,21 @@
+{
+    "module": "max",
+    "categories": [],
+    "tags": [],
+    "kind": "patcher",
+    "digest": "Modal rotation of frequency ratios",
+    "description": "Rotates the ratios between consecutives ratios — a common use-case being to get the mode of a tuning.",
+    "inlets": [
+        {
+            "type": "list/llll",
+            "digest": "ratios to rotate"
+        }
+    ],
+    "outlets": [
+        {
+            "type": "list/llll",
+            "digest": "rotated ratios"
+        }
+    ],
+    "arguments": []
+}
