@@ -104,7 +104,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"linecolor" : [ 0.623529411764706, 0.623529411764706, 0.623529411764706, 0.333333333333333 ],
+					"linecolor" : [ 0.650980392156863, 0.650980392156863, 0.650980392156863, 0.247058823529412 ],
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -740,8 +740,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 118.0, 417.0, 143.0, 22.0 ],
-					"text" : "utils.listdata @folder data"
+					"patching_rect" : [ 118.0, 417.0, 175.0, 22.0 ],
+					"text" : "utils.listdata @folder media/bell"
 				}
 
 			}
@@ -1255,7 +1255,7 @@
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1286,48 +1286,48 @@
 , 			{
 				"name" : "ccm_logo.png",
 				"bootpath" : "~/My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
-				"patcherrelativepath" : "../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
+				"patcherrelativepath" : "../../../../../My Drive/FTH Drive/Workshops/bach 2023/materials/bach-workshop/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gpl_logo.png",
-				"bootpath" : "~/Documents/jinx/jinx/media",
+				"bootpath" : "~/Documents/Max 8/Packages/jinx/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils.checkupdate.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils.formatwindow.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils.header.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils.listdata.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "utils.versionctrl.maxpat",
-				"bootpath" : "~/Documents/jinx/jinx/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/jinx/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

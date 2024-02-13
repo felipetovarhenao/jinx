@@ -92,19 +92,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "$ratios = sort(($x1 ||| 1) ($x2 ||| 2)); $s = reduce($ratios, #+); 2*reduce($ratios, #*)/$s sqrt($ratios:2/$ratios:1) $s/2 ",
+					"code" : "$ratios = sort(($x1 ||| 1) ($x2 ||| 2)); $s = reduce($ratios, #+); 2*reduce($ratios, #*)/$s sqrt($ratios:2*$ratios:1) $s/2 ",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 121.0, 664.0, 22.0 ],
+					"patching_rect" : [ 89.0, 121.0, 665.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval $ratios = sort(($x1 ||| 1) ($x2 ||| 2))\\; $s = reduce($ratios\\, #+)\\; 2*reduce($ratios\\, #*)/$s sqrt($ratios:2/$ratios:1) $s/2"
+					"text" : "bach.eval $ratios = sort(($x1 ||| 1) ($x2 ||| 2))\\; $s = reduce($ratios\\, #+)\\; 2*reduce($ratios\\, #*)/$s sqrt($ratios:2*$ratios:1) $s/2"
 				}
 
 			}
