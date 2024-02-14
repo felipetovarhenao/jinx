@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 131.0, 388.0, 329.0 ],
+		"rect" : [ 84.0, 131.0, 535.0, 324.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -96,19 +96,19 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "if $x2 <= 1/$x4 then [$x1] [$x2] 1 else [$x3] [$x4] 0 ",
+					"code" : "if $x2 <= 1/$x4 then [$x1] [$x2] (if $x2 == $x4 then 2 else 1) else [$x3] [$x4] 0 ",
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 170.0, 331.0, 22.0 ],
+					"patching_rect" : [ 43.0, 170.0, 473.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
 					}
 ,
-					"text" : "bach.eval if $x2 <= 1/$x4 then [$x1] [$x2] 1 else [$x3] [$x4] 0"
+					"text" : "bach.eval if $x2 <= 1/$x4 then [$x1] [$x2] (if $x2 == $x4 then 2 else 1) else [$x3] [$x4] 0"
 				}
 
 			}
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 129.0, 123.0, 22.0 ],
+					"patching_rect" : [ 43.0, 129.0, 170.333333333333343, 22.0 ],
 					"text" : "jinx.r2h"
 				}
 
@@ -131,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 251.0, 129.0, 123.0, 22.0 ],
+					"patching_rect" : [ 345.666666666666686, 129.0, 170.0, 22.0 ],
 					"text" : "jinx.r2h @type 1"
 				}
 
@@ -143,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 92.0, 227.0, 22.0 ],
+					"patching_rect" : [ 43.0, 92.0, 321.666666666666686, 22.0 ],
 					"text" : "t l l"
 				}
 
