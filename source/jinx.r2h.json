@@ -3,8 +3,8 @@
     "categories": [],
     "tags": [],
     "kind": "patcher",
-    "digest": "Compute the ratios between consecutive ratios",
-    "description": "Calculates the multiplicate derivative (i.e., the ratios between consecutive ratios) of a list of ratios.",
+    "digest": "Ratio to harmonic conversion",
+    "description": "Converts an llll of ratios into integer multiples of a fundamental frequency. The when the @type attribute is 1 (default 0), it computes the utonal (i.e., subharmonic) multiples of the fundamental.",
     "inlets": [
         {
             "type": "list/llll",
@@ -14,7 +14,11 @@
     "outlets": [
         {
             "type": "list/llll",
-            "digest": "ratios"
+            "digest": "harmonics"
+        },
+        {
+            "type": "int/llll",
+            "digest": "numerary nexus"
         }
     ],
     "arguments": []
